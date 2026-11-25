@@ -19,6 +19,8 @@ const args=process.argv.slice(2),cacheAt=args.indexOf('--cache');
 const cache=resolve(cacheAt>=0?args[cacheAt+1]:'work/notion-cache');
 await mkdir(cache,{recursive:true});
 let queue=Promise.resolve(),nextRequest=0;
+const requestInterval=Number(process.env.NOTION_REQUEST_INTERVAL_MS??1500);
+if(!Number.isFinite(requestInterval)||requestInterval<1000||requestInterval>10000)throw new Error('NOTION_REQUEST_INTERVAL_MS must be between 1000 and 10000');
 const loadedAt:string[]=[];
 const sleep=(ms:number)=>new Promise<void>(resolve=>setTimeout(resolve,ms));
 async function post(endpoint:string,body:unknown):Promise<Response> {
@@ -28,12 +30,17 @@ async function post(endpoint:string,body:unknown):Promise<Response> {
     const data=JSON.parse(await readFile(file,'utf8')) as Response;
     loadedAt.push((await stat(file)).mtime.toISOString());return data;
   }catch{/* Uncached request. */}
-  for(let attempt=0;attempt<4;attempt++) {
-    const slot=queue.then(async()=>{await sleep(Math.max(0,nextRequest-Date.now()));nextRequest=Date.now()+450;});queue=slot.catch(()=>{});await slot;
+  for(let attempt=0;attempt<6;attempt++) {
+    const slot=queue.then(async()=>{await sleep(Math.max(0,nextRequest-Date.now()));nextRequest=Date.now()+requestInterval;});queue=slot.catch(()=>{});await slot;
     const response=await fetch(`https://app.notion.com/api/v3/${endpoint}`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body),signal:AbortSignal.timeout(30000)});
     if(response.status===429||response.status>=500) {
-      if(attempt===3)throw new Error(`Public Notion ${endpoint} returned ${response.status} after retries`);
-      await sleep(Math.min(10000,1000*2**attempt));continue;
+      if(attempt===5)throw new Error(`Public Notion ${endpoint} returned ${response.status} after retries`);
+      const retryAfter=response.headers.get('retry-after'),seconds=retryAfter===null?NaN:Number(retryAfter);
+      const requested=Number.isFinite(seconds)?seconds*1000:retryAfter?Date.parse(retryAfter)-Date.now():0;
+      const delay=Math.max(Number.isFinite(requested)?requested:0,Math.min(120000,(response.status===429?30000:2000)*2**attempt));
+      if(delay>300000)throw new Error('Notion requested a cooldown longer than five minutes; previous snapshot retained');
+      console.warn(`Notion HTTP ${response.status}; respecting a ${Math.ceil(delay/1000)}s cooldown`);
+      nextRequest=Math.max(nextRequest,Date.now()+delay);continue;
     }
     if(!response.ok)throw new Error(`Public Notion ${endpoint} returned ${response.status}`);
     const data=await response.json() as Response;
@@ -100,7 +107,8 @@ async function worker(){while(index<weeks.length){
     completed++;if(completed%10===0||completed===weeks.length)console.log(`Read ${completed}/${weeks.length} weekly pages; ${observations.length} observations`);
   }catch(error){failures.push({week:name,error:error instanceof Error?error.message:String(error)});}
 }}
-await Promise.all([worker(),worker()]);
+// A single conservative request stream also works on shared cloud-runner IPs.
+await worker();
 await writeFile(resolve(cache,'observations.json'),JSON.stringify(observations,null,2));
 if(failures.length){console.error(JSON.stringify(failures,null,2));throw new Error(`${failures.length} weekly pages failed. Previous snapshot retained; retry using the cache.`);}
 // A cache-only rebuild must not claim a new retrieval time. Use the oldest

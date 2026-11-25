@@ -27,9 +27,15 @@ jobs:
           cache: npm
       - run: npm ci
       - name: Refresh Notion archive
+        id: notion
+        continue-on-error: true
         if: github.event.schedule == '41 0 * * *' || (github.event_name == 'workflow_dispatch' && inputs.source != 'news')
+        env:
+          NOTION_REQUEST_INTERVAL_MS: '1800'
         run: npm run data:sync -- --refresh
       - name: Refresh publication headlines
+        id: news
+        continue-on-error: true
         if: github.event.schedule == '23 */6 * * *' || (github.event_name == 'workflow_dispatch' && inputs.source != 'notion')
         run: npm run news:sync
       - name: Check source invariants and database behavior
@@ -60,3 +66,8 @@ jobs:
           console.log(`RSS: ${news.items.length} retained headlines, snapshot ${news.updated_at}.`);
           for(const feed of news.feeds)console.log(`- ${feed.source_name}: ${feed.status}; checked ${feed.checked_at}; last success ${feed.last_success_at ?? 'never'}`);
           NODE
+      - name: Report any failed refresh
+        if: steps.notion.outcome == 'failure' || steps.news.outcome == 'failure'
+        run: |
+          echo 'A source refresh failed. Its previous snapshot was retained; other successful sources were published after validation.'
+          exit 1
