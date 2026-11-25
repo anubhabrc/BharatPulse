@@ -1,8 +1,18 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-25T08:52:40.448Z",
+  "updated_at": "2026-11-25T09:34:24.875Z",
   "retention_days": 90,
   "items": [
+    {
+      "id": "ca9a1a9405a2a854ba481233",
+      "title": "OpenAI, SpaceX Backer VU Venture Partners Enters Indian Startup Market",
+      "url": "https://inc42.com/buzz/openai-spacex-backer-vu-venture-partners-enters-indian-startup-market/",
+      "published_at": "2026-11-25T08:39:20.000Z",
+      "source_id": "inc42",
+      "source_name": "Inc42",
+      "company_slugs": [],
+      "tags": []
+    },
     {
       "id": "c138030e4963cb9d4f9144bc",
       "title": "Wiz webinar: Bringing a sharper, connected focus to AI security",
@@ -549,7 +559,7 @@
       "id": "605ec24b5c9a4b6b2f9f79d8",
       "title": "What Meesho sees in brands and video creators",
       "url": "https://thearcweb.com/article/what-meesho-sees-in-brands-and-video-creators-eRut6lqSefy517vi",
-      "published_at": "2026-11-19T19:55:00.000Z",
+      "published_at": "2026-11-20T01:25:00.000Z",
       "source_id": "the-arc",
       "source_name": "The Arc",
       "company_slugs": [
@@ -662,6 +672,16 @@
       "tags": []
     },
     {
+      "id": "ac95d5e8d6f45f7646880ce0",
+      "title": "Later entry, venture returns: Fundamentum Frontier’s deeptech bet",
+      "url": "https://thearcweb.com/article/fundamentum-frontier-deeptech-ashish-kumar-nilekani-venture-Rm0xtPaUFeZa8Egh",
+      "published_at": "2026-11-18T13:41:00.000Z",
+      "source_id": "the-arc",
+      "source_name": "The Arc",
+      "company_slugs": [],
+      "tags": []
+    },
+    {
       "id": "a84d47ec27fc9ec722631901",
       "title": "Physical AI startup Humyn Labs raises $47 Mn in equity and debt",
       "url": "https://entrackr.com/news/physical-ai-startup-humyn-labs-raises-47-mn-in-equity-and-debt-12820886",
@@ -688,16 +708,6 @@
       "tags": [
         "funding"
       ]
-    },
-    {
-      "id": "ac95d5e8d6f45f7646880ce0",
-      "title": "Later entry, venture returns: Fundamentum Frontier’s deeptech bet",
-      "url": "https://thearcweb.com/article/fundamentum-frontier-deeptech-ashish-kumar-nilekani-venture-Rm0xtPaUFeZa8Egh",
-      "published_at": "2026-11-18T08:11:00.000Z",
-      "source_id": "the-arc",
-      "source_name": "The Arc",
-      "company_slugs": [],
-      "tags": []
     },
     {
       "id": "3c2e86858b19dea5349c6a70",
@@ -852,7 +862,7 @@
       "id": "02e4e5ef9486744c37ace3f1",
       "title": "Can HomeLane grow without complicating its business?",
       "url": "https://thearcweb.com/article/can-homelane-grow-without-complicating-its-business-JsJYRa9TQE78a22V",
-      "published_at": "2026-11-12T14:05:00.000Z",
+      "published_at": "2026-11-12T19:35:00.000Z",
       "source_id": "the-arc",
       "source_name": "The Arc",
       "company_slugs": [
@@ -864,7 +874,7 @@
       "id": "aeb5ee3fe7e0b3f36696fcd7",
       "title": "Behind Cent’s faster MRI model and health data ambition",
       "url": "https://thearcweb.com/article/behind-cents-faster-mri-model-and-health-data-ambition-kxu0LSaC22bj2P5v",
-      "published_at": "2026-11-10T10:02:00.000Z",
+      "published_at": "2026-11-10T15:32:00.000Z",
       "source_id": "the-arc",
       "source_name": "The Arc",
       "company_slugs": [
@@ -876,7 +886,7 @@
       "id": "8980bdf7e0134f2f24d75400",
       "title": "PowerUp Money’s AI bet: Making wealth advice work at scale",
       "url": "https://thearcweb.com/article/powerup-money-wealth-management-mutual-funds--zOmBb8XMgO6pHxPD",
-      "published_at": "2026-11-04T07:30:00.000Z",
+      "published_at": "2026-11-04T13:00:00.000Z",
       "source_id": "the-arc",
       "source_name": "The Arc",
       "company_slugs": [
@@ -888,7 +898,7 @@
       "id": "9eba6ba20cc592a798846af4",
       "title": "Juspay has scale in payments. Can enterprise AI bring fresh growth?",
       "url": "https://thearcweb.com/article/juspay-has-scale-in-payments-can-enterprise-ai-bring-fresh-growth-g6Xw72RXN1FK4ypD",
-      "published_at": "2026-10-28T07:00:00.000Z",
+      "published_at": "2026-10-28T12:30:00.000Z",
       "source_id": "the-arc",
       "source_name": "The Arc",
       "company_slugs": [
@@ -900,7 +910,7 @@
       "id": "35eab60953bbe89c5e2fea38",
       "title": "IDfy scales beyond verification checks ahead of an IPO",
       "url": "https://thearcweb.com/article/idfy-dpdp-verification-ipo-ashok-hariharan-ruCgGwqLx0SMVfby",
-      "published_at": "2026-10-23T08:00:00.000Z",
+      "published_at": "2026-10-23T13:30:00.000Z",
       "source_id": "the-arc",
       "source_name": "The Arc",
       "company_slugs": [
@@ -914,7 +924,7 @@
       "id": "2516287e7c6974e273ef0cc3",
       "title": "Ahead of IPO, Atomberg finds a Tata partner for its B2B bet",
       "url": "https://thearcweb.com/article/atomberg-voltas-tata-b2b-ipo-ac-EdcZ9W3xtYUZhQ5A",
-      "published_at": "2026-10-21T07:17:00.000Z",
+      "published_at": "2026-10-21T12:47:00.000Z",
       "source_id": "the-arc",
       "source_name": "The Arc",
       "company_slugs": [],
@@ -926,7 +936,7 @@
       "id": "1301a038966bec04e0ea983e",
       "title": "Can Dezerv scale wealth management for India’s newly rich?",
       "url": "https://thearcweb.com/article/can-dezerv-scale-wealth-management-for-indias-newly-rich-xyfltVrWr5kZZFw1",
-      "published_at": "2026-10-14T08:00:00.000Z",
+      "published_at": "2026-10-14T13:30:00.000Z",
       "source_id": "the-arc",
       "source_name": "The Arc",
       "company_slugs": [
@@ -938,7 +948,7 @@
       "id": "247457a9622c7a1e64745686",
       "title": "Will PB Fintech’s healthcare push help Policybazaar?",
       "url": "https://thearcweb.com/article/pb-health-policybazaar-insurance-healthcare-hospitals-yashish-dahiya-IfyTtFIkDkvneY2T",
-      "published_at": "2026-10-09T03:46:00.000Z",
+      "published_at": "2026-10-09T09:16:00.000Z",
       "source_id": "the-arc",
       "source_name": "The Arc",
       "company_slugs": [],
@@ -948,7 +958,7 @@
       "id": "e2196be9a0b14015e91b22b4",
       "title": "The economics behind Yulu’s fleet expansion",
       "url": "https://thearcweb.com/article/the-economics-behind-yulus-fleet-expansion-Ml20N7oKLjS6WoMd",
-      "published_at": "2026-10-06T21:05:00.000Z",
+      "published_at": "2026-10-07T02:35:00.000Z",
       "source_id": "the-arc",
       "source_name": "The Arc",
       "company_slugs": [
@@ -960,7 +970,7 @@
       "id": "72ca80ee22a981b83d0426e2",
       "title": "Moneyview IPO tests fintech co-lending premium",
       "url": "https://thearcweb.com/article/moneyview-ipo-tests-fintech-colending-premium-gSRs9coUgJayqAsK",
-      "published_at": "2026-09-28T18:00:00.000Z",
+      "published_at": "2026-09-28T23:30:00.000Z",
       "source_id": "the-arc",
       "source_name": "The Arc",
       "company_slugs": [
@@ -974,7 +984,7 @@
       "id": "e92f0bbc9d8a70ff4aa38157",
       "title": "What Activate will back in Indian AI and what it won’t",
       "url": "https://thearcweb.com/article/activate-aakrit-vaish-venture-AI-india-sarvam-wispr-R58c2oRaIQpTeMws",
-      "published_at": "2026-09-18T08:50:00.000Z",
+      "published_at": "2026-09-18T14:20:00.000Z",
       "source_id": "the-arc",
       "source_name": "The Arc",
       "company_slugs": [],
@@ -984,7 +994,7 @@
       "id": "9291bc4305178cdb4e19691b",
       "title": "PayU’s road to profitability before an IPO",
       "url": "https://thearcweb.com/article/payus-road-to-profitability-before-an-ipo-DsA16TnlKCNlEM3M",
-      "published_at": "2026-09-08T18:04:00.000Z",
+      "published_at": "2026-09-08T23:34:00.000Z",
       "source_id": "the-arc",
       "source_name": "The Arc",
       "company_slugs": [],
@@ -996,7 +1006,7 @@
       "id": "bc79b99994021c89341a596b",
       "title": "Plazza takes an early shot at pharmacy quick commerce",
       "url": "https://thearcweb.com/article/plazza-takes-an-early-shot-at-pharmacy-quick-commerce-dyvQ4RIHqVjtgEiI",
-      "published_at": "2026-09-03T18:29:00.000Z",
+      "published_at": "2026-09-03T23:59:00.000Z",
       "source_id": "the-arc",
       "source_name": "The Arc",
       "company_slugs": [
@@ -1008,7 +1018,7 @@
       "id": "d4d397af28db9594ef6182b2",
       "title": "Why Sahi isn’t trying to be the next Groww",
       "url": "https://thearcweb.com/article/sahi-dale-vaz-stocks-groww-zerodha-JvhwMSEL0109eyoX",
-      "published_at": "2026-09-02T08:05:00.000Z",
+      "published_at": "2026-09-02T13:35:00.000Z",
       "source_id": "the-arc",
       "source_name": "The Arc",
       "company_slugs": [
@@ -1020,7 +1030,7 @@
       "id": "5707c74f1cefc6c03d89c0f3",
       "title": "Crane brings a build-and-back strategy to India’s AI, deeptech startups",
       "url": "https://thearcweb.com/article/crane-vc-150mn-india-deeptech-anandamoy-roychowdhary-KTkEIyV16Z91KrH2",
-      "published_at": "2026-08-28T20:12:00.000Z",
+      "published_at": "2026-08-29T01:42:00.000Z",
       "source_id": "the-arc",
       "source_name": "The Arc",
       "company_slugs": [],
@@ -1033,9 +1043,9 @@
       "source_name": "Inc42",
       "url": "https://inc42.com/feed/",
       "status": "ok",
-      "checked_at": "2026-11-25T08:52:40.448Z",
-      "last_success_at": "2026-11-25T08:52:40.448Z",
-      "latest_entry_at": "2026-11-25T07:39:42.000Z",
+      "checked_at": "2026-11-25T09:34:24.875Z",
+      "last_success_at": "2026-11-25T09:34:24.875Z",
+      "latest_entry_at": "2026-11-25T08:39:20.000Z",
       "item_count": 24,
       "error": null
     },
@@ -1044,8 +1054,8 @@
       "source_name": "Entrackr",
       "url": "https://entrackr.com/rss",
       "status": "ok",
-      "checked_at": "2026-11-25T08:52:40.448Z",
-      "last_success_at": "2026-11-25T08:52:40.448Z",
+      "checked_at": "2026-11-25T09:34:24.875Z",
+      "last_success_at": "2026-11-25T09:34:24.875Z",
       "latest_entry_at": "2026-11-25T07:48:39.000Z",
       "item_count": 50,
       "error": null
@@ -1055,9 +1065,9 @@
       "source_name": "YourStory",
       "url": "https://yourstory.com/feed",
       "status": "ok",
-      "checked_at": "2026-11-25T08:52:40.448Z",
-      "last_success_at": "2026-11-25T08:52:40.448Z",
-      "latest_entry_at": "2026-11-25T08:33:14.000Z",
+      "checked_at": "2026-11-25T09:34:24.875Z",
+      "last_success_at": "2026-11-25T09:34:24.875Z",
+      "latest_entry_at": "2026-11-25T09:21:00.000Z",
       "item_count": 20,
       "error": null
     },
@@ -1066,8 +1076,8 @@
       "source_name": "The Ken",
       "url": "https://the-ken.com/feed/",
       "status": "ok",
-      "checked_at": "2026-11-25T08:52:40.448Z",
-      "last_success_at": "2026-11-25T08:52:40.448Z",
+      "checked_at": "2026-11-25T09:34:24.875Z",
+      "last_success_at": "2026-11-25T09:34:24.875Z",
       "latest_entry_at": "2026-11-25T02:30:22.000Z",
       "item_count": 10,
       "error": null
@@ -1077,9 +1087,9 @@
       "source_name": "The Arc",
       "url": "https://www.thearcweb.com/rss.xml",
       "status": "ok",
-      "checked_at": "2026-11-25T08:52:40.448Z",
-      "last_success_at": "2026-11-25T08:52:40.448Z",
-      "latest_entry_at": "2026-11-25T08:00:00.000Z",
+      "checked_at": "2026-11-25T09:34:24.875Z",
+      "last_success_at": "2026-11-25T09:34:24.875Z",
+      "latest_entry_at": "2026-11-25T13:30:00.000Z",
       "item_count": 50,
       "error": null
     }
