@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "key": "synthetic-fixture",
+      "name": "Synthetic development fixture",
+      "kind": "demo",
+      "reuse_status": "synthetic"
+    }
+  ],
+  "records": [
+    {
+      "company": {
+        "slug": "nimbus-grid",
+        "brand_name": "Nimbus Grid",
+        "website_domain": "nimbus-grid.example",
+        "aliases": [],
+        "sectors": [
+          {
+            "slug": "climate-tech",
+            "name": "ClimateTech"
+          }
+        ],
+        "is_demo": true,
+        "location": {
+          "key": "hq-observation-2026",
+          "city": "Bengaluru",
+          "state": "Karnataka",
+          "locality": null,
+          "latitude": 12.9716,
+          "longitude": 77.5946,
+          "accuracy": "city",
+          "observed_on": "2026-10-01"
+        }
+      },
+      "document": {
+        "source_key": "synthetic-fixture",
+        "external_key": "nimbus-grid-seed-note",
+        "title": "Fictional seed announcement for Nimbus Grid",
+        "url": "https://example.com/demo/nimbus-grid",
+        "published_at": "2026-10-01T00:00:00Z",
+        "excerpt": "Synthetic fixture for testing only. This is not a real funding announcement."
+      },
+      "funding": {
+        "event_key": "seed-2026-10",
+        "announced_on": "2026-10-01",
+        "stage": "Seed",
+        "transaction_type": "equity",
+        "status": "announced",
+        "amount_original": "1000000",
+        "currency": "USD",
+        "fx": null
+      }
+    },
+    {
+      "company": {
+        "slug": "fieldweave",
+        "brand_name": "Fieldweave",
+        "website_domain": "fieldweave.example",
+        "aliases": [],
+        "sectors": [
+          {
+            "slug": "agritech",
+            "name": "AgriTech"
+          }
+        ],
+        "is_demo": true,
+        "location": {
+          "key": "hq-observation-2026",
+          "city": "Pune",
+          "state": "Maharashtra",
+          "locality": null,
+          "latitude": 18.5204,
+          "longitude": 73.8567,
+          "accuracy": "city",
+          "observed_on": "2026-10-01"
+        }
+      },
+      "document": {
+        "source_key": "synthetic-fixture",
+        "external_key": "fieldweave-seed-note",
+        "title": "Fictional seed announcement for Fieldweave",
+        "url": "https://example.com/demo/fieldweave",
+        "published_at": "2026-10-01T00:00:00Z",
+        "excerpt": "Synthetic fixture for testing only. This is not a real funding announcement."
+      },
+      "funding": {
+        "event_key": "seed-2026-10",
+        "announced_on": "2026-10-01",
+        "stage": "Seed",
+        "transaction_type": "equity",
+        "status": "announced",
+        "amount_original": "2000000",
+        "currency": "USD",
+        "fx": null
+      }
+    },
+    {
+      "company": {
+        "slug": "orbitdesk",
+        "brand_name": "Orbitdesk",
+        "website_domain": "orbitdesk.example",
+        "aliases": [],
+        "sectors": [
+          {
+            "slug": "saas",
+            "name": "SaaS"
+          }
+        ],
+        "is_demo": true,
+        "location": {
+          "key": "hq-observation-2026",
+          "city": "Hyderabad",
+          "state": "Telangana",
+          "locality": null,
+          "latitude": 17.385,
+          "longitude": 78.4867,
+          "accuracy": "city",
+          "observed_on": "2026-10-01"
+        }
+      },
+      "document": {
+        "source_key": "synthetic-fixture",
+        "external_key": "orbitdesk-seed-note",
+        "title": "Fictional seed announcement for Orbitdesk",
+        "url": "https://example.com/demo/orbitdesk",
+        "published_at": "2026-10-01T00:00:00Z",
+        "excerpt": "Synthetic fixture for testing only. This is not a real funding announcement."
+      },
+      "funding": {
+        "event_key": "seed-2026-10",
+        "announced_on": "2026-10-01",
+        "stage": "Seed",
+        "transaction_type": "equity",
+        "status": "announced",
+        "amount_original": "3000000",
+        "currency": "USD",
+        "fx": null
+      }
+    }
+  ]
+}
