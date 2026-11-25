@@ -34,3 +34,10 @@ Preserve the last good dataset after failures; record freshness and partial fail
 ## Government data boundaries
 
 The official MCA master-data catalog is a promising free route for identity/status/incorporation metadata, separate from the harder financial-filings integration. Confirm resource freshness, schema, API-key requirements and licensing before implementing it. A company brand must not be matched to a legal entity by fuzzy name alone. The DPIIT catalog describes recognised-startup counts by industry/state/year; those macro counts cannot be treated as the funded BWM cohort or evidence about an individual company. Neither catalog is active in the app yet.
+
+## UI references (25 November 2026)
+
+- [Neobrutalism components](https://www.neobrutalism.dev/) and [ekmas’s repository](https://github.com/ekmas/neobrutalism-components): visual direction for borders, hard shadows, typography and colored surfaces; implemented with the app’s existing CSS rather than importing component source.
+- [Bangalore Startup Map](https://www.bangalorestartupmap.com/): inspected the light basemap, clustered discovery, compact controls and news overlay. No source data was imported.
+- [bengaluru.rent](https://bengaluru.rent/): inspected public page controls and the visible onboarding screen. Its entry screen asks users to accept terms before proceeding, so no agreement was accepted for reference inspection.
+- The user’s supplied main-layout screenshot determines the desktop layout: directory on the left, map on the right, visible immediately.
