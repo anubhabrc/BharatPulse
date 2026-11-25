@@ -13,9 +13,12 @@
     "db:migrate": "node --env-file-if-exists=.env --import tsx scripts/migrate.ts",
     "import:plan": "node --import tsx scripts/import.ts plan",
     "import:publish": "node --env-file-if-exists=.env --import tsx scripts/import.ts publish",
-    "data:sync": "node --import tsx scripts/sync-notion.ts"
+    "data:sync": "node --import tsx scripts/sync-notion.ts",
+    "news:sync": "node --import tsx scripts/sync-news.ts"
   },
   "dependencies": {
+    "fast-xml-parser": "5.12.1",
+    "maplibre-gl": "6.19.0",
     "next": "16.4.6",
     "postgres": "4.1.1",
     "react": "19.3.1",

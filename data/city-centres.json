@@ -1,0 +1,2164 @@
+{
+  "source_url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places_simple.geojson",
+  "license_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "retrieved_on": "2026-11-25",
+  "precision": "representative_city_centre",
+  "cities": [
+    {
+      "id": "1159122667",
+      "name": "Panaji",
+      "aliases": [
+        "Panaji"
+      ],
+      "longitude": 73.818001,
+      "latitude": 15.491997,
+      "region": "Goa"
+    },
+    {
+      "id": "1159130425",
+      "name": "Simla",
+      "aliases": [
+        "Simla",
+        "Shimla"
+      ],
+      "longitude": 77.166597,
+      "latitude": 31.100026,
+      "region": "Himachal Pradesh"
+    },
+    {
+      "id": "1159130429",
+      "name": "Gurgaon",
+      "aliases": [
+        "Gurgaon"
+      ],
+      "longitude": 77.019991,
+      "latitude": 28.450006,
+      "region": "Haryana"
+    },
+    {
+      "id": "1159130433",
+      "name": "Sonipat",
+      "aliases": [
+        "Sonipat"
+      ],
+      "longitude": 77.019991,
+      "latitude": 28.999999,
+      "region": "Haryana"
+    },
+    {
+      "id": "1159130437",
+      "name": "Rohtak",
+      "aliases": [
+        "Rohtak"
+      ],
+      "longitude": 76.580018,
+      "latitude": 28.900005,
+      "region": "Haryana"
+    },
+    {
+      "id": "1159130443",
+      "name": "Hisar",
+      "aliases": [
+        "Hisar"
+      ],
+      "longitude": 75.725031,
+      "latitude": 29.169988,
+      "region": "Haryana"
+    },
+    {
+      "id": "1159130449",
+      "name": "Bhiwani",
+      "aliases": [
+        "Bhiwani"
+      ],
+      "longitude": 76.125007,
+      "latitude": 28.81001,
+      "region": "Haryana"
+    },
+    {
+      "id": "1159130453",
+      "name": "Ambala",
+      "aliases": [
+        "Ambala"
+      ],
+      "longitude": 76.791822,
+      "latitude": 30.377311,
+      "region": "Haryana"
+    },
+    {
+      "id": "1159130459",
+      "name": "Sopore",
+      "aliases": [
+        "Sopore",
+        "Suyyapur"
+      ],
+      "longitude": 74.466658,
+      "latitude": 34.299959,
+      "region": "Jammu and Kashmir"
+    },
+    {
+      "id": "1159130463",
+      "name": "Silvassa",
+      "aliases": [
+        "Silvassa"
+      ],
+      "longitude": 73.016618,
+      "latitude": 20.266578,
+      "region": "Dadra and Nagar Haveli"
+    },
+    {
+      "id": "1159130467",
+      "name": "Kalyan",
+      "aliases": [
+        "Kalyan"
+      ],
+      "longitude": 73.160175,
+      "latitude": 19.250232,
+      "region": "Maharashtra"
+    },
+    {
+      "id": "1159130471",
+      "name": "Bhusawal",
+      "aliases": [
+        "Bhusawal"
+      ],
+      "longitude": 75.830038,
+      "latitude": 21.019995,
+      "region": "Maharashtra"
+    },
+    {
+      "id": "1159130477",
+      "name": "Jorhat",
+      "aliases": [
+        "Jorhat"
+      ],
+      "longitude": 94.216667,
+      "latitude": 26.749981,
+      "region": "Assam"
+    },
+    {
+      "id": "1159130805",
+      "name": "Hoshiarpur",
+      "aliases": [
+        "Hoshiarpur"
+      ],
+      "longitude": 75.980003,
+      "latitude": 31.519974,
+      "region": "Punjab"
+    },
+    {
+      "id": "1159130807",
+      "name": "Ajmer",
+      "aliases": [
+        "Ajmer"
+      ],
+      "longitude": 74.639981,
+      "latitude": 26.449999,
+      "region": "Rajasthan"
+    },
+    {
+      "id": "1159130811",
+      "name": "Hathras",
+      "aliases": [
+        "Hathras"
+      ],
+      "longitude": 78.050006,
+      "latitude": 27.599981,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159130815",
+      "name": "Sitapur",
+      "aliases": [
+        "Sitapur"
+      ],
+      "longitude": 80.683242,
+      "latitude": 27.551591,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159130821",
+      "name": "Pilibhit",
+      "aliases": [
+        "Pilibhit"
+      ],
+      "longitude": 79.810002,
+      "latitude": 28.639995,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159130825",
+      "name": "Budaun",
+      "aliases": [
+        "Budaun"
+      ],
+      "longitude": 79.089994,
+      "latitude": 28.030006,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159130829",
+      "name": "Firozabad",
+      "aliases": [
+        "Firozabad"
+      ],
+      "longitude": 78.394946,
+      "latitude": 27.149982,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159130833",
+      "name": "Mathura",
+      "aliases": [
+        "Mathura"
+      ],
+      "longitude": 77.670029,
+      "latitude": 27.499987,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159130839",
+      "name": "Bulandshahr",
+      "aliases": [
+        "Bulandshahr"
+      ],
+      "longitude": 77.848416,
+      "latitude": 28.41037,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159130843",
+      "name": "Hapur",
+      "aliases": [
+        "Hapur"
+      ],
+      "longitude": 77.762788,
+      "latitude": 28.743658,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159130845",
+      "name": "Muzaffarnagar",
+      "aliases": [
+        "Muzaffarnagar"
+      ],
+      "longitude": 77.69504,
+      "latitude": 29.485008,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159130849",
+      "name": "Gangtok",
+      "aliases": [
+        "Gangtok"
+      ],
+      "longitude": 88.616647,
+      "latitude": 27.33333,
+      "region": "Sikkim"
+    },
+    {
+      "id": "1159132337",
+      "name": "Diu",
+      "aliases": [
+        "Diu"
+      ],
+      "longitude": 70.990395,
+      "latitude": 20.719673,
+      "region": "Dadra and Nagar Haveli"
+    },
+    {
+      "id": "1159141691",
+      "name": "Pathankot",
+      "aliases": [
+        "Pathankot"
+      ],
+      "longitude": 75.720019,
+      "latitude": 32.270342,
+      "region": "Himachal Pradesh"
+    },
+    {
+      "id": "1159141695",
+      "name": "Sirsa",
+      "aliases": [
+        "Sirsa"
+      ],
+      "longitude": 75.029983,
+      "latitude": 29.490382,
+      "region": "Haryana"
+    },
+    {
+      "id": "1159141723",
+      "name": "Panipat",
+      "aliases": [
+        "Panipat"
+      ],
+      "longitude": 76.969968,
+      "latitude": 29.400413,
+      "region": "Haryana"
+    },
+    {
+      "id": "1159141729",
+      "name": "Karnal",
+      "aliases": [
+        "Karnal"
+      ],
+      "longitude": 76.969968,
+      "latitude": 29.680448,
+      "region": "Haryana"
+    },
+    {
+      "id": "1159141733",
+      "name": "Baramula",
+      "aliases": [
+        "Baramula"
+      ],
+      "longitude": 74.350025,
+      "latitude": 34.200431,
+      "region": "Jammu and Kashmir"
+    },
+    {
+      "id": "1159141737",
+      "name": "Proddatur",
+      "aliases": [
+        "Proddatur"
+      ],
+      "longitude": 78.570026,
+      "latitude": 14.750429,
+      "region": "Andhra Pradesh"
+    },
+    {
+      "id": "1159141741",
+      "name": "Nandyal",
+      "aliases": [
+        "Nandyal"
+      ],
+      "longitude": 78.486638,
+      "latitude": 15.464097,
+      "region": "Andhra Pradesh"
+    },
+    {
+      "id": "1159141747",
+      "name": "Hindupur",
+      "aliases": [
+        "Hindupur"
+      ],
+      "longitude": 77.489988,
+      "latitude": 13.780359,
+      "region": "Andhra Pradesh"
+    },
+    {
+      "id": "1159141751",
+      "name": "Tirupati",
+      "aliases": [
+        "Tirupati"
+      ],
+      "longitude": 79.42,
+      "latitude": 13.650419,
+      "region": "Andhra Pradesh"
+    },
+    {
+      "id": "1159141755",
+      "name": "Ongole",
+      "aliases": [
+        "Ongole"
+      ],
+      "longitude": 80.057707,
+      "latitude": 15.505577,
+      "region": "Andhra Pradesh"
+    },
+    {
+      "id": "1159141759",
+      "name": "Vizianagaram",
+      "aliases": [
+        "Vizianagaram"
+      ],
+      "longitude": 83.401372,
+      "latitude": 18.110992,
+      "region": "Andhra Pradesh"
+    },
+    {
+      "id": "1159141765",
+      "name": "Rajahmundry",
+      "aliases": [
+        "Rajahmundry"
+      ],
+      "longitude": 81.789984,
+      "latitude": 17.030342,
+      "region": "Andhra Pradesh"
+    },
+    {
+      "id": "1159141769",
+      "name": "Machilipatnam",
+      "aliases": [
+        "Machilipatnam"
+      ],
+      "longitude": 81.179996,
+      "latitude": 16.200418,
+      "region": "Andhra Pradesh"
+    },
+    {
+      "id": "1159141773",
+      "name": "Khammam",
+      "aliases": [
+        "Khammam"
+      ],
+      "longitude": 80.160058,
+      "latitude": 17.28043,
+      "region": "Telangana"
+    },
+    {
+      "id": "1159141777",
+      "name": "Chirala",
+      "aliases": [
+        "Chirala"
+      ],
+      "longitude": 80.339995,
+      "latitude": 15.860413,
+      "region": "Andhra Pradesh"
+    },
+    {
+      "id": "1159141783",
+      "name": "Karimnagar",
+      "aliases": [
+        "Karimnagar"
+      ],
+      "longitude": 79.109993,
+      "latitude": 18.460435,
+      "region": "Telangana"
+    },
+    {
+      "id": "1159141787",
+      "name": "Nizamabad",
+      "aliases": [
+        "Nizamabad"
+      ],
+      "longitude": 78.100028,
+      "latitude": 18.670396,
+      "region": "Telangana"
+    },
+    {
+      "id": "1159141791",
+      "name": "Kollam",
+      "aliases": [
+        "Kollam"
+      ],
+      "longitude": 76.569993,
+      "latitude": 8.900373,
+      "region": "Kerala"
+    },
+    {
+      "id": "1159141795",
+      "name": "Alappuzha",
+      "aliases": [
+        "Alappuzha"
+      ],
+      "longitude": 76.370005,
+      "latitude": 9.500414,
+      "region": "Kerala"
+    },
+    {
+      "id": "1159141801",
+      "name": "Puri",
+      "aliases": [
+        "Puri"
+      ],
+      "longitude": 85.900018,
+      "latitude": 19.82043,
+      "region": "Orissa"
+    },
+    {
+      "id": "1159141805",
+      "name": "Sambalpur",
+      "aliases": [
+        "Sambalpur"
+      ],
+      "longitude": 83.970058,
+      "latitude": 21.470406,
+      "region": "Orissa"
+    },
+    {
+      "id": "1159141809",
+      "name": "Raurkela",
+      "aliases": [
+        "Raurkela"
+      ],
+      "longitude": 84.829954,
+      "latitude": 22.230412,
+      "region": "Orissa"
+    },
+    {
+      "id": "1159141813",
+      "name": "Kavaratti",
+      "aliases": [
+        "Kavaratti"
+      ],
+      "longitude": 72.636867,
+      "latitude": 10.562573,
+      "region": "Lakshadweep"
+    },
+    {
+      "id": "1159141819",
+      "name": "Mandya",
+      "aliases": [
+        "Mandya"
+      ],
+      "longitude": 76.919997,
+      "latitude": 12.570381,
+      "region": "Karnataka"
+    },
+    {
+      "id": "1159141823",
+      "name": "Kolar",
+      "aliases": [
+        "Kolar"
+      ],
+      "longitude": 78.13336,
+      "latitude": 13.133706,
+      "region": "Karnataka"
+    },
+    {
+      "id": "1159141827",
+      "name": "Shivamogga",
+      "aliases": [
+        "Shivamogga"
+      ],
+      "longitude": 75.560028,
+      "latitude": 13.930376,
+      "region": "Karnataka"
+    },
+    {
+      "id": "1159141831",
+      "name": "Raichur",
+      "aliases": [
+        "Raichur"
+      ],
+      "longitude": 77.355009,
+      "latitude": 16.210366,
+      "region": "Karnataka"
+    },
+    {
+      "id": "1159141837",
+      "name": "Hosapete",
+      "aliases": [
+        "Hosapete"
+      ],
+      "longitude": 76.375017,
+      "latitude": 15.280397,
+      "region": "Karnataka"
+    },
+    {
+      "id": "1159141841",
+      "name": "Bidar",
+      "aliases": [
+        "Bidar"
+      ],
+      "longitude": 77.517532,
+      "latitude": 17.922923,
+      "region": "Karnataka"
+    },
+    {
+      "id": "1159141845",
+      "name": "Sangli",
+      "aliases": [
+        "Sangli"
+      ],
+      "longitude": 74.575024,
+      "latitude": 16.860404,
+      "region": "Maharashtra"
+    },
+    {
+      "id": "1159141849",
+      "name": "Parbhani",
+      "aliases": [
+        "Parbhani"
+      ],
+      "longitude": 76.760007,
+      "latitude": 19.270386,
+      "region": "Maharashtra"
+    },
+    {
+      "id": "1159141855",
+      "name": "Malegaon",
+      "aliases": [
+        "Malegaon"
+      ],
+      "longitude": 74.525001,
+      "latitude": 20.560359,
+      "region": "Maharashtra"
+    },
+    {
+      "id": "1159141859",
+      "name": "Port Blair",
+      "aliases": [
+        "Port Blair"
+      ],
+      "longitude": 92.735983,
+      "latitude": 11.667026,
+      "region": "Andaman and Nicobar"
+    },
+    {
+      "id": "1159141863",
+      "name": "Tezpur",
+      "aliases": [
+        "Tezpur"
+      ],
+      "longitude": 92.80001,
+      "latitude": 26.633761,
+      "region": "Assam"
+    },
+    {
+      "id": "1159141867",
+      "name": "Silchar",
+      "aliases": [
+        "Silchar"
+      ],
+      "longitude": 92.790036,
+      "latitude": 24.790411,
+      "region": "Assam"
+    },
+    {
+      "id": "1159141873",
+      "name": "Kohima",
+      "aliases": [
+        "Kohima"
+      ],
+      "longitude": 94.11657,
+      "latitude": 25.666998,
+      "region": "Nagaland"
+    },
+    {
+      "id": "1159141877",
+      "name": "Shillong",
+      "aliases": [
+        "Shillong"
+      ],
+      "longitude": 91.880014,
+      "latitude": 25.570492,
+      "region": "Meghalaya"
+    },
+    {
+      "id": "1159142725",
+      "name": "Abohar",
+      "aliases": [
+        "Abohar"
+      ],
+      "longitude": 74.182342,
+      "latitude": 30.126338,
+      "region": "Punjab"
+    },
+    {
+      "id": "1159142729",
+      "name": "Patiala",
+      "aliases": [
+        "Patiala"
+      ],
+      "longitude": 76.384991,
+      "latitude": 30.320409,
+      "region": "Punjab"
+    },
+    {
+      "id": "1159142735",
+      "name": "Bhilwara",
+      "aliases": [
+        "Bhilwara"
+      ],
+      "longitude": 74.63502,
+      "latitude": 25.350428,
+      "region": "Rajasthan"
+    },
+    {
+      "id": "1159142739",
+      "name": "Pali",
+      "aliases": [
+        "Pali"
+      ],
+      "longitude": 73.329932,
+      "latitude": 25.790375,
+      "region": "Rajasthan"
+    },
+    {
+      "id": "1159142743",
+      "name": "Tonk",
+      "aliases": [
+        "Tonk"
+      ],
+      "longitude": 75.79004,
+      "latitude": 26.150457,
+      "region": "Rajasthan"
+    },
+    {
+      "id": "1159142747",
+      "name": "Sikar",
+      "aliases": [
+        "Sikar"
+      ],
+      "longitude": 75.140002,
+      "latitude": 27.610394,
+      "region": "Rajasthan"
+    },
+    {
+      "id": "1159142753",
+      "name": "Bikaner",
+      "aliases": [
+        "Bikaner"
+      ],
+      "longitude": 73.332243,
+      "latitude": 28.015083,
+      "region": "Rajasthan"
+    },
+    {
+      "id": "1159142757",
+      "name": "Bharatpur",
+      "aliases": [
+        "Bharatpur"
+      ],
+      "longitude": 77.507411,
+      "latitude": 27.209374,
+      "region": "Rajasthan"
+    },
+    {
+      "id": "1159142761",
+      "name": "Alwar",
+      "aliases": [
+        "Alwar"
+      ],
+      "longitude": 76.604926,
+      "latitude": 27.545359,
+      "region": "Rajasthan"
+    },
+    {
+      "id": "1159142793",
+      "name": "Fatehpur",
+      "aliases": [
+        "Fatehpur"
+      ],
+      "longitude": 80.800019,
+      "latitude": 25.88037,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159142799",
+      "name": "Faizabad",
+      "aliases": [
+        "Faizabad"
+      ],
+      "longitude": 82.170013,
+      "latitude": 26.750394,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159142803",
+      "name": "Bahraich",
+      "aliases": [
+        "Bahraich"
+      ],
+      "longitude": 81.606114,
+      "latitude": 27.567427,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159142809",
+      "name": "Mirzapur",
+      "aliases": [
+        "Mirzapur"
+      ],
+      "longitude": 82.569988,
+      "latitude": 25.145376,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159142813",
+      "name": "Jhansi",
+      "aliases": [
+        "Jhansi"
+      ],
+      "longitude": 78.557468,
+      "latitude": 25.452954,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159142817",
+      "name": "Shahjahanpur",
+      "aliases": [
+        "Shahjahanpur"
+      ],
+      "longitude": 79.905034,
+      "latitude": 27.880377,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159142821",
+      "name": "Rampur",
+      "aliases": [
+        "Rampur"
+      ],
+      "longitude": 79.024985,
+      "latitude": 28.815359,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159142827",
+      "name": "Bareilly",
+      "aliases": [
+        "Bareilly"
+      ],
+      "longitude": 79.418054,
+      "latitude": 28.347333,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159142831",
+      "name": "Etawah",
+      "aliases": [
+        "Etawah"
+      ],
+      "longitude": 79.01496,
+      "latitude": 26.785457,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159142837",
+      "name": "Dehra Dun",
+      "aliases": [
+        "Dehra Dun"
+      ],
+      "longitude": 78.050006,
+      "latitude": 30.320409,
+      "region": "Uttaranchal"
+    },
+    {
+      "id": "1159142843",
+      "name": "Haora",
+      "aliases": [
+        "Haora"
+      ],
+      "longitude": 88.318516,
+      "latitude": 22.584698,
+      "region": "West Bengal"
+    },
+    {
+      "id": "1159142847",
+      "name": "Alipur Duar",
+      "aliases": [
+        "Alipur Duar"
+      ],
+      "longitude": 89.566667,
+      "latitude": 26.483744,
+      "region": "West Bengal"
+    },
+    {
+      "id": "1159142851",
+      "name": "Haldia",
+      "aliases": [
+        "Haldia"
+      ],
+      "longitude": 88.058335,
+      "latitude": 22.02567,
+      "region": "West Bengal"
+    },
+    {
+      "id": "1159142855",
+      "name": "Bhatpara",
+      "aliases": [
+        "Bhatpara"
+      ],
+      "longitude": 88.413626,
+      "latitude": 22.852821,
+      "region": "West Bengal"
+    },
+    {
+      "id": "1159142861",
+      "name": "Medinipur",
+      "aliases": [
+        "Medinipur"
+      ],
+      "longitude": 87.333872,
+      "latitude": 22.399723,
+      "region": "West Bengal"
+    },
+    {
+      "id": "1159142865",
+      "name": "Siliguri",
+      "aliases": [
+        "Siliguri"
+      ],
+      "longitude": 88.455004,
+      "latitude": 26.720422,
+      "region": "West Bengal"
+    },
+    {
+      "id": "1159142871",
+      "name": "Purnia",
+      "aliases": [
+        "Purnia"
+      ],
+      "longitude": 87.479973,
+      "latitude": 25.785414,
+      "region": "Bihar"
+    },
+    {
+      "id": "1159142875",
+      "name": "Muzaffarpur",
+      "aliases": [
+        "Muzaffarpur"
+      ],
+      "longitude": 85.379946,
+      "latitude": 26.120433,
+      "region": "Bihar"
+    },
+    {
+      "id": "1159142881",
+      "name": "Aurangabad",
+      "aliases": [
+        "Aurangabad"
+      ],
+      "longitude": 84.380007,
+      "latitude": 24.770412,
+      "region": "Bihar"
+    },
+    {
+      "id": "1159142885",
+      "name": "Bilaspur",
+      "aliases": [
+        "Bilaspur"
+      ],
+      "longitude": 82.159987,
+      "latitude": 22.09042,
+      "region": "Chhattisgarh"
+    },
+    {
+      "id": "1159142889",
+      "name": "Burhanpur",
+      "aliases": [
+        "Burhanpur"
+      ],
+      "longitude": 76.172406,
+      "latitude": 21.28452,
+      "region": "Madhya Pradesh"
+    },
+    {
+      "id": "1159142893",
+      "name": "Ujjain",
+      "aliases": [
+        "Ujjain"
+      ],
+      "longitude": 75.79004,
+      "latitude": 23.190405,
+      "region": "Madhya Pradesh"
+    },
+    {
+      "id": "1159142899",
+      "name": "Ratlam",
+      "aliases": [
+        "Ratlam"
+      ],
+      "longitude": 75.029983,
+      "latitude": 23.350395,
+      "region": "Madhya Pradesh"
+    },
+    {
+      "id": "1159142903",
+      "name": "Sagar",
+      "aliases": [
+        "Sagar"
+      ],
+      "longitude": 78.750015,
+      "latitude": 23.85039,
+      "region": "Madhya Pradesh"
+    },
+    {
+      "id": "1159142907",
+      "name": "Vellore",
+      "aliases": [
+        "Vellore"
+      ],
+      "longitude": 79.150042,
+      "latitude": 12.920386,
+      "region": "Tamil Nadu"
+    },
+    {
+      "id": "1159142911",
+      "name": "Tiruvannamalai",
+      "aliases": [
+        "Tiruvannamalai"
+      ],
+      "longitude": 79.099967,
+      "latitude": 12.260374,
+      "region": "Tamil Nadu"
+    },
+    {
+      "id": "1159142917",
+      "name": "Rajapalaiyam",
+      "aliases": [
+        "Rajapalaiyam"
+      ],
+      "longitude": 77.580009,
+      "latitude": 9.420393,
+      "region": "Tamil Nadu"
+    },
+    {
+      "id": "1159142921",
+      "name": "Cuddalore",
+      "aliases": [
+        "Cuddalore"
+      ],
+      "longitude": 79.770004,
+      "latitude": 11.720407,
+      "region": "Tamil Nadu"
+    },
+    {
+      "id": "1159142925",
+      "name": "Karur",
+      "aliases": [
+        "Karur"
+      ],
+      "longitude": 78.083337,
+      "latitude": 10.950377,
+      "region": "Tamil Nadu"
+    },
+    {
+      "id": "1159142929",
+      "name": "Kanchipuram",
+      "aliases": [
+        "Kanchipuram"
+      ],
+      "longitude": 79.716674,
+      "latitude": 12.833724,
+      "region": "Tamil Nadu"
+    },
+    {
+      "id": "1159142935",
+      "name": "Tirunelveli",
+      "aliases": [
+        "Tirunelveli"
+      ],
+      "longitude": 77.689976,
+      "latitude": 8.730409,
+      "region": "Tamil Nadu"
+    },
+    {
+      "id": "1159142939",
+      "name": "Nagercoil",
+      "aliases": [
+        "Nagercoil"
+      ],
+      "longitude": 77.429992,
+      "latitude": 8.180365,
+      "region": "Tamil Nadu"
+    },
+    {
+      "id": "1159142943",
+      "name": "Thanjavur",
+      "aliases": [
+        "Thanjavur"
+      ],
+      "longitude": 79.150042,
+      "latitude": 10.770414,
+      "region": "Tamil Nadu"
+    },
+    {
+      "id": "1159142947",
+      "name": "Kumbakonam",
+      "aliases": [
+        "Kumbakonam"
+      ],
+      "longitude": 79.387528,
+      "latitude": 10.951296,
+      "region": "Tamil Nadu"
+    },
+    {
+      "id": "1159142953",
+      "name": "Valparai",
+      "aliases": [
+        "Valparai"
+      ],
+      "longitude": 76.969968,
+      "latitude": 10.320415,
+      "region": "Tamil Nadu"
+    },
+    {
+      "id": "1159142957",
+      "name": "Tiruppur",
+      "aliases": [
+        "Tiruppur"
+      ],
+      "longitude": 77.329998,
+      "latitude": 11.080421,
+      "region": "Tamil Nadu"
+    },
+    {
+      "id": "1159142961",
+      "name": "Daman",
+      "aliases": [
+        "Daman"
+      ],
+      "longitude": 72.850013,
+      "latitude": 20.417008,
+      "region": "Dadra and Nagar Haveli"
+    },
+    {
+      "id": "1159142965",
+      "name": "Navsari",
+      "aliases": [
+        "Navsari"
+      ],
+      "longitude": 72.920034,
+      "latitude": 20.850393,
+      "region": "Dadra and Nagar Haveli"
+    },
+    {
+      "id": "1159142973",
+      "name": "Bhuj",
+      "aliases": [
+        "Bhuj"
+      ],
+      "longitude": 69.673591,
+      "latitude": 23.233827,
+      "region": "Dadra and Nagar Haveli"
+    },
+    {
+      "id": "1159142977",
+      "name": "Bhavnagar",
+      "aliases": [
+        "Bhavnagar"
+      ],
+      "longitude": 72.129954,
+      "latitude": 21.778424,
+      "region": "Dadra and Nagar Haveli"
+    },
+    {
+      "id": "1159142979",
+      "name": "Gandhinagar",
+      "aliases": [
+        "Gandhinagar"
+      ],
+      "longitude": 72.643556,
+      "latitude": 23.218994,
+      "region": "Dadra and Nagar Haveli"
+    },
+    {
+      "id": "1159142983",
+      "name": "Itanagar",
+      "aliases": [
+        "Itanagar"
+      ],
+      "longitude": 93.616601,
+      "latitude": 27.100399,
+      "region": "Arunachal Pradesh"
+    },
+    {
+      "id": "1159142991",
+      "name": "Aizawl",
+      "aliases": [
+        "Aizawl"
+      ],
+      "longitude": 92.720015,
+      "latitude": 23.710399,
+      "region": "Mizoram"
+    },
+    {
+      "id": "1159142995",
+      "name": "Agartala",
+      "aliases": [
+        "Agartala"
+      ],
+      "longitude": 91.279999,
+      "latitude": 23.835404,
+      "region": "Tripura"
+    },
+    {
+      "id": "1159147189",
+      "name": "Kakinada",
+      "aliases": [
+        "Kakinada"
+      ],
+      "longitude": 82.237502,
+      "latitude": 16.967477,
+      "region": "Andhra Pradesh"
+    },
+    {
+      "id": "1159147191",
+      "name": "Warangal",
+      "aliases": [
+        "Warangal"
+      ],
+      "longitude": 79.57999,
+      "latitude": 18.009998,
+      "region": "Telangana"
+    },
+    {
+      "id": "1159147193",
+      "name": "Brahmapur",
+      "aliases": [
+        "Brahmapur"
+      ],
+      "longitude": 84.799981,
+      "latitude": 19.319995,
+      "region": "Orissa"
+    },
+    {
+      "id": "1159147195",
+      "name": "Vijayapura",
+      "aliases": [
+        "Vijayapura"
+      ],
+      "longitude": 75.709993,
+      "latitude": 16.835418,
+      "region": "Karnataka"
+    },
+    {
+      "id": "1159147199",
+      "name": "Bhiwandi",
+      "aliases": [
+        "Bhiwandi"
+      ],
+      "longitude": 73.12805,
+      "latitude": 19.351965,
+      "region": "Maharashtra"
+    },
+    {
+      "id": "1159147201",
+      "name": "Latur",
+      "aliases": [
+        "Latur"
+      ],
+      "longitude": 76.569993,
+      "latitude": 18.400413,
+      "region": "Maharashtra"
+    },
+    {
+      "id": "1159147203",
+      "name": "Ahmednagar",
+      "aliases": [
+        "Ahmednagar"
+      ],
+      "longitude": 74.745774,
+      "latitude": 19.082031,
+      "region": "Maharashtra"
+    },
+    {
+      "id": "1159147205",
+      "name": "Chandrapur",
+      "aliases": [
+        "Chandrapur"
+      ],
+      "longitude": 79.300007,
+      "latitude": 19.969981,
+      "region": "Maharashtra"
+    },
+    {
+      "id": "1159147207",
+      "name": "Amravati",
+      "aliases": [
+        "Amravati"
+      ],
+      "longitude": 77.78181,
+      "latitude": 20.925616,
+      "region": "Maharashtra"
+    },
+    {
+      "id": "1159147209",
+      "name": "Dhule",
+      "aliases": [
+        "Dhule"
+      ],
+      "longitude": 74.769999,
+      "latitude": 20.899976,
+      "region": "Maharashtra"
+    },
+    {
+      "id": "1159147211",
+      "name": "Dibrugarh",
+      "aliases": [
+        "Dibrugarh"
+      ],
+      "longitude": 94.899985,
+      "latitude": 27.483321,
+      "region": "Assam"
+    },
+    {
+      "id": "1159147213",
+      "name": "Imphal",
+      "aliases": [
+        "Imphal"
+      ],
+      "longitude": 93.950017,
+      "latitude": 24.799971,
+      "region": "Manipur"
+    },
+    {
+      "id": "1159147319",
+      "name": "Udaipur",
+      "aliases": [
+        "Udaipur"
+      ],
+      "longitude": 73.730011,
+      "latitude": 24.599983,
+      "region": "Rajasthan"
+    },
+    {
+      "id": "1159147325",
+      "name": "Gorakhpur",
+      "aliases": [
+        "Gorakhpur"
+      ],
+      "longitude": 83.380016,
+      "latitude": 26.750394,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159147327",
+      "name": "Barddhaman",
+      "aliases": [
+        "Barddhaman"
+      ],
+      "longitude": 87.864962,
+      "latitude": 23.250375,
+      "region": "West Bengal"
+    },
+    {
+      "id": "1159147329",
+      "name": "Krishnanagar",
+      "aliases": [
+        "Krishnanagar"
+      ],
+      "longitude": 88.530038,
+      "latitude": 23.380342,
+      "region": "West Bengal"
+    },
+    {
+      "id": "1159147331",
+      "name": "Gaya",
+      "aliases": [
+        "Gaya"
+      ],
+      "longitude": 85.000021,
+      "latitude": 24.799971,
+      "region": "Bihar"
+    },
+    {
+      "id": "1159147333",
+      "name": "Porbandar",
+      "aliases": [
+        "Porbandar"
+      ],
+      "longitude": 69.67,
+      "latitude": 21.669981,
+      "region": "Dadra and Nagar Haveli"
+    },
+    {
+      "id": "1159148517",
+      "name": "Nellore",
+      "aliases": [
+        "Nellore"
+      ],
+      "longitude": 79.989939,
+      "latitude": 14.439983,
+      "region": "Andhra Pradesh"
+    },
+    {
+      "id": "1159148519",
+      "name": "Kurnool",
+      "aliases": [
+        "Kurnool"
+      ],
+      "longitude": 78.030007,
+      "latitude": 15.830001,
+      "region": "Andhra Pradesh"
+    },
+    {
+      "id": "1159148521",
+      "name": "Guntur",
+      "aliases": [
+        "Guntur"
+      ],
+      "longitude": 80.450014,
+      "latitude": 16.329997,
+      "region": "Andhra Pradesh"
+    },
+    {
+      "id": "1159148523",
+      "name": "Tumakuru",
+      "aliases": [
+        "Tumakuru"
+      ],
+      "longitude": 77.100038,
+      "latitude": 13.329973,
+      "region": "Karnataka"
+    },
+    {
+      "id": "1159148525",
+      "name": "Davangere",
+      "aliases": [
+        "Davangere"
+      ],
+      "longitude": 75.920006,
+      "latitude": 14.470007,
+      "region": "Karnataka"
+    },
+    {
+      "id": "1159148527",
+      "name": "Ballari",
+      "aliases": [
+        "Ballari"
+      ],
+      "longitude": 76.915036,
+      "latitude": 15.150043,
+      "region": "Karnataka"
+    },
+    {
+      "id": "1159148531",
+      "name": "Belagavi",
+      "aliases": [
+        "Belagavi"
+      ],
+      "longitude": 74.505002,
+      "latitude": 15.865012,
+      "region": "Karnataka"
+    },
+    {
+      "id": "1159148695",
+      "name": "Tuticorin",
+      "aliases": [
+        "Tuticorin"
+      ],
+      "longitude": 78.131797,
+      "latitude": 8.7978,
+      "region": "Tamil Nadu"
+    },
+    {
+      "id": "1159148697",
+      "name": "Dindigul",
+      "aliases": [
+        "Dindigul"
+      ],
+      "longitude": 77.978285,
+      "latitude": 10.359908,
+      "region": "Tamil Nadu"
+    },
+    {
+      "id": "1159149153",
+      "name": "Chandigarh",
+      "aliases": [
+        "Chandigarh"
+      ],
+      "longitude": 76.77806,
+      "latitude": 30.721943,
+      "region": "Chandigarh"
+    },
+    {
+      "id": "1159149155",
+      "name": "Jammu",
+      "aliases": [
+        "Jammu"
+      ],
+      "longitude": 74.844793,
+      "latitude": 32.713733,
+      "region": "Jammu and Kashmir"
+    },
+    {
+      "id": "1159149157",
+      "name": "Sholapur",
+      "aliases": [
+        "Sholapur",
+        "Solapur"
+      ],
+      "longitude": 75.898062,
+      "latitude": 17.672352,
+      "region": "Maharashtra"
+    },
+    {
+      "id": "1159149161",
+      "name": "Aurangabad",
+      "aliases": [
+        "Aurangabad"
+      ],
+      "longitude": 75.328948,
+      "latitude": 19.861686,
+      "region": "Maharashtra"
+    },
+    {
+      "id": "1159149163",
+      "name": "Nasik",
+      "aliases": [
+        "Nasik",
+        "Nashik"
+      ],
+      "longitude": 73.778036,
+      "latitude": 20.002365,
+      "region": "Maharashtra"
+    },
+    {
+      "id": "1159149165",
+      "name": "Dispur",
+      "aliases": [
+        "Dispur",
+        "Gauhati|Dispur"
+      ],
+      "longitude": 91.766636,
+      "latitude": 26.144023,
+      "region": "Assam"
+    },
+    {
+      "id": "1159149167",
+      "name": "Jullundur",
+      "aliases": [
+        "Jullundur",
+        "Jalandhar"
+      ],
+      "longitude": 75.567074,
+      "latitude": 31.336866,
+      "region": "Punjab"
+    },
+    {
+      "id": "1159149169",
+      "name": "Allahabad",
+      "aliases": [
+        "Allahabad"
+      ],
+      "longitude": 81.838061,
+      "latitude": 25.456941,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159149171",
+      "name": "Moradabad",
+      "aliases": [
+        "Moradabad"
+      ],
+      "longitude": 78.754838,
+      "latitude": 28.843737,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159149173",
+      "name": "Ghaziabad",
+      "aliases": [
+        "Ghaziabad"
+      ],
+      "longitude": 77.406445,
+      "latitude": 28.662327,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159149175",
+      "name": "Agra",
+      "aliases": [
+        "Agra"
+      ],
+      "longitude": 78.013075,
+      "latitude": 27.172366,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159149179",
+      "name": "Aligarh",
+      "aliases": [
+        "Aligarh"
+      ],
+      "longitude": 78.059842,
+      "latitude": 27.894157,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159149181",
+      "name": "Meerut",
+      "aliases": [
+        "Meerut"
+      ],
+      "longitude": 77.698055,
+      "latitude": 29.002358,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159149183",
+      "name": "Dhanbad",
+      "aliases": [
+        "Dhanbad"
+      ],
+      "longitude": 86.41804,
+      "latitude": 23.802339,
+      "region": "Jharkhand"
+    },
+    {
+      "id": "1159149185",
+      "name": "Gwalior",
+      "aliases": [
+        "Gwalior"
+      ],
+      "longitude": 78.169197,
+      "latitude": 26.200035,
+      "region": "Madhya Pradesh"
+    },
+    {
+      "id": "1159149187",
+      "name": "Vadodara",
+      "aliases": [
+        "Vadodara",
+        "Baroda"
+      ],
+      "longitude": 73.178073,
+      "latitude": 22.311965,
+      "region": "Dadra and Nagar Haveli"
+    },
+    {
+      "id": "1159149189",
+      "name": "Rajkot",
+      "aliases": [
+        "Rajkot"
+      ],
+      "longitude": 70.798063,
+      "latitude": 22.311965,
+      "region": "Dadra and Nagar Haveli"
+    },
+    {
+      "id": "1159149999",
+      "name": "Faridabad",
+      "aliases": [
+        "Faridabad"
+      ],
+      "longitude": 77.314721,
+      "latitude": 28.435279,
+      "region": "Haryana"
+    },
+    {
+      "id": "1159150001",
+      "name": "Srinagar",
+      "aliases": [
+        "Srinagar"
+      ],
+      "longitude": 74.828309,
+      "latitude": 34.069474,
+      "region": "Jammu and Kashmir"
+    },
+    {
+      "id": "1159150003",
+      "name": "Vijayawada",
+      "aliases": [
+        "Vijayawada",
+        "Bezwada|Bezawada"
+      ],
+      "longitude": 80.628057,
+      "latitude": 16.521905,
+      "region": "Andhra Pradesh"
+    },
+    {
+      "id": "1159150007",
+      "name": "Thiruvananthapuram",
+      "aliases": [
+        "Thiruvananthapuram"
+      ],
+      "longitude": 76.925191,
+      "latitude": 8.515521,
+      "region": "Kerala"
+    },
+    {
+      "id": "1159150009",
+      "name": "Kochi",
+      "aliases": [
+        "Kochi"
+      ],
+      "longitude": 76.22197,
+      "latitude": 10.016953,
+      "region": "Kerala"
+    },
+    {
+      "id": "1159150011",
+      "name": "Cuttack",
+      "aliases": [
+        "Cuttack"
+      ],
+      "longitude": 85.889941,
+      "latitude": 20.470002,
+      "region": "Orissa"
+    },
+    {
+      "id": "1159150013",
+      "name": "Hubballi",
+      "aliases": [
+        "Hubballi"
+      ],
+      "longitude": 75.12307,
+      "latitude": 15.361924,
+      "region": "Karnataka"
+    },
+    {
+      "id": "1159150015",
+      "name": "Mangaluru",
+      "aliases": [
+        "Mangaluru"
+      ],
+      "longitude": 74.849994,
+      "latitude": 12.900025,
+      "region": "Karnataka"
+    },
+    {
+      "id": "1159150017",
+      "name": "Mysuru",
+      "aliases": [
+        "Mysuru"
+      ],
+      "longitude": 76.658067,
+      "latitude": 12.31193,
+      "region": "Karnataka"
+    },
+    {
+      "id": "1159150019",
+      "name": "Kalaburagi",
+      "aliases": [
+        "Kalaburagi"
+      ],
+      "longitude": 76.820003,
+      "latitude": 17.34996,
+      "region": "Karnataka"
+    },
+    {
+      "id": "1159150021",
+      "name": "Kolhapur",
+      "aliases": [
+        "Kolhapur"
+      ],
+      "longitude": 74.220007,
+      "latitude": 16.7,
+      "region": "Maharashtra"
+    },
+    {
+      "id": "1159150025",
+      "name": "Nanded",
+      "aliases": [
+        "Nanded"
+      ],
+      "longitude": 77.308337,
+      "latitude": 19.197259,
+      "region": "Maharashtra"
+    },
+    {
+      "id": "1159150027",
+      "name": "Akola",
+      "aliases": [
+        "Akola"
+      ],
+      "longitude": 77.010018,
+      "latitude": 20.709988,
+      "region": "Maharashtra"
+    },
+    {
+      "id": "1159150029",
+      "name": "Guwahati",
+      "aliases": [
+        "Guwahati",
+        "Gauhati|Dispur|Gauhati"
+      ],
+      "longitude": 91.768049,
+      "latitude": 26.161963,
+      "region": "Assam"
+    },
+    {
+      "id": "1159150137",
+      "name": "Ludhiana",
+      "aliases": [
+        "Ludhiana"
+      ],
+      "longitude": 75.870312,
+      "latitude": 30.929708,
+      "region": "Punjab"
+    },
+    {
+      "id": "1159150139",
+      "name": "Kota",
+      "aliases": [
+        "Kota"
+      ],
+      "longitude": 75.833053,
+      "latitude": 25.181945,
+      "region": "Rajasthan"
+    },
+    {
+      "id": "1159150141",
+      "name": "Jodhpur",
+      "aliases": [
+        "Jodhpur"
+      ],
+      "longitude": 73.014827,
+      "latitude": 26.293712,
+      "region": "Rajasthan"
+    },
+    {
+      "id": "1159150147",
+      "name": "Lucknow",
+      "aliases": [
+        "Lucknow"
+      ],
+      "longitude": 80.913053,
+      "latitude": 26.856985,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159150151",
+      "name": "Saharanpur",
+      "aliases": [
+        "Saharanpur"
+      ],
+      "longitude": 77.550036,
+      "latitude": 29.970017,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159150153",
+      "name": "Ranchi",
+      "aliases": [
+        "Ranchi"
+      ],
+      "longitude": 85.32808,
+      "latitude": 23.371952,
+      "region": "Jharkhand"
+    },
+    {
+      "id": "1159150155",
+      "name": "Bhagalpur",
+      "aliases": [
+        "Bhagalpur"
+      ],
+      "longitude": 86.980003,
+      "latitude": 25.229996,
+      "region": "Bihar"
+    },
+    {
+      "id": "1159150157",
+      "name": "Raipur",
+      "aliases": [
+        "Raipur"
+      ],
+      "longitude": 81.633061,
+      "latitude": 21.23694,
+      "region": "Chhattisgarh"
+    },
+    {
+      "id": "1159150159",
+      "name": "Jabalpur",
+      "aliases": [
+        "Jabalpur"
+      ],
+      "longitude": 79.953112,
+      "latitude": 23.177003,
+      "region": "Madhya Pradesh"
+    },
+    {
+      "id": "1159150161",
+      "name": "Indore",
+      "aliases": [
+        "Indore"
+      ],
+      "longitude": 75.863077,
+      "latitude": 22.717005,
+      "region": "Madhya Pradesh"
+    },
+    {
+      "id": "1159150163",
+      "name": "Puducherry",
+      "aliases": [
+        "Puducherry"
+      ],
+      "longitude": 79.83,
+      "latitude": 11.934994,
+      "region": "Puducherry"
+    },
+    {
+      "id": "1159150165",
+      "name": "Salem",
+      "aliases": [
+        "Salem"
+      ],
+      "longitude": 78.178129,
+      "latitude": 11.671943,
+      "region": "Tamil Nadu"
+    },
+    {
+      "id": "1159150169",
+      "name": "Tiruchirappalli",
+      "aliases": [
+        "Tiruchirappalli",
+        "Trichinopoly|Tiruchirappalli"
+      ],
+      "longitude": 78.687512,
+      "latitude": 10.800541,
+      "region": "Tamil Nadu"
+    },
+    {
+      "id": "1730025033",
+      "name": "Leh",
+      "aliases": [
+        "Leh"
+      ],
+      "longitude": 77.572291,
+      "latitude": 34.161559,
+      "region": "Ladakh"
+    },
+    {
+      "id": "1730025037",
+      "name": "Amaravati",
+      "aliases": [
+        "Amaravati"
+      ],
+      "longitude": 80.52432,
+      "latitude": 16.533658,
+      "region": "Andhra Pradesh"
+    },
+    {
+      "id": "1159150463",
+      "name": "Kozhikode",
+      "aliases": [
+        "Kozhikode"
+      ],
+      "longitude": 75.768044,
+      "latitude": 11.252382,
+      "region": "Kerala"
+    },
+    {
+      "id": "1159150465",
+      "name": "Bhubaneswar",
+      "aliases": [
+        "Bhubaneshwar",
+        "Bhubaneswar"
+      ],
+      "longitude": 85.825414,
+      "latitude": 20.272374,
+      "region": "Orissa"
+    },
+    {
+      "id": "1159150467",
+      "name": "Jamshedpur",
+      "aliases": [
+        "Jamshedpur"
+      ],
+      "longitude": 86.195573,
+      "latitude": 22.789481,
+      "region": "Jharkhand"
+    },
+    {
+      "id": "1159150915",
+      "name": "Vishakhapatnam",
+      "aliases": [
+        "Vishakhapatnam",
+        "Visakhapatnam"
+      ],
+      "longitude": 83.219848,
+      "latitude": 17.682903,
+      "region": "Andhra Pradesh"
+    },
+    {
+      "id": "1159150975",
+      "name": "Amritsar",
+      "aliases": [
+        "Amritsar"
+      ],
+      "longitude": 74.868047,
+      "latitude": 31.641938,
+      "region": "Punjab"
+    },
+    {
+      "id": "1159150979",
+      "name": "Varanasi",
+      "aliases": [
+        "Varanasi",
+        "Benares"
+      ],
+      "longitude": 82.998094,
+      "latitude": 25.331936,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159150981",
+      "name": "Asansol",
+      "aliases": [
+        "Asansol"
+      ],
+      "longitude": 86.981387,
+      "latitude": 23.685279,
+      "region": "West Bengal"
+    },
+    {
+      "id": "1159150983",
+      "name": "Bhilai",
+      "aliases": [
+        "Bhilai",
+        "Durg-Bhilainagar"
+      ],
+      "longitude": 81.372213,
+      "latitude": 21.211262,
+      "region": "Chhattisgarh"
+    },
+    {
+      "id": "1159150985",
+      "name": "Bhopal",
+      "aliases": [
+        "Bhopal"
+      ],
+      "longitude": 77.408047,
+      "latitude": 23.251934,
+      "region": "Madhya Pradesh"
+    },
+    {
+      "id": "1159150987",
+      "name": "Madurai",
+      "aliases": [
+        "Madurai"
+      ],
+      "longitude": 78.118081,
+      "latitude": 9.921972,
+      "region": "Tamil Nadu"
+    },
+    {
+      "id": "1159150989",
+      "name": "Coimbatore",
+      "aliases": [
+        "Coimbatore"
+      ],
+      "longitude": 76.948075,
+      "latitude": 11.001906,
+      "region": "Tamil Nadu"
+    },
+    {
+      "id": "1159151405",
+      "name": "Delhi",
+      "aliases": [
+        "Delhi"
+      ],
+      "longitude": 77.228058,
+      "latitude": 28.671939,
+      "region": "Delhi"
+    },
+    {
+      "id": "1159151407",
+      "name": "Hyderabad",
+      "aliases": [
+        "Hyderabad"
+      ],
+      "longitude": 78.478008,
+      "latitude": 17.401929,
+      "region": "Telangana"
+    },
+    {
+      "id": "1159151411",
+      "name": "Pune",
+      "aliases": [
+        "Pune",
+        "Poona"
+      ],
+      "longitude": 73.851892,
+      "latitude": 18.516394,
+      "region": "Maharashtra"
+    },
+    {
+      "id": "1159151413",
+      "name": "Nagpur",
+      "aliases": [
+        "Nagpur"
+      ],
+      "longitude": 79.088048,
+      "latitude": 21.171906,
+      "region": "Maharashtra"
+    },
+    {
+      "id": "1159151423",
+      "name": "Jaipur",
+      "aliases": [
+        "Jaipur"
+      ],
+      "longitude": 75.808042,
+      "latitude": 26.923079,
+      "region": "Rajasthan"
+    },
+    {
+      "id": "1159151425",
+      "name": "Kanpur",
+      "aliases": [
+        "Kanpur"
+      ],
+      "longitude": 80.31805,
+      "latitude": 26.461945,
+      "region": "Uttar Pradesh"
+    },
+    {
+      "id": "1159151429",
+      "name": "Patna",
+      "aliases": [
+        "Patna"
+      ],
+      "longitude": 85.128093,
+      "latitude": 25.626905,
+      "region": "Bihar"
+    },
+    {
+      "id": "1159151431",
+      "name": "Chennai",
+      "aliases": [
+        "Chennai"
+      ],
+      "longitude": 80.278053,
+      "latitude": 13.091934,
+      "region": "Tamil Nadu"
+    },
+    {
+      "id": "1159151433",
+      "name": "Ahmedabad",
+      "aliases": [
+        "Ahmedabad",
+        "Ahmadabad"
+      ],
+      "longitude": 72.578058,
+      "latitude": 23.031999,
+      "region": "Dadra and Nagar Haveli"
+    },
+    {
+      "id": "1159151435",
+      "name": "Surat",
+      "aliases": [
+        "Surat"
+      ],
+      "longitude": 72.838094,
+      "latitude": 21.20193,
+      "region": "Dadra and Nagar Haveli"
+    },
+    {
+      "id": "1159151541",
+      "name": "New Delhi",
+      "aliases": [
+        "New Delhi"
+      ],
+      "longitude": 77.19998,
+      "latitude": 28.600023,
+      "region": "Delhi"
+    },
+    {
+      "id": "1159151543",
+      "name": "Bengaluru",
+      "aliases": [
+        "Bengaluru"
+      ],
+      "longitude": 77.558064,
+      "latitude": 12.971941,
+      "region": "Karnataka"
+    },
+    {
+      "id": "1159151611",
+      "name": "Mumbai",
+      "aliases": [
+        "Mumbai"
+      ],
+      "longitude": 72.875839,
+      "latitude": 19.068408,
+      "region": "Maharashtra"
+    },
+    {
+      "id": "1159151617",
+      "name": "Kolkata",
+      "aliases": [
+        "Kolkata"
+      ],
+      "longitude": 88.369126,
+      "latitude": 22.569579,
+      "region": "West Bengal"
+    }
+  ]
+}

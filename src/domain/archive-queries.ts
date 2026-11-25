@@ -22,7 +22,7 @@ export function archiveOptions(snapshot:ArchiveSnapshot) {
   const unique=(values:(string|null)[])=>[...new Set(values.filter((v):v is string=>!!v))].sort((a,b)=>a.localeCompare(b));
   return {cities:unique(snapshot.companies.map(c=>c.city)),sectors:unique(snapshot.companies.map(c=>c.sector)),stages:unique(snapshot.companies.flatMap(c=>c.rounds.map(r=>r.stage)))};
 }
-export function queryArchive(snapshot:ArchiveSnapshot,filters:CompanyFilters) {
+export function filterArchiveRows(snapshot:ArchiveSnapshot,filters:CompanyFilters):CompanyRow[] {
   const query=filters.q.trim().toLocaleLowerCase('en');
   const rows:CompanyRow[]=[];
   for(const company of snapshot.companies) {
@@ -39,6 +39,10 @@ export function queryArchive(snapshot:ArchiveSnapshot,filters:CompanyFilters) {
   }
   rows.sort((a,b)=>filters.sort==='funding'?compareAmounts(a.tracked_amount_usd,b.tracked_amount_usd)||a.brand_name.localeCompare(b.brand_name):
     filters.sort==='recent'?(b.latest_announced_on??'').localeCompare(a.latest_announced_on??'')||a.brand_name.localeCompare(b.brand_name):a.brand_name.localeCompare(b.brand_name));
+  return rows;
+}
+export function queryArchive(snapshot:ArchiveSnapshot,filters:CompanyFilters) {
+  const rows=filterArchiveRows(snapshot,filters);
   return {mode:'archive' as const,companies:rows.slice(filters.offset,filters.offset+filters.limit),total:rows.length,
     metrics:{company_count:rows.length,event_count:rows.reduce((n,c)=>n+c.tracked_event_count,0),
       tracked_amount_usd:sumUsd(rows.map(c=>c.tracked_amount_usd)),unpriced_event_count:rows.reduce((n,c)=>n+c.unpriced_event_count,0)},

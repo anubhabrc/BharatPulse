@@ -1,6 +1,6 @@
 # BharatPulse Geo
 
-An Indian startup intelligence project with a source-linked company and funding repository. The app includes a searchable Next.js screener, company funding timelines, an imported BWM Notion archive, PostgreSQL migrations, and reviewed import tools.
+An Indian startup intelligence project with a source-linked company and funding repository. The app includes a searchable Next.js screener, company funding timelines, an imported BWM Notion archive, PostgreSQL migrations, reviewed import tools, publication headlines, sourced founder profiles, and a city-level startup map.
 
 The default app uses real records imported directly from Backstage with Millionaires’ public Notion archive: 1,905 companies and 2,337 funding events across 135 populated weekly pages. The import checks all 148 linked weeks and records the 13 empty published pages separately. Source dates span 2 January 2024 to 20 November 2026. This is a bundled snapshot, so localhost and Vercel show real data without database setup. Synthetic fixtures remain available only through explicit `DATA_MODE=demo`; database failures never silently switch data sources.
 
@@ -21,9 +21,19 @@ Open <http://127.0.0.1:3000>. Company search, city/sector/stage/date filters, fu
 npm run data:sync -- --refresh
 ```
 
-This reads the public weekly tables without authentication and generates `data/bwm-archive.json` and `data/bwm-import-report.json`. Cached responses live in the ignored `work/notion-cache/` directory. A normal `npm run data:sync` can resume using that cache. Failed or restricted requests prevent replacement of the previous snapshot. Commit the generated snapshot to publish an update through the GitHub/Vercel integration; no unattended schedule is configured.
+This reads the public weekly tables without authentication and generates `data/bwm-archive.json` and `data/bwm-import-report.json`. Cached responses live in the ignored `work/notion-cache/` directory. A normal `npm run data:sync` can resume using that cache. Failed or restricted requests prevent replacement of the previous snapshot. The `Refresh public sources` GitHub Actions workflow is configured for daily Notion refreshes (06:11 IST) and six-hour RSS refreshes (05:53 / 11:53 / 17:53 / 23:53 IST). It supports manual runs, checks tests and production builds, then commits only the generated snapshots through the existing GitHub/Vercel integration. See the live Actions history and `/sources` timestamps to verify actual delivery. GitHub schedules are best-effort and can be disabled after repository inactivity. No laptop, paid cron service or new model key is required. A drop of more than 20% in companies/events/populated pages or a shrinking historical date range blocks replacement pending review; `--allow-large-removals` is a deliberate operator override.
 
 The snapshot preserves source-reported amounts and links. It is not an audited financial database or a complete lifetime-funding history. See `docs/data-source.md` for field mapping, duplicate handling and coverage details.
+
+## Publication news and startup map
+
+`npm run news:sync` imports headline/link/date metadata from the enabled sources in `data/feed-sources.json`: Inc42, Entrackr, YourStory, The Ken and The Arc. The importer accepts bounded RSS/Atom, rejects unsafe source links and XML entities, deduplicates URLs, keeps 90 days (at most 2,500 items), and preserves prior items on feed failures. Automatic company name matches are suggestions; they do not create funding events. `/news?view=unmatched` shows the unmatched inbox. `/sources` exposes per-feed health and freshness. No full articles or paywalled text are copied.
+
+The landing page renders the company list on the server. After hydration, idle preparation fetches compact map data and imports MapLibre without starting WebGL; data-saver and slow connections skip this background step. The map initializes when opened and removes its resources when closed. It clusters city hubs with company counts, shares all screener filters, and uses the entire matching cohort rather than a table page. The first snapshot maps 1,775 of 1,905 companies to 45 city centres; 130 unresolved locations remain unmapped. City centres are approximate and never imply offices. OpenFreeMap is a free external basemap service, with its required attribution preserved.
+
+`data/company-info.json` contains six curated company/founder profiles with field-level primary sources and observation dates: Zepto, Meesho, Sarvam, Ather Energy, Skyroot Aerospace and Pixxel. Unknown facts for other companies are left blank. Natural Earth city coordinates and licenses are recorded in `data/city-centres.json`.
+
+Use `docs/roadmap.md` as the maintained checklist in ascending implementation difficulty and `docs/sources.md` for verified access and source restrictions.
 
 ## Connect PostgreSQL
 
@@ -71,6 +81,7 @@ Once real records are loaded, change `.env` to `DATA_MODE=database` and restart 
 
 - `GET /api/companies?q=example&city=Bengaluru&stage=Seed&from=2024-01-01&sort=recent&limit=20&offset=0`: archive company search and filters, matching cohort metrics, source metadata and pagination. `sector` and `to` are also supported; sort is `recent`, `funding` or `name`. Limit is at most 100. Numeric amounts are returned as strings.
 - `GET /api/companies/[slug]`: imported company metadata, funding events and source links. The corresponding profile page is `/company/[slug]`.
+- `GET /api/map`: shared archive filters, compact GeoJSON city hubs, counts and featured profiles; table pagination does not limit the map cohort.
 - `POST /api/areas`: body is a GeoJSON Polygon geometry, not a Feature. Includes boundary points, uses the latest observed HQ as of today, and includes only address-level locations. Requires database mode and both migrations. Results are capped at 1000 and expose a truncation flag.
 
 Example geometry:
@@ -103,12 +114,8 @@ The test suite executes the actual core migration and reviewed importer against 
 
 Financial and media tables are foundations only; their ingestion and profile presentation are not implemented yet. The real BWM archive works as a bundled snapshot; it has not been loaded into a hosted PostgreSQL instance. No authenticated MCA, EPFO or video provider is configured.
 
-## Next milestone
+## Next work
 
-1. Add an explicit correction workflow for conflicting archive entries, company aliases and changing source facts.
-2. Load accepted archive observations into a hosted PostgreSQL instance, preserving the reported-versus-reviewed distinction.
-3. Add a MapLibre/Terra Draw workspace synchronized with table filters, beginning with source-reported city coverage and separately verified address data.
-4. Add a single RSS adapter that writes extraction candidates to staging, plus a review interface.
-5. Curate and review a small timestamped video corpus, then implement cited answers with SQL-derived aggregates and cohort-restricted retrieval.
+Follow the stable IDs in `docs/roadmap.md`, ordered from small deterministic features to research/access-dependent work. Near-term additions are sector baskets, CSV exports, investor observations, more source-backed founder profiles and a correction/review workflow. Hosted PostGIS, exact office locations, polygon drawing, source-qualified financial matrices and cited AI answers remain separate milestones.
 
 Satellite processing, EPFO, land/rent analytics, subscriptions, contact introductions and social sentiment remain later work. See `docs/decisions.md` for the engineering decisions and unresolved product choices.

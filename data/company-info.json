@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "companies": [
+    {
+      "slug": "zepto",
+      "description": {
+        "text": "Quick-commerce grocery delivery through a network of local fulfilment centres.",
+        "source_url": "https://www.ycombinator.com/companies/zepto"
+      },
+      "founders": [
+        {
+          "name": "Aadit Palicha",
+          "source_url": "https://www.ycombinator.com/companies/zepto"
+        },
+        {
+          "name": "Kaivalya Vohra",
+          "source_url": "https://www.ycombinator.com/companies/zepto"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-25"
+    },
+    {
+      "slug": "meesho",
+      "description": {
+        "text": "An e-commerce marketplace connecting sellers and consumers across India.",
+        "source_url": "https://www.ycombinator.com/companies/meesho"
+      },
+      "founders": [
+        {
+          "name": "Vidit Aatrey",
+          "source_url": "https://www.ycombinator.com/companies/meesho"
+        },
+        {
+          "name": "Sanjeev Barnwal",
+          "source_url": "https://www.ycombinator.com/companies/meesho"
+        }
+      ],
+      "founded_year": {
+        "value": 2015,
+        "source_url": "https://www.ycombinator.com/companies/meesho"
+      },
+      "checked_on": "2026-11-25"
+    },
+    {
+      "slug": "sarvam",
+      "description": {
+        "text": "Develops Indian-language AI models and a platform for voice and enterprise AI applications.",
+        "source_url": "https://www.sarvam.ai/about-us"
+      },
+      "founders": [
+        {
+          "name": "Vivek Raghavan",
+          "source_url": "https://www.sarvam.ai/about-us"
+        },
+        {
+          "name": "Pratyush Kumar",
+          "source_url": "https://www.sarvam.ai/about-us"
+        }
+      ],
+      "founded_year": {
+        "value": 2023,
+        "source_url": "https://www.sarvam.ai/about-us"
+      },
+      "checked_on": "2026-11-25"
+    },
+    {
+      "slug": "ather-energy",
+      "description": {
+        "text": "Builds electric two-wheelers and the technology and charging ecosystem supporting them.",
+        "source_url": "https://media.atherenergy.com/Impact-Report-2024.pdf"
+      },
+      "founders": [
+        {
+          "name": "Tarun Mehta",
+          "source_url": "https://media.atherenergy.com/Impact-Report-2024.pdf"
+        },
+        {
+          "name": "Swapnil Jain",
+          "source_url": "https://media.atherenergy.com/Impact-Report-2024.pdf"
+        }
+      ],
+      "founded_year": {
+        "value": 2013,
+        "source_url": "https://media.atherenergy.com/Impact-Report-2024.pdf"
+      },
+      "checked_on": "2026-11-25"
+    },
+    {
+      "slug": "skyroot-aerospace",
+      "description": {
+        "text": "Develops launch vehicles and space launch technology in Hyderabad.",
+        "source_url": "https://www.skyroot.in/about-skyroot"
+      },
+      "founders": [
+        {
+          "name": "Pawan Kumar Chandana",
+          "source_url": "https://www.skyroot.in/about-skyroot"
+        },
+        {
+          "name": "Naga Bharath Daka",
+          "source_url": "https://www.skyroot.in/about-skyroot"
+        }
+      ],
+      "founded_year": {
+        "value": 2018,
+        "source_url": "https://www.skyroot.in/about-skyroot"
+      },
+      "checked_on": "2026-11-25"
+    },
+    {
+      "slug": "pixxel",
+      "description": {
+        "text": "Builds hyperspectral Earth-observation satellites and tools for analysing their imagery.",
+        "source_url": "https://www.pixxel.space/team"
+      },
+      "founders": [
+        {
+          "name": "Awais Ahmed",
+          "source_url": "https://www.pixxel.space/team"
+        },
+        {
+          "name": "Kshitij Khandelwal",
+          "source_url": "https://www.pixxel.space/team"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-25"
+    }
+  ]
+}

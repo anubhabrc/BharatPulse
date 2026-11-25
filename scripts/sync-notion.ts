@@ -1,6 +1,8 @@
 import {readFile,writeFile,mkdir,rename,stat} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {createHash} from 'node:crypto';
+import {assertArchiveCoverage} from '../src/domain/snapshot-guard';
+import type {ArchiveSnapshot} from '../src/domain/notion-archive';
 import {BWM_ROOT_ID,buildArchiveSnapshot,richText,richTextLink,notionDate,safeSourceUrl,type ArchiveObservation} from '../src/domain/notion-archive';
 
 // Public, unauthenticated page reads only. No browser cookies, private pages,
@@ -105,7 +107,9 @@ if(failures.length){console.error(JSON.stringify(failures,null,2));throw new Err
 // contributing response as the conservative snapshot freshness boundary.
 const retrievedAt=loadedAt.sort()[0];if(!retrievedAt)throw new Error('No source retrieval times available');
 const snapshot=buildArchiveSnapshot(observations,{retrieved_at:retrievedAt,pages_discovered:weeks.length,pages_imported:completed,pages_empty:emptyPages.length});
-if(snapshot.companies.length<100||snapshot.coverage.event_count<100)throw new Error('Unexpectedly small archive. Previous snapshot retained.');
+let previous:ArchiveSnapshot|null=null;
+try{previous=JSON.parse(await readFile('data/bwm-archive.json','utf8'));}catch(error){if((error as NodeJS.ErrnoException).code!=='ENOENT')throw error;}
+assertArchiveCoverage(previous,snapshot,args.includes('--allow-large-removals'));
 const target=resolve('data/bwm-archive.json');await writeFile(`${target}.tmp`,JSON.stringify(snapshot,null,2)+'\n');await rename(`${target}.tmp`,target);
 await writeFile(resolve('data/bwm-import-report.json'),JSON.stringify({generated_at:new Date().toISOString(),retrieved_at:snapshot.retrieved_at,coverage:snapshot.coverage,empty_pages:emptyPages.sort((a,b)=>a.id.localeCompare(b.id)),failed_pages:failures},null,2)+'\n');
 console.log(JSON.stringify(snapshot.coverage,null,2));

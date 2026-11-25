@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "inc42",
+      "name": "Inc42",
+      "url": "https://inc42.com/feed/",
+      "allowed_hosts": [
+        "inc42.com",
+        "www.inc42.com"
+      ],
+      "enabled": true,
+      "usage": "headline_metadata_only"
+    },
+    {
+      "id": "entrackr",
+      "name": "Entrackr",
+      "url": "https://entrackr.com/rss",
+      "allowed_hosts": [
+        "entrackr.com",
+        "www.entrackr.com"
+      ],
+      "enabled": true,
+      "usage": "headline_metadata_only"
+    },
+    {
+      "id": "yourstory",
+      "name": "YourStory",
+      "url": "https://yourstory.com/feed",
+      "allowed_hosts": [
+        "yourstory.com",
+        "www.yourstory.com"
+      ],
+      "enabled": true,
+      "usage": "headline_metadata_only"
+    },
+    {
+      "id": "the-ken",
+      "name": "The Ken",
+      "url": "https://the-ken.com/feed/",
+      "allowed_hosts": [
+        "the-ken.com",
+        "www.the-ken.com"
+      ],
+      "enabled": true,
+      "usage": "headline_metadata_only"
+    },
+    {
+      "id": "the-arc",
+      "name": "The Arc",
+      "url": "https://www.thearcweb.com/rss.xml",
+      "allowed_hosts": [
+        "thearcweb.com",
+        "www.thearcweb.com"
+      ],
+      "enabled": true,
+      "usage": "headline_metadata_only"
+    }
+  ]
+}
