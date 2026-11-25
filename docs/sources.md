@@ -14,12 +14,13 @@ Verified 25 November 2026. These are actual access tests, not endorsements of ev
 | NDTV general RSS | https://www.ndtv.com/rss | Publisher states personal, non-commercial RSS use | Do not treat this as an unrestricted public SaaS data license or silently substitute it for NDTV Profit |
 | VCCircle | https://www.vccircle.com/feed | HTTP 404 | Discovery/research pending; no assumed free API |
 | The CapTable | https://the-captable.com/feed | HTTP 404 HTML | Discovery/research pending; no assumed full-text access |
-| DPIIT/Startup India | Official startup recognition/directory services | No bulk automated endpoint selected yet | Research/download adapter after terms and data availability are checked |
-| MCA | Official public-document service or an approved provider | Document access and provider coverage differ; filings can require payment | Later financial enrichment; do not assume a free bulk AOC-4 API or invented per-company prices |
+| DPIIT/Startup India | [OGD recognised-startup catalog](https://www.data.gov.in/catalog/startup-recognized-dpiit) | Official catalog describes counts by year, industry and state; not a company-level funding feed | Future macro baselines; company-level recognition matching needs a separate verified route |
+| MCA company master data | [Official OGD catalog](https://www.data.gov.in/catalog/company-master-data) | Catalog advertises open downloads/API and CIN, name, status, category, capital, registration date and location fields; a record endpoint/key has not been integrated | Candidate for periodic legal-entity enrichment after a reviewed brand-to-CIN match; master data is not a financial filing or funding history |
+| MCA filings | Official public-document service or an approved provider | Document access and provider coverage differ; filings can require payment. The [CDM export portal](https://www.mcacdm.nic.in/company-master-details.php) includes a CAPTCHA | Later financial enrichment; do not assume a free bulk AOC-4 API, bypass CAPTCHA or invent per-company prices |
 
 ## Free and open-source implementation choices
 
-- GitHub Actions in this public repository for daily Notion and six-hour RSS jobs. Scheduled runs are best-effort, and GitHub can disable inactive public-repository schedules. Failures are visible in Actions; unchanged/failed source content must not wipe prior snapshots.
+- GitHub Actions in this public repository for daily Notion and six-hour RSS jobs. Notion uses a single request stream spaced 1.8 seconds apart in CI, with longer HTTP 429 backoff and Retry-After handling. Source steps fail independently, so a failed Notion refresh can retain its snapshot while checked RSS updates publish; the workflow still reports the failed refresh. Scheduled runs are best-effort, and GitHub can disable inactive public-repository schedules. Failures are visible in Actions; unchanged/failed source content must not wipe prior snapshots.
 - fast-xml-parser for bounded RSS/Atom parsing. Only headlines, source URLs, dates and matching metadata are persisted. No LLM key is required for the initial feed layer.
 - MapLibre GL JS for WebGL mapping, OpenFreeMap for the initial public vector basemap and Natural Earth public-domain populated places for cached city centres. Preserve basemap attribution. Public tile hosting is an external service; open-source code does not guarantee an SLA.
 - Current source-reported city labels are not precise office locations. Unrecognized or ambiguous locations remain unmapped. Do not jitter city-centre points to fabricate office pins.
@@ -29,3 +30,7 @@ Verified 25 November 2026. These are actual access tests, not endorsements of ev
 ## Reliability rules
 
 Preserve the last good dataset after failures; record freshness and partial failures. Normalize URLs and distinguish repeated reporting from distinct funding rounds. RSS headlines are not accepted funding events. Company mentions are automatic link suggestions, not independent verification. Disclose source and coordinate precision in the UI. Keep paid/licensed/access-dependent features in the roadmap until their data path is verified.
+
+## Government data boundaries
+
+The official MCA master-data catalog is a promising free route for identity/status/incorporation metadata, separate from the harder financial-filings integration. Confirm resource freshness, schema, API-key requirements and licensing before implementing it. A company brand must not be matched to a legal entity by fuzzy name alone. The DPIIT catalog describes recognised-startup counts by industry/state/year; those macro counts cannot be treated as the funded BWM cohort or evidence about an individual company. Neither catalog is active in the app yet.

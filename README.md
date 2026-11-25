@@ -13,7 +13,7 @@ npm ci
 npm run dev
 ```
 
-Open <http://127.0.0.1:3000>. Company search, city/sector/stage/date filters, funding totals, pagination, and source-linked company timelines work without credentials. Existing Vercel projects need no data environment variables for the default archive mode.
+Open <http://localhost:3000>. Company search, city/sector/stage/date filters, funding totals, pagination, and source-linked company timelines work without credentials. Existing Vercel projects need no data environment variables for the default archive mode.
 
 ## Refresh the Notion snapshot
 
@@ -29,7 +29,7 @@ The snapshot preserves source-reported amounts and links. It is not an audited f
 
 `npm run news:sync` imports headline/link/date metadata from the enabled sources in `data/feed-sources.json`: Inc42, Entrackr, YourStory, The Ken and The Arc. The importer accepts bounded RSS/Atom, rejects unsafe source links and XML entities, deduplicates URLs, keeps 90 days (at most 2,500 items), and preserves prior items on feed failures. Automatic company name matches are suggestions; they do not create funding events. `/news?view=unmatched` shows the unmatched inbox. `/sources` exposes per-feed health and freshness. No full articles or paywalled text are copied.
 
-The landing page renders the company list on the server. After hydration, idle preparation fetches compact map data and imports MapLibre without starting WebGL; data-saver and slow connections skip this background step. The map initializes when opened and removes its resources when closed. It clusters city hubs with company counts, shares all screener filters, and uses the entire matching cohort rather than a table page. The first snapshot maps 1,775 of 1,905 companies to 45 city centres; 130 unresolved locations remain unmapped. City centres are approximate and never imply offices. OpenFreeMap is a free external basemap service, with its required attribution preserved.
+The landing page renders the company list on the server. After hydration, idle preparation fetches compact map data and imports MapLibre without starting WebGL; data-saver and slow connections skip this background step. The map initializes when opened and removes its resources when closed. It clusters city hubs with company counts, shares all screener filters, and uses the entire matching cohort rather than a table page. The first snapshot maps 1,778 of 1,905 companies to 47 city centres; 127 unresolved locations remain unmapped. City centres are approximate and never imply offices. OpenFreeMap is a free external basemap service, with its required attribution preserved.
 
 `data/company-info.json` contains six curated company/founder profiles with field-level primary sources and observation dates: Zepto, Meesho, Sarvam, Ather Energy, Skyroot Aerospace and Pixxel. Unknown facts for other companies are left blank. Natural Earth city coordinates and licenses are recorded in `data/city-centres.json`.
 

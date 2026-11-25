@@ -18,7 +18,7 @@ A brand is separate from its legal entities. A shared website domain is a matchi
 
 One funding event can have many supporting sources. Amounts stay in original currency units. Secondary transactions do not count as primary equity raised. Rumored and cancelled events do not contribute to tracked totals. Missing values remain unknown. A tracked total describes the accepted corpus, not necessarily lifetime funding.
 
-The current importer requires manually assigned canonical event keys and rejects conflicts. It cannot yet reconcile tranche extensions, retractions, currency disputes or legal reorganizations. Those need an explicit correction/review workflow before automated feeds are enabled.
+The current importer requires manually assigned canonical event keys and rejects conflicts. It cannot yet reconcile tranche extensions, retractions, currency disputes or legal reorganizations. Those need an explicit correction/review workflow before automated feed reports can become canonical funding events. RSS headline metadata and name-based company mentions are already separate, read-only discovery signals; they never overwrite funding amounts.
 
 Source versions retain the submitted evidence excerpt and metadata snapshot. A metadata-only source cannot import excerpts. The source-policy field records what the operator established; it is not permission acquired by the software. Full source text, captions, and vendor filings should be retained only according to the applicable source arrangement.
 
@@ -32,6 +32,12 @@ Headquarters, registered offices and operational locations are different kinds o
 
 Operational footprints require sourced boundaries and validity dates; they cannot be inferred from an HQ or a sector label. Sector-wide material can supply background context in an area answer but must not be presented as evidence that a particular local company operates there.
 
+## First map and publication layer
+
+The landing page keeps the server-rendered company list as its default. Idle preparation loads the compact filtered map payload and MapLibre module; data-saver/slow connections skip automatic warming. WebGL initializes only when the map is opened and is removed when the list is restored. MapLibre clusters city hubs and shows summed company counts, preserving OpenFreeMap/OpenStreetMap attribution. Natural Earth centres represent reported cities, not office addresses; unresolved labels are omitted and counted. Six curated company/founder profiles carry field-level sources and checked dates.
+
+The public-source workflow checks Notion daily and RSS every six hours using GitHub Actions. Slow Notion requests and Retry-After backoff respect cloud rate limits. A source failure retains its last good snapshot; independently successful source data can still publish after validation, while the workflow reports any failure. The app reports retrieval/check times rather than claiming continuously live source data. Public feeds provide headlines, links and dates only. See sources.md for tested endpoints and roadmap.md for maintained implementation status.
+
 ## Access and operational limits
 
 Private schemas plus deny-by-default grants and RLS are the starting posture. Production reader and ingestion roles, authorization where required, rate limiting, backup/restore, monitoring and provider-level integration tests remain rollout work. No secret belongs in browser bundles, source control or the hosting manifest.
@@ -40,7 +46,7 @@ The current catalog routes are read-only. No browser-accessible ingestion endpoi
 
 ## Decisions still needed
 
-- Initial customer and geographic depth: national city-level discovery versus one city with verified office addresses.
+- Geographic depth after the initial national city-level map: select a city or cohort for verified office addresses.
 - Definition of an Indian startup: incorporation, founder origin, operating market, headquarters, or a combination.
 - Source access and budget, including baseline round records and geocoding.
 - Whether first users need research profiles, investor discovery or geographic screening most urgently.

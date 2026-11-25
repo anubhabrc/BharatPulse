@@ -26,3 +26,9 @@ test('snapshot guard blocks missing history and large drops while permitting a r
   const next=structuredClone(snapshot);next.companies=next.companies.slice(0,200);assert.throws(()=>assertArchiveCoverage(snapshot,next),/20%/);assert.doesNotThrow(()=>assertArchiveCoverage(snapshot,next,true));
   next.companies=snapshot.companies;next.coverage.first_date='2025-01-01';assert.throws(()=>assertArchiveCoverage(snapshot,next),/start date/);
 });
+test('legacy and current city names resolve without discarding exact gazetteer labels',()=>{
+  const custom=structuredClone(snapshot);custom.companies=custom.companies.slice(0,4);
+  ['Mangalore','Mangaluru','Mysore','Mysuru'].forEach((city,index)=>{custom.companies[index].city=city;});
+  const payload=buildStartupMap(custom,companyFiltersSchema.parse({}),cities.cities,[],cities.source_url);
+  assert.equal(payload.mapped_companies,4);assert.equal(payload.unmapped_companies,0);assert.equal(payload.hubs.length,2);assert.ok(payload.hubs.every(hub=>hub.company_count===2));
+});

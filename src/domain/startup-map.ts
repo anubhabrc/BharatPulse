@@ -11,7 +11,7 @@ export interface StartupMapPayload {
   source_url:string;source_date:string;city_source_url:string;
 }
 const key=(value:string)=>value.normalize('NFKC').trim().toLowerCase().replace(/\s+/g,' ');
-const aliases:Record<string,string>={bangalore:'bengaluru',gurugram:'gurgaon','delhi-ncr':'delhi','delhi - ncr':'delhi','delhi ncr':'delhi',mangaluru:'mangalore',mysuru:'mysore',nasik:'nashik',bhubaneshwar:'bhubaneswar',hyerabad:'hyderabad',belgaum:'belagavi',tiruppur:'tiruppur'};
+const aliases:Record<string,string>={bangalore:'bengaluru',gurugram:'gurgaon','delhi-ncr':'delhi','delhi - ncr':'delhi','delhi ncr':'delhi',mangalore:'mangaluru',mysore:'mysuru',nasik:'nashik',bhubaneshwar:'bhubaneswar',hyerabad:'hyderabad',belgaum:'belagavi',tiruppur:'tiruppur'};
 export function buildStartupMap(snapshot:ArchiveSnapshot,filters:CompanyFilters,centres:CityCentre[],profiles:CompanyInfo[],citySourceUrl:string):StartupMapPayload {
   const lookup=new Map<string,CityCentre>();
   for(const centre of centres)for(const name of [centre.name,...centre.aliases])lookup.set(key(name),centre);
@@ -19,7 +19,7 @@ export function buildStartupMap(snapshot:ArchiveSnapshot,filters:CompanyFilters,
   const rows=filterArchiveRows(snapshot,filters),groups=new Map<string,MapHub>(),allMapped=new Map<string,MapCompany>();
   let unmapped=0;
   for(const row of rows) {
-    const city=row.city,normal=city?key(city):'',centre=lookup.get(aliases[normal]??normal);
+    const city=row.city,normal=city?key(city):'',centre=lookup.get(normal)??lookup.get(aliases[normal]??'');
     if(!city||!centre){unmapped++;continue;}
     let hub=groups.get(centre.id);
     if(!hub){hub={id:centre.id,name:centre.name,reported_cities:[],longitude:centre.longitude,latitude:centre.latitude,company_count:0,companies:[]};groups.set(centre.id,hub);}

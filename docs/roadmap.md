@@ -9,32 +9,33 @@ Status: `[x]` shipped and checked, `[ ]` pending. Work in this change is marked 
 - [x] R01 Canonical company list from BWM Notion with original record and article links. Evidence: 1,905 companies, 2,337 events, source snapshot and parser tests.
 - [x] R02 Company search, city/sector/stage/date filters, pagination and exact decimal funding totals.
 - [x] R03 Company funding timeline, missing-value labels, source dates, explicit snapshot coverage and duplicate/conflict reporting.
-- [ ] R04 Publisher source registry with actual RSS response checks and freshness. **In progress.** Include Inc42, Entrackr, YourStory, The Ken and The Arc; keep unavailable sources visible in the source report.
-- [ ] R05 Sourced descriptions and founder names for an initial set of popular companies. **In progress.** Company sites and company/investor-maintained profiles first; no personal addresses, identifiers or private contacts.
+- [x] R04 Publisher source registry with actual RSS response checks and freshness. Include Inc42, Entrackr, YourStory, The Ken and The Arc; keep unavailable sources visible in the source report.
+- [x] R05 Sourced descriptions and founder names for an initial set of popular companies. Company sites and company/investor-maintained profiles first; no personal addresses, identifiers or private contacts.
 - [ ] R06 Better coarse sector baskets while preserving every original source label. Free deterministic taxonomy first; editable review later.
 - [ ] R07 CSV exports with coverage, source links and amount units.
 
 ## Difficulty 2 Bounded ingestion and presentation
 
 - [x] R08 Repeatable public Notion import, cursor traversal, transient HTTP retries, cached recovery and atomic snapshot replacement.
-- [ ] R09 Daily automated Notion refresh with regression guards, failure logs and a manual run option. **In progress.** GitHub Actions; do not require a running laptop or paid scheduler.
-- [ ] R10 RSS refresh every six hours, headline/URL/date normalization, deduplication, bounded retention and last-good-data preservation. **In progress.** No article-body copying and no paywall bypass.
-- [ ] R11 Company-linked news based on explicit headline mentions, with an unmatched news inbox. **In progress.** A mention is not confirmation of a funding event.
-- [ ] R12 Source health/freshness in the UI and reproducible source reports. **In progress.** Source failures must not erase historical data.
+- [x] R09 Daily automated Notion refresh with regression guards, failure logs and a manual run option. GitHub Actions; do not require a running laptop or paid scheduler.
+- [x] R10 RSS refresh every six hours, headline/URL/date normalization, deduplication, bounded retention and last-good-data preservation. No article-body copying and no paywall bypass.
+- [x] R11 Company-linked news based on explicit headline mentions, with a paginated unmatched news inbox. A mention is not confirmation of a funding event.
+- [x] R12 Source health/freshness in the UI and reproducible source reports. Source failures must not erase historical data.
 - [ ] R13 Investor names and round participation from source-supported observations; do not label this a complete cap table.
 - [ ] R14 Company aliases, consistent URL normalization and an explicit correction history.
 - [ ] R15 Funding/debt/secondary/grant breakdowns and clearly defined historical currency conversions.
-- [ ] R16 Basic cohort charts and stage/sector/city funding trends using SQL or exact deterministic aggregation.
+- [ ] R16 Basic cohort charts and stage/sector/city funding trends using SQL or exact deterministic aggregation; label official DPIIT recognition-count macro baselines separately.
 
 ## Difficulty 3 Interactive discovery and reliable storage
 
-- [ ] R17 Fast national startup map with city-level hubs and popular-company discovery. **In progress.** MapLibre GL JS, OpenFreeMap and cached public-domain city centres. Approximate points must not imply exact offices.
-- [ ] R18 Landing-page list renders first; map code/data warm after the page is usable; WebGL starts only when the map is opened. **In progress.** Shared filters, compact map endpoint, cleanup and error fallback.
+- [x] R17 Fast national startup map with city-level hubs and popular-company discovery. MapLibre GL JS, OpenFreeMap and cached public-domain city centres. Approximate points must not imply exact offices.
+- [x] R18 Landing-page list renders first; map code/data warm after the page is usable; WebGL starts only when the map is opened. Shared filters, compact map endpoint, cleanup and error fallback.
 - [ ] R19 Verified corporate-office address geocoding, accuracy labels, source dates and correction workflow. Use a policy-compliant cached geocoder; no bulk browser autocomplete against public Nominatim.
 - [ ] R20 More founder/company profiles from official sites and reusable source adapters with provenance per field.
 - [ ] R21 Hosted PostgreSQL/PostGIS repository, migrations, separate runtime roles, tested access policies, backups and source-version storage. Core schema exists; hosted integration remains pending.
 - [ ] R22 Human review queue for candidate companies, rounds, aliases, duplicate tranches and contradictory sources. Preserve reported versus accepted facts.
 - [ ] R23 Scheduled jobs with incremental checkpoints, idempotency, observability and recovery beyond committed snapshots.
+- [ ] R41 Periodic MCA company-master enrichment from the official OGD catalog (CIN, legal name, status, incorporation, registered location), with resource freshness, reviewed brand-to-entity matching and private-contact minimization. This is separate from financial filings.
 - [ ] R24 Investor/incubator discovery layers and sourced job listings, with location accuracy and refresh policies.
 - [ ] R25 Basic watchlists, saved filters and funding alerts after authentication and user notification preferences exist.
 
@@ -70,3 +71,4 @@ Every feature change updates the relevant IDs above. Mark an automated refresh s
 ### Change log
 
 - 25 November 2026: Checklist created from the initial conversation and PRD. R01–R03, R08 and the backend portion of R26 were already implemented and tested. This change is implementing R04–R05, R09–R12 and R17–R18.
+- 25 November 2026: Shipped R04–R05, R09–R12 and R17–R18. Validation: 40 local tests, TypeScript, production build, browser checks of city selection, sourced founder cards, company news and canvas cleanup. Current map payload: 41,680 bytes, 1,778 of 1,905 companies across 47 city hubs; 127 unresolved. The news page is capped at 50 headlines per page. The first cloud run exposed Notion HTTP 429 limits; conservative request pacing and Retry-After cooldowns resolved them. [Cloud run 45585285272](https://github.com/anubhabrc/BharatPulse/actions/runs/45585285272) succeeded: 148 Notion pages checked (135 populated, 13 empty), 1,905 companies, 2,337 events, 85 retained headlines, 48 company-linked and five healthy feeds. It ran all 39 tests then present in CI, built the app and automatically committed snapshots as 58d04c8; Vercel reported a successful deployment for that automated commit. The workflow is active with daily Notion and six-hour RSS schedules. R41 added after checking the official MCA/OGD master-data catalog; no MCA/DPIIT company data is connected yet.
