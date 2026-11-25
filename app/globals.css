@@ -2297,3 +2297,17 @@ footer p {
   background: var(--yellow);
 }
 @media(max-width:760px){.atlas-bottomline{bottom:75px}.atlas-disclosure{bottom:39px;font-size:10px}.startup-atlas .maplibregl-ctrl-attrib{font-size:8px}}
+
+/* Source-checked Bengaluru office pilot */
+.office-badge {display:inline-flex;align-items:center;background:var(--mint);border:1px solid var(--ink);border-radius:3px;padding:3px 5px;font:10px var(--mono);font-style:normal;line-height:1.5;white-space:normal}
+.company-card-facts>span {flex-wrap:wrap}
+.company-card-facts .office-badge {font-size:8px;padding:1px 3px}
+.popular-dock .office-pilot {background:var(--yellow);min-height:34px}
+.office-evidence {margin:16px 17px 20px;padding-top:14px;border-top:2px solid var(--ink);font-size:12px;line-height:1.55}
+.office-evidence>p {margin:10px 0}
+.office-evidence>small,.office-context {color:var(--muted);font-size:11px}
+.office-evidence>div {display:flex;gap:14px;flex-wrap:wrap;font-weight:600}
+.company-office h3 {margin-bottom:8px}
+@media(min-width:1101px){.popular-dock .office-pilot{max-width:150px;white-space:normal;text-align:left}}
+
+@media(min-width:1151px){.startup-atlas .popular-dock{bottom:140px;display:flex;flex-direction:column}.startup-atlas .popular-dock>div{overflow-y:auto;flex-wrap:nowrap;min-height:0;pointer-events:auto;padding:0 5px 5px 0;scrollbar-width:thin}.startup-atlas .popular-dock button{flex-shrink:0}}

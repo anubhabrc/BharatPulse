@@ -1,0 +1,47 @@
+{
+  "checked_on": "2026-11-25",
+  "candidates": [
+    {
+      "company_slug": "sarvam",
+      "status": "needs_review",
+      "source_url": "https://www.sarvam.ai/privacy-policy",
+      "reason": "Urban Vault 732 CMH Road is not resolved by the geocoder; policy also contains conflicting postcodes. No office point published.",
+      "geocode_query": "Urban Vault 732 CMH Road Bengaluru"
+    },
+    {
+      "company_slug": "ninjacart",
+      "status": "needs_review",
+      "source_url": "https://ninjacart.com/ninja-kirana-terms-conditions/",
+      "reason": "Official page lists both Vaishnavi Signature and Helios; resolve the current brand/legal-entity address before publishing.",
+      "geocode_query": "Helios Business Park Bengaluru"
+    },
+    {
+      "company_slug": "ather-energy",
+      "status": "needs_review",
+      "source_url": "https://shop.atherenergy.com/pages/policies",
+      "reason": "Official registered address is Tower D, IBC Knowledge Park. Search returned other occupiers/towers, not a sufficiently resolved campus or Tower D point.",
+      "geocode_query": "IBC Knowledge Park Tower D Bengaluru"
+    },
+    {
+      "company_slug": "cashfree-payments",
+      "status": "needs_review",
+      "source_url": "https://www.cashfree.com/privacypolicy/",
+      "reason": "Official address is Building 7, Ecoworld. Search returned roads and other buildings; no accepted coordinate.",
+      "geocode_query": "Ecoworld Building 7 Bengaluru"
+    },
+    {
+      "company_slug": "juspay",
+      "status": "needs_review",
+      "source_url": "https://juspay.io/about",
+      "reason": "Stallion Business Center, 444, 18th Main Road is published; geocoder returned unrelated business centres. No point accepted.",
+      "geocode_query": "Stallion Business Center 444 Koramangala Bengaluru"
+    },
+    {
+      "company_slug": "udaan",
+      "status": "needs_review",
+      "source_url": "https://udaan.com/pages/terms-of-use",
+      "reason": "SJR The Hub office is published; geocoder returned unrelated properties. No point accepted.",
+      "geocode_query": "SJR The Hub Bellandur Bengaluru"
+    }
+  ]
+}
