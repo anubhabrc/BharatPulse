@@ -1,8 +1,8 @@
 # BharatPulse Geo
 
-An Indian startup intelligence project, starting with a source-linked company and funding repository. This checkout implements the first engineering milestone. It includes a searchable Next.js screener, PostgreSQL migrations, a reviewed JSON import CLI, and read-only company and spatial query endpoints.
+An Indian startup intelligence project with a source-linked company and funding repository. The app includes a searchable Next.js screener, company funding timelines, an imported BWM Notion archive, PostgreSQL migrations, and reviewed import tools.
 
-The default preview uses three fictional companies. It does not claim to contain live startup data. Database mode excludes synthetic companies and never silently falls back to demo records after a database error.
+The default app uses real records imported directly from Backstage with Millionaires’ public Notion archive: 1,905 companies and 2,337 funding events across 135 populated weekly pages. The import checks all 148 linked weeks and records the 13 empty published pages separately. Source dates span 2 January 2024 to 20 November 2026. This is a bundled snapshot, so localhost and Vercel show real data without database setup. Synthetic fixtures remain available only through explicit `DATA_MODE=demo`; database failures never silently switch data sources.
 
 ## Run the preview
 
@@ -13,11 +13,21 @@ npm ci
 npm run dev
 ```
 
-Open <http://127.0.0.1:3000>. Search works without database credentials. Demo funding totals are deliberately withheld.
+Open <http://127.0.0.1:3000>. Company search, city/sector/stage/date filters, funding totals, pagination, and source-linked company timelines work without credentials. Existing Vercel projects need no data environment variables for the default archive mode.
+
+## Refresh the Notion snapshot
+
+```sh
+npm run data:sync -- --refresh
+```
+
+This reads the public weekly tables without authentication and generates `data/bwm-archive.json` and `data/bwm-import-report.json`. Cached responses live in the ignored `work/notion-cache/` directory. A normal `npm run data:sync` can resume using that cache. Failed or restricted requests prevent replacement of the previous snapshot. Commit the generated snapshot to publish an update through the GitHub/Vercel integration; no unattended schedule is configured.
+
+The snapshot preserves source-reported amounts and links. It is not an audited financial database or a complete lifetime-funding history. See `docs/data-source.md` for field mapping, duplicate handling and coverage details.
 
 ## Connect PostgreSQL
 
-Use PostgreSQL 16 or newer with PostGIS. For local development, Docker Compose is provided:
+PostgreSQL is optional for the bundled archive. For the database backend and address-level spatial queries, use PostgreSQL 16 or newer with PostGIS. For local development, Docker Compose is provided:
 
 ```sh
 docker compose up -d --wait
@@ -59,7 +69,8 @@ Once real records are loaded, change `.env` to `DATA_MODE=database` and restart 
 
 ## API routes
 
-- `GET /api/companies?q=example&limit=20&offset=0`: company search, sectors, latest HQ city and tracked funding metrics. Limit is at most 100. Numeric amounts are returned as strings.
+- `GET /api/companies?q=example&city=Bengaluru&stage=Seed&from=2024-01-01&sort=recent&limit=20&offset=0`: archive company search and filters, matching cohort metrics, source metadata and pagination. `sector` and `to` are also supported; sort is `recent`, `funding` or `name`. Limit is at most 100. Numeric amounts are returned as strings.
+- `GET /api/companies/[slug]`: imported company metadata, funding events and source links. The corresponding profile page is `/company/[slug]`.
 - `POST /api/areas`: body is a GeoJSON Polygon geometry, not a Feature. Includes boundary points, uses the latest observed HQ as of today, and includes only address-level locations. Requires database mode and both migrations. Results are capped at 1000 and expose a truncation flag.
 
 Example geometry:
@@ -88,15 +99,15 @@ The test suite executes the actual core migration and reviewed importer against 
 - Financial statement and media segment storage, including multi-company/sector links.
 - A reviewed funding import path with transaction rollback, conflict detection and import audit records.
 - Exact SQL funding rollups over approved announced/completed events; missing conversion coverage is explicit.
-- A development screener and read-only company/spatial endpoints.
+- A real BWM archive snapshot, searchable screener with cohort filters, source-linked company profiles, and read-only company/spatial endpoints.
 
-Financial and media tables are foundations only; their ingestion and profile presentation are not implemented yet. No real source has been imported or authenticated in this checkout.
+Financial and media tables are foundations only; their ingestion and profile presentation are not implemented yet. The real BWM archive works as a bundled snapshot; it has not been loaded into a hosted PostgreSQL instance. No authenticated MCA, EPFO or video provider is configured.
 
 ## Next milestone
 
-1. Confirm reuse/access for one baseline source and import 50–100 reviewed real companies and their underlying rounds.
-2. Add company profile routes showing event history and source evidence.
-3. Add a MapLibre/Terra Draw workspace synchronized with table filters and spatial endpoints.
+1. Add an explicit correction workflow for conflicting archive entries, company aliases and changing source facts.
+2. Load accepted archive observations into a hosted PostgreSQL instance, preserving the reported-versus-reviewed distinction.
+3. Add a MapLibre/Terra Draw workspace synchronized with table filters, beginning with source-reported city coverage and separately verified address data.
 4. Add a single RSS adapter that writes extraction candidates to staging, plus a review interface.
 5. Curate and review a small timestamped video corpus, then implement cited answers with SQL-derived aggregates and cohort-restricted retrieval.
 

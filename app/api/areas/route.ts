@@ -1,6 +1,6 @@
 import { NextRequest,NextResponse } from 'next/server';
 import { areaSchema } from '@/domain/import-schema';
-import { database,isDemo } from '@/lib/db';
+import { database,dataMode } from '@/lib/db';
 export const dynamic='force-dynamic';
 export const runtime='nodejs';
 export async function POST(request:NextRequest) {
@@ -18,8 +18,7 @@ export async function POST(request:NextRequest) {
   let area;
   try { area=areaSchema.parse(JSON.parse(Buffer.concat(chunks).toString('utf8'))); }
   catch { return NextResponse.json({error:'A closed GeoJSON Polygon with valid coordinates and at most 1000 vertices is required'},{status:400}); }
-  if(isDemo()) return NextResponse.json({error:'Area queries require PostgreSQL/PostGIS. Demo mode does not simulate spatial results.'},{status:503});
-  if(process.env.DATA_MODE!=='database') return NextResponse.json({error:'Invalid DATA_MODE'},{status:503});
+  if(dataMode()!=='database') return NextResponse.json({error:'Area queries require PostgreSQL/PostGIS and address-level coordinates. The archive contains reported cities only.'},{status:503});
   try {
     const sql=database();
     const result=await sql.begin(async tx=>{

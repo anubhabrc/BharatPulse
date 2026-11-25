@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-11-25T08:07:38.329Z",
+  "retrieved_at": "2026-11-25T07:38:52.302Z",
+  "coverage": {
+    "pages_discovered": 148,
+    "pages_imported": 135,
+    "pages_empty": 13,
+    "rows_read": 2358,
+    "duplicate_observations": 2,
+    "company_count": 1905,
+    "event_count": 2337,
+    "first_date": "2024-01-02",
+    "last_date": "2026-11-20",
+    "missing_amount_count": 80,
+    "flagged_event_count": 84,
+    "excluded_rows": 19
+  },
+  "empty_pages": [
+    {
+      "id": "3a008566-a360-80df-88f8-db45cdaa08d2",
+      "title": "W3 Q2 2027"
+    },
+    {
+      "id": "3a708566-a360-80e4-8e0c-d5d517e1e05e",
+      "title": "W4 Q2 2027"
+    },
+    {
+      "id": "3ae08566-a360-804f-b98a-cd750c78c0be",
+      "title": "W5 Q2 FY27"
+    },
+    {
+      "id": "3b508566-a360-8099-8c49-e1aeeac8515e",
+      "title": "W6 Q2 FY27"
+    },
+    {
+      "id": "3c308566-a360-805b-b62f-c23a7bbba3fd",
+      "title": "W7 Q2 FY27"
+    },
+    {
+      "id": "3c308566-a360-80a7-a919-e6f1b9ec27ee",
+      "title": "W8 Q2 FY27"
+    },
+    {
+      "id": "3ca08566-a360-8066-a52c-da9ee436769f",
+      "title": "W9 Q2 FY27"
+    },
+    {
+      "id": "3d108566-a360-8044-a70b-e525e4ac8f07",
+      "title": "W10 Q2 FY27"
+    },
+    {
+      "id": "3d808566-a360-8040-9e98-d2afa7ed39b2",
+      "title": "W11 Q2 FY27"
+    },
+    {
+      "id": "3e808566-a360-8059-abef-e4fba0fed61a",
+      "title": "W13 Q2 FY27"
+    },
+    {
+      "id": "3ed08566-a360-80ab-8c8f-d6ee3df51779",
+      "title": "W1 Q3 FY27"
+    },
+    {
+      "id": "3f408566-a360-80ba-8ce2-d0f2dbd08b6e",
+      "title": "W2 Q3 Fy27"
+    },
+    {
+      "id": "3fb08566-a360-80c5-b64a-c17255765d37",
+      "title": "W3 Q3 FY27"
+    }
+  ],
+  "failed_pages": []
+}

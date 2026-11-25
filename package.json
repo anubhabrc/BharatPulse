@@ -12,7 +12,8 @@
     "test:db": "tsx --test tests/database.test.ts tests/spatial.test.ts",
     "db:migrate": "node --env-file-if-exists=.env --import tsx scripts/migrate.ts",
     "import:plan": "node --import tsx scripts/import.ts plan",
-    "import:publish": "node --env-file-if-exists=.env --import tsx scripts/import.ts publish"
+    "import:publish": "node --env-file-if-exists=.env --import tsx scripts/import.ts publish",
+    "data:sync": "node --import tsx scripts/sync-notion.ts"
   },
   "dependencies": {
     "next": "16.4.6",

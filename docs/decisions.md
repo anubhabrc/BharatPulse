@@ -10,7 +10,7 @@ The earlier chats establish company profiles, cross-week history, maps, drawn-ar
 
 The app uses Next.js App Router and TypeScript. The reviewed import CLI uses the same validation code as the application to reduce duplicated data contracts. A separate Python service can be introduced when extraction or raster processing needs it; no Python service is required for this milestone.
 
-This is a local development checkout with no hosted project identity or external database provisioned. It is not a finished production Site. Its server-side `postgres` client requires a Node-compatible hosting environment with PostgreSQL connectivity. A Cloudflare Workers deployment would need an HTTP-compatible database adapter or an appropriate connection service and framework build adaptation.
+The project is published through the user's GitHub/Vercel workflow. Its default archive mode serves a bundled real BWM Notion snapshot without an external database. A hosted PostgreSQL instance has not been provisioned. Its optional server-side `postgres` client requires a Node-compatible hosting environment with PostgreSQL connectivity. A Cloudflare Workers deployment would need an HTTP-compatible database adapter or an appropriate connection service and framework build adaptation.
 
 ## Data model
 
