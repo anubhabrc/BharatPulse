@@ -1,8 +1,226 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-25T21:49:45.584Z",
+  "updated_at": "2026-11-26T08:35:21.001Z",
   "retention_days": 90,
   "items": [
+    {
+      "id": "9b32cd4ce0b2d69ca77e6783",
+      "title": "Nexent Capital launches $1 Bn fund for AI infra, advanced energy investments",
+      "url": "https://entrackr.com/snippets/nexent-capital-launches-1-bn-fund-for-ai-infra-advanced-energy-investments-12842840",
+      "published_at": "2026-11-26T08:17:16.000Z",
+      "source_id": "entrackr",
+      "source_name": "Entrackr",
+      "company_slugs": [],
+      "tags": []
+    },
+    {
+      "id": "8912b1dac6e44845473d1ec0",
+      "title": "Anthropic CEO Accuses Rivals Of Using ‘Human Control’ Slogans Without Tackling AI Risks",
+      "url": "https://inc42.com/buzz/anthropic-ceo-accuses-rivals-of-using-human-control-slogans-without-tackling-ai-risks/",
+      "published_at": "2026-11-26T08:13:13.000Z",
+      "source_id": "inc42",
+      "source_name": "Inc42",
+      "company_slugs": [],
+      "tags": []
+    },
+    {
+      "id": "b5be1f9b3a67af5227f1c3d2",
+      "title": "Finnable Nets ₹405 Cr To Scale Digital Lending Business",
+      "url": "https://inc42.com/buzz/finnable-nets-%e2%82%b9405-cr-to-scale-digital-lending-business/",
+      "published_at": "2026-11-26T08:09:00.000Z",
+      "source_id": "inc42",
+      "source_name": "Inc42",
+      "company_slugs": [
+        "finnable"
+      ],
+      "tags": []
+    },
+    {
+      "id": "3e5ba4b3cdcad36bed833ce6",
+      "title": "Exclusive: Electronics Manufacturing Startup Elecbits To Raise Up To $15 Mn From Xponentia Capital",
+      "url": "https://inc42.com/buzz/exclusive-electronics-manufacturing-startup-elecbits-to-raise-up-to-15-mn-from-xponentia-capital/",
+      "published_at": "2026-11-26T07:30:16.000Z",
+      "source_id": "inc42",
+      "source_name": "Inc42",
+      "company_slugs": [
+        "elecbits"
+      ],
+      "tags": [
+        "funding"
+      ]
+    },
+    {
+      "id": "ffc2907616696638dd843f81",
+      "title": "GIVA raises Rs 90 Cr from alternative credit platform BlackSoil",
+      "url": "https://yourstory.com/2026/11/giva-raises-rs-90-crore-from-alternative-credit-platform-blacksoil",
+      "published_at": "2026-11-26T07:00:10.000Z",
+      "source_id": "yourstory",
+      "source_name": "YourStory",
+      "company_slugs": [
+        "blacksoil",
+        "giva"
+      ],
+      "tags": [
+        "funding"
+      ]
+    },
+    {
+      "id": "6976b8529ecc2e14a148e98a",
+      "title": "Finnable raises Rs 405 Cr in Series C to expand multi-product lending",
+      "url": "https://yourstory.com/2026/11/finnable-raises-rs-405-crore-in-series-c-to-expand-multi-product-lending",
+      "published_at": "2026-11-26T06:27:57.000Z",
+      "source_id": "yourstory",
+      "source_name": "YourStory",
+      "company_slugs": [
+        "finnable"
+      ],
+      "tags": [
+        "funding"
+      ]
+    },
+    {
+      "id": "312ea521ea08df59235b7d78",
+      "title": "Green Aero raises $14M as India pushes for indigenous jet propulsion",
+      "url": "https://yourstory.com/2026/11/green-aero-raises-usd-14m-as-india-pushes-for-indigenous-jet-propulsion",
+      "published_at": "2026-11-26T05:45:38.000Z",
+      "source_id": "yourstory",
+      "source_name": "YourStory",
+      "company_slugs": [
+        "green-aero"
+      ],
+      "tags": [
+        "funding"
+      ]
+    },
+    {
+      "id": "6e5b1a602c9ac21571c112db",
+      "title": "GIVA raises Rs 90 Cr from BlackSoil for retail expansion",
+      "url": "https://entrackr.com/news/giva-raises-rs-90-cr-from-blacksoil-for-retail-expansion-12842327",
+      "published_at": "2026-11-26T05:39:07.000Z",
+      "source_id": "entrackr",
+      "source_name": "Entrackr",
+      "company_slugs": [
+        "blacksoil",
+        "giva"
+      ],
+      "tags": [
+        "funding"
+      ]
+    },
+    {
+      "id": "3e13c3452cd788843ad0f2c7",
+      "title": "Finnable raises Rs 405 Cr from Bharat Value Fund, Kamath brothers, others",
+      "url": "https://entrackr.com/news/finnable-raises-rs-405-cr-from-bharat-value-fund-kamath-brothers-others-12842322",
+      "published_at": "2026-11-26T05:37:26.000Z",
+      "source_id": "entrackr",
+      "source_name": "Entrackr",
+      "company_slugs": [
+        "finnable"
+      ],
+      "tags": [
+        "funding"
+      ]
+    },
+    {
+      "id": "6ff3affd8bfd9c3ddeda7cf4",
+      "title": "Green Aero raises $14 Mn led by Crane Ventures",
+      "url": "https://entrackr.com/snippets/green-aero-raises-14-mn-led-by-crane-ventures-12842280",
+      "published_at": "2026-11-26T05:24:33.000Z",
+      "source_id": "entrackr",
+      "source_name": "Entrackr",
+      "company_slugs": [
+        "green-aero"
+      ],
+      "tags": [
+        "funding"
+      ]
+    },
+    {
+      "id": "0c9cfce2ba1ab8f179a0e315",
+      "title": "XEBO.ai Bags $10.5 Mn To Expand Its Customer Experience Platform",
+      "url": "https://inc42.com/buzz/xebo-ai-bags-10-5-mn-to-strengthen-ai-solutions-stack/",
+      "published_at": "2026-11-26T05:19:22.000Z",
+      "source_id": "inc42",
+      "source_name": "Inc42",
+      "company_slugs": [],
+      "tags": []
+    },
+    {
+      "id": "18032786005905c7f44b0f18",
+      "title": "XEBO.ai bags $10.5M funding from Emirates Growth Fund",
+      "url": "https://yourstory.com/2026/11/xeboai-bags-10-million-funding-from-emirates-growth-fund",
+      "published_at": "2026-11-26T05:15:00.000Z",
+      "source_id": "yourstory",
+      "source_name": "YourStory",
+      "company_slugs": [],
+      "tags": [
+        "funding"
+      ]
+    },
+    {
+      "id": "b5e24c67299b656d08ff54d9",
+      "title": "Kiwi spends Rs 105 Cr on ads; earns Rs 16 Cr revenue in FY26",
+      "url": "https://entrackr.com/fintrackr/kiwi-spends-rs-105-cr-on-ads-earns-rs-16-cr-revenue-in-fy26-12842213",
+      "published_at": "2026-11-26T05:04:42.000Z",
+      "source_id": "entrackr",
+      "source_name": "Entrackr",
+      "company_slugs": [
+        "kiwi"
+      ],
+      "tags": [
+        "financials"
+      ]
+    },
+    {
+      "id": "8d9b8360a1a982c06cff5d08",
+      "title": "Green Aero Raises $14 Mn To Build Jet Engines, Combat Drones",
+      "url": "https://inc42.com/buzz/green-aero-raises-14-mn-to-build-jet-engines-combat-drones/",
+      "published_at": "2026-11-26T03:55:05.000Z",
+      "source_id": "inc42",
+      "source_name": "Inc42",
+      "company_slugs": [
+        "green-aero"
+      ],
+      "tags": [
+        "funding"
+      ]
+    },
+    {
+      "id": "00ab09ae2763bc3320ce0180",
+      "title": "Flipkart CEO Ousted, PhonePe Revives IPO &#038; More",
+      "url": "https://inc42.com/buzz/flipkart-ceo-ousted-phonepe-revives-ipo-more/",
+      "published_at": "2026-11-26T02:30:25.000Z",
+      "source_id": "inc42",
+      "source_name": "Inc42",
+      "company_slugs": [],
+      "tags": [
+        "ipo"
+      ]
+    },
+    {
+      "id": "38f55031021b3d03c43e11d7",
+      "title": "Vegapay Bags $10 Mn To Scale Credit Line On UPI Infrastructure",
+      "url": "https://inc42.com/buzz/vegapay-bags-10-mn-to-scale-credit-line-on-upi-infrastructure/",
+      "published_at": "2026-11-26T00:30:23.000Z",
+      "source_id": "inc42",
+      "source_name": "Inc42",
+      "company_slugs": [
+        "vegapay"
+      ],
+      "tags": []
+    },
+    {
+      "id": "86788b49500db9c2a582a86e",
+      "title": "IT Secy Defends Sarvam’s Token Factory Over Chinese LLM Debate",
+      "url": "https://inc42.com/buzz/it-secy-defends-sarvams-token-factory-over-chinese-llm-debate/",
+      "published_at": "2026-11-25T22:49:02.000Z",
+      "source_id": "inc42",
+      "source_name": "Inc42",
+      "company_slugs": [
+        "sarvam"
+      ],
+      "tags": []
+    },
     {
       "id": "319340363c5d2619d4e0ccc6",
       "title": "Kalyan Krishnamurthy&#8217;s Exit: How Walmart&#8217;s Kickback Probe, IPO Delay Shook Up Flipkart",
@@ -1229,9 +1447,9 @@
       "source_name": "Inc42",
       "url": "https://inc42.com/feed/",
       "status": "ok",
-      "checked_at": "2026-11-25T21:49:45.584Z",
-      "last_success_at": "2026-11-25T21:49:45.584Z",
-      "latest_entry_at": "2026-11-25T14:48:34.000Z",
+      "checked_at": "2026-11-26T08:35:21.001Z",
+      "last_success_at": "2026-11-26T08:35:21.001Z",
+      "latest_entry_at": "2026-11-26T08:13:20.000Z",
       "item_count": 24,
       "error": null
     },
@@ -1240,9 +1458,9 @@
       "source_name": "Entrackr",
       "url": "https://entrackr.com/rss",
       "status": "ok",
-      "checked_at": "2026-11-25T21:49:45.584Z",
-      "last_success_at": "2026-11-25T21:49:45.584Z",
-      "latest_entry_at": "2026-11-25T18:45:03.000Z",
+      "checked_at": "2026-11-26T08:35:21.001Z",
+      "last_success_at": "2026-11-26T08:35:21.001Z",
+      "latest_entry_at": "2026-11-26T08:17:16.000Z",
       "item_count": 50,
       "error": null
     },
@@ -1251,9 +1469,9 @@
       "source_name": "YourStory",
       "url": "https://yourstory.com/feed",
       "status": "ok",
-      "checked_at": "2026-11-25T21:49:45.584Z",
-      "last_success_at": "2026-11-25T21:49:45.584Z",
-      "latest_entry_at": "2026-11-25T14:38:53.000Z",
+      "checked_at": "2026-11-26T08:35:21.001Z",
+      "last_success_at": "2026-11-26T08:35:21.001Z",
+      "latest_entry_at": "2026-11-26T07:00:10.000Z",
       "item_count": 20,
       "error": null
     },
@@ -1262,9 +1480,9 @@
       "source_name": "The Ken",
       "url": "https://the-ken.com/feed/",
       "status": "ok",
-      "checked_at": "2026-11-25T21:49:45.584Z",
-      "last_success_at": "2026-11-25T21:49:45.584Z",
-      "latest_entry_at": "2026-11-25T02:30:22.000Z",
+      "checked_at": "2026-11-26T08:35:21.001Z",
+      "last_success_at": "2026-11-26T08:35:21.001Z",
+      "latest_entry_at": "2026-11-26T02:30:12.000Z",
       "item_count": 10,
       "error": null
     },
@@ -1273,8 +1491,8 @@
       "source_name": "The Arc",
       "url": "https://www.thearcweb.com/rss.xml",
       "status": "ok",
-      "checked_at": "2026-11-25T21:49:45.584Z",
-      "last_success_at": "2026-11-25T21:49:45.584Z",
+      "checked_at": "2026-11-26T08:35:21.001Z",
+      "last_success_at": "2026-11-26T08:35:21.001Z",
       "latest_entry_at": "2026-11-25T13:30:00.000Z",
       "item_count": 50,
       "error": null
