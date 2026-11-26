@@ -321,6 +321,868 @@
       ],
       "founded_year": null,
       "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "4basecare",
+      "description": {
+        "text": "Develops genomic tests and software that help oncology teams interpret cancer profiles and support treatment research.",
+        "source_url": "https://www.4basecare.com/about-us"
+      },
+      "founders": [
+        {
+          "name": "Hitesh Goswami",
+          "source_url": "https://www.4basecare.com/about-us"
+        },
+        {
+          "name": "Kshitij Rishi",
+          "source_url": "https://www.4basecare.com/about-us"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "ace-turtle",
+      "description": {
+        "text": "Operates retail brands and combines design, manufacturing, marketing and technology for online and physical-store commerce.",
+        "source_url": "https://aceturtle.com/about-us/about-us-page/"
+      },
+      "founders": [
+        {
+          "name": "Nitin Chhabra",
+          "source_url": "https://aceturtle.com/press-release/ace-turtle-to-launch-100-omnichannel-enabled-lee-wrangler-stores-this-fiscal/"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "aerchain",
+      "description": {
+        "text": "Builds procurement and sourcing software with AI tools for supplier evaluation, negotiation, purchasing and invoice workflows.",
+        "source_url": "https://aerchain.io/"
+      },
+      "founders": [
+        {
+          "name": "Harsha Kadimisetty",
+          "source_url": "https://aerchain.io/about-us"
+        },
+        {
+          "name": "Himavanth Jasti",
+          "source_url": "https://aerchain.io/about-us"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "ati-motors",
+      "description": {
+        "text": "Builds autonomous mobile robots and material-flow software for moving trolleys, pallets and other loads inside factories.",
+        "source_url": "https://www.atirobotics.ai/"
+      },
+      "founders": [
+        {
+          "name": "Saurabh Chandra",
+          "source_url": "https://www.atirobotics.ai/company/leadership/"
+        }
+      ],
+      "founded_year": {
+        "value": 2017,
+        "source_url": "https://www.atirobotics.ai/company/leadership/"
+      },
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "bellatrix-aerospace",
+      "description": {
+        "text": "Designs satellite propulsion systems and orbital transport technology for moving spacecraft and payloads in space.",
+        "source_url": "https://bellatrix.aero/about"
+      },
+      "founders": [
+        {
+          "name": "Rohan M Ganapathy",
+          "source_url": "https://bellatrix.aero/updates/bellatrix-aerospace-sign-mou-with-astroscale-japan"
+        },
+        {
+          "name": "Yashas Karanam",
+          "source_url": "https://bellatrix.aero/updates/bellatrix-aerospace-sign-mou-with-astroscale-japan"
+        }
+      ],
+      "founded_year": {
+        "value": 2015,
+        "source_url": "https://bellatrix.aero/about"
+      },
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "bighaat",
+      "description": {
+        "text": "An agricultural technology platform providing farmers with access to farm inputs, information and services.",
+        "source_url": "https://www.bighaat.com/pages/contact-us"
+      },
+      "founders": [],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "bitespeed",
+      "description": {
+        "text": "Provides e-commerce brands with software for customer messaging, marketing automation and support across channels such as WhatsApp, email and voice.",
+        "source_url": "https://www.bitespeed.co/"
+      },
+      "founders": [],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "blissclub",
+      "description": {
+        "text": "Makes functional activewear and everyday movement clothing, alongside a community focused on staying active.",
+        "source_url": "https://blissclub.com/pages/our-story"
+      },
+      "founders": [
+        {
+          "name": "Minu Margaret",
+          "source_url": "https://blissclub.com/pages/our-story"
+        }
+      ],
+      "founded_year": {
+        "value": 2020,
+        "source_url": "https://blissclub.com/pages/our-story"
+      },
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "bluestone",
+      "description": {
+        "text": "Designs and sells fine jewellery through its online storefront and physical retail network.",
+        "source_url": "https://www.bluestone.com/investor-relations.html"
+      },
+      "founders": [
+        {
+          "name": "Gaurav Singh Kushwaha",
+          "source_url": "https://www.bluestone.com/investor-relations.html"
+        }
+      ],
+      "founded_year": {
+        "value": 2011,
+        "source_url": "https://www.bluestone.com/investor-relations.html"
+      },
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "captain-fresh",
+      "description": {
+        "text": "Operates a technology-enabled seafood supply chain spanning sourcing, processing, distribution and seafood brands.",
+        "source_url": "https://www.captainfresh.in/about-us"
+      },
+      "founders": [
+        {
+          "name": "Utham Gowda",
+          "source_url": "https://www.captainfresh.in/about-us"
+        }
+      ],
+      "founded_year": {
+        "value": 2020,
+        "source_url": "https://www.captainfresh.in/about-us"
+      },
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "cred",
+      "description": {
+        "text": "Offers a membership-based app for credit-card bill payments, card management and rewards.",
+        "source_url": "https://cred.club/about"
+      },
+      "founders": [
+        {
+          "name": "Kunal Shah",
+          "source_url": "https://newsroom.cred.club/cred-to-raise-8-550-crore-us-900m-from-meta/"
+        }
+      ],
+      "founded_year": {
+        "value": 2018,
+        "source_url": "https://newsroom.cred.club/cred-to-raise-8-550-crore-us-900m-from-meta/"
+      },
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "cult-fit",
+      "description": {
+        "text": "Offers digital and offline health and fitness experiences, including workout services.",
+        "source_url": "https://www.accel.com/companies/cult-fit"
+      },
+      "founders": [
+        {
+          "name": "Mukesh Bansal",
+          "source_url": "https://www.accel.com/companies/cult-fit"
+        },
+        {
+          "name": "Ankit Nagori",
+          "source_url": "https://www.accel.com/companies/cult-fit"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "cynlr",
+      "description": {
+        "text": "Develops machine-vision hardware and software that help robots perceive and handle unfamiliar objects.",
+        "source_url": "https://www.cynlr.com/"
+      },
+      "founders": [
+        {
+          "name": "Gokul N A",
+          "source_url": "https://www.cynlr.com/newsroom"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "digantara",
+      "description": {
+        "text": "Builds space-surveillance sensors and intelligence systems for tracking objects and understanding activity in orbit.",
+        "source_url": "https://www.digantara.co.in/mission"
+      },
+      "founders": [
+        {
+          "name": "Anirudh Sharma",
+          "source_url": "https://kalaari.com/insights-from-the-frontlines/why-we-invested-in-digantara"
+        },
+        {
+          "name": "Rahul Rawat",
+          "source_url": "https://kalaari.com/insights-from-the-frontlines/why-we-invested-in-digantara"
+        },
+        {
+          "name": "Tanveer Ahmed",
+          "source_url": "https://kalaari.com/insights-from-the-frontlines/why-we-invested-in-digantara"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "etherealx",
+      "description": {
+        "text": "Develops reusable launch vehicles and propulsion systems for delivering spacecraft to orbit.",
+        "source_url": "https://guild.world/"
+      },
+      "founders": [
+        {
+          "name": "Manu J. Nair",
+          "source_url": "https://guild.world/about"
+        },
+        {
+          "name": "Shubhayu Sardar",
+          "source_url": "https://guild.world/about"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "finbox",
+      "description": {
+        "text": "Builds software infrastructure for lenders, including digital onboarding, underwriting, risk analysis and embedded credit workflows.",
+        "source_url": "https://www.finbox.in/about-us"
+      },
+      "founders": [
+        {
+          "name": "Rajat Deshpande",
+          "source_url": "https://www.finbox.in/about-us"
+        },
+        {
+          "name": "Srijan Nagar",
+          "source_url": "https://www.finbox.in/about-us"
+        },
+        {
+          "name": "Nikhil Bhawsinka",
+          "source_url": "https://www.finbox.in/about-us"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "finnable",
+      "description": {
+        "text": "Provides personal-loan access for salaried professionals through digital underwriting and lending partnerships.",
+        "source_url": "https://www.finnable.com/newsroom/press-release/finnable-closes-500-cr-equity-raise-to-drive-the-future-of-credit-access-in-india/"
+      },
+      "founders": [
+        {
+          "name": "Nitin Gupta",
+          "source_url": "https://www.finnable.com/about-us/"
+        },
+        {
+          "name": "Amit Arora",
+          "source_url": "https://www.finnable.com/about-us/"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "fisdom",
+      "description": {
+        "text": "Provides digital investment, wealth-management and stockbroking services through its own platform and banking partnerships.",
+        "source_url": "https://fisdom.com/aboutus/"
+      },
+      "founders": [
+        {
+          "name": "Anand Dalmia",
+          "source_url": "https://www.fisdom.com/the-fisdom-story-how-a-small-wealthtech-startup-is-shaking-up-the-investment-landscape/"
+        },
+        {
+          "name": "Subramanya SV",
+          "source_url": "https://www.fisdom.com/the-fisdom-story-how-a-small-wealthtech-startup-is-shaking-up-the-investment-landscape/"
+        }
+      ],
+      "founded_year": {
+        "value": 2015,
+        "source_url": "https://fisdom.com/aboutus/"
+      },
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "genworks-health",
+      "description": {
+        "text": "Supplies healthcare technology and connected-care solutions that link patients, hospitals and specialists.",
+        "source_url": "https://www.genworkshealth.com/our-company"
+      },
+      "founders": [
+        {
+          "name": "S Ganeshprasad",
+          "source_url": "https://www.genworkshealth.com/our-company"
+        },
+        {
+          "name": "R Balaji",
+          "source_url": "https://www.genworkshealth.com/our-company"
+        }
+      ],
+      "founded_year": {
+        "value": 2015,
+        "source_url": "https://www.genworkshealth.com/s-ganeshprasad-genworks-health"
+      },
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "inmobi",
+      "description": {
+        "text": "Builds advertising technology that connects brands, app publishers and mobile audiences.",
+        "source_url": "https://www.inmobi.com/trust-center"
+      },
+      "founders": [
+        {
+          "name": "Naveen Tewari",
+          "source_url": "https://advertising.inmobi.com/company/leadership/naveen-tewari"
+        },
+        {
+          "name": "Mohit Saxena",
+          "source_url": "https://www.inmobi.com/company/leadership/mohit-saxena"
+        },
+        {
+          "name": "Piyush Shah",
+          "source_url": "https://www.inmobi.com/company/leadership/piyush-shah"
+        }
+      ],
+      "founded_year": {
+        "value": 2007,
+        "source_url": "https://advertising.inmobi.com/company/leadership/naveen-tewari"
+      },
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "innoviti-technologies",
+      "description": {
+        "text": "Provides merchant payment acceptance, reconciliation and sales-support software for retailers and dealers.",
+        "source_url": "https://innoviti.com/"
+      },
+      "founders": [],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "juspay",
+      "description": {
+        "text": "Develops payment orchestration, checkout and related infrastructure that help merchants and financial institutions connect payment systems.",
+        "source_url": "https://juspay.io/about"
+      },
+      "founders": [
+        {
+          "name": "Vimal Kumar",
+          "source_url": "https://juspay.io/newsroom/nsdc-and-juspay-join-hands-to-enhance-payment-solutions-for-skill-development"
+        },
+        {
+          "name": "Sheetal Lalwani",
+          "source_url": "https://juspay.io/newsroom/juspay-strengthens-middle-east-presence-with-difc-headquarters"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "kapiva",
+      "description": {
+        "text": "Develops and sells Ayurveda-based nutrition and wellness products.",
+        "source_url": "https://kapiva.in/about-us/"
+      },
+      "founders": [
+        {
+          "name": "Ameve Sharma",
+          "source_url": "https://kapiva.in/media/"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "kapture-cx",
+      "description": {
+        "text": "Builds customer-experience software and AI agents for enterprise support and service workflows.",
+        "source_url": "https://www.kapture.cx/about-us/"
+      },
+      "founders": [
+        {
+          "name": "Sheshgiri Kamath",
+          "source_url": "https://www.kapture.cx/about-us/"
+        },
+        {
+          "name": "Vikas Garg",
+          "source_url": "https://www.kapture.cx/about-us/"
+        }
+      ],
+      "founded_year": {
+        "value": 2014,
+        "source_url": "https://www.kapture.cx/about-us/"
+      },
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "kreditbee",
+      "description": {
+        "text": "Operates a digital credit platform that connects borrowers with lending products and financial-service partners.",
+        "source_url": "https://www.kreditbee.in/achievement-awards"
+      },
+      "founders": [
+        {
+          "name": "Madhusudan Ekambaram",
+          "source_url": "https://www.kreditbee.in/achievement-awards"
+        },
+        {
+          "name": "Karthikeyan Krishnaswamy",
+          "source_url": "https://www.kreditbee.in/achievement-awards"
+        },
+        {
+          "name": "Vivek Veda",
+          "source_url": "https://www.kreditbee.in/achievement-awards"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "moneyview",
+      "description": {
+        "text": "Offers a consumer finance app with credit, payments and other money-management products.",
+        "source_url": "https://moneyview.in/about-us"
+      },
+      "founders": [
+        {
+          "name": "Puneet Agarwal",
+          "source_url": "https://moneyview.in/about-us"
+        },
+        {
+          "name": "Sanjay Aggarwal",
+          "source_url": "https://moneyview.in/about-us"
+        }
+      ],
+      "founded_year": {
+        "value": 2014,
+        "source_url": "https://moneyview.in/about-us"
+      },
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "moveinsync",
+      "description": {
+        "text": "Provides employee-commute software and managed transportation services for enterprises.",
+        "source_url": "https://moveinsync.com/about-us"
+      },
+      "founders": [
+        {
+          "name": "Deepesh Agarwal",
+          "source_url": "https://moveinsync.com/about-us"
+        },
+        {
+          "name": "Akash Maheshwari",
+          "source_url": "https://moveinsync.com/about-us"
+        }
+      ],
+      "founded_year": {
+        "value": 2009,
+        "source_url": "https://moveinsync.com/about-us"
+      },
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "mygate",
+      "description": {
+        "text": "Provides software and connected devices for gated-community operations, including visitor management, resident communication and society administration.",
+        "source_url": "https://mygate.com/about-us/"
+      },
+      "founders": [
+        {
+          "name": "Vijay Arisetty",
+          "source_url": "https://mygate.com/about-us/"
+        },
+        {
+          "name": "Abhishek Kumar",
+          "source_url": "https://mygate.com/about-us/"
+        },
+        {
+          "name": "Shreyans Daga",
+          "source_url": "https://mygate.com/about-us/"
+        }
+      ],
+      "founded_year": {
+        "value": 2016,
+        "source_url": "https://mygate.com/blog/mygate/proudly-indian/"
+      },
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "navi",
+      "description": {
+        "text": "Provides app-based financial services spanning payments, lending, insurance and mutual funds.",
+        "source_url": "https://navi.com/about-us"
+      },
+      "founders": [
+        {
+          "name": "Sachin Bansal",
+          "source_url": "https://navi.com/corporate-governance/board-of-directors/"
+        }
+      ],
+      "founded_year": {
+        "value": 2018,
+        "source_url": "https://navi.com/corporate-governance/board-of-directors/"
+      },
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "ola-electric",
+      "description": {
+        "text": "Makes electric scooters and motorcycles and develops related vehicle software, battery and cell technology.",
+        "source_url": "https://www.olaelectric.com/about"
+      },
+      "founders": [
+        {
+          "name": "Bhavish Aggarwal",
+          "source_url": "https://www.olaelectric.com/investor-relations/directors-profile"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "qnu-labs",
+      "description": {
+        "text": "Develops quantum-safe cryptography products for protecting data and communications, including key generation and key distribution systems.",
+        "source_url": "https://www.qnulabs.com/about-us"
+      },
+      "founders": [
+        {
+          "name": "Sunil Gupta",
+          "source_url": "https://www.qnulabs.com/about-us"
+        },
+        {
+          "name": "Srinivasa Rao Aluri",
+          "source_url": "https://www.qnulabs.com/about-us"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "refyne",
+      "description": {
+        "text": "Builds financial-wellness technology for employers and their workforces, including access to earned salary.",
+        "source_url": "https://www.refyne.co.in/products"
+      },
+      "founders": [],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "rentomojo",
+      "description": {
+        "text": "Provides furniture and home appliances through an online rental and subscription service.",
+        "source_url": "https://www.rentomojo.com/about/aboutus"
+      },
+      "founders": [
+        {
+          "name": "Geetansh Bamania",
+          "source_url": "https://www.accel.com/companies/rentomojo"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "satsure",
+      "description": {
+        "text": "Turns satellite imagery, aerial data and sensor inputs into analytics for agriculture, banking, infrastructure and natural-resource management.",
+        "source_url": "https://www.satsure.co/about-us/"
+      },
+      "founders": [
+        {
+          "name": "Prateep Basu",
+          "source_url": "https://www.satsure.co/leadership/"
+        },
+        {
+          "name": "Rashmit Singh Sukhmani",
+          "source_url": "https://www.satsure.co/leadership/"
+        }
+      ],
+      "founded_year": {
+        "value": 2017,
+        "source_url": "https://www.satsure.co/about-us/"
+      },
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "scapia",
+      "description": {
+        "text": "Combines travel bookings and a co-branded credit-card program offered with partner banks.",
+        "source_url": "https://www.scapia.cards/newsroom/scapia-expands-travel-offerings-launches-visas-and-train-bookings"
+      },
+      "founders": [
+        {
+          "name": "Anil Goteti",
+          "source_url": "https://www.scapia.cards/newsroom/scapia-raises-9m-to-scale-its-co-branded-credit-card"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "sharechat",
+      "description": {
+        "text": "Operates social-media and short-video products that help people create and discover content in Indian languages.",
+        "source_url": "https://sharechat.com/about"
+      },
+      "founders": [
+        {
+          "name": "Ankush Sachdeva",
+          "source_url": "https://sharechat.com/news/announcements/sharechat-felicitated-with-the-new-age-entrepreneur-award-by-asian-centre-for-corporate"
+        },
+        {
+          "name": "Farid Ahsan",
+          "source_url": "https://sharechat.com/news/announcements/sharechat-felicitated-with-the-new-age-entrepreneur-award-by-asian-centre-for-corporate"
+        },
+        {
+          "name": "Bhanu Pratap Singh",
+          "source_url": "https://sharechat.com/news/announcements/sharechat-felicitated-with-the-new-age-entrepreneur-award-by-asian-centre-for-corporate"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "simple-energy",
+      "description": {
+        "text": "Designs and sells electric scooters, with vehicle software and related ownership services.",
+        "source_url": "https://www.simpleenergy.in/"
+      },
+      "founders": [],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "simplismart",
+      "description": {
+        "text": "Provides software to fine-tune, deploy, scale and monitor AI models across cloud and on-premises infrastructure.",
+        "source_url": "https://simplismart.ai/"
+      },
+      "founders": [
+        {
+          "name": "Amritanshu Jain",
+          "source_url": "https://simplismart.ai/comparisons/simplismart-vs-fireworks-ai-which-ai-inference-platform-wins"
+        },
+        {
+          "name": "Devansh Ghatak",
+          "source_url": "https://simplismart.ai/comparisons/simplismart-vs-fireworks-ai-which-ai-inference-platform-wins"
+        }
+      ],
+      "founded_year": {
+        "value": 2022,
+        "source_url": "https://simplismart.ai/comparisons/simplismart-vs-fireworks-ai-which-ai-inference-platform-wins"
+      },
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "slice",
+      "description": {
+        "text": "Offers app-based banking, payments, savings and credit products through slice small finance bank.",
+        "source_url": "https://slice.bank.in/about-us/"
+      },
+      "founders": [
+        {
+          "name": "Rajan Bajaj",
+          "source_url": "https://blume.vc/slice"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "stellapps",
+      "description": {
+        "text": "Builds dairy technology for cattle monitoring, milk procurement, cold-chain operations and supply-chain management.",
+        "source_url": "https://www.stellapps.com/"
+      },
+      "founders": [
+        {
+          "name": "Ranjith Mukundan",
+          "source_url": "https://blume.vc/stellapps"
+        },
+        {
+          "name": "Ravishankar Shiroor",
+          "source_url": "https://blume.vc/stellapps"
+        },
+        {
+          "name": "Ramakrishna Adukuri",
+          "source_url": "https://blume.vc/stellapps"
+        }
+      ],
+      "founded_year": {
+        "value": 2011,
+        "source_url": "https://blume.vc/stellapps"
+      },
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "tonetag",
+      "description": {
+        "text": "Develops payment technology for proximity-based checkout, conversational interfaces and connected devices.",
+        "source_url": "https://www.tonetag.com/"
+      },
+      "founders": [
+        {
+          "name": "Kumar Abhishek",
+          "source_url": "https://www.tonetag.com/about/"
+        },
+        {
+          "name": "Vivek Kumar Singh",
+          "source_url": "https://www.tonetag.com/about/"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "udaan",
+      "description": {
+        "text": "Runs a business-to-business buying platform connecting retailers with suppliers, alongside supply-chain, logistics and working-capital services.",
+        "source_url": "https://udaan.com/about-us"
+      },
+      "founders": [
+        {
+          "name": "Amod Malviya",
+          "source_url": "https://udaan.com/about-us"
+        },
+        {
+          "name": "Sujeet Kumar",
+          "source_url": "https://udaan.com/about-us"
+        },
+        {
+          "name": "Vaibhav Gupta",
+          "source_url": "https://udaan.com/about-us"
+        }
+      ],
+      "founded_year": {
+        "value": 2016,
+        "source_url": "https://udaan.com/about-us"
+      },
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "vedantu",
+      "description": {
+        "text": "Provides live online classes and offline learning centres for school subjects and competitive-exam preparation.",
+        "source_url": "https://www.vedantu.com/"
+      },
+      "founders": [
+        {
+          "name": "Vamsi Krishna",
+          "source_url": "https://vmkt.vedantu.com/vmkt/PROD/pdf/3106a4dc-439c-4d92-a5ad-88ec24d65afb-1717399211287-4102609977196379.pdf"
+        },
+        {
+          "name": "Anand Prakash",
+          "source_url": "https://vmkt.vedantu.com/vmkt/PROD/pdf/3106a4dc-439c-4d92-a5ad-88ec24d65afb-1717399211287-4102609977196379.pdf"
+        },
+        {
+          "name": "Pulkit Jain",
+          "source_url": "https://vmkt.vedantu.com/vmkt/PROD/pdf/3106a4dc-439c-4d92-a5ad-88ec24d65afb-1717399211287-4102609977196379.pdf"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "yulu",
+      "description": {
+        "text": "Operates shared electric vehicles and battery-swapping services for urban mobility.",
+        "source_url": "https://newsroom.yulu.bike/assets/pdf/12_April_2022_Sandilya_Konduri_appointment.pdf"
+      },
+      "founders": [
+        {
+          "name": "Amit Gupta",
+          "source_url": "https://newsroom.yulu.bike/assets/pdf/12_April_2022_Sandilya_Konduri_appointment.pdf"
+        },
+        {
+          "name": "RK Misra",
+          "source_url": "https://newsroom.yulu.bike/assets/pdf/12_April_2022_Sandilya_Konduri_appointment.pdf"
+        },
+        {
+          "name": "Hemant Gupta",
+          "source_url": "https://newsroom.yulu.bike/assets/pdf/12_April_2022_Sandilya_Konduri_appointment.pdf"
+        },
+        {
+          "name": "Naveen Dachuri",
+          "source_url": "https://newsroom.yulu.bike/assets/pdf/12_April_2022_Sandilya_Konduri_appointment.pdf"
+        }
+      ],
+      "founded_year": {
+        "value": 2017,
+        "source_url": "https://newsroom.yulu.bike/assets/pdf/12_April_2022_Sandilya_Konduri_appointment.pdf"
+      },
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "zetwerk",
+      "description": {
+        "text": "Coordinates contract manufacturing, supplier management, quality control and logistics for industrial and consumer-product companies.",
+        "source_url": "https://www.zetwerk.com/en-us/about-zetwerk/"
+      },
+      "founders": [
+        {
+          "name": "Amrit Acharya",
+          "source_url": "https://www.zetwerk.com/resources/"
+        },
+        {
+          "name": "Srinath Ramakkrushnan",
+          "source_url": "https://www.zetwerk.com/resources/"
+        }
+      ],
+      "founded_year": {
+        "value": 2018,
+        "source_url": "https://www.zetwerk.com/en-us/resources/knowledge-base/miscellaneous/the-logistics-challenge-for-an-efficient-supply-chain/"
+      },
+      "checked_on": "2026-11-26"
     }
   ]
 }

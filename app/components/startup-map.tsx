@@ -11,11 +11,12 @@ import {officeKindLabel,officeAccuracyLabel} from '@/domain/office-labels';
 import {sectorStyle} from '@/domain/map-presentation';
 import {formatUsd} from '@/domain/money';
 import {loadMapLibrary} from './map-resources';
+import {localBasemapRequest} from '@/domain/basemap';
 import {Icon} from './icons';
 import 'maplibre-gl/dist/maplibre-gl.css';
 
 interface Props {data:StartupMapPayload;selectedCompany:MapCompany|null;onSelectCompany:(company:MapCompany)=>void;onCloseCompany:()=>void}
-const STYLES={streets:{name:'Streets',url:'https://tiles.openfreemap.org/styles/liberty'},light:{name:'Light',url:'https://tiles.openfreemap.org/styles/positron'},dark:{name:'Night',url:'https://tiles.openfreemap.org/styles/dark'}};
+const STYLES={streets:{name:'Streets',url:'/api/basemap/styles/liberty'},light:{name:'Light',url:'/api/basemap/styles/positron'},dark:{name:'Night',url:'/api/basemap/styles/dark'}};
 type Basemap=keyof typeof STYLES;
 const areas=[{name:'Indiranagar',match:/indiranagar/i},{name:'Koramangala',match:/koramangala/i},{name:'HSR Layout',match:/\bhsr\b/i},{name:'Bellandur / ORR',match:/bellandur|kadubeesanahalli|devarabeesanahalli|marathahalli/i},{name:'Whitefield',match:/whitefield|itpl|hoodi|mahadevapura/i}];
 const reduced=()=>window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -51,7 +52,7 @@ export default function StartupMap({data,selectedCompany,onSelectCompany,onClose
     let disposed=false,instance:GLMap|undefined,observer:ResizeObserver|undefined,removeKeys:(()=>void)|undefined;
     loadMapLibrary().then(gl=>{
       if(disposed||!container.current)return;
-      instance=new gl.Map({container:container.current,style:STYLES.streets.url,center:[77.637,12.971],zoom:11.65,minZoom:3,maxZoom:19,maxPitch:60,cooperativeGestures:false,keyboard:true,dragPan:{linearity:.3,deceleration:2500,maxSpeed:1400},fadeDuration:180,pixelRatio:Math.min(window.devicePixelRatio,2),maxTileCacheZoomLevels:4,attributionControl:{compact:true}});
+      instance=new gl.Map({container:container.current,style:STYLES.streets.url,transformRequest:url=>({url:localBasemapRequest(url)}),center:[77.637,12.971],zoom:11.65,minZoom:3,maxZoom:19,maxPitch:60,cooperativeGestures:false,keyboard:true,dragPan:{linearity:.3,deceleration:2500,maxSpeed:1400},fadeDuration:180,pixelRatio:Math.min(window.devicePixelRatio,2),maxTileCacheZoomLevels:4,attributionControl:{compact:true}});
       map.current=instance;instance.scrollZoom.setWheelZoomRate(1/600);instance.scrollZoom.setZoomRate(1/110);
       instance.addControl(new gl.NavigationControl({showCompass:true,visualizePitch:true}),'top-right');
       if(outer.current)instance.addControl(new gl.FullscreenControl({container:outer.current}),'top-right');
@@ -64,7 +65,8 @@ export default function StartupMap({data,selectedCompany,onSelectCompany,onClose
       instance.on('moveend',updateView);instance.on('movestart',()=>setHover(null));updateView();
       observer=new ResizeObserver(()=>instance?.resize());observer.observe(container.current);
       instance.on('error',()=>{if(!disposed&&!instance?.isStyleLoaded())setError('Some map details could not load. Your company directory is still available.');});
-      instance.on('load',()=>{if(!disposed)setLoaded(true);});
+      instance.on('load',()=>{if(!disposed){setLoaded(true);setError('');}});
+      instance.on('idle',()=>{if(!disposed&&instance?.isStyleLoaded()){setLoaded(true);setError('');}});
       instance.on('style.load',()=>{
         if(disposed||!instance)return;
         // Keep roads, parks, water, POIs and building detail from the actual basemap.
@@ -87,7 +89,7 @@ export default function StartupMap({data,selectedCompany,onSelectCompany,onClose
         instance.addLayer({id:'office-labels',type:'symbol',source:'offices',filter:['!', ['has','point_count']],minzoom:12,layout:{'text-field':['get','name'],'text-font':['Noto Sans Bold'],'text-size':12,'text-anchor':'top','text-offset':[0,1.35],'text-variable-anchor':['top','bottom','left','right'],'text-radial-offset':1.4},paint:{'text-color':dark?'#ffffff':'#202127','text-halo-color':dark?'#171924':'#ffffff','text-halo-width':2}});
         instance.addSource('selected-office',{type:'geojson',data:{type:'FeatureCollection',features:[]}});
         instance.addLayer({id:'selected-office-ring',type:'circle',source:'selected-office',paint:{'circle-radius':21,'circle-color':'#ffe277','circle-opacity':.12,'circle-stroke-color':dark?'#ffe277':'#17191e','circle-stroke-width':3}});
-        setReady(true);setError('');updateView();instance.once('idle',()=>{if(!disposed)setLoaded(true);});
+        setReady(true);setError('');updateView();
       });
       const interactive=['office-pins','office-initials','office-labels','office-clusters','office-cluster-counts','hubs'];
       for(const layer of interactive){instance.on('mouseenter',layer,event=>{instance!.getCanvas().style.cursor='pointer';const f=event.features?.[0];if(f?.geometry.type!=='Point')return;const p=instance!.project(f.geometry.coordinates as [number,number]),company=latest.current.offices.find(c=>c.slug===f.properties.slug);setHover({name:company?.name??(f.properties.city?`${f.properties.city} · ${f.properties.company_count}`:`${f.properties.point_count??f.properties.company_count} companies`),label:company?.office?.place_name??(f.properties.hub_id?'Approximate city centre':'Click to explore this cluster'),x:p.x,y:p.y});});instance.on('mouseleave',layer,()=>{instance!.getCanvas().style.cursor='';setHover(null);});}

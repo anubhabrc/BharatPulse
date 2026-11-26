@@ -4,6 +4,7 @@ import type {StartupMapPayload} from '@/domain/startup-map';
 import {findCompanyInfo} from './company-info';
 import {companyNews} from './news';
 import {companyJobs} from './jobs';
+import {compactDirectoryRow,mapCompanyRow} from '@/domain/map-directory';
 export function enrichDirectoryRows(rows:CompanyRow[]):CompanyRow[]{
   return rows.map(row=>{
     const info=findCompanyInfo(row.slug),latest=companyNews(row.slug)[0],summary=companyJobs(row.slug);
@@ -14,5 +15,5 @@ export function enrichDirectoryRows(rows:CompanyRow[]):CompanyRow[]{
   });
 }
 export function enrichMapDirectory(map:StartupMapPayload):StartupMapPayload{
-  return {...map,offices:map.offices.map(company=>({...company,...(company.directory_row?{directory_row:enrichDirectoryRows([company.directory_row])[0]}:{})}))};
+  return {...map,offices:map.offices.map(company=>{const original=mapCompanyRow(company);if(!original)return company;const row=enrichDirectoryRows([original])[0];return {...company,description:company.description??row.description??null,founders:company.founders.length?company.founders:row.founders??[],directory_row:compactDirectoryRow(row)};})};
 }

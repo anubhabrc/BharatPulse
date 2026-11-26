@@ -1,6 +1,6 @@
 # Bengaluru map overhaul — work ledger
 
-Resumed 26 November 2026 after the previous run stopped at its usage limit. This ledger distinguishes saved research, local implementation and deployed behavior.
+Resumed 26 November 2026 after the previous run stopped at its usage limit. This ledger distinguishes saved research, local implementation and deployed behavior. **For the latest D04 counts and pending steps, see the final section and `docs/directory-status.md`; earlier sections are historical checkpoints.**
 
 ## Original resumption baseline (already deployed then)
 
@@ -61,3 +61,7 @@ Final local D02/D03 check: all55 tests, TypeScript and build passed after mergin
 ## D02/D03 release verified
 
 Implementation `a3f1c0a` deployed successfully. Jobs-only [cloud run](https://github.com/anubhabrc/BharatPulse/actions/runs/45788622377) passed both employer refreshes, all55 tests and the build; its snapshot `aac0713` also deployed successfully. The current directory has641 Bengaluru-footprint records and60 accepted office points, with25 sourced company profiles nationally. Remaining location work:37 unresolved and544 not yet researched. B05 targets Capillary Technologies, MoveInSync and Ultrahuman, at most three cases before saving another handoff. The broader directory ledger is authoritative for the next catalog/filter work.
+
+## D04 — resumed UI/data batch, current checkpoint
+
+87 accepted Bengaluru offices (27 additions), 43 needing review and 511 not yet researched across the 641-company cohort. National sourced profiles: 70; 66 mapped companies have a reviewed profile. The screenshot's blank map was an actual Chrome DNS failure for the external provider TileJSON. A same-origin allowlisted resource gateway now loads styles, TileJSON, tiles, glyphs and sprites through BharatPulse with caching and original attribution. Wider directory and inline carousel replace the oversized Wire popup. Full review notes stay on company profiles/API; compact map cards reconstruct shared identity fields without duplicating them. All 58 tests, TypeScript, production build and desktop/390px browser checks passed. Deployment remains pending; `docs/directory-status.md` lists all completed/unfinished research, including the seven unstarted extension targets and 21 missing mapped-company profiles.

@@ -13,6 +13,7 @@ import profiles from '../data/company-info.json';
 import directory from '../data/company-directory.json';
 import {parseDirectoryEntries} from '../src/domain/directory-profile';
 import {composeCatalog} from '../src/domain/catalog';
+import {mapCompanyRow} from '../src/domain/map-directory';
 const snapshot=composeCatalog(JSON.parse(await readFile('data/bwm-archive.json','utf8')) as ArchiveSnapshot,parseDirectoryEntries(directory.companies));
 const offices=parseOffices(data.offices);
 const build=(filters={})=>buildStartupMap(snapshot,companyFiltersSchema.parse(filters),cities.cities,profiles.companies as CompanyInfo[],cities.source_url,offices);
@@ -65,4 +66,16 @@ test('co-located companies retain identical campus coordinates and independent c
   assert.equal(map.office_features.length,new Set(map.offices.map(company=>company.slug)).size);
   assert.ok(inventory.companies.filter(c=>c.status!=='accepted').length>0);
   const unknown=build({q:'Collamo'});assert.equal(unknown.offices.length,0);assert.equal(unknown.precision,'representative_city_centre');
+});
+
+
+test('map card summaries reconstruct company facts without repeating identity or full review notes',()=>{
+  const map=build({city:'Bengaluru'});
+  for(const company of map.offices){
+    const row=mapCompanyRow(company)!;
+    assert.equal(row.slug,company.slug);assert.equal(row.brand_name,company.name);assert.equal(row.description,company.description??undefined);
+    assert.deepEqual(row.founders,company.founders);
+    assert.ok(!('review_note' in company.office!));assert.ok(!('slug' in company.directory_row!));assert.ok(!('description' in company.directory_row!));
+    assert.ok(!map.featured.some(c=>c.slug===company.slug));
+  }
 });

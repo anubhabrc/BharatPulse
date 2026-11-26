@@ -3,9 +3,11 @@ import {useEffect,useRef,useState,useTransition,type FormEvent} from 'react';
 import {useRouter} from 'next/navigation';
 import Link from 'next/link';
 import StartupMap from './startup-map';
+import NewsCarousel from './news-carousel';
 import type {CompanyFilters,CompanyRow} from '@/domain/archive-queries';
 import type {MapCompany,StartupMapPayload} from '@/domain/startup-map';
 import type {NewsItem} from '@/domain/news';
+import {mapCompanyRow} from '@/domain/map-directory';
 import {compactUsd,displayDate,companyInitials,companyColor} from '@/domain/presentation';
 import {formatUsd} from '@/domain/money';
 import {Icon} from './icons';
@@ -13,10 +15,10 @@ import {Icon} from './icons';
 interface Props {companies:CompanyRow[];total:number;filters:CompanyFilters;options:{cities:string[];sectors:string[];stages:string[]};mapData:StartupMapPayload|null;headlines:NewsItem[];mode:string;error:string|null}
 export default function CompanyExplorer({companies,total,filters,options,mapData,headlines,mode,error}:Props) {
   const router=useRouter(),[pending,startTransition]=useTransition();
-  const [selected,setSelected]=useState<MapCompany|null>(null),[newsOpen,setNewsOpen]=useState(false);
+  const [selected,setSelected]=useState<MapCompany|null>(null);
   const [locatedOnly,setLocatedOnly]=useState(Boolean(mapData)&&!filters.q&&!filters.tag);
   const officeLookup=new Map(mapData?.offices.map(company=>[company.slug,company])??[]);
-  const officeRows=mapData?.offices.flatMap(company=>company.directory_row?[company.directory_row]:[])??[];
+  const officeRows=mapData?.offices.flatMap(company=>{const row=mapCompanyRow(company);return row?[row]:[];})??[];
   const visibleCompanies=locatedOnly&&mapData?officeRows:companies,visibleTotal=locatedOnly&&mapData?officeRows.length:total;
   const list=useRef<HTMLDivElement>(null);
   const filterKey=JSON.stringify(filters);
@@ -42,6 +44,7 @@ export default function CompanyExplorer({companies,total,filters,options,mapData
           <button className="company-card-select" type="button" aria-label={`Explore ${company.brand_name}`} aria-pressed={selected?.slug===company.slug} onClick={()=>explore(company)}>
             <div className="company-card-top"><span className="company-monogram" style={{background:companyColor(company.brand_name)}}>{companyInitials(company.brand_name)}</span><div><h2>{company.brand_name}</h2><p>{company.sector??'Sector not reported'}</p></div><span className="card-locate"><Icon name="pin" size={17}/></span></div>
             {company.description&&<p className="directory-description">{company.description}</p>}
+            {!!company.founders?.length&&<p className="directory-founders"><span>Founded by</span> {company.founders.slice(0,2).join(' · ')}{company.founders.length>2?` +${company.founders.length-2}`:''}</p>}
             {!!company.tags?.length&&<div className="company-tags">{company.tags.map(tag=><span key={tag}>{tag}</span>)}</div>}
             <div className="company-card-facts"><span><Icon name="pin" size={13}/>{officeLookup.get(company.slug)?.office?.city??company.city??'Location not reported'}<em hidden={locatedOnly} className={`office-badge${officeLookup.has(company.slug)?'':' is-city-only'}`}>{officeLookup.has(company.slug)?'Office located':'City only'}</em></span>{company.tracked_event_count>0&&<strong title={company.tracked_amount_usd?formatUsd(company.tracked_amount_usd):'Amount undisclosed'}>{compactUsd(company.tracked_amount_usd)}<span> tracked</span></strong>}</div>
             {locatedOnly&&officeLookup.get(company.slug)?.office&&<p className="directory-office-address">{officeLookup.get(company.slug)!.office!.place_name}<span>{officeLookup.get(company.slug)!.office!.precision} point</span></p>}
@@ -53,7 +56,6 @@ export default function CompanyExplorer({companies,total,filters,options,mapData
     </section>
     <section className="atlas-panel" aria-label="Indian startup map">{mapData?<StartupMap data={mapData} selectedCompany={selected} onSelectCompany={company=>setSelected(mapData.offices.find(c=>c.slug===company.slug)??company)} onCloseCompany={()=>setSelected(null)}/>:<div className="map-boot"><Icon name="globe" size={40}/><h2>Map unavailable</h2><p>The company map is unavailable. The selected repository remains available in the directory.</p></div>}</section>
   </main>
-  <div className="news-wire"><button onClick={()=>setNewsOpen(!newsOpen)} aria-expanded={newsOpen} className="wire-label"><Icon name="bolt" size={17}/> THE WIRE <Icon name="chevron" size={14}/></button><div className="wire-items">{headlines.slice(0,3).map(item=><a key={item.id} href={item.url} target="_blank" rel="noreferrer"><span>{item.source_name}</span>{item.title}</a>)}</div><Link href="/news" className="wire-all">All news <Icon name="news" size={16}/></Link></div>
-  {newsOpen&&<section className="wire-popover" aria-label="Latest startup headlines"><div className="popover-heading"><h2>On the wire</h2><button className="icon-button" aria-label="Close latest news" onClick={()=>setNewsOpen(false)}><Icon name="close" size={17}/></button></div>{headlines.map(item=><a key={item.id} href={item.url} target="_blank" rel="noreferrer"><small>{item.source_name} · {displayDate(item.published_at)}</small><strong>{item.title}</strong></a>)}<Link href="/news" className="button-link">Open the newsroom</Link></section>}
+  <NewsCarousel items={headlines}/>
   </>;
 }

@@ -32,7 +32,7 @@
       "status": "accepted",
       "accepted_office_id": "4basecare-bengaluru-2026-11-25",
       "address_source_url": "https://www.4basecare.com/contact-us",
-      "review_reason": null,
+      "review_reason": "Official contact and careers pages describe headquarters in SummitB. Coordinate is overall named mixed-use BrigadeMetropolis campus centre; commercial Summit1/2 tower features exist but SummitB mapping is not conclusively resolved. No residential unit address or occupant is published; not a building or entrance pin.",
       "discovery_sources": []
     },
     {
@@ -51,10 +51,10 @@
       "brand_name": "5C Network",
       "website_url": "https://www.5cnetwork.com/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
+      "status": "needs_review",
       "accepted_office_id": null,
       "address_source_url": null,
-      "review_reason": null,
+      "review_reason": "No exact5CTowers246 feature. Number246/6thMain refinement returns road segments, library and school, not the company building.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -124,7 +124,7 @@
       "status": "accepted",
       "accepted_office_id": "ace-turtle-bengaluru-2026-11",
       "address_source_url": "https://aceturtle.com/privacy-policy/",
-      "review_reason": null,
+      "review_reason": "Published India business address matches Diamond District Commercial Block on Old Airport Road. Point represents the commercial campus; towers C/D and entrances are not resolved.",
       "discovery_sources": []
     },
     {
@@ -143,10 +143,10 @@
       "brand_name": "Aerchain",
       "website_url": "https://aerchain.io/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
-      "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "status": "accepted",
+      "accepted_office_id": "aerchain-bengaluru-2026-11-26",
+      "address_source_url": "https://aerchain.io/privacy-policy",
+      "review_reason": "Company address explicitly names Vaishnavi Tech Park, independently matching accepted OSM commercial campus feature. Point is reused from the checked Kapiva campus; no exact South Tower or ground-floor entrance inferred.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -156,10 +156,10 @@
       "brand_name": "Aereo",
       "website_url": "https://aereo.io/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
+      "status": "needs_review",
       "accepted_office_id": null,
       "address_source_url": null,
-      "review_reason": null,
+      "review_reason": "No exact company building or number3/80FeetRoad returned; search returns MCHS3rdMain road segments, insufficient.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -270,10 +270,10 @@
       "brand_name": "Akshayakalpa Organic",
       "website_url": "https://akshayakalpa.org/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
+      "status": "needs_review",
       "accepted_office_id": null,
       "address_source_url": null,
-      "review_reason": null,
+      "review_reason": "Official company pages publish Akshayakalpa Farms And Foods Private Limited address 367/G, 3rd Main Road, Sharadanagar, Tiptur 572201 outside Bengaluru. Bengaluru delivery service is confirmed but does not establish a Bengaluru public business office. Do not pin Tiptur as Bengaluru or use customer/distributor residential addresses.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -412,10 +412,10 @@
       "brand_name": "ANSCER Robotics",
       "website_url": "https://www.anscer.com/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
+      "status": "needs_review",
       "accepted_office_id": null,
       "address_source_url": null,
-      "review_reason": null,
+      "review_reason": "No named ANSCER feature or exact28B/4thMain/Bommasandra industrial building returned; numeric query produced unrelated overseas roads.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -555,10 +555,10 @@
       "brand_name": "Arzooo",
       "website_url": "https://www.arzooo.com/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
+      "status": "needs_review",
       "accepted_office_id": null,
       "address_source_url": null,
-      "review_reason": null,
+      "review_reason": "Held. Current operator MokshaRetailsGlobalPrivateLimited differs from historic Arzooo company/funding entity; operator-brand relation needs explicit presentation review. Also no exact PhoenixCitadel25CastleStreet feature; similarly named hospitals/hotels/apartments are rejected.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -603,10 +603,10 @@
       "brand_name": "Astrome Technologies",
       "website_url": "https://astrome.co/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
-      "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "status": "accepted",
+      "accepted_office_id": "astrome-technologies-bengaluru-2026-11-26",
+      "address_source_url": "https://astrome.co/contact-us/",
+      "review_reason": "Current official company contact page names Brigade Deccan Heights. Independent OSM named commercial campus matches Goraguntepalya/Yeshwanthpur Industrial Area on Tumkur Road. Campus point; units1004-1008 and tenth-floor entrance not resolved. Older MRK Tower address is not substituted.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -619,7 +619,7 @@
       "status": "accepted",
       "accepted_office_id": "ather-energy-bengaluru-2026-11-25",
       "address_source_url": "https://www.atherenergy.com/investor-relations",
-      "review_reason": null,
+      "review_reason": "Official investor page lists corporate office on13th floor and registered office on3rd floor of same Tower D. OSM company node names Ather with TowerD and matching street/postcode. No floor or entrance precision inferred.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -632,7 +632,7 @@
       "status": "accepted",
       "accepted_office_id": "ati-motors-bengaluru-2026-11-25",
       "address_source_url": "https://atimotors.com/wp-content/uploads/2025/01/Sherpa-Lite.pdf",
-      "review_reason": null,
+      "review_reason": "Company-hosted SherpaLite product brochure publishes this business address. OSM named AtiMotors industrial parcel and nearby company node9538937759 match GoraguntePalya/OuterRingRoad. Industrial campus point, not visitor entrance.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -743,10 +743,10 @@
       "brand_name": "Awign",
       "website_url": "https://www.awign.com/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
-      "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "status": "accepted",
+      "accepted_office_id": "awign-bengaluru-2026-11-26",
+      "address_source_url": "https://experts.awign.com/vendor/register",
+      "review_reason": "Official Awign Experts portal publishes HustleHub H1904 at house 1502, 19th Main Road. Independent OSM building has exact house number 1502, same road and postcode 560102; matching commercial Great Learning and Cult.Sports nodes at number1502 corroborate business use. Building address point; H1904 third/fourth floor and entrance are not independently resolved.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -759,7 +759,7 @@
       "status": "needs_review",
       "accepted_office_id": null,
       "address_source_url": "https://www.axio.co.in/contact-us",
-      "review_reason": "Company contact page explicitly associates axio with CapFloat Financial Services and lists this Bengaluru office; not the separate Pune registered office of Axio Digital. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "review_reason": "Company contact page explicitly associates axio with CapFloat Financial Services and lists this Bengaluru office; not the separate Pune registered office of Axio Digital. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication. D04 review: Gokaldas Platinum query returns unrelated Gokaldas industrial premises and residential Platinum properties; no matching Sadashiva Nagar building.",
       "discovery_sources": []
     },
     {
@@ -884,7 +884,7 @@
       "status": "accepted",
       "accepted_office_id": "bellatrix-aerospace-bengaluru-2026-11",
       "address_source_url": "https://bellatrix.aero/contact",
-      "review_reason": null,
+      "review_reason": "Company name and Sankey Road match the official published address. OSM reports postcode 560052 while the company publishes 560020; address postcode is retained as published. Not an entrance or manufacturing-facility point.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -995,7 +995,7 @@
       "status": "accepted",
       "accepted_office_id": "bighaat-bengaluru-2026-11-25",
       "address_source_url": "https://www.bighaat.com/pages/business-self-declaration",
-      "review_reason": null,
+      "review_reason": "Company business-self-declaration page corporate-office footer publishes19/2SKRTower/15thCross/DollarsLayout/4thPhaseJPNagar. OSM named SKRTowers has exacthouse19/2 and matching15thCross/JPNagar/postcode. Older page body correspondence132/3rdCross not used. Corporate address retained with dated source check; no office-floor or entrance precision.",
       "discovery_sources": []
     },
     {
@@ -1041,7 +1041,7 @@
       "status": "accepted",
       "accepted_office_id": "bitespeed-bengaluru-2026-11",
       "address_source_url": "https://www.bitespeed.co/contact",
-      "review_reason": null,
+      "review_reason": "Published business office matches Urban Vault 591 on 15th Main Road. Shared coworking building; not a claim about registered headquarters.",
       "discovery_sources": [
         "https://wherewework.co.in/"
       ]
@@ -1065,7 +1065,7 @@
       "status": "needs_review",
       "accepted_office_id": null,
       "address_source_url": "https://bizom.com/contact-us/",
-      "review_reason": "Official contact page labels Bengaluru HQ; privacy policy has older Bellandur address. Need specific building coordinate for 501.",
+      "review_reason": "Official contact page labels Bengaluru HQ; privacy policy has older Bellandur address. Need specific building coordinate for 501. D04 review: Mobisy/Bizom name query returns unrelated mobile shops, not official 501 Parangipalya building.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -1079,7 +1079,7 @@
       "status": "accepted",
       "accepted_office_id": "blissclub-bengaluru-2026-11-25",
       "address_source_url": "https://blissclub.com/policies/terms-of-service",
-      "review_reason": null,
+      "review_reason": "Official terms identify registered office145UrbanVault/5thMain/Sector6. Official store locator independently lists BlissclubHSR at same145/5thMain; OSM named Blissclub shop point on this street matches building. Shared retail/registered-office building, not a claim of a separate headquarters entrance.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -1105,7 +1105,7 @@
       "status": "accepted",
       "accepted_office_id": "bluestone-bengaluru-2026-11-25",
       "address_source_url": "https://www.bluestone.com/investor-relations.html",
-      "review_reason": null,
+      "review_reason": "Official investor FAQ identifies Bengaluru registered office and separate Mumbai corporate office. Official bluestone.com/store.html independently lists ground-floor Marathahalli store at same89/2LavaKushaArcade; named OSM four-floor BlueStone building on ORR service frontage matches. Office floor/entrance not inferred.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -1226,10 +1226,10 @@
       "brand_name": "Capillary Technologies",
       "website_url": "https://www.capillarytech.com/",
       "reported_city": "Bengaluru",
-      "status": "needs_review",
-      "accepted_office_id": null,
-      "address_source_url": "https://www.capillarytech.com/wp-content/uploads/2025/06/DRHP.pdf",
-      "review_reason": "Current company official register/corporate36015thCrossSector4HSR, but OSM named Capillary node6871418831 is old3192ndCross; do not use stale named POI.",
+      "status": "accepted",
+      "accepted_office_id": "capillary-technologies-bengaluru-2026-11-26",
+      "address_source_url": "https://www.capillarytech.com/wp-content/uploads/2025/11/RED-HERRING-PROSPECTUS.pdf",
+      "review_reason": "Official company red-herring prospectus identifies the legal entity and this registered and corporate office. Independent OSM address node has house number 360, 15th Cross Road, HSR Layout, postcode560102. Official evidence establishes public business use although OSM place=house denotes an address point. Known stale named Capillary node at319/2ndCross is explicitly rejected. Building address point, not floor or visitor entrance.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -1242,7 +1242,7 @@
       "status": "accepted",
       "accepted_office_id": "captain-fresh-bengaluru-2026-11-25",
       "address_source_url": "https://www.captainfresh.com/contact-us",
-      "review_reason": null,
+      "review_reason": "Official company contact labels this headquarters. OSM names the commercial parcel EnzymeCitrine; Citrine property has also operated under UrbanVault, corroborated by company-published43/4 address and other business occupants. Commercial parcel centre, not tenth floor or entrance; operator-name variation retained.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -1281,7 +1281,7 @@
       "status": "accepted",
       "accepted_office_id": "cashfree-payments-bengaluru-2026-11-25",
       "address_source_url": "https://www.cashfree.com/privacypolicy/",
-      "review_reason": null,
+      "review_reason": "Official registered address is Building7. Accepted coordinate is the named Ecoworld campus centre; Building7 is not separately resolved. Official20January2026 newsroom announcement corroborates new Ecoworld headquarters.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -1475,7 +1475,7 @@
       "status": "accepted",
       "accepted_office_id": "cloudphysician-bengaluru-2026-11-25",
       "address_source_url": "https://cloudphysician.ai/grievance-mechanism-policy",
-      "review_reason": null,
+      "review_reason": "Official policy publishes company correspondence address7/BellaryRoad/Ganganagar. OSM named company node independently has house7 and matching street/postcode. Directory point13.017,77.5905 rejected; no entrance or on-site verification inferred.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -1497,10 +1497,10 @@
       "brand_name": "Codeyoung",
       "website_url": "https://www.codeyoung.com/",
       "reported_city": "Bengaluru",
-      "status": "needs_review",
-      "accepted_office_id": null,
+      "status": "accepted",
+      "accepted_office_id": "codeyoung-bengaluru-2026-11-26",
       "address_source_url": "https://www.codeyoung.com/privacy",
-      "review_reason": "Official support/grievance business address confirmed. Photon returns unrelated Urban Vault branches; none matches 1350.",
+      "review_reason": "Official Codeyoung privacy page publishes business contact address Urban Vault1350, 17thCrossRoad, Sector2. Independently matching OSM commercial building has exact house number1350, same road/sector/postcode; named Geetha Dasa Reddy rather than Urban Vault. Its colocated Safari luggage shop node also has house1350 and street. This is a building address match, not an assumption that another Urban Vault property is equivalent; floor/entrance not resolved.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -1511,10 +1511,10 @@
       "brand_name": "Colive",
       "website_url": "https://www.colive.com/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
+      "status": "needs_review",
       "accepted_office_id": null,
       "address_source_url": null,
-      "review_reason": null,
+      "review_reason": "No matching KoteMRPlaza; refinement returns PSSPlaza on WindTunnelRoad and unrelated overseas features, not official Doddanekundi ORR office.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -1630,7 +1630,7 @@
       "status": "needs_review",
       "accepted_office_id": null,
       "address_source_url": "https://us.convin.ai/terms-and-conditions",
-      "review_reason": "Published business contact office. Match the H207 property, not an unrelated HustleHub coworking location. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "review_reason": "Published business contact office. Match the H207 property, not an unrelated HustleHub coworking location. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication. D04 review: HustleHub H207 query returns H1901 and other branches, not H207 Somasundarapalya. Current official terms moved from us.convin.ai to convin.ai/terms-and-conditions.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -1651,10 +1651,10 @@
       "brand_name": "CoRover",
       "website_url": "https://corover.ai/",
       "reported_city": "Bengaluru",
-      "status": "needs_review",
-      "accepted_office_id": null,
-      "address_source_url": "https://www.corover.ai/terms-conditions",
-      "review_reason": "Registered address in the opening legal-entity clause. Do not use the residential contact address also present in an older section of the page. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "status": "accepted",
+      "accepted_office_id": "corover-bengaluru-2026-11-26",
+      "address_source_url": "https://corover.ai/company/about-us",
+      "review_reason": "Current official CoRover about page publishes112 AKR Tech Park A Block, Krishna Reddy Industrial Area, Bommanahalli560068, resolving the earlier ambiguous BHIVE Premium Tech Park label. BHIVE official HSR campus page independently identifies112 AKR Tech Park as its Premium HSR campus. Matching OSM named BHIVE coworking node has exact house112, HosurRoad and postcode560068. Campus precision, not BlockA entrance. Personal/residential contacts elsewhere in older terms are excluded.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -1680,7 +1680,7 @@
       "status": "accepted",
       "accepted_office_id": "cred-bengaluru-2026-11",
       "address_source_url": "https://cred.club/legal/other-disclosures",
-      "review_reason": null,
+      "review_reason": "Published business address for grievance correspondence; not classified as a registered office.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -1737,10 +1737,10 @@
       "brand_name": "Cult.fit",
       "website_url": "https://www.cult.fit/",
       "reported_city": "Bengaluru",
-      "status": "needs_review",
-      "accepted_office_id": null,
+      "status": "accepted",
+      "accepted_office_id": "cult-fit-bengaluru-2026-11-26",
       "address_source_url": "https://business.cult.fit/contact-us",
-      "review_reason": "Business partnership office published on the official corporate site. Curefit and Cult.fit are separate archive slugs; identity consolidation is not inferred here. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "review_reason": "Official Cult.fit Business contact page labels this address OUR OFFICE and immediately embeds a map widget with explicit data-widget-latlng=12.9117772,77.6418442. This is a company-published destination, not independently OSM-verified. The page inconsistently includes BDA 3rd Sector and Sector 4; source wording is preserved rather than silently corrected. Conservative campus precision; no floor or visitor entrance inferred. Do not merge the distinct archive Curefit record.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -1774,10 +1774,10 @@
       "brand_name": "Curefoods",
       "website_url": "https://www.curefoods.in/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
-      "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "status": "accepted",
+      "accepted_office_id": "curefoods-bengaluru-2026-11-26",
+      "address_source_url": "https://www.curefoods.in/policies/privacy-policy",
+      "review_reason": "Current official company privacy policy updated13November2026 section13 names Curefoods India Limited and public corporate correspondence office UrbanVault97,17thCrossRoad,Sector4,HSR560102. Independent OSM company-office node exactly names Urban Vault97 with house97, same street and postcode. Bengaluru business office, not registered office (which the policy places in Chennai). Company floor and entrance not independently resolved; personal grievance-officer details omitted.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -1853,7 +1853,7 @@
       "status": "accepted",
       "accepted_office_id": "cynlr-bengaluru-2026-11-25",
       "address_source_url": "https://www.cynlr.com/contact-us",
-      "review_reason": null,
+      "review_reason": "Company contact page labels this India office. Named OSM commercial SJRiPark matches Whitefield/EPIP. Campus centre only; Warp building and entrance are not separately resolved. Do not substitute SJRParkVista residential complex.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -1863,10 +1863,10 @@
       "brand_name": "DaMENSCH",
       "website_url": "https://www.damensch.com/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
-      "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "status": "accepted",
+      "accepted_office_id": "damensch-bengaluru-2026-11-26",
+      "address_source_url": "https://www.damensch.com/terms-and-conditions",
+      "review_reason": "Official DaMENSCH terms name JB House, house 110, 4th Cross, 5th Block, Koramangala Industrial Layout, 560095. Independently matching OSM commercial-office node Sacumen carries JB Group #110, 4th Cross and the same postcode; Sacumen company-hosted brochure https://sacumen.com/wp-content/uploads/Sacumen-Brochure-2020.pdf corroborates JB Group #110, Mezzanine Floor, 4th Cross, 5th Block, Industrial Layout. Building address point; second floor and visitor entrance are not resolved.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -1922,10 +1922,10 @@
       "brand_name": "Deconstruct",
       "website_url": "https://thedeconstruct.in/",
       "reported_city": "Bengaluru",
-      "status": "needs_review",
-      "accepted_office_id": null,
+      "status": "accepted",
+      "accepted_office_id": "deconstruct-bengaluru-2026-11-26",
       "address_source_url": "https://thedeconstruct.in/pages/grievance-officer-details",
-      "review_reason": "Official business correspondence office confirmed. Photon returns other Enzyme properties, not Diamond.",
+      "review_reason": "Official company grievance correspondence page publishes multi-floor office at150/2,EnzymeDiamond,7thCrossRoad,AgaraVillage,HSR560102. Independent OSM address node exactly matches150/2,7thCrossRoad,Agara,postcode560102. Another150/2 node on8thCross is rejected as different street. OSM district field Iblur differs from official HSR/Sector4 locality wording; number/street/Agara/postcode agree. Business correspondence address only; individual officer contact details omitted. Building address point; third-floor entrance not resolved.",
       "discovery_sources": [
         "https://wherewework.co.in/"
       ]
@@ -1982,7 +1982,7 @@
       "status": "accepted",
       "accepted_office_id": "digantara-bengaluru-2026-11",
       "address_source_url": "https://www.digantara.co.in/privacy-policy",
-      "review_reason": null,
+      "review_reason": "Registered office from the company policy updated 1 May 2026, matched to Senate 2 on Outer Ring Road. OSM reports postcode 560024; company postcode 560094 is retained as published. Not an entrance point.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -2135,7 +2135,7 @@
       "status": "needs_review",
       "accepted_office_id": null,
       "address_source_url": "https://drinkprime.in/terms-of-use",
-      "review_reason": "Official address475/9/AChukkiComplex19thMainSector3HSR. No matching building/parcel point found.",
+      "review_reason": "Official address475/9/AChukkiComplex19thMainSector3HSR. No matching building/parcel point found. D04 review: Query returns Atal Bihari sports complex, not Chukki Complex. Exact9/A refinement returns19thMainRoad centre segments, not a numbered building; held.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -2224,10 +2224,10 @@
       "brand_name": "ElectricPe",
       "website_url": "https://electricpe.com/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
+      "status": "needs_review",
       "accepted_office_id": null,
       "address_source_url": null,
-      "review_reason": null,
+      "review_reason": "HantoOrion query returns unrelated Orion malls and motors store; old1781 office not substituted for current policy address.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -2421,7 +2421,7 @@
       "status": "accepted",
       "accepted_office_id": "etherealx-bengaluru-2026-11-25",
       "address_source_url": "https://guild.world/contact",
-      "review_reason": null,
+      "review_reason": "Archive website etherealx.space redirects to officialguild.world and current contact publishes this headquarters. Same commercial Citrine parcel asCaptainFresh; OSM usesEnzymeCitrine name. Do not jitter sharedcampuspoints. Separate archive record ethereal-exploration-guild may be samebrand; aliasresolution needed before merging or duplicating this office.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -2492,10 +2492,10 @@
       "brand_name": "Eyestem Research",
       "website_url": "https://eyestem.com/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
-      "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "status": "accepted",
+      "accepted_office_id": "eyestem-research-bengaluru-2026-11-26",
+      "address_source_url": "https://eyestem.com/contact/",
+      "review_reason": "Official Eyestem contact address names C-CAMP, NCBS-TIFR, GKVK Post. Independently matching OSM building is named Centre for Cellular and Molecular Platforms in Thindlu, postcode 560065; nearby NCBS campus way816863562 corroborates the research campus. Use the named C-CAMP building, not the NCBS Archives point returned by the abbreviated initial search. Laboratory suite and entrance are not resolved.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -2598,7 +2598,7 @@
       "status": "accepted",
       "accepted_office_id": "finbox-bengaluru-2026-11",
       "address_source_url": "https://www.finbox.in/about-us",
-      "review_reason": null,
+      "review_reason": "Official site labels this Bengaluru headquarters and separately lists a Gurugram registered office. Shares the building with other companies; floors are not separately mapped.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -2612,7 +2612,7 @@
       "status": "accepted",
       "accepted_office_id": "finnable-bengaluru-2026-11",
       "address_source_url": "https://www.finnable.com/privacy-policy/",
-      "review_reason": null,
+      "review_reason": "Published grievance-correspondence office matches IndiQube Edge on Outer Ring Road, Bellandur. No personal officer contacts are retained; not automatically classified as a registered office.",
       "discovery_sources": []
     },
     {
@@ -2658,7 +2658,7 @@
       "status": "accepted",
       "accepted_office_id": "fisdom-bengaluru-2026-11",
       "address_source_url": "https://www.fisdom.com/wp-content/uploads/2025/09/RA-Disclaimer_Final.pdf",
-      "review_reason": null,
+      "review_reason": "Official research-analyst disclosure publishes this office. Do not conflate it with the separately listed Queens Paradise registered-office address. OSM building name and Saint Marks Road match.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -2716,10 +2716,10 @@
       "brand_name": "FluxGen",
       "website_url": "https://fluxgen.com/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
-      "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "status": "accepted",
+      "accepted_office_id": "fluxgen-bengaluru-2026-11-26",
+      "address_source_url": "https://fluxgen.com/contact",
+      "review_reason": "Official contact address names Garuda BHIVE in BMTC Complex, Kuvempu Nagar, BTM Layout. Independently matching OSM named coworking node is Garuda Bhive Workspace in the same Kuvempu Nagar locality on Outer Ring Road; BHIVE official location page independently confirms the campus/BMTC Complex alias. OSM postcode 560076 differs from company/campus published 560068, recorded rather than silently corrected. Campus point; second floor and entrance not resolved.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -2771,7 +2771,7 @@
       "status": "needs_review",
       "accepted_office_id": null,
       "address_source_url": "https://econsent.furlenco.com/agreement-2.html",
-      "review_reason": "Published registered office in subscription terms; not an inferred warehouse address. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "review_reason": "Published registered office in subscription terms; not an inferred warehouse address. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication. D04 review: Krishna Annex Silk Board query returns no matching feature. Current Furlenco contact map is only a named Furlenco Head search, not explicit destination coordinates.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -2818,10 +2818,10 @@
       "brand_name": "GalaxEye",
       "website_url": "https://galaxeye.space/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
+      "status": "needs_review",
       "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "address_source_url": "https://www.galaxeye.space/contact-us",
+      "review_reason": "D04 parent review: Named OSM GalaxEye company point is the former646/27thMain HSR office; current company publishes Plot83 KIADB Defence Aerospace Park. Industrial park centroids do not resolve the parcel.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -2871,7 +2871,7 @@
       "status": "accepted",
       "accepted_office_id": "genworks-health-bengaluru-2026-11",
       "address_source_url": "https://www.genworkshealth.com/corporate-governance",
-      "review_reason": null,
+      "review_reason": "Current company governance page identifies Gamma Block at Sigma Soft Tech Park. The independently matched OSM feature resolves the commercial campus only, not Gamma Block or an entrance. The company filing coordinate differs from the mapped campus and is not used.",
       "discovery_sources": []
     },
     {
@@ -2882,7 +2882,7 @@
       "status": "needs_review",
       "accepted_office_id": null,
       "address_source_url": "https://www.giva.co/pages/welcome-to-giva",
-      "review_reason": "Registered office from the official store footer. Do not use an unrelated GIVA retail store pin. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "review_reason": "Registered office from the official store footer. Do not use an unrelated GIVA retail store pin. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication. D04 review: No matching headquarters building at Plot 60 Doddakallasandra; retail store points are excluded. Final refinement also checks published public correspondence footer atThirdFloorMagnumVistaRaghuvanahalli; no matching named building returned.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -2932,7 +2932,7 @@
       "status": "needs_review",
       "accepted_office_id": null,
       "address_source_url": "https://goatbrandlabs.com/contact-us/",
-      "review_reason": "Published Bangalore office. Main contact section gives postcode 560102 while the footer gives 560034; street/building agree. The decorative 51.2211 N,6.7745 W shown on the page is outside India and must never be used as this office coordinate. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "review_reason": "Published Bangalore office. Main contact section gives postcode 560102 while the footer gives 560034; street/building agree. The decorative 51.2211 N,6.7745 W shown on the page is outside India and must never be used as this office coordinate. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication. D04 review: Urban Vault 2908 query returns other properties. Official page has query-only street map plus unrelated Barcelona template coordinates; those coordinates are rejected.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -3117,7 +3117,7 @@
       "status": "needs_review",
       "accepted_office_id": null,
       "address_source_url": "https://www.healthifyme.com/terms-of-use/",
-      "review_reason": "Official current registered address confirmed; OSM Healthify Me POI on 12th Main Road differs. Do not use obsolete directory point without further review.",
+      "review_reason": "Official current registered address confirmed; OSM Healthify Me POI on 12th Main Road differs. Do not use obsolete directory point without further review. D04 review: Query returns 80 Feet Road segments rather than office building; no street-centre pin accepted. Exact-number refinement returns30/9 on80FeetRoad,Michaelpalya560038, not officialNo30HAL3rdStage560075; held.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -3321,10 +3321,10 @@
       "brand_name": "Immuneel Therapeutics",
       "website_url": "https://immuneel.com/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
-      "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "status": "accepted",
+      "accepted_office_id": "immuneel-therapeutics-bengaluru-2026-11-26",
+      "address_source_url": "https://immuneel.com/contact-us/",
+      "review_reason": "Official company contact page identifies laboratory/manufacturing office in A Block, Mazumdar Shaw Medical Center, Narayana Health City. Independently matching OSM named hospital building is on Hosur Road, Bommasandra, postcode 560099. Public company office within a medical campus; no patient location is retained. Building point; A Block, eighth floor and entrance are not resolved.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -3428,7 +3428,7 @@
       "status": "accepted",
       "accepted_office_id": "inmobi-bengaluru-2026-11-25",
       "address_source_url": "https://www.inmobi.com/company/contact",
-      "review_reason": null,
+      "review_reason": "Current company contact page names DeltaBlock/EmbassyTechSquare. Named OSM InMobi building matches campus. OSM street is internal parking access; not a visitor entrance pin.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -3439,10 +3439,10 @@
       "brand_name": "Innoviti Technologies",
       "website_url": "https://innoviti.com/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
-      "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "status": "accepted",
+      "accepted_office_id": "innoviti-technologies-bengaluru-2026-11-26",
+      "address_source_url": "https://innoviti.com/grievance-policy/",
+      "review_reason": "Official grievance policy names Tower D in Diamond District, matching the accepted OSM Diamond District Commercial Block campus. Point is reused from the checked Ace Turtle commercial campus, not the residential polygon; Tower D and seventh-floor entrance are not independently resolved.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -3617,7 +3617,7 @@
       "status": "accepted",
       "accepted_office_id": "juspay-bengaluru-2026-11-25",
       "address_source_url": "https://juspay.io/about",
-      "review_reason": null,
+      "review_reason": "Official about page describes Bangalore headquarters and names Stallion444/18thMain. OSM named company building and adjacent company node5429445888 match street/number; building point, not entrance.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -3631,7 +3631,7 @@
       "status": "accepted",
       "accepted_office_id": "kapiva-bengaluru-2026-11",
       "address_source_url": "https://kapiva.in/terms-and-condition/",
-      "review_reason": null,
+      "review_reason": "Registered office published in official terms; point represents the Vaishnavi Tech Park campus, not its floor or entrance.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -3644,7 +3644,7 @@
       "status": "accepted",
       "accepted_office_id": "kapture-cx-bengaluru-2026-11",
       "address_source_url": "https://www.kapture.cx/about-us/",
-      "review_reason": null,
+      "review_reason": "Company name and the full B-9, 11th Floor, Brigade Summit address match the official head-office page. Point represents the building/office footprint, not the entrance.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -3722,10 +3722,10 @@
       "brand_name": "Kiwi",
       "website_url": "https://gokiwi.in/",
       "reported_city": "Bengaluru",
-      "status": "needs_review",
-      "accepted_office_id": null,
+      "status": "accepted",
+      "accepted_office_id": "kiwi-bengaluru-2026-11-26",
       "address_source_url": "https://www.gokiwi.in/contact-us/",
-      "review_reason": "Current official office and legal pages agree. Photon has no matching Olsen Spaces 1505 building.",
+      "review_reason": "Official Kiwi contact page and organization structured data identify Gokiwi Technologies Pvt Ltd and public office1505,19thMainRoad. Independent OSM building has exact house1505, same road and postcode560102; colocated Tata Health office node corroborates commercial office use. Building address match, not a different Olsen/UrbanVault branch. Second/third floor and visitor entrance not independently resolved.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -3783,7 +3783,7 @@
       "status": "accepted",
       "accepted_office_id": "kreditbee-bengaluru-2026-11-25",
       "address_source_url": "https://www.kreditbee.in/contact-us",
-      "review_reason": null,
+      "review_reason": "Official brand contact page directly publishes this business address. The grievance page also uses it for lender KrazyBeeServices; this record does not classify it as the registered office of brand-owner Finnovation. OSM names the building; frontage also faces RamaiahStreet.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -4228,7 +4228,7 @@
       "status": "accepted",
       "accepted_office_id": "meesho-bengaluru-2026-11",
       "address_source_url": "https://investor.meesho.com/resources",
-      "review_reason": null,
+      "review_reason": "Campus centre; Wing E and the entrance are not separately resolved.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -4380,7 +4380,7 @@
       "status": "accepted",
       "accepted_office_id": "moneyview-bengaluru-2026-11",
       "address_source_url": "https://moneyview.in/images/Annual-report-2024-25.pdf",
-      "review_reason": null,
+      "review_reason": "Registered office from the FY 2024–25 report. The geocoder labels the frontage Service Road.",
       "discovery_sources": []
     },
     {
@@ -4412,10 +4412,10 @@
       "brand_name": "MoveInSync",
       "website_url": "https://moveinsync.com/",
       "reported_city": "Bengaluru",
-      "status": "needs_review",
-      "accepted_office_id": null,
+      "status": "accepted",
+      "accepted_office_id": "moveinsync-bengaluru-2026-11-26",
       "address_source_url": "https://moveinsync.com/privacy-policy",
-      "review_reason": "Official registered address confirmed. OSM named Moveinsync POI is on 18th Cross Road and cannot be promoted without resolving discrepancy.",
+      "review_reason": "Official privacy policy identifies the legal entity and registered office at Plot 439, 17th Cross Road. Independently matching OSM address node has house number 439, the same street and postcode. Its place=house tag denotes an address point; the official evidence explicitly identifies a multi-floor public business office. This is a different address from the stale named Moveinsync POI on 18th Cross. Building-level address point; floor and entrance are not independently resolved.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -4461,10 +4461,10 @@
       "brand_name": "Myelin Foundry",
       "website_url": "https://www.myelinfoundry.com/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
-      "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "status": "accepted",
+      "accepted_office_id": "myelin-foundry-bengaluru-2026-11-26",
+      "address_source_url": "https://myelinfoundry.com/wp-content/uploads/2025/10/myelin-foundry-6th-agm-notice-4th-september-2025.pdf",
+      "review_reason": "Company-hosted 2025 AGM notice publishes business office at Brigade Padmini Tech Valley Cloud Block. Independently matching OSM named commercial parcel way1425005513 represents the campus, preferred over the adjacent construction-tagged parcel way1097727357; no Cloud Block/floor entrance inferred. Official developer describes the same commercial project and Cloud Block. Personal correspondence address and meeting access details in the notice are explicitly excluded.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -4477,7 +4477,7 @@
       "status": "accepted",
       "accepted_office_id": "mygate-bengaluru-2026-11",
       "address_source_url": "https://mygate.com/lead-capture/",
-      "review_reason": null,
+      "review_reason": "Official Bengaluru headquarters address matches the named OSM office, house number and street. Building point, not a specific entrance.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -4590,7 +4590,7 @@
       "status": "accepted",
       "accepted_office_id": "navi-bengaluru-2026-11-25",
       "address_source_url": "https://navi.com/privacy-policy/general/",
-      "review_reason": null,
+      "review_reason": "Current official general privacy policy names NaviLimited formerlyNaviTechnologiesLimited and this registered address. Named OSM office building matches; no floor/entrance precision.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -4622,10 +4622,10 @@
       "brand_name": "Newme",
       "website_url": "https://newme.asia/",
       "reported_city": "Bengaluru",
-      "status": "needs_review",
-      "accepted_office_id": null,
+      "status": "accepted",
+      "accepted_office_id": "newme-bengaluru-2026-11-26",
       "address_source_url": "https://newme.asia/about-us",
-      "review_reason": "Official about page publishes this business office. Other terms list an apparent residential registered address; avoid residential records. Need building coordinate for 919.",
+      "review_reason": "Official NEWME about page identifies brand/legal entity and public office above Third Wave Coffee at919,5thMainRoad,Sector7. Independent OSM building exactly matches house919, same street and sector. OSM postcode560068 differs from company-published560102, recorded as source discrepancy. Official evidence establishes retail/commercial use; no residential personal address is retained. Building point; first-floor entrance not independently resolved.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -4636,10 +4636,10 @@
       "brand_name": "Newtrace",
       "website_url": "https://www.newtrace.io/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
+      "status": "needs_review",
       "accepted_office_id": null,
       "address_source_url": null,
-      "review_reason": null,
+      "review_reason": "No named Newtrace company or exact23 industrial parcel returned. Initial search returns Doddanekundi area/lake/road and cafe, none accepted.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -4663,7 +4663,7 @@
       "status": "accepted",
       "accepted_office_id": "ninjacart-bengaluru-2026-11-25",
       "address_source_url": "https://ninjacart.com/privacy-policy/",
-      "review_reason": null,
+      "review_reason": "Current privacy policy explicitly identifies parent63Ideas at HeliosE in both opening identity and contact address. Older terms page had Vaishnavi conflict. Campus centre shared with Meesho; do not jitter co-located companies or imply tower entrance.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -4674,10 +4674,10 @@
       "brand_name": "Niqo Robotics",
       "website_url": "https://niqorobotics.com/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
-      "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "status": "accepted",
+      "accepted_office_id": "niqo-robotics-bengaluru-2026-11-26",
+      "address_source_url": "https://niqorobotics.com/privacy-policy/",
+      "review_reason": "Official privacy policy identifies the brand and Tartan Aerial Sense Tech Private Limited at 1074-A, 11th Main Road, Indiranagar. Independent OSM company office Niqo Robotics has house1074/A and the same street. OSM locality Motappanapalya/postcode560008 differs from company Appareddipalya/560038; named company, number and street agree. Building point; entrance not confirmed.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -4793,7 +4793,7 @@
       "status": "accepted",
       "accepted_office_id": "ola-electric-bengaluru-2026-11",
       "address_source_url": "https://cdn.olaelectric.com/sites/evdp/pages/investor/lodr/investor_relations_contact_grievance_redressal.pdf",
-      "review_reason": null,
+      "review_reason": "Current official investor contact document lists Wing C, Prestige RMZ Startech as the corporate and registered office. Point represents the named commercial campus, not Wing C or its entrance. The FY 2024–25 annual-return coordinate conflicts with this named map feature by about 1.1 km and was not used.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -4931,10 +4931,10 @@
       "brand_name": "Orange Health Labs",
       "website_url": "https://www.orangehealth.in/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
+      "status": "needs_review",
       "accepted_office_id": null,
       "address_source_url": null,
-      "review_reason": null,
+      "review_reason": "Official corporate contact/registered office for Orchard Healthcare Private Limited is Prem Tower, Plot4, Kirti Nagar, Sector15Part1, Gurgaon122001. Official Bengaluru pages list public diagnostic collection centres but no source-checked Bengaluru corporate office. Do not present collection centre as headquarters; requires explicit operating-lab/collection-centre kind if product scope expands.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -5140,7 +5140,7 @@
       "status": "accepted",
       "accepted_office_id": "perfios-bengaluru-2026-11",
       "address_source_url": "https://perfios.ai/privacy-policy/",
-      "review_reason": null,
+      "review_reason": "Corporate office; the same policy lists a separate registered office in Mumbai.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -5153,7 +5153,7 @@
       "status": "accepted",
       "accepted_office_id": "phonepe-bengaluru-2026-11-26",
       "address_source_url": "https://ir.phonepe.com/contact-us/",
-      "review_reason": null,
+      "review_reason": "Official investor relations publishes the registered and corporate office for PhonePe Limited. Independently named Salarpuria Softzone commercial campus agrees with the Bellandur/Outer Ring Road address. Campus centre only; Wing A, Block A, floor and entrance are not independently resolved.",
       "discovery_sources": [
         "https://ir.phonepe.com/contact-us/"
       ]
@@ -5166,7 +5166,7 @@
       "status": "accepted",
       "accepted_office_id": "pixxel-bengaluru-2026-11",
       "address_source_url": "https://media-kit.pixxel.space/about",
-      "review_reason": null,
+      "review_reason": "Published India office; not a claim about every manufacturing or operational facility.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -5223,7 +5223,7 @@
       "status": "accepted",
       "accepted_office_id": "plum-bengaluru-2026-11-25",
       "address_source_url": "https://www.plumhq.com/privacy-policy",
-      "review_reason": null,
+      "review_reason": "Company privacy page updated8October2026 publishes TowerB/PrimecoUnionCity; same page footer differs on postcode so postcode omitted. Named OSM commercial campus matches. Campus centre, not TowerB entrance.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -5267,10 +5267,10 @@
       "brand_name": "Portea Medical",
       "website_url": "https://www.portea.com/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
+      "status": "needs_review",
       "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "address_source_url": "https://www.portea.com/contact-us/",
+      "review_reason": "D04 parent review: No matching independent feature returned for Portea head office69/B Domlur. Company map link can be reviewed separately.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -5284,7 +5284,7 @@
       "status": "accepted",
       "accepted_office_id": "porter-bengaluru-2026-11-25",
       "address_source_url": "https://porter.in/support",
-      "review_reason": null,
+      "review_reason": "Current official support page calls this Our Head Office. Named OSM commercial campus matches address; earlier Porter node on BannerghattaRoad is stale and was not used. Campus centre, not floor or entrance.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -5294,10 +5294,10 @@
       "brand_name": "Postman",
       "website_url": "https://www.postman.com/",
       "reported_city": null,
-      "status": "not_yet_researched",
-      "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "status": "accepted",
+      "accepted_office_id": "postman-bengaluru-2026-11-26",
+      "address_source_url": "https://www.postman.com/company/contact-us/",
+      "review_reason": "Current official Bangalore branch address exactly matches the independently named OSM company office: Postman, house 310, 6th Main Road, postcode 560038. The global headquarters remains San Francisco; this is a sourced Indian branch. Building point; visitor entrance is not confirmed.",
       "discovery_sources": [
         "https://www.postman.com/company/contact-us/"
       ]
@@ -5481,7 +5481,7 @@
       "status": "accepted",
       "accepted_office_id": "qnu-labs-bengaluru-2026-11",
       "address_source_url": "https://www.qnulabs.com/about-us",
-      "review_reason": null,
+      "review_reason": "Official registered-office building and MG Road match the OSM commercial building; a separate QnuLabs OSM POI sits within this footprint. Floor and East Wing are not separately located.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -5513,10 +5513,10 @@
       "brand_name": "QpiAI",
       "website_url": "https://qpiai.tech/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
-      "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "status": "accepted",
+      "accepted_office_id": "qpiai-bengaluru-2026-11-26",
+      "address_source_url": "https://www.qpiai.tech/contact",
+      "review_reason": "Official QpiAI contact page names Hub1 SEZ Tower, Karle Town Centre. Independent OSM office building Hub1 is within Karle Town Centre on Karle Zenith Residency Road. Exact named commercial building; do not use neighbouring Hub2 or residential Town House. OSM postcode560024 differs from official560045, retained as source discrepancy; floor/entrance not resolved.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -5608,7 +5608,7 @@
       "status": "accepted",
       "accepted_office_id": "rapido-bengaluru-2026-11",
       "address_source_url": "https://www.rapido.bike/Contact",
-      "review_reason": null,
+      "review_reason": "Corporate office; the registered office is in Hyderabad. Campus centre, not Tower A entrance.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -5635,7 +5635,7 @@
       "status": "accepted",
       "accepted_office_id": "razorpay-bengaluru-2026-11-26",
       "address_source_url": "https://razorpay.com/x/terms/",
-      "review_reason": null,
+      "review_reason": "Official RazorpayX terms identify Razorpay Software Limited and this registered office. Independently named SJR Cyber Laskar commercial-campus feature matches Laskar Hosur Road/Adugodi. Campus centre only; floor and visitor entrance are unresolved. This legal entity is not conflated with its payment-aggregator affiliate.",
       "discovery_sources": [
         "https://razorpay.com/x/terms/"
       ]
@@ -5681,7 +5681,7 @@
       "status": "accepted",
       "accepted_office_id": "refyne-bengaluru-2026-11-25",
       "address_source_url": "https://www.refyne.co.in/privacy-content",
-      "review_reason": null,
+      "review_reason": "Company privacy policy reviewed31March2026 publishes this correspondence address. Named OSM commercial building matches PrestigePegasus on SarjapurRoad/Ambalipura. No suite or entrance inferred.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -5728,7 +5728,7 @@
       "status": "accepted",
       "accepted_office_id": "rentomojo-bengaluru-2026-11",
       "address_source_url": "https://www.rentomojo.com/privacy-policy",
-      "review_reason": null,
+      "review_reason": "Registered office at the AKR Tech Park campus. The company separately lists a corporate office at BHIVE BMTC Complex, BTM Layout; this pin is not that corporate office or a retail store.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -5939,7 +5939,7 @@
       "status": "accepted",
       "accepted_office_id": "sarvam-bengaluru-2026-11-25",
       "address_source_url": "https://www.sarvam.ai/privacy-policy",
-      "review_reason": null,
+      "review_reason": "Official policy agrees on building 732, Urban Vault and CMH Road but contains conflicting postcodes; postcode omitted. OSM feature independently matches house number732 and CMH Road, Indiranagar.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -5953,7 +5953,7 @@
       "status": "accepted",
       "accepted_office_id": "satsure-bengaluru-2026-11",
       "address_source_url": "https://www.satsure.co/contact-us/",
-      "review_reason": null,
+      "review_reason": "Published India business office. Building point, not suite or entrance.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -5966,7 +5966,7 @@
       "status": "accepted",
       "accepted_office_id": "scapia-bengaluru-2026-11",
       "address_source_url": "https://www.scapia.cards/legal/privacy-policy",
-      "review_reason": null,
+      "review_reason": "Official privacy policy labels this registered office. Campus centre; Tower B and floor are not separately resolved. Other companies legitimately share the campus.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -6046,10 +6046,10 @@
       "brand_name": "Shadowfax",
       "website_url": "https://www.shadowfax.in/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
-      "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "status": "accepted",
+      "accepted_office_id": "shadowfax-bengaluru-2026-11-26",
+      "address_source_url": "https://www.shadowfax.in/contact-us",
+      "review_reason": "Current official company contact footer names Shilpitha Tech Park, Devarabisanahalli Road, opposite Sakra World Hospital. Independent OSM named commercial parcel matches this Bellandur tech park. Campus point; third floor and parcels55/3,55/4 entrances not individually resolved.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -6062,7 +6062,7 @@
       "status": "accepted",
       "accepted_office_id": "sharechat-bengaluru-2026-11",
       "address_source_url": "https://sharechat.com/get-in-touch",
-      "review_reason": null,
+      "review_reason": "Official registered office matches the commercial Vaishnavi Tech Park campus. North Tower and Smartworks suite are not separately resolved; do not use the older Sona Towers address.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -6110,7 +6110,7 @@
       "status": "accepted",
       "accepted_office_id": "simple-energy-bengaluru-2026-11-25",
       "address_source_url": "https://www.simpleenergy.in/about",
-      "review_reason": null,
+      "review_reason": "Current official about-page footer publishes this commercial office. Named OSM Phase2 campus matches. Campus centre; WingA and entrance are not separately resolved.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -6123,7 +6123,7 @@
       "status": "accepted",
       "accepted_office_id": "simplismart-bengaluru-2026-11",
       "address_source_url": "https://simplismart.ai/terms-of-service",
-      "review_reason": null,
+      "review_reason": "Published correspondence address. Janardhan Tower is also documented at 133/2 Residency Road in TCE corporate records; OSM labels the frontage Field Marshal Cariappa Cycle Path. The source policy is dated January 2023; occupation has not been checked on site.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -6148,7 +6148,7 @@
       "status": "needs_review",
       "accepted_office_id": null,
       "address_source_url": "https://www.skydo.com/terms-of-use",
-      "review_reason": "Official terms label registered office. Photon returns unrelated IndiQube buildings; no accepted coordinate.",
+      "review_reason": "Official terms label registered office. Photon returns unrelated IndiQube buildings; no accepted coordinate. D04 review: IndiQube query returns unnamed-specific branch on 9th Main and residential Salarpuria Serenity, not confirmed Hosur Road Serenity Phase 2. Official short map destination under review. Official maps.app.goo.gl destination redirect could not be read because request timed out; no destination coordinate is inferred.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -6162,7 +6162,7 @@
       "status": "accepted",
       "accepted_office_id": "slice-bengaluru-2026-11",
       "address_source_url": "https://www.sliceit.com/documents/Policies/Whistle-Blower-Policy.pdf",
-      "review_reason": null,
+      "review_reason": "Corporate office of the current Slice bank brand; the official policy lists its registered office separately in Guwahati. Building match; OSM labels the adjoining locality Koramangala 1st Block while the address says 3rd Block.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -6202,7 +6202,7 @@
       "status": "accepted",
       "accepted_office_id": "smallcase-bengaluru-2026-11",
       "address_source_url": "https://www.smallcase.com/meta/disclosures/",
-      "review_reason": null,
+      "review_reason": "Registered office of CASE Platforms, formerly Smallcase Technologies; building also fronts Convent Road.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -6323,7 +6323,7 @@
       "status": "needs_review",
       "accepted_office_id": null,
       "address_source_url": "https://legal.spotdraft.com/signup/privacy-policy",
-      "review_reason": "Official current privacy notice publishes this business office, conflicting with directory UrbanVault97/17thCross. Official source takes priority; precise building unresolved.",
+      "review_reason": "Official current privacy notice publishes this business office, conflicting with directory UrbanVault97/17thCross. Official source takes priority; precise building unresolved. D04 review: Query returns unrelated fitness centre number 1196 in BTM, not office 1193/1194 HSR.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -6334,10 +6334,10 @@
       "brand_name": "Stable Money",
       "website_url": "https://stablemoney.in/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
-      "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "status": "accepted",
+      "accepted_office_id": "stable-money-bengaluru-2026-11-26",
+      "address_source_url": "https://stablemoney.in/contact-us",
+      "review_reason": "Official registered/office address explicitly names112 AKR Tech Park, BHIVE HSR Premium Campus. Independent OSM named BHIVE coworking node carries exact house112, Hosur Road and postcode560068. BHIVE official location page https://bhiveworkspace.com/locations-coworking/bhive-hsr-campus/ confirms AKR Tech Park campus alias. Conservative campus point; BlockA and third-floor entrance not resolved.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -6394,7 +6394,7 @@
       "status": "accepted",
       "accepted_office_id": "stellapps-bengaluru-2026-11-26",
       "address_source_url": "https://www.stellapps.com/contact-us/",
-      "review_reason": null,
+      "review_reason": "Official contact page identifies the legal entity and registered office in A-Block of Ozone Manay Technology Park. Independently matched named OSM commercial-campus feature agrees with the published address. Campus centre only; exact block, floor and entrance are not resolved. The earlier filing coordinate is not used. Porter has a separately sourced office on the same campus; coordinates are intentionally shared.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -6426,10 +6426,10 @@
       "brand_name": "StockGro",
       "website_url": "https://www.stockgro.club/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
+      "status": "needs_review",
       "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "address_source_url": "https://www.stockgro.club/privacy/",
+      "review_reason": "D04 parent review: UBGO Tower query returned unrelated towers and tourist locations; no exact Kasturba Road feature.",
       "discovery_sources": []
     },
     {
@@ -6568,7 +6568,7 @@
       "status": "accepted",
       "accepted_office_id": "swiggy-bengaluru-2026-11-26",
       "address_source_url": "https://www.swiggy.com/corporate/wp-content/uploads/2026/05/Covering-Letter_Letter-to-Shareholders_Signed.pdf",
-      "review_reason": null,
+      "review_reason": "A May 2026 company shareholder letter identifies this registered office. The company’s 29 January 2026 filing records relocation from Embassy Tech Village, effective 1 April 2026. The current corporate home-page head-office address agrees. The independently named OSM commercial campus matches Sumadhura Capitol Towers in Whitefield. Campus centre only; Tower 1 and its visitor entrance are not separately resolved. Older Embassy Tech Village or IBC points must not be substituted.",
       "discovery_sources": [
         "https://www.swiggy.com/corporate/wp-content/uploads/2026/05/Covering-Letter_Letter-to-Shareholders_Signed.pdf"
       ]
@@ -6646,10 +6646,10 @@
       "brand_name": "Testsigma",
       "website_url": "https://testsigma.com/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
+      "status": "needs_review",
       "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "address_source_url": "https://testsigma.com/contactus",
+      "review_reason": "D04 parent review: No independent feature returned for Leela Landmark in Ashwini Layout. Hold exact building unresolved.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -6800,7 +6800,7 @@
       "status": "needs_review",
       "accepted_office_id": null,
       "address_source_url": "https://tonboimaging.com/main/contact/",
-      "review_reason": "Registered office published by the company; its corporate office and branches are listed separately. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "review_reason": "Registered office published by the company; its corporate office and branches are listed separately. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication. D04 review: Chikkayellappa Tower query returns unrelated buildings. Need distinguish current registered and corporate addresses before any map point.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -6813,7 +6813,7 @@
       "status": "accepted",
       "accepted_office_id": "tonetag-bengaluru-2026-11",
       "address_source_url": "https://www.tonetag.com/contact/",
-      "review_reason": null,
+      "review_reason": "Company-published Bengaluru office matches the named OSM building and Garudacharpalya locality. Building centre, not an eighth-floor entrance.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -6930,7 +6930,7 @@
       "status": "accepted",
       "accepted_office_id": "udaan-bengaluru-2026-11-25",
       "address_source_url": "https://udaan.com/pages/terms-of-use",
-      "review_reason": null,
+      "review_reason": "Official Udaan terms name southwing at SJRTheHub. Building developer primeco.co.in/the_hub.php independently corroborates site8/2and9, Ambalipura/Bellandur/SarjapurRoad. OSM named PrimecoTheHub building matches. Directory HSRcoordinates were rejected; southwing entrance not resolved.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -6955,7 +6955,7 @@
       "status": "needs_review",
       "accepted_office_id": null,
       "address_source_url": "https://www.ultrahuman.com/us/termsAndCondition/",
-      "review_reason": "Published registered office; not an inferred location of all manufacturing facilities. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "review_reason": "Published registered office; not an inferred location of all manufacturing facilities. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication. D04 review: AM Chambers query returns Ammashree Chambers in Koramangala, a different street and locality from official Garvebhavipalya office. Official page geo-IP coordinates for Kolkata are not office data.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -6968,7 +6968,7 @@
       "status": "accepted",
       "accepted_office_id": "ultraviolette-bengaluru-2026-11",
       "address_source_url": "https://www.ultraviolette.com/contact",
-      "review_reason": null,
+      "review_reason": "The official UV Headquarters page publishes this destination point in its map link (!3d12.9539136!4d77.6409549). No Maps service/API was queried for the coordinate. Not an entrance pin. The archive also has a separate Ultraviolette Automotive slug; no identity merge is inferred.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -6996,7 +6996,7 @@
       "status": "accepted",
       "accepted_office_id": "unacademy-bengaluru-2026-11-26",
       "address_source_url": "https://unacademy.com/terms",
-      "review_reason": null,
+      "review_reason": "Official platform terms updated 6 August 2026 identify this Sorting Hat registered office. The named OSM Unacademy office point on Inner Ring Road independently matches the commercial office estate and postcode. It lies inside office building way 104573383, north of the separate Sunriver building, way 105322158. This is a campus-level company point: Block B, floor and entrance are not separately resolved. Earlier official notices refer to Block A in the same estate; this point does not resolve the current block.",
       "discovery_sources": [
         "https://unacademy.com/terms"
       ]
@@ -7113,10 +7113,10 @@
       "brand_name": "Varthana",
       "website_url": "http://varthana.com/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
+      "status": "needs_review",
       "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "address_source_url": "https://varthana.com/school/contact-us/",
+      "review_reason": "D04 parent review: Varasiddhi search returned unrelated temples in other localities; no matching HRBR commercial building.",
       "discovery_sources": []
     },
     {
@@ -7127,7 +7127,7 @@
       "status": "accepted",
       "accepted_office_id": "vedantu-bengaluru-2026-11",
       "address_source_url": "https://www.vedantu.com/v/contacts",
-      "review_reason": null,
+      "review_reason": "Company name, house number 1081 and Sector 3 match. OSM labels the adjoining frontage 18th Cross Road while the official address uses 14th Main; the company-embedded office map centres within 16 metres of this feature. Not an entrance point.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -7148,10 +7148,10 @@
       "brand_name": "VerSe Innovation",
       "website_url": "https://www.verse.in/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
-      "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "status": "accepted",
+      "accepted_office_id": "verse-innovation-bengaluru-2026-11-26",
+      "address_source_url": "https://www.verse.in/terms.php",
+      "review_reason": "Official company terms published in June2023 and still served on review date identify the registered office in Mantri Commercio. The current site footer repeats that address. Independent named OSM commercial campus matches Bellandur near Sakra Hospital. Campus point; TowerA, Unit001, fifth floor and visitor entrance are not resolved. Source check date does not imply a new2026 filing.",
       "discovery_sources": []
     },
     {
@@ -7264,10 +7264,10 @@
       "brand_name": "VuNet Systems",
       "website_url": "https://vunetsystems.com/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
-      "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "status": "accepted",
+      "accepted_office_id": "vunet-systems-bengaluru-2026-11-26",
+      "address_source_url": "https://vunetsystems.com/company/contact-us",
+      "review_reason": "Official VuNet contact page names Incubex, No11,17thCrossRoad,Sector7,HSR560102. Independent OSM address node exactly matches house11, same road/sector/postcode. Although OSM place=house denotes an address point, official evidence explicitly identifies multi-floor public business office. Building address point; Incubex branch floor and entrance not independently resolved.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -7374,10 +7374,10 @@
       "brand_name": "WorkIndia",
       "website_url": "https://www.workindia.in/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
-      "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "status": "accepted",
+      "accepted_office_id": "workindia-bengaluru-2026-11-26",
+      "address_source_url": "https://www.workindia.in/contact/",
+      "review_reason": "Official WorkIndia corporate contact names Eloquent Info Solutions office atHustlehub1704,437,17thCrossRoad,Sector4,HSR560102. Independent OSM address node exactly matches house437, same street and postcode. Official public multi-floor business address establishes commercial use although OSM place=house denotes an address point. Building point; third-floor/Hustlehub entrance not independently resolved.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -7449,7 +7449,7 @@
       "status": "accepted",
       "accepted_office_id": "yulu-bengaluru-2026-11-25",
       "address_source_url": "https://partner.yulu.bike/contact",
-      "review_reason": null,
+      "review_reason": "Official partner contact page publishes EtaminWingA. Coordinate is named PrestigeTechPark campus centre; Etamin/entrance not separately resolved. Do not use bicycle-rental stand POIs as office locations.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -7506,7 +7506,7 @@
       "status": "accepted",
       "accepted_office_id": "zepto-bengaluru-2026-11-25",
       "address_source_url": "https://www.zepto.com/s/terms-of-service",
-      "review_reason": null,
+      "review_reason": "Official20August2026 terms publish ZeptoMarketplace registered office773Sarjapur. OSM names HQ-BharatITPark on same Sarjapur road/Kaikondrahalli; source is platform entity, not a claim that parent ZeptoLimited registered office moved from Mumbai. BWM latest reported HQ city remains Mumbai; retain it separately.",
       "discovery_sources": []
     },
     {
@@ -7517,7 +7517,7 @@
       "status": "accepted",
       "accepted_office_id": "zerodha-bengaluru-2026-11-26",
       "address_source_url": "https://zerodha.com/disclosure",
-      "review_reason": null,
+      "review_reason": "Official disclosure and about-page footer agree on the registered office. Independently mapped office building has the Zerodha Broking Limited name, both house numbers 153 and154, 4th Cross Road, Dollars Colony and postcode560078. A separate Bannerghatta Road company node is not used. Building centre; visitor entrance and floor unconfirmed.",
       "discovery_sources": [
         "https://zerodha.com/disclosure"
       ]
@@ -7530,7 +7530,7 @@
       "status": "accepted",
       "accepted_office_id": "zetwerk-bengaluru-2026-11",
       "address_source_url": "https://www.zetwerk.com/contact/",
-      "review_reason": null,
+      "review_reason": "Current contact page lists Vaishnavi Sovereign. A separate older CSR document lists Oriental Towers; this pin follows the current contact page and named OSM building.",
       "discovery_sources": [
         "https://wherewework.co.in/",
         "https://www.bangalorestartupmap.com/"
@@ -7574,10 +7574,10 @@
       "brand_name": "Zoho",
       "website_url": "https://www.zoho.com/",
       "reported_city": null,
-      "status": "not_yet_researched",
-      "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "status": "accepted",
+      "accepted_office_id": "zoho-bengaluru-2026-11-26",
+      "address_source_url": "https://www.zoho.com/contactus.html",
+      "review_reason": "Current Zoho official branch directory publishes Signature Towers,BrigadeGoldenTriangle,OldMadrasRoad,Huskur. Independent OSM named commercial building Brigade Signature Towers matches HuskurKodi/Kattamanallur location; developer official project page https://www.brigadegroup.com/commercial/projects/bengaluru/brigade-signature-towers explicitly confirms Signature Towers is at Brigade Golden Triangle. Residential Golden Triangle Apartments polygon rejected. OSM postcode560115 differs from company560049. Campus precision because A908 and tower entrance not resolved.",
       "discovery_sources": [
         "https://www.zoho.com/contactus.html"
       ]

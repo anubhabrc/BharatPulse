@@ -1,6 +1,6 @@
 # Directory expansion — work ledger
 
-Updated 26 November 2026. Released: implementation `a3f1c0a` and cloud-refreshed jobs snapshot `aac0713` both received successful Vercel deployments. Earlier baseline `530d7ca` remains in Git history. Automated source updates `c7bc7f9` and `cd465c8` were preserved during rebase.
+Updated 26 November 2026. **Current D04 work is recorded below; earlier release details are historical.** Released: implementation `a3f1c0a` and cloud-refreshed jobs snapshot `aac0713` both received successful Vercel deployments. Earlier baseline `530d7ca` remains in Git history. Automated source updates `c7bc7f9` and `cd465c8` were preserved during rebase.
 
 ## Current state
 
@@ -31,6 +31,28 @@ Current location inventory: **60 accepted /37 need review /544 awaiting research
 
 Research proposals and unresolved cases: parent chat `work/map-overhaul/d02-new-company-offices.json`, `d02-existing-offices.json`, `d02-jobs-research.json` and `jobs-research/`. The parent repository's ignored `work/research-d02/` caches source pages, bounded geocoder results and public API checks. Do not upload raw caches. Original reference video/frames and prior research remain in parent chat `work/map-overhaul/`.
 
-This release is complete. Next bounded work is R06 broad sector baskets, R14 alias review (including archive records `ultraviolette` versus `ultraviolette-automotive`), more admitted companies and three-location research batches. No silent alias merge or funding-total restatement. Larger source adapters, candidate/correction UI and further employer integrations remain pending. Do not repeat completed source discovery or describe the whole strategy as finished.
+## D04 — UI repairs and larger Bengaluru batch
 
-Next office batch B05: Capillary Technologies, MoveInSync and Ultrahuman only. Start from their saved primary leads, check current company addresses and resolve independent commercial features; hold any unmatched/conflicting point. R06 broad sector baskets and R14 alias review remain separate unfinished tasks. The present map does not claim complete Bengaluru office coverage.
+User priority: widen the left directory, remove the Wire popup, show news as a carousel, repair the screenshot's blank basemap, and accelerate office/profile enrichment. This explicitly supersedes the earlier three-case cap. Use checkpoints around ten researched companies; batch size does not reduce source or location requirements.
+
+- [x] Directory widened to roughly one-third of desktop width; smaller screens retain a stacked map/directory.
+- [x] Remove Wire dropdown/popover. Inline 12-headline carousel has previous/next, pause/play, hover/focus pause, reduced-motion handling, touch swipes and keyboard navigation.
+- [x] Diagnose actual Chrome console: `ERR_NAME_NOT_RESOLVED` for OpenFreeMap `backup_planet`. Same-origin gateway now fetches only allowed provider styles/manifests/sprites/fonts/bounded tiles with time/size limits and caching; original attribution is preserved. Provider outages and hosting bandwidth still apply.
+- [x] Merge 27 additional accepted offices: 87 total, 85 OSM features and two explicit company-published destinations. Original 20 pending cases yielded eight accepted; 33 additional company cases yielded 19 accepted. Conflicts/unmatched buildings remain held.
+- [x] Merge 45 additional sourced company profiles: 70 total (60 `company-info` + ten reviewed admissions); 66 mapped companies have profiles. Founders and years remain empty/null where unsupported. Partial sourced founder lists do not claim complete teams.
+- [x] Review all eight saved extension-address candidates after research interruption: Postman, Niqo Robotics and VerSe accepted; GalaxEye, Testsigma, Varthana, StockGro and Portea remain unresolved with explicit reasons. GalaxEye's old HSR POI is not its current KIADB plot. Arzooo operator identity also remains unresolved.
+- [x] Reduce duplicate map/card fields and omit full review prose from map responses. Full notes remain on company profiles/API; coordinate/address evidence remains in map details.
+- [x] Final merged validation: all 58 tests, TypeScript and production build passed. Production-mode browser checked the wider directory, carousel next/keyboard/pause, Streets/Night basemaps, enriched 4baseCare inspector, newly pinned Postman branch with separate San Francisco HQ, and 390px first-load layout. Unknown map-resource route returns404; manifest route returns200. Final map API payload:108,113 bytes Bengaluru /151,866 nationally (uncompressed), versus107,261 /151,012 before adding27 pins and45 profiles. Screenshots saved in parent outputs.
+- [ ] Commit/push and confirm the Vercel deployment for the final implementation commit.
+
+Current inventory: **87 accepted / 43 need review / 511 awaiting research = 641**. Historical funding archive remains 1,905 companies / 2,337 events; composed catalog remains 1,915. Jobs/news schedules are unchanged from the checked D03 release.
+
+## Exact next work and preserved research
+
+D04 saved checkpoints are in parent chat `work/map-overhaul/d04-pending-offices.json` (27 reviewed pin proposals), `d04-new-addresses.json` (31 primary-address leads + two unresolved source cases), `d04-company-profiles.json` (45 profiles), and `d04-geocodes/` (serial cached geocoder results). Repository `data/office-review.json` and `data/office-review-inventory.json` preserve publication-safe leads and rejected-match reasons. Do not publish raw HTML/PDF caches or personal contact/meeting information.
+
+The extended new-address target was 40; **seven selected cases have not been researched**: Freshworks, River, SigTuple, Bounce, GnaniAI, WeRize and Propelld. Research agents stopped at their usage limit; the parent finished the saved eight-case extension without restarting or discarding completed work. No remaining case is silently marked complete.
+
+Next profile batch: DaMENSCH, FluxGen, Immuneel, Myelin Foundry, Eyestem, Awign, Capillary, Codeyoung, Astrome, QpiAI, Stable Money, VuNet, Shadowfax, CoRover, Curefoods, Kiwi, NEWME, Deconstruct, WorkIndia, Niqo and VerSe. These 21 accepted-office companies still lack reviewed purposes/founder profiles.
+
+R06 broad sector baskets, R14 alias review (including separate archive records `ultraviolette` / `ultraviolette-automotive`), broader R19/R20 coverage, correction/review UI, more admitted companies and more employer integrations remain unfinished. Do not repeat completed source discovery or merge identities/funding histories without evidence.
