@@ -24,10 +24,18 @@ Resumed 26 November 2026 after the previous run stopped at its usage limit. This
 - [x] Preserve source-reported HQ cities separately from sourced office locations; Zepto demonstrates the different-HQ case.
 - [x] Persist the full 632-record inventory: 54 accepted, 37 needing resolution, 541 awaiting research. Original video is preserved locally outside the public repository.
 - [x] Update regression checks for expanded coverage, co-location, provider evidence and office-aware filtering; 47 tests passed.
-- [x] Browser-check first load, sourced inspectors, the Helios shared-campus selector, keyboard zoom/help, neighbourhood navigation, appearance switching, camera preservation during sorting, and a 390px mobile layout. Fixed a premature loading dismissal and improved night-map contrast. Final production recheck remains part of release validation.
+- [x] Browser-check first load, sourced inspectors, the Helios shared-campus selector, keyboard zoom/help, neighbourhood navigation, appearance switching, camera preservation during sorting, and a 390px mobile layout. Fixed a premature loading dismissal and improved night-map contrast. Production recheck also confirmed direct scroll zoom, 3D tilt/reset and truthful handling of a city-only record.
 - [x] Final TypeScript, all 47 tests and production build passed against the merged data.
-- [ ] Update source notes and roadmap, commit, push and verify Vercel deployment.
+- [x] Update source notes and roadmap, commit, push and verify Vercel deployment. Implementation `8b44eba` deployed successfully; automated news update `dbe7eac` was retained.
 
 Research intermediates are in the chat working directory's `work/map-overhaul/`. The accepted dataset remains `data/bengaluru-offices.json`. No unreviewed directory point should be silently promoted to an exact office.
 
 Recovery audit: 15 additional partially researched business-address leads were recovered from the interrupted research files and added to the pending queue. The dated inventory now records 54 accepted, 37 needing further resolution and 541 awaiting research. These statuses are intentionally distinct; unfinished company research has not been marked complete.
+
+## Still unfinished
+
+- [ ] Resolve the 37 flagged address/coordinate cases, starting with cached primary sources.
+- [ ] Research the remaining 541 company records; a directory lead is not an accepted office.
+- [ ] Complete the broader R19 correction/review workflow and R20 company/founder enrichment.
+
+The completed UI release does not mark these data tasks complete. All intermediate source caches, proposed records, the original recording and extracted frames remain in the chat working directory.
