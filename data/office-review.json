@@ -1,47 +1,333 @@
 {
-  "checked_on": "2026-11-25",
+  "checked_on": "2026-11-26",
   "candidates": [
     {
-      "company_slug": "sarvam",
+      "company_slug": "appsforbharat",
       "status": "needs_review",
-      "source_url": "https://www.sarvam.ai/privacy-policy",
-      "reason": "Urban Vault 732 CMH Road is not resolved by the geocoder; policy also contains conflicting postcodes. No office point published.",
-      "geocode_query": "Urban Vault 732 CMH Road Bengaluru"
+      "source_url": "https://www.appsforbharat.com/en/careers",
+      "reason": "Official address UrbanVault29/1 27thMain Somasundarapalya; named OSM company node11248247739 on17thCross is stale/different office. No acceptedpoint.",
+      "geocode_query": "appsforbharat Bengaluru",
+      "checked_on": "2026-11-25"
     },
     {
-      "company_slug": "ninjacart",
+      "company_slug": "avanti-finance",
       "status": "needs_review",
-      "source_url": "https://ninjacart.com/ninja-kirana-terms-conditions/",
-      "reason": "Official page lists both Vaishnavi Signature and Helios; resolve the current brand/legal-entity address before publishing.",
-      "geocode_query": "Helios Business Park Bengaluru"
+      "source_url": "https://www.avantifinance.in/policies/",
+      "reason": "Company pages show multiple correspondence/registeredaddresses(4564thBlockKoramangala vs2727HAL3rdStage); need resolvecurrentoffice and mapfeature.",
+      "geocode_query": "avanti finance Bengaluru",
+      "checked_on": "2026-11-25"
     },
     {
-      "company_slug": "ather-energy",
+      "company_slug": "axio",
       "status": "needs_review",
-      "source_url": "https://shop.atherenergy.com/pages/policies",
-      "reason": "Official registered address is Tower D, IBC Knowledge Park. Search returned other occupiers/towers, not a sufficiently resolved campus or Tower D point.",
-      "geocode_query": "IBC Knowledge Park Tower D Bengaluru"
+      "source_url": "https://www.axio.co.in/contact-us",
+      "address": "3 (Old 211), Gokaldas Platinum, Upper Palace Orchards, Bellary Road, Sadashiva Nagar, Bengaluru, Karnataka 560080",
+      "place_name": "Gokaldas Platinum",
+      "reason": "Company contact page explicitly associates axio with CapFloat Financial Services and lists this Bengaluru office; not the separate Pune registered office of Axio Digital. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "geocode_query": "Gokaldas Platinum Bengaluru",
+      "checked_on": "2026-11-25"
     },
     {
-      "company_slug": "cashfree-payments",
+      "company_slug": "bizom",
       "status": "needs_review",
-      "source_url": "https://www.cashfree.com/privacypolicy/",
-      "reason": "Official address is Building 7, Ecoworld. Search returned roads and other buildings; no accepted coordinate.",
-      "geocode_query": "Ecoworld Building 7 Bengaluru"
+      "source_url": "https://bizom.com/contact-us/",
+      "reason": "Official contact page labels Bengaluru HQ; privacy policy has older Bellandur address. Need specific building coordinate for 501.",
+      "geocode_query": "Mobisy Technologies Private Limited, 501, Parangipalya, Sector 2, HSR Layout, Bengaluru, Karnataka 560102",
+      "checked_on": "2026-11-25"
     },
     {
-      "company_slug": "juspay",
+      "company_slug": "capillary-technologies",
       "status": "needs_review",
-      "source_url": "https://juspay.io/about",
-      "reason": "Stallion Business Center, 444, 18th Main Road is published; geocoder returned unrelated business centres. No point accepted.",
-      "geocode_query": "Stallion Business Center 444 Koramangala Bengaluru"
+      "source_url": "https://www.capillarytech.com/wp-content/uploads/2025/06/DRHP.pdf",
+      "reason": "Current company official register/corporate36015thCrossSector4HSR, but OSM named Capillary node6871418831 is old3192ndCross; do not use stale named POI.",
+      "geocode_query": "capillary technologies Bengaluru",
+      "checked_on": "2026-11-25"
     },
     {
-      "company_slug": "udaan",
+      "company_slug": "chara-technologies",
       "status": "needs_review",
-      "source_url": "https://udaan.com/pages/terms-of-use",
-      "reason": "SJR The Hub office is published; geocoder returned unrelated properties. No point accepted.",
-      "geocode_query": "SJR The Hub Bellandur Bengaluru"
+      "source_url": "https://www.chara.co.in/privacy-policy",
+      "address": "733/147, 2nd Cross, 21st Main Road, 1st Sector, HSR Layout, Bengaluru, Karnataka 560102",
+      "place_name": "Chara Technologies",
+      "reason": "Published business correspondence office, checked against a company map feature if accepted. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "geocode_query": "Chara Technologies Bengaluru",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "codeyoung",
+      "status": "needs_review",
+      "source_url": "https://www.codeyoung.com/privacy",
+      "reason": "Official support/grievance business address confirmed. Photon returns unrelated Urban Vault branches; none matches 1350.",
+      "geocode_query": "Urban Vault 1350, 17th Cross, HSR Layout 2nd Sector, opposite Gnan Shrishti School, Bengaluru, Karnataka 560102",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "convin",
+      "status": "needs_review",
+      "source_url": "https://us.convin.ai/terms-and-conditions",
+      "address": "3rd Floor, HustleHub H207, Somasundarapalya Main Road, adjacent to 27th Main Road, PWD Quarters, Sector 2, HSR Layout, Bengaluru, Karnataka 560102",
+      "place_name": "HustleHub H207",
+      "reason": "Published business contact office. Match the H207 property, not an unrelated HustleHub coworking location. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "geocode_query": "HustleHub H207 Bengaluru",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "coreel-technologies",
+      "status": "needs_review",
+      "source_url": "https://coreel.com/contact-us/",
+      "reason": "The official filing contains a reported coordinate, but the independent map lookup did not corroborate the same building. Retained for further review; no office point published.",
+      "geocode_query": "coreel technologies Bengaluru",
+      "checked_on": "2026-11-26",
+      "coordinate_evidence_url": "https://coreel.com/wp-content/uploads/2026/02/Form-MGT-7_AB8984921_CoreEL_signed.pdf"
+    },
+    {
+      "company_slug": "corover",
+      "status": "needs_review",
+      "source_url": "https://www.corover.ai/terms-conditions",
+      "address": "BHIVE Premium Tech Park, HSR Campus, Hosur Road, Bengaluru, Karnataka 560068",
+      "place_name": "BHIVE Premium Tech Park HSR",
+      "reason": "Registered address in the opening legal-entity clause. Do not use the residential contact address also present in an older section of the page. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "geocode_query": "BHIVE Premium Tech Park HSR Bengaluru",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "cult-fit",
+      "status": "needs_review",
+      "source_url": "https://business.cult.fit/contact-us",
+      "address": "17/17C, BDA 3rd Sector, Sector 4, HSR Layout, Bengaluru, Karnataka 560102",
+      "place_name": "Cult.fit office",
+      "reason": "Business partnership office published on the official corporate site. Curefit and Cult.fit are separate archive slugs; identity consolidation is not inferred here. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "geocode_query": "Cult fit 17 HSR Layout Bengaluru",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "cureskin",
+      "status": "needs_review",
+      "source_url": "https://cureskin.com/contact/",
+      "reason": "Contact page main address matches Cureskin OSM node12073835669 on13thCross(77.6529859,12.9160032), but footer/privacy list26/10,6thCrossMangammanapalya. Could be multiple business offices or stale main section. Do not choose silently.",
+      "geocode_query": "656, 3rd Floor, 27th Main, 13th Cross Road, 1st Sector, HSR Layout, Bengaluru, Karnataka 560102",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "deconstruct",
+      "status": "needs_review",
+      "source_url": "https://thedeconstruct.in/pages/grievance-officer-details",
+      "reason": "Official business correspondence office confirmed. Photon returns other Enzyme properties, not Diamond.",
+      "geocode_query": "3rd Floor, Deconstruct, 150/2, Enzyme Diamond, 7th Cross Road, Agara Village, Sector 4, HSR Layout, Bengaluru, Karnataka 560102",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "drinkprime",
+      "status": "needs_review",
+      "source_url": "https://drinkprime.in/terms-of-use",
+      "reason": "Official address475/9/AChukkiComplex19thMainSector3HSR. No matching building/parcel point found.",
+      "geocode_query": "drinkprime Bengaluru",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "ethereal-machines",
+      "status": "needs_review",
+      "source_url": "https://etherealmachines.com/privacy-policy",
+      "reason": "OfficialNo15IndustrialSuburbGoraguntepalya found, no independentlymatchedOSMfeature.",
+      "geocode_query": "ethereal machines Bengaluru",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "exponent-energy",
+      "status": "needs_review",
+      "source_url": "https://www.exponent.energy/vehicles/en-ncr",
+      "address": "Survey 114 and 115, Kammasandra Village, Attibele Hobli, Anekal Taluk, Bengaluru, Karnataka 560100",
+      "place_name": "Exponent Energy",
+      "reason": "Published company business address. A charging station or former HSR address is not the same office. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "geocode_query": "Exponent Energy Kammasandra Bengaluru",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "furlenco",
+      "status": "needs_review",
+      "source_url": "https://econsent.furlenco.com/agreement-2.html",
+      "address": "2nd, 3rd and 4th Floor, Krishna Annex, Survey 8/12, 9/183, opposite Central Silk Board Junction, Sector 6, HSR Layout, Bengaluru, Karnataka 560068",
+      "place_name": "Krishna Annex",
+      "reason": "Published registered office in subscription terms; not an inferred warehouse address. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "geocode_query": "Krishna Annex Bengaluru",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "giva",
+      "status": "needs_review",
+      "source_url": "https://www.giva.co/pages/welcome-to-giva",
+      "address": "Plot 60, 3rd Floor, Doddakallasandra, Kanakapura Main Road, Bengaluru, Karnataka 560062",
+      "place_name": "GIVA",
+      "reason": "Registered office from the official store footer. Do not use an unrelated GIVA retail store pin. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "geocode_query": "GIVA Doddakallasandra Bengaluru",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "goat-brand-labs",
+      "status": "needs_review",
+      "source_url": "https://goatbrandlabs.com/contact-us/",
+      "address": "3rd Floor, Urban Vault 2908/688, 22nd Cross, Club Road, Sector 2, HSR Layout, Bengaluru, Karnataka 560102",
+      "place_name": "Urban Vault 2908",
+      "reason": "Published Bangalore office. Main contact section gives postcode 560102 while the footer gives 560034; street/building agree. The decorative 51.2211 N,6.7745 W shown on the page is outside India and must never be used as this office coordinate. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "geocode_query": "Urban Vault 2908 Bengaluru",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "gps-renewables",
+      "status": "needs_review",
+      "source_url": "https://gpsrenewables.com/contact-us/",
+      "reason": "The official filing contains a reported coordinate, but the independent map lookup did not corroborate the same building. Retained for further review; no office point published.",
+      "geocode_query": "gps renewables Bengaluru",
+      "checked_on": "2026-11-26",
+      "coordinate_evidence_url": "https://gpsrenewables.com/wp-content/uploads/2026/01/MGT-7_GPS_24-25.pdf"
+    },
+    {
+      "company_slug": "healthify",
+      "status": "needs_review",
+      "source_url": "https://www.healthifyme.com/terms-of-use/",
+      "reason": "Official current registered address confirmed; OSM Healthify Me POI on 12th Main Road differs. Do not use obsolete directory point without further review.",
+      "geocode_query": "30, 80 Feet Road, HAL 3rd Stage, Indiranagar, Bengaluru, Karnataka 560075",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "homelane",
+      "status": "needs_review",
+      "source_url": "https://www.homelane.com/privacypolicy",
+      "address": "BKN Ambaram Estates, 2nd Floor, 648/L, 1st Main, 1st Stage, Indiranagar, Bengaluru, Karnataka 560038",
+      "place_name": "BKN Ambaram Estates",
+      "reason": "Published registered office, separate from retail experience centres. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "geocode_query": "BKN Ambaram Estates Bengaluru",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "kiwi",
+      "status": "needs_review",
+      "source_url": "https://www.gokiwi.in/contact-us/",
+      "reason": "Current official office and legal pages agree. Photon has no matching Olsen Spaces 1505 building.",
+      "geocode_query": "1505, 2nd and 3rd Floor, Olsen Spaces, 19th Main Road, HSR Layout, Bengaluru, Karnataka 560102",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "moveinsync",
+      "status": "needs_review",
+      "source_url": "https://moveinsync.com/privacy-policy",
+      "reason": "Official registered address confirmed. OSM named Moveinsync POI is on 18th Cross Road and cannot be promoted without resolving discrepancy.",
+      "geocode_query": "2nd, 3rd and 4th Floor, Plot 439, 17th Cross Road, Sector 4, HSR Layout, Bengaluru, Karnataka 560102",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "newme",
+      "status": "needs_review",
+      "source_url": "https://newme.asia/about-us",
+      "reason": "Official about page publishes this business office. Other terms list an apparent residential registered address; avoid residential records. Need building coordinate for 919.",
+      "geocode_query": "First Floor, Shop 919, 5th Main Road, above Third Wave Coffee, 7th Sector, HSR Layout, Bengaluru, Karnataka 560102",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "qoruz",
+      "status": "needs_review",
+      "source_url": "https://qoruz.com/qoruz",
+      "reason": "Primarycorporateaddress1032/3rdFloorOffice30224thMainHSRsector1 found, no OSMbuilding resolved.",
+      "geocode_query": "qoruz Bengaluru",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "ripplr",
+      "status": "needs_review",
+      "source_url": "https://ripplr.in/contact-us",
+      "reason": "Official contact page labels corporate head office; old privacy policy lists a separate Attic Space Drona address. No matching OSM result found for current address.",
+      "geocode_query": "Ground Floor, 413/C, 15th Cross Road, Muneswara Nagar, Sector 6, HSR Layout, Bengaluru, Karnataka 560102",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "rupeek",
+      "status": "needs_review",
+      "source_url": "https://rupeek.com/lp/best-gold-loan-exp/1?API=LS",
+      "address": "45B, 1st A Main Road, Ground Floor, Wing B, Shubham Complex, Sarakki Industrial Layout, JP Nagar, Bengaluru, Karnataka 560078",
+      "place_name": "Shubham Complex",
+      "reason": "Rupeek Fintech's registered office, not an inferred address from its separate NBFC subsidiary. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "geocode_query": "Rupeek Shubham Complex Bengaluru",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "skydo",
+      "status": "needs_review",
+      "source_url": "https://www.skydo.com/terms-of-use",
+      "reason": "Official terms label registered office. Photon returns unrelated IndiQube buildings; no accepted coordinate.",
+      "geocode_query": "Second Floor, IndiQube Serenity, Phase 2, 31, Hosur Road, Muneswara Nagar, Sector 6, HSR Layout, Bengaluru, Karnataka 560068",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "spotdraft",
+      "status": "needs_review",
+      "source_url": "https://legal.spotdraft.com/signup/privacy-policy",
+      "reason": "Official current privacy notice publishes this business office, conflicting with directory UrbanVault97/17thCross. Official source takes priority; precise building unresolved.",
+      "geocode_query": "Ground Floor, 1193 and1194, Sector VII, HSR Layout, Bengaluru, Karnataka 560102",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "stellapps",
+      "status": "needs_review",
+      "source_url": "https://www.stellapps.com/wp-content/uploads/2026/01/Form-MGT-7_of-Stellapps_FY-2024-25.pdf",
+      "address": "A Block, 2nd Floor, Ozone Manay Technology Park, Survey 56/18 and 55/9, Hosur Road, Garvebhavipalya, Hongasandra Village, Begur, Bengaluru, Karnataka 560068",
+      "place_name": "Ozone Manay Technology Park",
+      "reason": "FY 2024–25 MGT7 as-on-filing column reports this registered office and coordinates12.891512,77.637954; older financial-year-end column reports NovelTechPark and differentcoordinates. Sourcechecked2026, not an assertion that filing was made today. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "geocode_query": "Ozone Manay Technology Park Bengaluru",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "sugar-fit",
+      "status": "needs_review",
+      "source_url": "https://www.sugarfit.com/",
+      "reason": "Company footer lists this office. Photon points are clinics on Margosa Road or 24th Main, not this corporate address; do not substitute.",
+      "geocode_query": "17/N, 18th Cross Road, Sector 3, HSR Layout, Bengaluru, Karnataka 560102",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "tonbo-imaging",
+      "status": "needs_review",
+      "source_url": "https://tonboimaging.com/main/contact/",
+      "address": "3, Chikkayellappa Tower II, 1st C Main, Sarjapur Main Road, Jakkasandra Extension, Chikkayellappa Industrial Layout, Bengaluru, Karnataka 560034",
+      "place_name": "Chikkayellappa Tower II",
+      "reason": "Registered office published by the company; its corporate office and branches are listed separately. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "geocode_query": "Tonbo Imaging Chikkayellappa Bengaluru",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "turno",
+      "status": "needs_review",
+      "source_url": "https://www.turnoev.com/contact-us",
+      "reason": "Primarysource resolved to7-A1DevasandraIndustrialEstate, but no independent OSM building/parcel match located. Directory12.98319,77.70564 not adopted.",
+      "geocode_query": "turno Bengaluru",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "ultrahuman",
+      "status": "needs_review",
+      "source_url": "https://www.ultrahuman.com/us/termsAndCondition/",
+      "address": "AM Chambers, 2nd and 3rd Floor, Survey 49/1 and 49/3, Garvebhavipalya, 7th Mile, Hosur Main Road, Bommanahalli, Bengaluru, Karnataka 560068",
+      "place_name": "AM Chambers",
+      "reason": "Published registered office; not an inferred location of all manufacturing facilities. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "geocode_query": "AM Chambers Garvebhavipalya Bengaluru",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "unimech-aerospace",
+      "status": "needs_review",
+      "source_url": "https://www.unimechaerospace.com/investor-relations-contact-us",
+      "reason": "Official registeredofficePlot167Arebinnamangala/AerospacePark and corporatePlot3AerospaceSEZ differ from oldPeenya office. GenericAerospaceParkcentroid too coarse to identify correctplot; excluded.",
+      "geocode_query": "unimech aerospace Bengaluru",
+      "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "zolve",
+      "status": "needs_review",
+      "source_url": "https://zolve.com/policies/global/grievance-redressal-and-cibil-consent",
+      "address": "Campus 31, 4th Floor, The Retail Street, RMZ Ecoworld Road, Adarsh Palm Retreat, Bellandur, Bengaluru, Karnataka 560103",
+      "place_name": "The Retail Street Campus 31",
+      "reason": "Business correspondence address in company policy updated 1 July 2026; no private officer contacts retained. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "geocode_query": "The Retail Street Campus 31 Bengaluru",
+      "checked_on": "2026-11-25"
     }
   ]
 }

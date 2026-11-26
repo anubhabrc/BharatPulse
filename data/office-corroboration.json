@@ -1,0 +1,25 @@
+{
+  "checked_on": "2026-11-26",
+  "observations": [
+    {
+      "company_slug": "cloudphysician",
+      "address_source_url": "https://www.cloudphysician.net/contact/",
+      "review_note": "Official contact address matches the named OSM office, street and house number. Not a visitor entrance or a hospital footprint."
+    },
+    {
+      "company_slug": "refyne",
+      "address_source_url": "https://www.refyne.co.in/terms-content",
+      "review_note": "Published correspondence office of Refyne Tech matches Prestige Pegasus at Ambalipura. Not the separate HSR office of lending partner Refyne Finance."
+    },
+    {
+      "company_slug": "plum",
+      "address_source_url": "https://www.plumhq.com/",
+      "review_note": "Current company site publishes the ITPL Main Road office. Campus centre; Block B, floor and entrance are not separately resolved. Do not use the older Indiranagar directory point."
+    },
+    {
+      "company_slug": "captain-fresh",
+      "address_source_url": "https://www.captainfresh.in/investor-relations",
+      "review_note": "Company lists Urban Vault Citrine as both registered and corporate office. OSM labels the commercial property Enzyme Citrine; operator/property sources identify the Enzyme and Urban Vault coworking property at Sanjeevini Nagar. Property centre; floor and entrance are not resolved."
+    }
+  ]
+}

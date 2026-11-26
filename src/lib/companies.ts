@@ -2,11 +2,12 @@ import 'server-only';
 import {database,dataMode} from './db';
 import fixture from '../../data/demo-reviewed.json';
 import {archive} from './archive';
+import {offices} from './offices';
 import {queryArchive,type CompanyFilters,type CompanyRow} from '@/domain/archive-queries';
 
 export async function listCompanies(filters:CompanyFilters) {
   const mode=dataMode();
-  if(mode==='archive')return queryArchive(archive,filters);
+  if(mode==='archive')return queryArchive(archive,filters,offices);
   if(mode==='demo') {
     const all=[...new Map(fixture.records.map(r=>[r.company.slug,r.company])).values()]
       .filter(c=>c.brand_name.toLowerCase().includes(filters.q.toLowerCase()))
