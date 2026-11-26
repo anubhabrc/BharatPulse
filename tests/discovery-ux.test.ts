@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {suggestCompanies} from '../src/domain/company-search';
 import {newsPageForStory,newsStoryHref} from '../src/domain/news-navigation';
-import {streetRoadColor} from '../src/domain/map-palette';
+import {automaticBasemap,streetRoadColor} from '../src/domain/map-palette';
 
 test('company suggestions start at one character, rank exact/prefix before substring and retain source aliases',()=>{
   const companies=[{slug:'big',name:'BigBasket'},{slug:'beta',name:'Beta'},{slug:'b',name:'B'},{slug:'old',name:'New Brand',aliases:['Bharat Tools']}];
@@ -23,4 +23,9 @@ test('ticker stories land on the containing newsroom page and retain a safe exac
 test('neutral streets include bridges and tunnels without recolouring railway, water or text layers',()=>{
   for(const id of ['road_motorway','bridge_trunk_primary','tunnel_motorway_link','road_minor_casing'])assert.match(streetRoadColor(id)!,/^#[0-9a-f]{6}$/);
   for(const id of ['waterway_tunnel','road_major_rail','bridge_transit_rail_hatching','highway-name-major','water','building'])assert.equal(streetRoadColor(id),null,id);
+});
+
+test('automatic map appearance follows local 6pm/6am boundaries',()=>{
+  for(const [hour,minute,expected] of [[0,0,'dark'],[5,59,'dark'],[6,0,'streets'],[17,59,'streets'],[18,0,'dark'],[23,59,'dark']] as const)
+    assert.equal(automaticBasemap(new Date(2026,10,27,hour,minute)),expected);
 });

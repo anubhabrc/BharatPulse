@@ -12,7 +12,7 @@ import {sectorStyle} from '@/domain/map-presentation';
 import {formatUsd} from '@/domain/money';
 import {loadMapLibrary} from './map-resources';
 import {localBasemapRequest} from '@/domain/basemap';
-import {streetRoadColor} from '@/domain/map-palette';
+import {automaticBasemap,streetRoadColor} from '@/domain/map-palette';
 import {Icon} from './icons';
 import 'maplibre-gl/dist/maplibre-gl.css';
 
@@ -50,10 +50,11 @@ export default function StartupMap({data,selectedCompany,onSelectCompany,onClose
   const [details,setDetails]=useState<CompanyDetail|null>(null),[detailError,setDetailError]=useState(false);
   const selectedSlug=selectedCompany?.slug;
   useEffect(()=>{
-    let disposed=false,instance:GLMap|undefined,observer:ResizeObserver|undefined,removeKeys:(()=>void)|undefined;
+    let disposed=false,instance:GLMap|undefined,observer:ResizeObserver|undefined,removeKeys:(()=>void)|undefined,removeClock:(()=>void)|undefined;
     loadMapLibrary().then(gl=>{
       if(disposed||!container.current)return;
-      instance=new gl.Map({container:container.current,style:STYLES.streets.url,transformRequest:url=>({url:localBasemapRequest(url)}),center:[77.637,12.971],zoom:11.65,minZoom:3,maxZoom:19,maxPitch:60,cooperativeGestures:false,keyboard:true,dragPan:{linearity:.3,deceleration:2500,maxSpeed:1400},fadeDuration:180,pixelRatio:Math.min(window.devicePixelRatio,2),maxTileCacheZoomLevels:4,attributionControl:{compact:true}});
+      let clockStyle=automaticBasemap();styleRef.current=clockStyle;setBasemap(clockStyle);
+      instance=new gl.Map({container:container.current,style:STYLES[clockStyle].url,transformRequest:url=>({url:localBasemapRequest(url)}),center:[77.637,12.971],zoom:11.65,minZoom:3,maxZoom:19,maxPitch:60,cooperativeGestures:false,keyboard:true,dragPan:{linearity:.3,deceleration:2500,maxSpeed:1400},fadeDuration:180,pixelRatio:Math.min(window.devicePixelRatio,2),maxTileCacheZoomLevels:4,attributionControl:{compact:true}});
       map.current=instance;instance.scrollZoom.setWheelZoomRate(1/600);instance.scrollZoom.setZoomRate(1/110);
       instance.addControl(new gl.NavigationControl({showCompass:true,visualizePitch:true}),'top-right');
       if(outer.current)instance.addControl(new gl.FullscreenControl({container:outer.current}),'top-right');
@@ -117,8 +118,12 @@ export default function StartupMap({data,selectedCompany,onSelectCompany,onClose
         const city=latest.current.hubs.find(h=>h.id===f.properties.hub_id);if(!city||instance.getZoom()>=9&&f.properties.has_offices)return;
         callbacks.current.onCloseCompany();setPlace([]);const located=latest.current.offices.filter(c=>c.hub_id===city.id);if(located.length){setHub(null);fitOffices(instance,located);}else setHub(city);
       });
+      // Manual choices last until the next day/night boundary.
+      const syncClock=()=>{const next=automaticBasemap();if(disposed||!instance||next===clockStyle)return;clockStyle=next;styleRef.current=next;setBasemap(next);setReady(false);setLoaded(false);instance.setStyle(STYLES[next].url,{diff:false});};
+      const timer=setInterval(syncClock,60000);document.addEventListener('visibilitychange',syncClock);window.addEventListener('focus',syncClock);
+      removeClock=()=>{clearInterval(timer);document.removeEventListener('visibilitychange',syncClock);window.removeEventListener('focus',syncClock);};
     }).catch(()=>{if(!disposed)setError('The interactive map could not start. Company profiles remain available in the directory.');});
-    return()=>{disposed=true;removeKeys?.();observer?.disconnect();map.current=null;instance?.remove();};
+    return()=>{disposed=true;removeClock?.();removeKeys?.();observer?.disconnect();map.current=null;instance?.remove();};
   },[]);
   useEffect(()=>{
     const instance=map.current;if(!ready||!instance)return;
