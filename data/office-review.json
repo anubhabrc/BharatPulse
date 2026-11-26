@@ -103,6 +103,16 @@
       "checked_on": "2026-11-26"
     },
     {
+      "company_slug": "bounce",
+      "status": "unresolved",
+      "source_urls": [
+        "https://bounceinfinity.com/contactus",
+        "https://play.google.com/store/apps/details?id=com.bounceshare.app"
+      ],
+      "reason": "Current first-party Bounce Infinity contact page names Wickedride Adventure Services Private Limited but publishes only a Spaze Plazo, Sector 69, Haryana business address. The company-published Play developer listing contains a Bengaluru Jayanagar address; its relationship to the current primary public office is not established. No geocoder request made: a Bengaluru operating footprint or developer correspondence address alone does not establish the current mapped office.",
+      "checked_on": "2026-11-26"
+    },
+    {
       "company_slug": "chara-technologies",
       "status": "needs_review",
       "source_url": "https://www.chara.co.in/privacy-policy",
@@ -224,6 +234,19 @@
       "checked_on": "2026-11-26"
     },
     {
+      "company_slug": "gnani-ai",
+      "status": "needs_review",
+      "source_urls": [
+        "https://www.gnani.ai/",
+        "https://www.gnani.ai/privacy",
+        "https://www.nielit.in/sites/default/files/headquarter/Signed%20MOU%20NIELIT-Gnani.ai_.pdf",
+        "https://www.intel.com/content/www/us/en/partner/showcase/storefront/a5s3b000000b63eeas/gnaniai.html"
+      ],
+      "geocode_query": "Lamora Cube 94 RV Road Bengaluru",
+      "reason": "Official homepage/privacy no longer expose a usable street address in readable content. Indexed NIELIT-Gnani memorandum gives No.94, 1st Floor, RV Road, Basavanagudi; Intel partner listing instead gives 37/3 MN Krishna Rao Road. Direct PDF extraction/screenshot was unavailable; after network permission, the bounded Lamora Cube/94 RV Road query returned no features. Keep both evidence leads pending; do not infer that the older partner listing is current or that the Lamora Cube discovery name is verified.",
+      "checked_on": "2026-11-26"
+    },
+    {
       "company_slug": "goat-brand-labs",
       "status": "needs_review",
       "source_url": "https://goatbrandlabs.com/contact-us/",
@@ -297,6 +320,22 @@
       "checked_on": "2026-11-26"
     },
     {
+      "company_slug": "propelld",
+      "status": "needs_review",
+      "source_urls": [
+        "https://propelld.com/contact/",
+        "https://propelld.com/privacy"
+      ],
+      "geocode_query": "Enzyme 1614 19th Main HSR Bengaluru",
+      "reason": "Current official contact page was rendered in the browser and explicitly confirms Bluebear Technology Private Limited HQ at1614, Enzyme,7thCross,19thMain,1stSector,HSR560102, opposite Sudha Hospital. Footer also calls1614 the registered office, while indexed privacy text gives Delhi; registered-address chronology is not inferred. Partner material using1654 is not an exact-number match. Bounded Enzyme/1614/19thMain Photon query returned no features after network permission. Hold for an exact commercial building match; do not substitute1654 or a generic Enzyme branch.",
+      "checked_on": "2026-11-26",
+      "entity_name": "Bluebear Technology Private Limited",
+      "kind": "corporate_office",
+      "address": "No. 1614, Enzyme, 7th Cross, 19th Main, 1st Sector, HSR Layout, Bengaluru, Karnataka 560102",
+      "place_name": "Propelld HQ, 1614",
+      "address_source_url": "https://propelld.com/contact/"
+    },
+    {
       "company_slug": "qoruz",
       "status": "needs_review",
       "source_url": "https://qoruz.com/qoruz",
@@ -313,6 +352,18 @@
       "checked_on": "2026-11-25"
     },
     {
+      "company_slug": "river",
+      "entity_name": "River Mobility Private Limited",
+      "kind": "corporate_office",
+      "address": "No. 25/3, KIADB EPIP Zone, Seetharampalya-Hoodi Road, Mahadevapura, Whitefield, Bengaluru, Karnataka 560048",
+      "place_name": "River corporate office, 25/3",
+      "address_source_url": "https://www.rideriver.com/corporate",
+      "geocode_query": "River Mobility 25/3 Seetharampalya Bengaluru",
+      "reason": "Official corporate page explicitly separates the Bengaluru corporate office from the Chennai registered address. No registered-office or original archive-HQ rewrite is implied. After network permission, the bounded River/25/3 query returned no features; the corporate plot/building point has not been matched. Do not use a retail store or factory as a substitute.",
+      "status": "needs_review",
+      "checked_on": "2026-11-26"
+    },
+    {
       "company_slug": "rupeek",
       "status": "needs_review",
       "source_url": "https://rupeek.com/contact",
@@ -320,6 +371,18 @@
       "place_name": "Rupeek JP Nagar enquiry centre",
       "reason": "Official contact-page evidence confirms this public business enquiry centre and publishes a short map link. Cached and additional Photon searches did not return the same property: Shubharam Complex on MG Road, RupeeZone in Indiranagar, unrelated JP Nagar hospitals and the JP Nagar suburb are not matches. The official short map URL did not resolve through the web reader. No accepted office point; do not substitute a suburb centre or another Rupeek legal entity/branch silently. Parent redirect-only checks also timed out; no destination coordinate accepted.",
       "geocode_query": "Rupeek JP Nagar Bengaluru",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "company_slug": "sigtuple",
+      "status": "needs_review",
+      "source_urls": [
+        "https://sigtuple.com/",
+        "https://as76.sigtuple.com/contact/",
+        "https://sigtuple.com/terms/"
+      ],
+      "geocode_query": "Balaji Complex 284/11 Garvebhavipalya Bengaluru",
+      "reason": "Current official homepage and linked contact publish Balaji Complex, 284/11, Garvebhavipalya, Hosur Road 560068 as headquarters, while official terms retain L-162, 14th Cross, Sector 6, HSR Layout 560102. These are distinct published locations; address currency and office kind require review. After network permission, the bounded Balaji Complex/284/11 query returned no features. No point accepted and no legacy HSR point substituted.",
       "checked_on": "2026-11-26"
     },
     {

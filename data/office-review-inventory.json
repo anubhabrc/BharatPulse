@@ -1163,10 +1163,10 @@
       "brand_name": "Bounce",
       "website_url": "https://bounceinfinity.com/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
+      "status": "needs_review",
       "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "address_source_url": "https://bounceinfinity.com/contactus",
+      "review_reason": "Current first-party Bounce Infinity contact page names Wickedride Adventure Services Private Limited but publishes only a Spaze Plazo, Sector 69, Haryana business address. The company-published Play developer listing contains a Bengaluru Jayanagar address; its relationship to the current primary public office is not established. No geocoder request made: a Bengaluru operating footprint or developer correspondence address alone does not establish the current mapped office.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -2742,10 +2742,10 @@
       "brand_name": "Freshworks",
       "website_url": "https://www.freshworks.com/",
       "reported_city": null,
-      "status": "not_yet_researched",
-      "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "status": "accepted",
+      "accepted_office_id": "freshworks-bengaluru-2026-11-26",
+      "address_source_url": "https://www.freshworks.com/contact/",
+      "review_reason": "Current official Freshworks contact page labels the Bangalore office at Campus32 in RMZ EcoWorld. Independent OSM office feature Campus32 is inside the matching RMZ Eco World locality and postcode560103; its street is an internal Adarsh Palm Retreat road, while the company describes the wider Outer Ring Road access. This is the named Campus32 feature, not the wider Ecoworld centre or the older CoWrks lead. Campus precision; fifth floor, entrance and visitor access are not resolved. Original India footprint and separate global HQ remain unchanged.",
       "discovery_sources": [
         "https://www.sec.gov/Archives/edgar/data/1544522/000154452225000010/frsh-20241231.htm"
       ]
@@ -2903,10 +2903,10 @@
       "brand_name": "Gnani.ai",
       "website_url": "https://www.gnani.ai/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
+      "status": "needs_review",
       "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "address_source_url": "https://www.gnani.ai/",
+      "review_reason": "Official homepage/privacy no longer expose a usable street address in readable content. Indexed NIELIT-Gnani memorandum gives No.94, 1st Floor, RV Road, Basavanagudi; Intel partner listing instead gives 37/3 MN Krishna Rao Road. Direct PDF extraction/screenshot was unavailable; after network permission, the bounded Lamora Cube/94 RV Road query returned no features. Keep both evidence leads pending; do not infer that the older partner listing is current or that the Lamora Cube discovery name is verified.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -5399,10 +5399,10 @@
       "brand_name": "Propelld",
       "website_url": "https://propelld.com/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
+      "status": "needs_review",
       "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "address_source_url": "https://propelld.com/contact/",
+      "review_reason": "Current official contact page was rendered in the browser and explicitly confirms Bluebear Technology Private Limited HQ at1614, Enzyme,7thCross,19thMain,1stSector,HSR560102, opposite Sudha Hospital. Footer also calls1614 the registered office, while indexed privacy text gives Delhi; registered-address chronology is not inferred. Partner material using1654 is not an exact-number match. Bounded Enzyme/1614/19thMain Photon query returned no features after network permission. Hold for an exact commercial building match; do not substitute1654 or a generic Enzyme branch.",
       "discovery_sources": []
     },
     {
@@ -5809,10 +5809,10 @@
       "brand_name": "River",
       "website_url": "https://www.rideriver.com/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
+      "status": "needs_review",
       "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "address_source_url": "https://www.rideriver.com/corporate",
+      "review_reason": "Official corporate page explicitly separates the Bengaluru corporate office from the Chennai registered address. No registered-office or original archive-HQ rewrite is implied. After network permission, the bounded River/25/3 query returned no features; the corporate plot/building point has not been matched. Do not use a retail store or factory as a substitute.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -6094,10 +6094,10 @@
       "brand_name": "SigTuple",
       "website_url": "https://sigtuple.com/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
+      "status": "needs_review",
       "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "address_source_url": "https://sigtuple.com/",
+      "review_reason": "Current official homepage and linked contact publish Balaji Complex, 284/11, Garvebhavipalya, Hosur Road 560068 as headquarters, while official terms retain L-162, 14th Cross, Sector 6, HSR Layout 560102. These are distinct published locations; address currency and office kind require review. After network permission, the bounded Balaji Complex/284/11 query returned no features. No point accepted and no legacy HSR point substituted.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -7313,10 +7313,10 @@
       "brand_name": "WeRize",
       "website_url": "https://www.werize.com/",
       "reported_city": "Bengaluru",
-      "status": "not_yet_researched",
-      "accepted_office_id": null,
-      "address_source_url": null,
-      "review_reason": null,
+      "status": "accepted",
+      "accepted_office_id": "werize-bengaluru-2026-11-26",
+      "address_source_url": "https://www.werize.com/terms-conditions/",
+      "review_reason": "Current official terms page was readable in the browser after direct fetch attempts failed. Its footer explicitly identifies Wortgage Technologies Private Limited as WeRize brand owner and gives this office; its separate NBFC subsidiary Wortgage Finance is not conflated with that parent. Terms introduction/notices use postcode560102, whereas grievance address/footer use560103. Preserve this discrepancy; the named Shilpitha park, survey55/3,55/4 and Bellandur locality agree. Independent OSM commercial campus matches and shares Shadowfax coordinates exactly. Business office/campus precision only; floors and visitor entrance are not resolved.",
       "discovery_sources": []
     },
     {

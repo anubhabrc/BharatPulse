@@ -71,6 +71,10 @@ test('co-located companies retain identical campus coordinates and independent c
 
 test('map card summaries reconstruct company facts without repeating identity or full review notes',()=>{
   const map=build({city:'Bengaluru'});
+  for(const hub of map.hubs)for(const company of hub.companies)
+    assert.ok(company.reported_city===undefined||company.reported_city!==company.city);
+  const zepto=build({city:'Bengaluru',q:'Zepto'}).hubs.flatMap(h=>h.companies).find(company=>company.slug==='zepto')!;
+  assert.equal(zepto.reported_city,snapshot.companies.find(company=>company.slug==='zepto')!.city);
   for(const company of map.offices){
     const row=mapCompanyRow(company)!;
     assert.equal(row.slug,company.slug);assert.equal(row.brand_name,company.name);assert.equal(row.description,company.description??undefined);

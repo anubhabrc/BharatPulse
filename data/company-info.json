@@ -1183,6 +1183,447 @@
         "source_url": "https://www.zetwerk.com/en-us/resources/knowledge-base/miscellaneous/the-logistics-challenge-for-an-efficient-supply-chain/"
       },
       "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "damensch",
+      "description": {
+        "text": "Makes men’s innerwear, loungewear and everyday clothing essentials.",
+        "source_url": "https://www.damensch.com/blog/clothing-essentials"
+      },
+      "founders": [
+        {
+          "name": "Anurag Saboo",
+          "source_url": "https://www.damensch.com/blog/clothing-essentials"
+        },
+        {
+          "name": "Gaurav Pushkar",
+          "source_url": "https://www.damensch.com/blog/clothing-essentials"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "fluxgen",
+      "description": {
+        "text": "Builds water-monitoring and management systems using sensors, IoT and analytics for industrial facilities.",
+        "source_url": "https://fluxgen.com/about"
+      },
+      "founders": [
+        {
+          "name": "Ganesh Shankar",
+          "source_url": "https://fluxgen.com/about"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "immuneel-therapeutics",
+      "description": {
+        "text": "Develops cell and gene therapies, including CAR-T treatments for cancer, with a focus on access in India.",
+        "source_url": "https://immuneel.com/wp-content/uploads/2022/06/Immuneel-Phase-II-Patient-Trial-for-CAR-T-Cancer-Therapies-and-Series-A-Financing-Press-Release.pdf"
+      },
+      "founders": [
+        {
+          "name": "Kiran Mazumdar-Shaw",
+          "source_url": "https://immuneel.com/wp-content/uploads/2022/06/Immuneel-Phase-II-Patient-Trial-for-CAR-T-Cancer-Therapies-and-Series-A-Financing-Press-Release.pdf"
+        },
+        {
+          "name": "Siddhartha Mukherjee",
+          "source_url": "https://immuneel.com/wp-content/uploads/2022/06/Immuneel-Phase-II-Patient-Trial-for-CAR-T-Cancer-Therapies-and-Series-A-Financing-Press-Release.pdf"
+        },
+        {
+          "name": "Kush Parmar",
+          "source_url": "https://immuneel.com/wp-content/uploads/2022/06/Immuneel-Phase-II-Patient-Trial-for-CAR-T-Cancer-Therapies-and-Series-A-Financing-Press-Release.pdf"
+        }
+      ],
+      "founded_year": {
+        "value": 2019,
+        "source_url": "https://immuneel.com/wp-content/uploads/2022/06/Immuneel-Phase-II-Patient-Trial-for-CAR-T-Cancer-Therapies-and-Series-A-Financing-Press-Release.pdf"
+      },
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "myelin-foundry",
+      "description": {
+        "text": "Develops multimodal edge AI products for automotive and entertainment applications.",
+        "source_url": "https://www.myelinfoundry.ai/company/"
+      },
+      "founders": [
+        {
+          "name": "Gopichand Katragadda",
+          "source_url": "https://www.myelinfoundry.ai/company/"
+        },
+        {
+          "name": "Anusha Rammohan",
+          "source_url": "https://www.myelinfoundry.ai/company/"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "eyestem-research",
+      "description": {
+        "text": "Develops cell replacement therapies for retinal diseases and vision loss.",
+        "source_url": "https://eyestem.com/"
+      },
+      "founders": [
+        {
+          "name": "Jogin Desai",
+          "source_url": "https://eyestem.com/co-founders/"
+        },
+        {
+          "name": "Rajani Battu",
+          "source_url": "https://eyestem.com/co-founders/"
+        },
+        {
+          "name": "Rajarshi Pal",
+          "source_url": "https://eyestem.com/co-founders/"
+        },
+        {
+          "name": "Dhruv Sareen",
+          "source_url": "https://eyestem.com/co-founders/"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "awign",
+      "description": {
+        "text": "Connects enterprises with an on-demand workforce to carry out digital and on-ground tasks.",
+        "source_url": "https://biifund.com/portfolio-details.php?alias=awign"
+      },
+      "founders": [
+        {
+          "name": "Annanya Sarthak",
+          "source_url": "https://biifund.com/portfolio-details.php?alias=awign"
+        },
+        {
+          "name": "Gurpreet Singh",
+          "source_url": "https://biifund.com/portfolio-details.php?alias=awign"
+        },
+        {
+          "name": "Praveen Sah",
+          "source_url": "https://biifund.com/portfolio-details.php?alias=awign"
+        },
+        {
+          "name": "Harjit Singh",
+          "source_url": "https://biifund.com/portfolio-details.php?alias=awign"
+        }
+      ],
+      "founded_year": {
+        "value": 2016,
+        "source_url": "https://biifund.com/portfolio-details.php?alias=awign"
+      },
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "capillary-technologies",
+      "description": {
+        "text": "Provides software for customer loyalty programmes and engagement across consumer brands.",
+        "source_url": "https://www.capillarytech.com/about-us/"
+      },
+      "founders": [
+        {
+          "name": "Aneesh Reddy",
+          "source_url": "https://www.capillarytech.com/about-us/"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "codeyoung",
+      "description": {
+        "text": "Provides live online tutoring for children, including coding and academic subjects.",
+        "source_url": "https://www.codeyoung.com/about"
+      },
+      "founders": [
+        {
+          "name": "Shailendra Dhakad",
+          "source_url": "https://www.codeyoung.com/about"
+        },
+        {
+          "name": "Rupika Taneja",
+          "source_url": "https://www.codeyoung.com/about"
+        }
+      ],
+      "founded_year": {
+        "value": 2019,
+        "source_url": "https://www.codeyoung.com/about"
+      },
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "astrome-technologies",
+      "description": {
+        "text": "Builds wireless communication products for high-speed internet and telecom infrastructure.",
+        "source_url": "https://urania.vc/venture/astrome"
+      },
+      "founders": [
+        {
+          "name": "Neha Satak",
+          "source_url": "https://urania.vc/venture/astrome"
+        },
+        {
+          "name": "Prasad H L Bhat",
+          "source_url": "https://urania.vc/venture/astrome"
+        }
+      ],
+      "founded_year": {
+        "value": 2015,
+        "source_url": "https://urania.vc/venture/astrome"
+      },
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "qpiai",
+      "description": {
+        "text": "Develops integrated quantum computing and artificial intelligence technology for enterprise applications.",
+        "source_url": "https://www.qpiai.tech/about"
+      },
+      "founders": [
+        {
+          "name": "Nagendra Nagaraja",
+          "source_url": "https://www.qpiai.tech/about"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "stable-money",
+      "description": {
+        "text": "Offers a digital platform for accessing fixed-income investment products.",
+        "source_url": "https://www.adityabirlaventures.com/portfolio/stable-money/"
+      },
+      "founders": [
+        {
+          "name": "Saurabh Jain",
+          "source_url": "https://www.adityabirlaventures.com/portfolio/stable-money/"
+        },
+        {
+          "name": "Harish Reddy",
+          "source_url": "https://www.adityabirlaventures.com/portfolio/stable-money/"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "vunet-systems",
+      "description": {
+        "text": "Builds observability software that connects IT system performance with business transactions and customer journeys.",
+        "source_url": "https://vunetsystems.com/company/about-us"
+      },
+      "founders": [
+        {
+          "name": "Ashwin Ramachandran",
+          "source_url": "https://vunetsystems.com/company/about-us"
+        },
+        {
+          "name": "Bharat Joshi",
+          "source_url": "https://vunetsystems.com/company/about-us"
+        },
+        {
+          "name": "Jithesh Kaveetil",
+          "source_url": "https://vunetsystems.com/company/about-us"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "shadowfax",
+      "description": {
+        "text": "Provides technology-enabled logistics and delivery services for e-commerce, retail and other businesses.",
+        "source_url": "https://www.shadowfax.in/aboutus"
+      },
+      "founders": [],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "corover",
+      "description": {
+        "text": "Builds conversational AI and enterprise agent platforms, including BharatGPT models and voice and chat interfaces.",
+        "source_url": "https://corover.ai/company/media"
+      },
+      "founders": [
+        {
+          "name": "Ankush Sabharwal",
+          "source_url": "https://corover.ai/company/media"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "curefoods",
+      "description": {
+        "text": "Operates and scales food brands through shared cloud kitchens, supply chains and dine-in stores.",
+        "source_url": "https://www.curefoods.in/pages/faq"
+      },
+      "founders": [
+        {
+          "name": "Ankit Nagori",
+          "source_url": "https://www.curefoods.in/pages/faq"
+        }
+      ],
+      "founded_year": {
+        "value": 2020,
+        "source_url": "https://www.curefoods.in/pages/faq"
+      },
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "kiwi",
+      "description": {
+        "text": "Provides a credit-card platform that enables credit-card payments through UPI.",
+        "source_url": "https://www.stellarisvp.com/portfolio/kiwi"
+      },
+      "founders": [
+        {
+          "name": "Siddharth Mehta",
+          "source_url": "https://www.stellarisvp.com/portfolio/kiwi"
+        },
+        {
+          "name": "Mohit Bedi",
+          "source_url": "https://www.stellarisvp.com/portfolio/kiwi"
+        },
+        {
+          "name": "Anup Agrawal",
+          "source_url": "https://www.stellarisvp.com/portfolio/kiwi"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "newme",
+      "description": {
+        "text": "Operates a fashion platform and brand offering trend-led clothing for Gen Z consumers.",
+        "source_url": "https://firesideventures.com/blogs/portfolio/newme"
+      },
+      "founders": [
+        {
+          "name": "Shivam Tripathi",
+          "source_url": "https://firesideventures.com/blogs/portfolio/newme"
+        },
+        {
+          "name": "Himanshu Chaudhary",
+          "source_url": "https://firesideventures.com/blogs/portfolio/newme"
+        },
+        {
+          "name": "Sumit Jasoria",
+          "source_url": "https://firesideventures.com/blogs/portfolio/newme"
+        },
+        {
+          "name": "Vinod Naik",
+          "source_url": "https://firesideventures.com/blogs/portfolio/newme"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "deconstruct",
+      "description": {
+        "text": "Develops skincare products including serums with active ingredients.",
+        "source_url": "https://thedeconstruct.in/pages/team-dermatologists/"
+      },
+      "founders": [
+        {
+          "name": "Malini Adapureddy",
+          "source_url": "https://thedeconstruct.in/pages/team-dermatologists/"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "workindia",
+      "description": {
+        "text": "Operates a recruitment marketplace connecting employers with blue- and grey-collar job seekers.",
+        "source_url": "https://www.workindia.in/about/"
+      },
+      "founders": [
+        {
+          "name": "Nilesh Dungarwal",
+          "source_url": "https://www.workindia.in/about/"
+        },
+        {
+          "name": "Moiz Arsiwala",
+          "source_url": "https://www.workindia.in/about/"
+        }
+      ],
+      "founded_year": {
+        "value": 2015,
+        "source_url": "https://www.workindia.in/about/"
+      },
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "niqo-robotics",
+      "description": {
+        "text": "Builds AI-powered agricultural robots and precision spraying systems for farm operations.",
+        "source_url": "https://niqorobotics.com/about/"
+      },
+      "founders": [
+        {
+          "name": "Jaisimha Rao",
+          "source_url": "https://niqorobotics.com/about/"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "verse-innovation",
+      "description": {
+        "text": "Builds local-language digital content technology and the short-video app Josh.",
+        "source_url": "https://www.verse.in/about-us.php"
+      },
+      "founders": [
+        {
+          "name": "Virendra Gupta",
+          "source_url": "https://www.verse.in/about-us.php"
+        },
+        {
+          "name": "Umang Bedi",
+          "source_url": "https://www.verse.in/about-us.php"
+        }
+      ],
+      "founded_year": {
+        "value": 2007,
+        "source_url": "https://www.verse.in/about-us.php"
+      },
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "werize",
+      "description": {
+        "text": "Connects customers and local financial advisors with loans, insurance and investment products from financial institutions.",
+        "source_url": "https://www.werize.com/about-us/"
+      },
+      "founders": [
+        {
+          "name": "Vishal Chopra",
+          "source_url": "https://www.werize.com/about-us/"
+        },
+        {
+          "name": "Himanshu Gupta",
+          "source_url": "https://www.werize.com/about-us/"
+        }
+      ],
+      "founded_year": {
+        "value": 2019,
+        "source_url": "https://www.werize.com/about-us/"
+      },
+      "checked_on": "2026-11-26"
     }
   ]
 }

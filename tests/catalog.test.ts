@@ -34,7 +34,8 @@ test('funding filters deliberately exclude no-event companies, while identity an
 test('list and map agree on reviewed India office cities without turning a global office into an Indian HQ',()=>{
   const filters=companyFiltersSchema.parse({city:'Bengaluru',q:'Freshworks'});
   const list=queryArchive(catalog,filters,offices),map=buildStartupMap(catalog,filters,cities.cities,profiles.companies as CompanyInfo[],cities.source_url,offices);
-  assert.equal(list.total,1);assert.equal(map.matched_companies,list.total);assert.equal(map.hubs[0].name,'Bengaluru');assert.equal(map.offices.length,0);
+  assert.equal(list.total,1);assert.equal(map.matched_companies,list.total);assert.equal(map.hubs[0].name,'Bengaluru');assert.equal(map.offices.length,1);
+  assert.equal(map.offices[0].office?.place_name,'RMZ EcoWorld Campus 32');assert.equal(map.offices[0].office?.precision,'campus');
   assert.equal(catalog.companies.find(c=>c.slug==='freshworks')?.directory_profile?.headquarters?.city,'San Mateo');
   assert.equal(queryArchive(catalog,companyFiltersSchema.parse({q:'Freshworks',city:'Chennai'}),offices).total,1);
 });

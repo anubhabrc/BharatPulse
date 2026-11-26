@@ -4,7 +4,8 @@ import type {ArchiveSnapshot} from './notion-archive';
 import type {OfficeLocation} from './offices';
 import {sectorStyle} from './map-presentation';
 import {compactDirectoryRow,type MapDirectoryRow} from './map-directory';
-export interface CompanyInfo {slug:string;description:{text:string;source_url:string};founders:{name:string;source_url:string}[];founded_year:{value:number;source_url:string}|null;checked_on:string}
+import type {CompanyInfo} from './company-info';
+export type {CompanyInfo} from './company-info';
 export interface CityCentre {id:string;name:string;aliases:string[];longitude:number;latitude:number;region:string|null}
 export interface MapCompany {slug:string;name:string;city:string;reported_city?:string|null;sector:string|null;hub_id:string;founders:string[];description:string|null;office?:Omit<OfficeLocation,'review_note'|'id'|'company_slug'|'review_status'>;directory_row?:MapDirectoryRow}
 export interface MapHub {id:string;name:string;reported_cities:string[];longitude:number;latitude:number;company_count:number;companies:MapCompany[]}
@@ -15,8 +16,9 @@ export interface StartupMapPayload {
   source_url:string;source_date:string;city_source_url:string;
 }
 const key=(value:string)=>value.normalize('NFKC').trim().toLowerCase().replace(/\s+/g,' ');
-// Discovery samples omit duplicate office evidence; selection resolves through the office index.
-const summary=({office:_office,directory_row:_row,...company}:MapCompany):MapCompany=>company;
+// Discovery samples omit duplicate office evidence and identical city labels.
+// Different source-reported HQs remain explicit; selection resolves full offices through the index.
+const summary=({office:_office,directory_row:_row,reported_city,...company}:MapCompany):MapCompany=>({...company,...(reported_city!==company.city?{reported_city}:{})});
 // Full review notes remain in the company API/profile, not every map response.
 function mapOffice({review_note:_note,id:_id,company_slug:_slug,review_status:_status,...office}:OfficeLocation){return office;}
 const aliases:Record<string,string>={bangalore:'bengaluru',gurugram:'gurgaon','delhi-ncr':'delhi','delhi - ncr':'delhi','delhi ncr':'delhi',mangalore:'mangaluru',mysore:'mysuru',nasik:'nashik',bhubaneshwar:'bhubaneswar',hyerabad:'hyderabad',belgaum:'belagavi',tiruppur:'tiruppur'};

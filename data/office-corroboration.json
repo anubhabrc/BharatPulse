@@ -20,6 +20,26 @@
       "company_slug": "captain-fresh",
       "address_source_url": "https://www.captainfresh.in/investor-relations",
       "review_note": "Company lists Urban Vault Citrine as both registered and corporate office. OSM labels the commercial property Enzyme Citrine; operator/property sources identify the Enzyme and Urban Vault coworking property at Sanjeevini Nagar. Property centre; floor and entrance are not resolved."
+    },
+    {
+      "company_slug": "freshworks",
+      "address_source_url": "https://www.freshworks.com/contact/",
+      "review_note": "Current contact page explicitly publishes Campus32, RMZ EcoWorld. Address-search directions link contains no explicit destination coordinates. Independent Photon feature way1212362525 names Campus32 in RMZ Eco World, postcode560103. Internal-road and wider ORR-access labels are retained in accepted notes; no older CoWrks point or wider-campus centre used."
+    },
+    {
+      "company_slug": "werize",
+      "address_source_url": "https://www.werize.com/terms-conditions/",
+      "review_note": "Readable current browser page confirms WeRize brand owner Wortgage Technologies Private Limited, its separate Wortgage Finance subsidiary and the same Shilpitha Tech Park floors5/6 address. Footer/grievance postcode560103 differs from introduction/notices560102; named park, survey55/3,55/4 and locality agree with independent OSM way1212370420. This point intentionally shares Shadowfax campus. Original /terms-and-conditions/ route redirected to /terms-conditions/."
+    },
+    {
+      "company_slug": "werize",
+      "address_source_url": "https://www.northernarc.com/assets/uploads/direct-origination072025/Werize_Final.pdf",
+      "review_note": "Indexed lender disclosure supplied an initial Wortgage Technologies/WeRize Shilpitha address lead, but direct fetch returned403. Not the acceptance authority; acceptance uses the subsequently readable first-party current terms and independent OSM campus."
+    },
+    {
+      "company_slug": "werize",
+      "address_source_url": "https://www.wortgagefinance.com/wp-content/uploads/2025/09/Terms-and-conditions-Wortgage-Finance-2025-09-12.pdf",
+      "review_note": "Indexed group-company PDF supplied an initial WeRize Shilpitha lead; direct fetch returned403. Subsidiary evidence is retained as a lead, not used to conflate Wortgage Finance with parent Wortgage Technologies."
     }
   ]
 }

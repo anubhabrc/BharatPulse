@@ -15,7 +15,8 @@ const featureSchema=z.object({geometry:z.object({type:z.literal('Point'),coordin
 const report=[];
 for(const candidate of candidates){
   const query=candidate.geocode_query;
-  if(!query?.trim()){report.push({company_slug:candidate.company_slug,status:'needs_review',reason:candidate.reason,geocoder:null,note:'No usable public Bengaluru address/query yet; no geocoder request made.'});continue;}
+  const addressSourceUrl=candidate.address_source_url??candidate.source_url??candidate.source_urls?.[0];
+  if(!query?.trim()){report.push({company_slug:candidate.company_slug,address_source_url:addressSourceUrl,status:'needs_review',reason:candidate.reason,geocoder:null,note:'No usable public Bengaluru address/query yet; no geocoder request made.'});continue;}
   const url=new URL('https://photon.komoot.io/api/');
   url.search=new URLSearchParams({q:query,lat:'12.97',lon:'77.59',limit:'4'}).toString();
   const cache=`${root}/${createHash('sha256').update(url.href).digest('hex')}.json`;
@@ -30,7 +31,7 @@ for(const candidate of candidates){
     await writeFile(cache,JSON.stringify(result,null,2)+'\n');
     await new Promise(resolve=>setTimeout(resolve,1500));
   }
-  report.push({company_slug:candidate.company_slug,address_source_url:candidate.source_url,status:'needs_review',reason:candidate.reason,geocoder:result});
+  report.push({company_slug:candidate.company_slug,address_source_url:addressSourceUrl,status:'needs_review',reason:candidate.reason,geocoder:result});
 }
 await writeFile(`${root}/review-report.json`,JSON.stringify(report,null,2)+'\n');
 console.log(`${report.length} candidates saved to ${root}/review-report.json. Check building identity, street, entity and address currency before accepting any point. © OpenStreetMap contributors, ODbL. No office records changed.`);
