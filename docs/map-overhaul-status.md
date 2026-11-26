@@ -34,8 +34,20 @@ Recovery audit: 15 additional partially researched business-address leads were r
 
 ## Still unfinished
 
-- [ ] Resolve the 37 flagged address/coordinate cases, starting with cached primary sources.
+- [ ] Resolve the 36 remaining flagged address/coordinate cases (after B01 below), starting with cached primary sources.
 - [ ] Research the remaining 541 company records; a directory lead is not an accepted office.
 - [ ] Complete the broader R19 correction/review workflow and R20 company/founder enrichment.
 
 The completed UI release does not mark these data tasks complete. All intermediate source caches, proposed records, the original recording and extracted frames remain in the chat working directory.
+
+## Batch B01 — three pending cases, 26 November 2026
+
+- [x] Stellapps: official contact page confirms Stellapps Technologies Private Limited registered office at Ozone Manay Technology Park, A-Block. Accept the independently mapped OSM commercial-campus centre, retaining campus precision. Do not use the previously proposed filing coordinate. The point intentionally shares Porter’s campus.
+- [x] HomeLane: recheck [official terms](https://www.homelane.com/homelane-terms-conditions) for the same registered-office building; named-place Photon query returns no features. Keep pending, with updated reason/date; do not substitute a retail showroom.
+- [x] Zolve: recheck official policy and business correspondence address; named-place Photon query returns no features. Keep pending, with updated reason/date; do not substitute the wider Ecoworld area.
+- [x] Validate locally: all 47 tests, TypeScript and production build passed. Browser check confirmed Stellapps selection, address/location sources, campus accuracy and the 55-office coverage count.
+- [ ] Commit, push and confirm deployment for this batch.
+
+Current inventory: **55 accepted / 36 need review / 541 not yet researched = 632**. Existing historical entries above describe earlier releases, not current counts. B01 examined only three pending cases. Next bounded office batch: Rupeek, GPS Renewables and CoreEL; use cached sources first, retain unresolved outcomes explicitly, and stop after those three. Directory work resumes from `docs/directory-status.md` rather than repeating source discovery.
+
+B01 evidence recovery: the earlier [Stellapps filing candidate](https://www.stellapps.com/wp-content/uploads/2026/01/Form-MGT-7_of-Stellapps_FY-2024-25.pdf) and its rejected coordinate remain in Git history; acceptance now uses the readable official contact-page address and independent OSM campus. Known separate UI follow-up: some RSS headlines still display double-escaped punctuation (for example `&#8217;`); this was not changed in the office/source-policy batch.

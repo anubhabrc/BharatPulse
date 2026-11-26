@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "checked_on": "2026-11-26",
+  "scope": "Notable startups, scale-ups and established product companies with verified Indian headquarters or operations",
+  "integration_status": "research_only",
+  "reuse_note": "Public access is not a supported bulk API or redistribution licence. Metadata-only reviewed discovery initially; no automatic admission.",
+  "sources": [
+    {
+      "id": "blume-portfolio",
+      "url": "https://blume.vc/startups",
+      "role": "curated_discovery",
+      "access": "readable_public_index",
+      "fields": ["portfolio_membership", "sector", "reported_location", "founded_year_when_explicit", "company_links"],
+      "limits": "Includes overseas and early-stage firms. Partnered-in year differs from founding year; investment status differs from operating status."
+    },
+    {
+      "id": "elevation-portfolio",
+      "url": "https://www.elevationcapital.com/portfolio",
+      "role": "curated_discovery",
+      "access": "readable_public_index",
+      "fields": ["portfolio_membership", "founders", "theme", "investing_stage", "company_links"],
+      "limits": "Investing stage is historical, not automatically current funding stage. Admission and India footprint require review."
+    },
+    {
+      "id": "peak-xv-portfolio",
+      "url": "https://www.peakxv.com/our-companies",
+      "role": "curated_discovery",
+      "access": "readable_public_index",
+      "fields": ["portfolio_membership", "company_links"],
+      "limits": "Global portfolio includes companies outside our scope. Review India connection and identity individually."
+    },
+    {
+      "id": "nexus-portfolio",
+      "url": "https://www.nexusvp.com/companies",
+      "role": "curated_discovery",
+      "access": "readable_public_index",
+      "fields": ["portfolio_membership", "reported_geography", "sector", "stage_invested", "portfolio_status"],
+      "limits": "India/US portfolio; stage invested and portfolio status retain their source meanings."
+    },
+    {
+      "id": "yc-directory",
+      "url": "https://www.ycombinator.com/companies",
+      "checked_profile_url": "https://www.ycombinator.com/companies/razorpay",
+      "role": "curated_discovery",
+      "access": "profile_readable_index_dynamic",
+      "fields": ["accelerator_batch", "founders", "official_website", "profile_tags", "yc_jobs_link"],
+      "limits": "Index was not text-readable; individual Razorpay profile was. No bulk endpoint verified. YC job count is its board coverage, not all employer vacancies. India operations need separate verification."
+    },
+    {
+      "id": "accel-portfolio",
+      "url": "https://www.accel.com/companies",
+      "role": "curated_discovery",
+      "access": "dynamic_index_partial",
+      "fields": ["portfolio_membership", "company_links"],
+      "limits": "Global index shell and filters were accessible, but a complete India subset was not extracted. No bulk API established."
+    },
+    {
+      "id": "stellaris-portfolio",
+      "url": "https://www.stellarisvp.com/portfolio",
+      "role": "curated_discovery",
+      "access": "readable_public_index",
+      "fields": ["portfolio_membership", "theme", "entry_stage", "portfolio_status"],
+      "limits": "Idea/seed entries need establishment evidence; entry stage and investment status do not establish current company state."
+    },
+    {
+      "id": "national-startup-awards-5",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2215334&lang=1&reg=3",
+      "published_on": "2026-01-16",
+      "role": "recognition_discovery",
+      "access": "readable_official_winners_annexure",
+      "fields": ["award_edition", "award_category", "winner_name", "state"],
+      "limits": "Legal names need reviewed brand matching. Historical recognition does not establish current operation. Startup India results endpoint returned 403; no bypass."
+    },
+    {
+      "id": "deloitte-tech-fast-50-india-2024",
+      "url": "https://www.deloitte.com/in/en/Industries/tmt/about/techfast-50-india-2024-winners-report.html",
+      "role": "recognition_discovery",
+      "access": "readable_dated_report_landing",
+      "fields": ["recognition_cohort", "company_candidates"],
+      "limits": "Verified cohort is 2024, not a claimed latest list. Check full report methodology and periods before using metrics or ranks."
+    },
+    {
+      "id": "greenhouse-job-board",
+      "url": "https://docs.greenhouse.io/job-board.html",
+      "role": "published_jobs",
+      "access": "public_listing_api_documented_not_integrated",
+      "fields": ["job_id", "title", "location", "job_url", "updated_at"],
+      "limits": "Employer board token must be verified through official careers page. GET listings only; no application submission. Security/rate limits apply."
+    },
+    {
+      "id": "lever-postings",
+      "url": "https://github.com/lever/postings-api",
+      "role": "published_jobs",
+      "access": "public_listing_api_documented_not_integrated",
+      "fields": ["job_id", "title", "location", "job_url", "workplace_type_when_available"],
+      "limits": "Verify employer/site identity and regional endpoint. Listing metadata only; no applicant data or submissions."
+    },
+    {
+      "id": "ashby-postings",
+      "url": "https://developers.ashbyhq.com/docs/public-job-posting-api",
+      "role": "published_jobs",
+      "access": "public_listing_api_documented_not_integrated",
+      "fields": ["title", "location", "job_url", "published_at", "workplace_type", "employment_type"],
+      "limits": "Verify employer board through official careers site; include listed published jobs only. Remote does not establish India eligibility."
+    }
+  ]
+}

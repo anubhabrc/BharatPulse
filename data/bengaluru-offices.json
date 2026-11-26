@@ -851,6 +851,24 @@
       "coordinate_method": "osm_feature"
     },
     {
+      "id": "stellapps-bengaluru-2026-11-26",
+      "company_slug": "stellapps",
+      "city": "Bengaluru",
+      "entity_name": "Stellapps Technologies Private Limited",
+      "kind": "registered_office",
+      "address": "Ozone Manay Technology Park, A-Block, 2nd Floor, Survey No. 56/18 and 55/9, Hosur Road, Garvebhavipalya, Hongasandra Village, Bengaluru, Karnataka 560068, India",
+      "place_name": "Ozone Manay Technology Park",
+      "precision": "campus",
+      "longitude": 77.6373915,
+      "latitude": 12.8915483,
+      "address_source_url": "https://www.stellapps.com/contact-us/",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/1257330725",
+      "coordinate_method": "osm_feature",
+      "checked_on": "2026-11-26",
+      "review_status": "accepted",
+      "review_note": "Official contact page identifies the legal entity and registered office in A-Block of Ozone Manay Technology Park. Independently matched named OSM commercial-campus feature agrees with the published address. Campus centre only; exact block, floor and entrance are not resolved. The earlier filing coordinate is not used. Porter has a separately sourced office on the same campus; coordinates are intentionally shared."
+    },
+    {
       "id": "tonetag-bengaluru-2026-11",
       "company_slug": "tonetag",
       "city": "Bengaluru",

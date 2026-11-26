@@ -3142,7 +3142,7 @@
       "status": "needs_review",
       "accepted_office_id": null,
       "address_source_url": "https://www.homelane.com/privacypolicy",
-      "review_reason": "Published registered office, separate from retail experience centres. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "review_reason": "Published registered office of Homevista Decor and Furnishings Private Limited; official terms also identify BKN Ambaram Estates, No.648/L, Old Madras Road, Binnamangala, Indiranagar. Bounded Photon query for BKN Ambaram Estates Bengaluru returned no features on 26 November 2026. No building match accepted; retail experience centres are not substitutes for this registered office.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -6339,10 +6339,10 @@
       "brand_name": "Stellapps",
       "website_url": "https://www.stellapps.com/",
       "reported_city": "Bengaluru",
-      "status": "needs_review",
-      "accepted_office_id": null,
-      "address_source_url": "https://www.stellapps.com/wp-content/uploads/2026/01/Form-MGT-7_of-Stellapps_FY-2024-25.pdf",
-      "review_reason": "FY 2024–25 MGT7 as-on-filing column reports this registered office and coordinates12.891512,77.637954; older financial-year-end column reports NovelTechPark and differentcoordinates. Sourcechecked2026, not an assertion that filing was made today. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "status": "accepted",
+      "accepted_office_id": "stellapps-bengaluru-2026-11-26",
+      "address_source_url": "https://www.stellapps.com/contact-us/",
+      "review_reason": null,
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -7473,7 +7473,7 @@
       "status": "needs_review",
       "accepted_office_id": null,
       "address_source_url": "https://zolve.com/policies/global/grievance-redressal-and-cibil-consent",
-      "review_reason": "Business correspondence address in company policy updated 1 July 2026; no private officer contacts retained. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "review_reason": "Official policy updated 1 July 2026 publishes this business correspondence address. Rechecked policy on 26 November 2026. Bounded Photon query for The Retail Street Campus 31 Bengaluru returned no features. No exact commercial-building/campus match accepted; the wider Ecoworld area is not an adequate point.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]

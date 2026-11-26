@@ -195,9 +195,9 @@
       "source_url": "https://www.homelane.com/privacypolicy",
       "address": "BKN Ambaram Estates, 2nd Floor, 648/L, 1st Main, 1st Stage, Indiranagar, Bengaluru, Karnataka 560038",
       "place_name": "BKN Ambaram Estates",
-      "reason": "Published registered office, separate from retail experience centres. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "reason": "Published registered office of Homevista Decor and Furnishings Private Limited; official terms also identify BKN Ambaram Estates, No.648/L, Old Madras Road, Binnamangala, Indiranagar. Bounded Photon query for BKN Ambaram Estates Bengaluru returned no features on 26 November 2026. No building match accepted; retail experience centres are not substitutes for this registered office.",
       "geocode_query": "BKN Ambaram Estates Bengaluru",
-      "checked_on": "2026-11-25"
+      "checked_on": "2026-11-26"
     },
     {
       "company_slug": "kiwi",
@@ -266,16 +266,6 @@
       "checked_on": "2026-11-25"
     },
     {
-      "company_slug": "stellapps",
-      "status": "needs_review",
-      "source_url": "https://www.stellapps.com/wp-content/uploads/2026/01/Form-MGT-7_of-Stellapps_FY-2024-25.pdf",
-      "address": "A Block, 2nd Floor, Ozone Manay Technology Park, Survey 56/18 and 55/9, Hosur Road, Garvebhavipalya, Hongasandra Village, Begur, Bengaluru, Karnataka 560068",
-      "place_name": "Ozone Manay Technology Park",
-      "reason": "FY 2024–25 MGT7 as-on-filing column reports this registered office and coordinates12.891512,77.637954; older financial-year-end column reports NovelTechPark and differentcoordinates. Sourcechecked2026, not an assertion that filing was made today. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
-      "geocode_query": "Ozone Manay Technology Park Bengaluru",
-      "checked_on": "2026-11-25"
-    },
-    {
       "company_slug": "sugar-fit",
       "status": "needs_review",
       "source_url": "https://www.sugarfit.com/",
@@ -325,9 +315,9 @@
       "source_url": "https://zolve.com/policies/global/grievance-redressal-and-cibil-consent",
       "address": "Campus 31, 4th Floor, The Retail Street, RMZ Ecoworld Road, Adarsh Palm Retreat, Bellandur, Bengaluru, Karnataka 560103",
       "place_name": "The Retail Street Campus 31",
-      "reason": "Business correspondence address in company policy updated 1 July 2026; no private officer contacts retained. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "reason": "Official policy updated 1 July 2026 publishes this business correspondence address. Rechecked policy on 26 November 2026. Bounded Photon query for The Retail Street Campus 31 Bengaluru returned no features. No exact commercial-building/campus match accepted; the wider Ecoworld area is not an adequate point.",
       "geocode_query": "The Retail Street Campus 31 Bengaluru",
-      "checked_on": "2026-11-25"
+      "checked_on": "2026-11-26"
     }
   ]
 }
