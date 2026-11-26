@@ -23,8 +23,8 @@ Status: `[x]` shipped and checked, `[ ]` pending. Work in this change is marked 
 - [x] R11 Company-linked news based on explicit headline mentions, with a paginated unmatched news inbox. A mention is not confirmation of a funding event.
 - [x] R12 Source health/freshness in the UI and reproducible source reports. Source failures must not erase historical data.
 - [x] R46 Compact directory cards and evidence-backed tags, with source/check dates, detailed profiles and matching filters. Do not infer hiring or bootstrapped status from missing observations.
-- [ ] R48 Wider desktop directory and accessible inline news carousel replacing the Wire dropdown; final deployment verification in progress.
-- [ ] R49 Same-origin allowlisted/cached basemap gateway, recovery after failed requests and compact map summaries; final deployment verification in progress.
+- [x] R48 Wider desktop directory and accessible inline news carousel replacing the Wire dropdown; production deployment and desktop/390px layouts verified.
+- [x] R49 Same-origin allowlisted/cached basemap gateway, recovery after failed requests and compact map summaries; live basemap and manifest endpoint verified.
 - [ ] R13 Investor names and round participation from source-supported observations; do not label this a complete cap table.
 - [ ] R14 Company aliases, consistent URL normalization and an explicit correction history.
 - [ ] R15 Funding/debt/secondary/grant breakdowns and clearly defined historical currency conversions.
@@ -99,3 +99,5 @@ Every feature change updates the relevant IDs above. Mark an automated refresh s
 - 26 November 2026 D04 local checkpoint: 27 additional Bengaluru offices (60 → 87) and 45 additional sourced profiles (25 → 70 nationally; 66 of 87 mapped companies have profiles). Source-linked founder summaries now appear on cards. Wider directory, inline news carousel and same-origin basemap gateway address the screenshots. Duplicate card identity/profile fields and full research notes are omitted from map responses; source-linked office evidence remains visible and full review notes remain on company profiles/API. Final merged checks and deployment are in progress; authoritative recovery state is `docs/directory-status.md`.
 
 - 26 November 2026 D04 deployment correction: Vercel rejected `a0a045c` because new source-unresolved candidates make `geocode_query` optional. Guard missing queries in the research-only command, preserving unresolved status and making no network request. Full non-incremental TypeScript, all58 tests, missing-query command and production build passed; deployment verification remains pending.
+
+- 26 November 2026 D04 released: `c96caae` received a successful Vercel deployment after the optional-query fix. R48/R49 are complete; production at https://bharatpulse-kappa.vercel.app/ independently shows87 offices,641 Bengaluru records, working basemap and carousel. All58 tests, full TypeScript and production build passed. Current inventory87 accepted /43 review /511 awaiting research;70 sourced profiles nationally,66 among mapped companies. Next exact research/profile targets are preserved in the directory ledger; broader R19/R20 remain unfinished.

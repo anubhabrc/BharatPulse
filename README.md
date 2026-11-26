@@ -1,5 +1,7 @@
 # BharatPulse Geo
 
+[Live app](https://bharatpulse-kappa.vercel.app/) · [Current work ledger](docs/directory-status.md)
+
 An Indian startup intelligence project with a source-linked company and funding repository. The app includes a searchable Next.js screener, company funding timelines, an imported BWM Notion archive, PostgreSQL migrations, reviewed import tools, publication headlines, sourced founder profiles, and a startup map with city hubs and sourced office locations.
 
 The default app uses real records imported directly from Backstage with Millionaires’ public Notion archive: 1,905 companies and 2,337 funding events across 135 populated weekly pages. The import checks all 148 linked weeks and records the 13 empty published pages separately. Source dates span 2 January 2024 to 20 November 2026. This is a bundled snapshot, so localhost and Vercel show real data without database setup. Synthetic fixtures remain available only through explicit `DATA_MODE=demo`; database failures never silently switch data sources.
