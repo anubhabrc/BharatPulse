@@ -1,0 +1,2789 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-26T08:46:14.693Z",
+  "stale_after_hours": 72,
+  "sources": [
+    {
+      "id": "razorpay-greenhouse",
+      "company_slug": "razorpay",
+      "provider": "greenhouse",
+      "board": "razorpaysoftwareprivatelimited",
+      "careers_url": "https://razorpay.com/careers/",
+      "identity_source_url": "https://razorpay.com/careers/",
+      "listing_url": "https://boards-api.greenhouse.io/v1/boards/razorpaysoftwareprivatelimited/jobs",
+      "checked_on": "2026-11-26",
+      "status": "ok",
+      "checked_at": "2026-11-26T08:46:14.693Z",
+      "last_success_at": "2026-11-26T08:46:14.693Z",
+      "job_count": 26,
+      "error": null
+    },
+    {
+      "id": "phonepe-smartrecruiters",
+      "company_slug": "phonepe",
+      "provider": "smartrecruiters",
+      "board": "PHONEPELIMITED",
+      "careers_url": "https://www.phonepe.com/careers/job-openings/",
+      "identity_source_url": "https://www.phonepe.com/careers/job-openings/",
+      "listing_url": "https://api.smartrecruiters.com/v1/companies/PHONEPELIMITED/postings",
+      "checked_on": "2026-11-26",
+      "status": "ok",
+      "checked_at": "2026-11-26T08:46:14.693Z",
+      "last_success_at": "2026-11-26T08:46:14.693Z",
+      "job_count": 161,
+      "error": null
+    }
+  ],
+  "items": [
+    {
+      "id": "4741226005",
+      "company_slug": "razorpay",
+      "source_id": "razorpay-greenhouse",
+      "title": "Analyst, Banking Alliances",
+      "location": "Chennai",
+      "cities": [
+        "Chennai"
+      ],
+      "country": "IN",
+      "workplace": "unknown",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4741226005",
+      "published_at": "2026-10-08T13:10:53.000Z",
+      "updated_at": "2026-10-09T08:59:36.000Z"
+    },
+    {
+      "id": "4757678005",
+      "company_slug": "razorpay",
+      "source_id": "razorpay-greenhouse",
+      "title": "Associate, Business Operations",
+      "location": "Bengaluru",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "unknown",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4757678005",
+      "published_at": "2026-11-26T06:04:36.000Z",
+      "updated_at": "2026-11-26T06:04:36.000Z"
+    },
+    {
+      "id": "4753866005",
+      "company_slug": "razorpay",
+      "source_id": "razorpay-greenhouse",
+      "title": "Associate Director, Risk Management",
+      "location": "Bengaluru",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "unknown",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4753866005",
+      "published_at": "2026-11-19T09:43:26.000Z",
+      "updated_at": "2026-11-19T09:43:26.000Z"
+    },
+    {
+      "id": "4756321005",
+      "company_slug": "razorpay",
+      "source_id": "razorpay-greenhouse",
+      "title": "Associate Manager, Emerging Business (Key Accounts)",
+      "location": "Bengaluru",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "unknown",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4756321005",
+      "published_at": "2026-11-20T09:12:48.000Z",
+      "updated_at": "2026-11-20T09:23:32.000Z"
+    },
+    {
+      "id": "4741281005",
+      "company_slug": "razorpay",
+      "source_id": "razorpay-greenhouse",
+      "title": "Cluster Manager, Enterprise Sales - Bank & Direct",
+      "location": "Bengaluru",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "unknown",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4741281005",
+      "published_at": "2026-10-12T12:09:03.000Z",
+      "updated_at": "2026-11-20T07:26:33.000Z"
+    },
+    {
+      "id": "4754926005",
+      "company_slug": "razorpay",
+      "source_id": "razorpay-greenhouse",
+      "title": "Communication Designer",
+      "location": "Bengaluru",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "unknown",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4754926005",
+      "published_at": "2026-11-18T08:38:21.000Z",
+      "updated_at": "2026-11-18T08:38:21.000Z"
+    },
+    {
+      "id": "4730552005",
+      "company_slug": "razorpay",
+      "source_id": "razorpay-greenhouse",
+      "title": "DevOps Enginer",
+      "location": "Malaysia",
+      "cities": [],
+      "country": null,
+      "workplace": "unknown",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4730552005",
+      "published_at": "2026-09-03T09:17:10.000Z",
+      "updated_at": "2026-09-28T11:02:10.000Z"
+    },
+    {
+      "id": "4746944005",
+      "company_slug": "razorpay",
+      "source_id": "razorpay-greenhouse",
+      "title": "Engineering Manager",
+      "location": "Bengaluru",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "unknown",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4746944005",
+      "published_at": "2026-11-05T10:48:45.000Z",
+      "updated_at": "2026-11-05T10:48:45.000Z"
+    },
+    {
+      "id": "4731054005",
+      "company_slug": "razorpay",
+      "source_id": "razorpay-greenhouse",
+      "title": "Frontend Engineer",
+      "location": "Bengaluru",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "unknown",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4731054005",
+      "published_at": "2026-09-22T06:24:09.000Z",
+      "updated_at": "2026-11-26T07:46:25.000Z"
+    },
+    {
+      "id": "4740737005",
+      "company_slug": "razorpay",
+      "source_id": "razorpay-greenhouse",
+      "title": "Group Manager, Banking Alliance",
+      "location": "Mumbai",
+      "cities": [
+        "Mumbai"
+      ],
+      "country": "IN",
+      "workplace": "unknown",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4740737005",
+      "published_at": "2026-10-07T08:10:37.000Z",
+      "updated_at": "2026-10-19T09:41:25.000Z"
+    },
+    {
+      "id": "4741222005",
+      "company_slug": "razorpay",
+      "source_id": "razorpay-greenhouse",
+      "title": "Lead Communication Designer",
+      "location": "Bengaluru",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "unknown",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4741222005",
+      "published_at": "2026-10-08T11:40:13.000Z",
+      "updated_at": "2026-11-23T13:59:09.000Z"
+    },
+    {
+      "id": "4744101005",
+      "company_slug": "razorpay",
+      "source_id": "razorpay-greenhouse",
+      "title": "Lead Database Administrator",
+      "location": "Bengaluru",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "unknown",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4744101005",
+      "published_at": "2026-10-19T09:20:50.000Z",
+      "updated_at": "2026-10-19T09:20:50.000Z"
+    },
+    {
+      "id": "4746998005",
+      "company_slug": "razorpay",
+      "source_id": "razorpay-greenhouse",
+      "title": "Lead Software Development Engineer",
+      "location": "Bengaluru",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "unknown",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4746998005",
+      "published_at": "2026-11-25T10:31:14.000Z",
+      "updated_at": "2026-11-25T10:31:14.000Z"
+    },
+    {
+      "id": "4758202005",
+      "company_slug": "razorpay",
+      "source_id": "razorpay-greenhouse",
+      "title": "Manager, Product Marketing",
+      "location": "Bengaluru",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "unknown",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4758202005",
+      "published_at": "2026-11-25T05:36:57.000Z",
+      "updated_at": "2026-11-25T05:36:57.000Z"
+    },
+    {
+      "id": "4753870005",
+      "company_slug": "razorpay",
+      "source_id": "razorpay-greenhouse",
+      "title": "Manager, Risk Management",
+      "location": "Malaysia",
+      "cities": [],
+      "country": null,
+      "workplace": "unknown",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4753870005",
+      "published_at": "2026-11-13T10:55:47.000Z",
+      "updated_at": "2026-11-16T10:01:59.000Z"
+    },
+    {
+      "id": "4715389005",
+      "company_slug": "razorpay",
+      "source_id": "razorpay-greenhouse",
+      "title": "Product Manager II",
+      "location": "Bengaluru",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "unknown",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4715389005",
+      "published_at": "2026-09-07T09:29:58.000Z",
+      "updated_at": "2026-11-26T04:58:59.000Z"
+    },
+    {
+      "id": "4751768005",
+      "company_slug": "razorpay",
+      "source_id": "razorpay-greenhouse",
+      "title": "Product Manager II",
+      "location": "Bengaluru",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "unknown",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4751768005",
+      "published_at": "2026-11-10T05:29:02.000Z",
+      "updated_at": "2026-11-25T11:20:39.000Z"
+    },
+    {
+      "id": "4729533005",
+      "company_slug": "razorpay",
+      "source_id": "razorpay-greenhouse",
+      "title": "Product Manager II - Ads",
+      "location": "Bengaluru",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "unknown",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4729533005",
+      "published_at": "2026-09-01T16:10:49.000Z",
+      "updated_at": "2026-10-29T06:18:10.000Z"
+    },
+    {
+      "id": "4750360005",
+      "company_slug": "razorpay",
+      "source_id": "razorpay-greenhouse",
+      "title": "Product Manager II - AI",
+      "location": "Bengaluru",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "unknown",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4750360005",
+      "published_at": "2026-11-25T10:09:02.000Z",
+      "updated_at": "2026-11-25T11:34:37.000Z"
+    },
+    {
+      "id": "4741230005",
+      "company_slug": "razorpay",
+      "source_id": "razorpay-greenhouse",
+      "title": "Regional Manager, Enterprise Sales - Bank & Direct",
+      "location": "Mumbai",
+      "cities": [
+        "Mumbai"
+      ],
+      "country": "IN",
+      "workplace": "unknown",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4741230005",
+      "published_at": "2026-10-12T12:07:08.000Z",
+      "updated_at": "2026-11-23T20:10:24.000Z"
+    },
+    {
+      "id": "4725604005",
+      "company_slug": "razorpay",
+      "source_id": "razorpay-greenhouse",
+      "title": "Senior Associate - Corporate Strategy",
+      "location": "Bengaluru",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "unknown",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4725604005",
+      "published_at": "2026-08-19T08:54:54.000Z",
+      "updated_at": "2026-10-28T09:16:57.000Z"
+    },
+    {
+      "id": "4742859005",
+      "company_slug": "razorpay",
+      "source_id": "razorpay-greenhouse",
+      "title": "Senior Audit Finance",
+      "location": "Malaysia",
+      "cities": [],
+      "country": null,
+      "workplace": "unknown",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4742859005",
+      "published_at": "2026-10-14T02:42:41.000Z",
+      "updated_at": "2026-10-14T02:42:41.000Z"
+    },
+    {
+      "id": "4754975005",
+      "company_slug": "razorpay",
+      "source_id": "razorpay-greenhouse",
+      "title": "Senior Manager, Banking Alliances",
+      "location": "Bengaluru; Mumbai",
+      "cities": [
+        "Bengaluru",
+        "Mumbai"
+      ],
+      "country": "IN",
+      "workplace": "unknown",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4754975005",
+      "published_at": "2026-11-18T09:31:33.000Z",
+      "updated_at": "2026-11-18T09:31:33.000Z"
+    },
+    {
+      "id": "4749341005",
+      "company_slug": "razorpay",
+      "source_id": "razorpay-greenhouse",
+      "title": "Senior Product Manager",
+      "location": "Bengaluru",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "unknown",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4749341005",
+      "published_at": "2026-11-10T13:18:41.000Z",
+      "updated_at": "2026-11-10T13:18:41.000Z"
+    },
+    {
+      "id": "4721391005",
+      "company_slug": "razorpay",
+      "source_id": "razorpay-greenhouse",
+      "title": "Solutions Consultant",
+      "location": "Malaysia",
+      "cities": [],
+      "country": null,
+      "workplace": "unknown",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4721391005",
+      "published_at": "2026-08-06T06:20:46.000Z",
+      "updated_at": "2026-09-28T11:02:10.000Z"
+    },
+    {
+      "id": "4727236005",
+      "company_slug": "razorpay",
+      "source_id": "razorpay-greenhouse",
+      "title": "Staff Product Manager",
+      "location": "Bengaluru",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "unknown",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4727236005",
+      "published_at": "2026-11-04T09:43:08.000Z",
+      "updated_at": "2026-11-25T09:17:32.000Z"
+    },
+    {
+      "id": "1000000000006832",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Software Engineer - Backend (5-7) YOE, Core",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006832",
+      "published_at": "2026-11-25T22:25:13.141Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006806",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Financial Analyst, Business Finance",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006806",
+      "published_at": "2026-11-25T12:53:14.482Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006783",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Digital Marketing Manager (SEO)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006783",
+      "published_at": "2026-11-25T11:01:32.477Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006778",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Software Engineer (Data Platform, 3-5 years)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006778",
+      "published_at": "2026-11-25T09:35:45.085Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006773",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Software Engineer (Data Platform, 5-7 years)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006773",
+      "published_at": "2026-11-25T09:33:22.599Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006750",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Design Lead - In-App Merchandising",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006750",
+      "published_at": "2026-11-25T08:57:22.252Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006700",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Lead Illustrator",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006700",
+      "published_at": "2026-11-24T14:00:25.718Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006623",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Platform Engineer 1",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006623",
+      "published_at": "2026-11-23T08:25:49.515Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006617",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Platform Engineer 2",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006617",
+      "published_at": "2026-11-23T08:24:37.867Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006543",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Associate Manager, Compliance Testing & Monitoring (CTM)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006543",
+      "published_at": "2026-11-23T06:07:40.236Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006538",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Zonal Head Premium",
+      "location": "Noida, Uttar Pradesh, India",
+      "cities": [
+        "Noida"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006538",
+      "published_at": "2026-11-23T05:59:16.565Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006532",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Head Of Product",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006532",
+      "published_at": "2026-11-23T05:44:39.313Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006522",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Product Solution Engineer  (1 to 3)",
+      "location": "Pune, Maharashtra, India",
+      "cities": [
+        "Pune"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006522",
+      "published_at": "2026-11-20T14:14:14.892Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006499",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Associate Manager, Growth - Online Sales",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006499",
+      "published_at": "2026-11-20T08:44:44.135Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006494",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Manager - Content and Creator Partnerships",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006494",
+      "published_at": "2026-11-20T07:55:48.148Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006489",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Area Sales Manager, Offline sales and account management - Ahmedabad",
+      "location": "Ahmedabad, Gujarat, India",
+      "cities": [],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006489",
+      "published_at": "2026-11-20T07:10:01.623Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006443",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Senior Manager, Category Management",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006443",
+      "published_at": "2026-11-19T14:45:52.345Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006370",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Customer Experience Specialist • Operations | Lending",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006370",
+      "published_at": "2026-11-19T04:24:41.892Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006364",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "iOS Developer",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006364",
+      "published_at": "2026-11-18T14:46:21.931Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006341",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Markets CRM Manager (Investor Communication)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006341",
+      "published_at": "2026-11-18T11:13:32.374Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006313",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Senior Executive, Anti Corruption",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006313",
+      "published_at": "2026-11-18T10:40:12.749Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006285",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Head of Product - Merchant Payments",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006285",
+      "published_at": "2026-11-18T06:35:29.454Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006240",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Lead Analyst, Credit Risk Management",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006240",
+      "published_at": "2026-11-17T10:28:54.953Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006183",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Staff Engineer - Kafka Codebase and Internals",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006183",
+      "published_at": "2026-11-17T05:24:05.105Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006131",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Associate Manager, Operations",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006131",
+      "published_at": "2026-11-16T09:33:41.319Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006120",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Cluster Manager",
+      "location": "Jaipur, Rajasthan, India",
+      "cities": [],
+      "country": "IN",
+      "workplace": "hybrid",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006120",
+      "published_at": "2026-11-13T10:51:08.902Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006115",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Cluster Manager - Mangalore",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006115",
+      "published_at": "2026-11-13T10:49:56.556Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006072",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Mass Cluster Manager, Offline BD & Account Management",
+      "location": "Dehradun, Uttarakhand, India",
+      "cities": [],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006072",
+      "published_at": "2026-11-12T11:23:51.646Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006066",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Product Solution Engineer, Product Support",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006066",
+      "published_at": "2026-11-12T11:09:11.322Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006043",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Cluster Manager",
+      "location": "Delhi Shahdara, Delhi, India",
+      "cities": [
+        "Delhi"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006043",
+      "published_at": "2026-11-12T11:03:54.785Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006015",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Operations Analyst, Programmatic Ads",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006015",
+      "published_at": "2026-11-12T09:37:16.538Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006009",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Site Reliability Engineer (4 to 8 Years) Core Infrastructure Team",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006009",
+      "published_at": "2026-11-12T09:07:20.417Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005998",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Brand Marketing Manager - Corporate",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005998",
+      "published_at": "2026-11-12T06:58:00.407Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005975",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Marketing Operations Analyst",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005975",
+      "published_at": "2026-11-12T06:14:10.324Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005947",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Associate Manager- CRM",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005947",
+      "published_at": "2026-11-12T05:55:57.284Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005941",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Software Engineer, Backend (3-5 years)",
+      "location": "Pune, Maharashtra, India",
+      "cities": [
+        "Pune"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005941",
+      "published_at": "2026-11-12T05:40:01.793Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005896",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Senior Executive, Financial Services Compliance",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005896",
+      "published_at": "2026-11-11T13:26:53.342Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005873",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Associate Manager, Category Operations",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005873",
+      "published_at": "2026-11-11T11:56:23.905Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005849",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "CCM-Coimbatore (Tamilnadu)",
+      "location": "Coimbatore, Tamil Nadu, India",
+      "cities": [],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005849",
+      "published_at": "2026-11-11T11:42:15.631Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005821",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Server Administratior Engineer 2",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005821",
+      "published_at": "2026-11-11T05:45:38.992Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005814",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Senior System Engineer",
+      "location": "Mumbai, Maharashtra, India",
+      "cities": [
+        "Mumbai"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005814",
+      "published_at": "2026-11-11T05:42:47.831Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005697",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Junior Area Sales Manager - Kanker",
+      "location": "Raipur, Chhattisgarh, India",
+      "cities": [],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005697",
+      "published_at": "2026-11-10T08:57:32.539Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005637",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Mass Cluster Manager, Offline BD & Account Management",
+      "location": "Gurgaon, Haryana, India",
+      "cities": [
+        "Gurugram"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005637",
+      "published_at": "2026-11-06T12:50:23.701Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005568",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Junior Area Sales Manager, Offline sales and account management - Agar",
+      "location": "Bhopal, Madhya Pradesh, India",
+      "cities": [],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005568",
+      "published_at": "2026-11-05T10:49:58.216Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005563",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Software Engineer, Backend (7 to 10 Years)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005563",
+      "published_at": "2026-11-05T10:05:44.617Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005557",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Content Manager",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005557",
+      "published_at": "2026-11-05T10:01:10.272Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005517",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Business Analyst (2 to 4 Years) Ads",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005517",
+      "published_at": "2026-11-05T07:59:14.278Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005504",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Senior Product Manager",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005504",
+      "published_at": "2026-11-04T10:58:48.623Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005489",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Cluster Manager - Salem",
+      "location": "Chennai, Tamil Nadu, India",
+      "cities": [
+        "Chennai"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005489",
+      "published_at": "2026-11-04T08:37:01.188Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005479",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Junior Area Sales Manager, Khopoli",
+      "location": "Navi Mumbai, Maharashtra, India",
+      "cities": [
+        "Mumbai"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005479",
+      "published_at": "2026-11-04T05:45:13.894Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005456",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Cluster Collections Manager, Aurangabad",
+      "location": "Pune, Maharashtra, India",
+      "cities": [
+        "Pune"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005456",
+      "published_at": "2026-11-03T13:33:44.000Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005433",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Associate Director, Financial Services Compliance",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005433",
+      "published_at": "2026-11-03T10:15:35.020Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005427",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Product Manager",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005427",
+      "published_at": "2026-11-03T09:37:20.829Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005421",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Software Engineer, Backend  (3-5 years) Lending",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005421",
+      "published_at": "2026-11-03T09:09:05.933Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005409",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Staff Designer - Design Systems",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005409",
+      "published_at": "2026-11-03T08:05:09.340Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005404",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Junior Area Sales Manager, Offline sales and account management",
+      "location": "Kolhapur, Maharashtra, India",
+      "cities": [],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005404",
+      "published_at": "2026-11-03T07:51:40.553Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005399",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Junior Area Sales Manager - Akkalkot",
+      "location": "Kolhapur, Maharashtra, India",
+      "cities": [],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005399",
+      "published_at": "2026-11-03T07:26:59.873Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005348",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "HR Coordinator, Delhi",
+      "location": "Noida, Uttar Pradesh, India",
+      "cities": [
+        "Noida"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005348",
+      "published_at": "2026-11-02T12:24:53.077Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005325",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Associate Manager, Category Management - Insurance",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005325",
+      "published_at": "2026-11-02T10:58:03.900Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005302",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Associate Manager, Category Management - Health Insurance",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005302",
+      "published_at": "2026-11-02T10:57:23.476Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005274",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Junior Area Sales Manager - Rajgarh",
+      "location": "Bhopal, Madhya Pradesh, India",
+      "cities": [],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005274",
+      "published_at": "2026-11-02T06:09:13.518Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005266",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Junior Area Sales Manager, Offline sales and account management Neyyattinkara",
+      "location": "Kochi, Kerala, India",
+      "cities": [],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005266",
+      "published_at": "2026-10-30T07:53:05.872Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005255",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Junior Area Sales Manager, Offline sales and account management Indi",
+      "location": "Hubballi, Karnataka, India",
+      "cities": [],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005255",
+      "published_at": "2026-10-30T07:48:00.131Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005250",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Junior Area Sales Manager, Offline sales and account management Alathur",
+      "location": "Kochi, Kerala, India",
+      "cities": [],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005250",
+      "published_at": "2026-10-30T07:47:16.307Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005245",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Junior Area Sales Manager, Offline sales and account management Channagiri",
+      "location": "Hubballi, Karnataka, India",
+      "cities": [],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005245",
+      "published_at": "2026-10-30T07:23:55.915Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005239",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Software Engineer (3-5 years), Symphony",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005239",
+      "published_at": "2026-10-30T07:21:07.374Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005234",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Area Sales Manager, Offline sales and account management Kannur",
+      "location": "Kochi, Kerala, India",
+      "cities": [],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005234",
+      "published_at": "2026-10-30T07:11:26.829Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005229",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Area Sales Manager, Offline sales and account management Mysore",
+      "location": "Hubballi, Karnataka, India",
+      "cities": [],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005229",
+      "published_at": "2026-10-30T07:10:20.278Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005224",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Area Sales Manager, Offline sales and account management Mandya",
+      "location": "Hubballi, Karnataka, India",
+      "cities": [],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005224",
+      "published_at": "2026-10-30T07:09:42.156Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005219",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Area Sales Manager, Offline sales and account management Dharwad",
+      "location": "Hubballi, Karnataka, India",
+      "cities": [],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005219",
+      "published_at": "2026-10-30T07:08:58.700Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005214",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Area Sales Manager, Offline sales and account management Hole Narsipur",
+      "location": "Hubballi, Karnataka, India",
+      "cities": [],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005214",
+      "published_at": "2026-10-30T07:07:52.504Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005209",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Area Sales Manager, Offline sales and account management Bidar",
+      "location": "Hubballi, Karnataka, India",
+      "cities": [],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005209",
+      "published_at": "2026-10-30T07:03:43.203Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005204",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Area Sales Manager, Offline sales and account management Bangalore3",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005204",
+      "published_at": "2026-10-30T07:01:33.710Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005199",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Area Sales Manager, Offline sales and account management Bangalore2",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005199",
+      "published_at": "2026-10-30T06:59:41.454Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005194",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Area Sales Manager, Offline sales and account management Bangalore",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005194",
+      "published_at": "2026-10-30T06:58:54.089Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005167",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Technical Project Manager (3 - 5 years)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005167",
+      "published_at": "2026-10-29T15:52:48.825Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005116",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Associate Business Analyst (SRA)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005116",
+      "published_at": "2026-10-28T12:16:24.345Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005111",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Product Solution Engineer(2-4 years)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005111",
+      "published_at": "2026-10-28T09:33:06.757Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005047",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Business Analyst (2 to 4 Years) - Merchant",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005047",
+      "published_at": "2026-10-27T09:07:16.093Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000005010",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Cluster Manager, Offline BD & Account Management",
+      "location": "Delhi Shahdara, Delhi, India",
+      "cities": [
+        "Delhi"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005010",
+      "published_at": "2026-10-23T09:18:57.373Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004965",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Manager, Compliance - Stockbroking",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004965",
+      "published_at": "2026-10-22T14:51:15.271Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004942",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Manager - Bank Partnerships",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004942",
+      "published_at": "2026-10-22T14:11:04.784Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004919",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "AM - Branded Content & Education",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004919",
+      "published_at": "2026-10-22T10:45:53.547Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004913",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Business Intelligence Engineer (1-3 Years)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004913",
+      "published_at": "2026-10-22T09:22:04.707Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004641",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Business Analyst (4 to 6 Years) - Merchant",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004641",
+      "published_at": "2026-10-22T07:18:38.054Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004629",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Business Analyst (1 to 3 Years) - Merchant",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004629",
+      "published_at": "2026-10-22T07:13:50.017Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004611",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Business Analytics Lead (7+ Years) - Consumer",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004611",
+      "published_at": "2026-10-22T07:04:58.987Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004599",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Business Intelligence Engineer (2-4 Years)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004599",
+      "published_at": "2026-10-22T06:25:50.738Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004587",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Business Analyst (4 to 6 Years) - Lending",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004587",
+      "published_at": "2026-10-22T06:14:13.916Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004581",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Site Reliability Engineer - OracleDB  (4 to 8 Years)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004581",
+      "published_at": "2026-10-22T05:57:33.357Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004558",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Senior Executive, Technology Risk & Compliance",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004558",
+      "published_at": "2026-10-22T05:55:10.035Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004535",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Senior Solutions Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004535",
+      "published_at": "2026-10-22T05:50:01.610Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004504",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Engineering Manager, Backend - Payments",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004504",
+      "published_at": "2026-10-21T08:54:30.407Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004498",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Site Reliability Engineer - On-Prem (4 to 8 Years)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004498",
+      "published_at": "2026-10-21T07:05:06.491Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004487",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Site Reliability Engineer - On-Prem (1 to 4 Years)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004487",
+      "published_at": "2026-10-21T06:56:53.475Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004455",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Lead, Merchant Solutions Engineering",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004455",
+      "published_at": "2026-10-19T11:38:23.498Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004409",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Lead - Technical Account Manager",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004409",
+      "published_at": "2026-10-16T14:00:42.048Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004386",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Senior Technical Account Manager",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004386",
+      "published_at": "2026-10-16T13:57:34.060Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004363",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Solutions Consultant",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004363",
+      "published_at": "2026-10-16T13:55:14.722Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004358",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "BBPS - Customer Experience Specialist",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004358",
+      "published_at": "2026-10-16T09:27:58.513Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004335",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Risk Investigator, T&S Ops",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004335",
+      "published_at": "2026-10-16T09:26:21.339Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004332",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Junior Area Sales Manager, Offline sales and account management",
+      "location": "Bhubaneshwar, Odisha, India",
+      "cities": [],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004332",
+      "published_at": "2026-10-16T09:13:58.903Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004325",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Area Sales Manager - Tiruchirappalli",
+      "location": "Chennai, Tamil Nadu, India",
+      "cities": [
+        "Chennai"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004325",
+      "published_at": "2026-10-16T08:10:23.022Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004298",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Head of Engineering - Backend",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004298",
+      "published_at": "2026-10-16T07:40:21.840Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004266",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Video Editor & Motion Specialist",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004266",
+      "published_at": "2026-10-16T06:53:19.837Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004258",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Software Engineer (5-7) Lending",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004258",
+      "published_at": "2026-10-15T07:47:56.836Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004189",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Creative - Lottie Creator (App Experience)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "hybrid",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004189",
+      "published_at": "2026-10-15T06:42:23.798Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004138",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Advisor, Grievance",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004138",
+      "published_at": "2026-10-15T06:39:19.358Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004131",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Lead Product Designer",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004131",
+      "published_at": "2026-10-14T11:17:37.073Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004102",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Manager, Category Operations",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004102",
+      "published_at": "2026-10-14T09:44:54.022Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004073",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Manager/Senior Manager, Anti Corruption Compliance",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004073",
+      "published_at": "2026-10-13T12:07:41.885Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004056",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Network Delivery Engineer 1",
+      "location": "Pune, Maharashtra, India",
+      "cities": [
+        "Pune"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004056",
+      "published_at": "2026-10-13T10:53:36.027Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004050",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Head of Product, PhonePe Wealth",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004050",
+      "published_at": "2026-10-13T10:47:50.019Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000004027",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Manager, Accounting (Indirect Cost Analysis)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004027",
+      "published_at": "2026-10-13T10:28:56.723Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000003993",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Data Scientist (3-5 years)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000003993",
+      "published_at": "2026-10-13T05:23:46.022Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000003928",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "System Admin 2",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000003928",
+      "published_at": "2026-10-12T10:03:13.442Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000003916",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Android Developer",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000003916",
+      "published_at": "2026-10-12T08:37:31.064Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000003895",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Software Engineer (3-5)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000003895",
+      "published_at": "2026-10-10T04:27:11.398Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000003879",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Acquisition Manager- Outbound Sales",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000003879",
+      "published_at": "2026-10-09T05:58:04.542Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000003834",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Site Operations Engineer",
+      "location": "Mumbai, Maharashtra, India",
+      "cities": [
+        "Mumbai"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000003834",
+      "published_at": "2026-10-08T09:36:47.321Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000003667",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Associate Manager, KYC",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000003667",
+      "published_at": "2026-10-06T05:14:39.689Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000003644",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Head Branded Content and Education",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000003644",
+      "published_at": "2026-10-05T14:41:26.003Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000003636",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Software Engineer (5-7 years,Firmware)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000003636",
+      "published_at": "2026-10-05T06:59:07.681Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000003626",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Product Solution Engineer (3-5 years)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000003626",
+      "published_at": "2026-10-05T06:15:52.748Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000003566",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Talent Acquisition Lead",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000003566",
+      "published_at": "2026-10-01T09:54:05.224Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000003511",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Digital Marketing Manager",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000003511",
+      "published_at": "2026-10-01T07:36:43.856Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000003225",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "CCM-Guntur (Andhra Pradesh)",
+      "location": "Vijayawada, Andhra Pradesh, India",
+      "cities": [],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000003225",
+      "published_at": "2026-09-28T06:53:06.101Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000003196",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Junior Area Sales Manager Boisar",
+      "location": "Mumbai, Maharashtra, India",
+      "cities": [
+        "Mumbai"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000003196",
+      "published_at": "2026-09-25T18:44:08.984Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000003142",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Business Operations Analyst, Terminal Management and SR Monitoring",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000003142",
+      "published_at": "2026-09-25T12:13:35.977Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000003063",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Site Reliability Engineer - On-Prem (1 to 4 Years)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000003063",
+      "published_at": "2026-09-25T07:47:19.095Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000003058",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Engineering Manager, Backend - Lending",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000003058",
+      "published_at": "2026-09-25T06:33:59.291Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000003026",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Senior Product Manager, Insurance",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000003026",
+      "published_at": "2026-09-24T08:10:37.312Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000002972",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Talent Management Specialist",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002972",
+      "published_at": "2026-09-23T08:50:00.879Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000002967",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Engineering Manager, Backend - Central Platforms",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002967",
+      "published_at": "2026-09-23T08:28:48.527Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000002944",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Claims Executive",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002944",
+      "published_at": "2026-09-23T06:00:12.812Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000002898",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "HRBP - Lending Sales",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002898",
+      "published_at": "2026-09-23T05:18:46.453Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000002771",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "HR Business Partner - Premium Accounts",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002771",
+      "published_at": "2026-09-18T12:36:16.386Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000002566",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Business Operations Analyst",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002566",
+      "published_at": "2026-09-18T07:09:31.358Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000002477",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "HRBP, MBU",
+      "location": "Noida, Uttar Pradesh, India",
+      "cities": [
+        "Noida"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002477",
+      "published_at": "2026-09-18T05:08:41.111Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000002425",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Legal Counsel, Regulatory & Advisory",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002425",
+      "published_at": "2026-09-17T12:39:49.474Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000002234",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "CCM- GAYA (Bihar)",
+      "location": "Bhagalpur, Bihar, India",
+      "cities": [],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002234",
+      "published_at": "2026-09-16T03:38:56.824Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000002128",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Product Lead",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002128",
+      "published_at": "2026-09-15T10:58:01.098Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000002067",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Customer experience specialist, Stock Broking",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002067",
+      "published_at": "2026-09-11T11:51:12.232Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000001926",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Lead HR Compliance and Governance",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000001926",
+      "published_at": "2026-09-10T06:03:21.001Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000001903",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Software Engineer - React Native",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000001903",
+      "published_at": "2026-09-09T06:59:57.693Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000001854",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Telecalling Collections Site Lead - Pune",
+      "location": "Pune, Maharashtra, India",
+      "cities": [
+        "Pune"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000001854",
+      "published_at": "2026-09-08T09:28:06.600Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000001812",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Site Reliability Engineer - AWS (4 to 8 Years)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000001812",
+      "published_at": "2026-09-07T06:01:13.479Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000001806",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Site Reliability Engineer - AWS (7 to 12 Years)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000001806",
+      "published_at": "2026-09-07T05:57:20.148Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000001770",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Site Reliability Engineer - On-Prem (4 to 8 Years)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000001770",
+      "published_at": "2026-09-04T10:52:11.721Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000001753",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Site Reliability Engineer - On-Prem (4 to 12 Years)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000001753",
+      "published_at": "2026-09-04T10:12:53.279Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000001655",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Senior Executive, Financial Services Compliance",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000001655",
+      "published_at": "2026-09-04T07:40:53.920Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000001604",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Associate Manager, Technology Risk & Compliance",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000001604",
+      "published_at": "2026-09-04T07:36:47.048Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000001558",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "ServiceNow Senior Analyst",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000001558",
+      "published_at": "2026-09-04T07:30:38.100Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000001523",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Site Reliability Engineer - Big Data (4 to 12 Years)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000001523",
+      "published_at": "2026-09-04T06:41:04.252Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000001387",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "TA Partner - MBU",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000001387",
+      "published_at": "2026-09-01T11:59:14.431Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000001354",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Engineering Manager, Backend - Pune",
+      "location": "Pune, Maharashtra, India",
+      "cities": [
+        "Pune"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000001354",
+      "published_at": "2026-09-01T08:39:01.297Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000001325",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Engineering Manager - Platforms",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000001325",
+      "published_at": "2026-09-01T08:05:47.032Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000001266",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Manager, PR",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000001266",
+      "published_at": "2026-09-01T05:40:13.381Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000001219",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "CCM-Cochin (Kerala)",
+      "location": "Kochi, Kerala, India",
+      "cities": [],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000001219",
+      "published_at": "2026-08-31T12:13:03.228Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000001173",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "CCM - Tirupati",
+      "location": "Tirupati, Andhra Pradesh, India",
+      "cities": [],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000001173",
+      "published_at": "2026-08-31T12:07:00.642Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000000942",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Product Design Manager - UX, Product Design",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000000942",
+      "published_at": "2026-08-28T11:16:19.887Z",
+      "updated_at": null
+    }
+  ]
+}

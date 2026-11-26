@@ -2376,6 +2376,24 @@ footer p {
 .atlas-v2 .office-evidence>small{display:block;margin-top:10px}
 .atlas-v2 .office-context{font-size:11px;line-height:1.5}
 .atlas-v2 .inspector-description{font-size:12px}
+.directory-description{font-size:14px;line-height:1.45;margin:10px 0;color:#41434a}
+.company-tags{display:flex;flex-wrap:wrap;gap:5px;margin:9px 0}
+.company-tags>span,.company-tags>a{display:inline-block;border:1.5px solid var(--ink);padding:3px 6px;background:var(--mint);font-size:12px;line-height:1.2;text-decoration:none;color:var(--ink)}
+.company-card-footer>div{display:flex;gap:9px;align-items:center}
+.company-card-footer .card-careers{width:auto;height:auto;padding:2px 5px;font-size:12px;text-decoration:underline}
+.inspector-directory{padding:0 16px 10px;font-size:13px}
+.inspector-directory p{margin:8px 0}
+.directory-evidence details{margin-top:20px;padding-top:15px;border-top:2px solid var(--ink)}
+.directory-evidence details li{margin:12px 0;line-height:1.5}
+.card-job-signal{display:flex;justify-content:space-between;gap:10px;margin:0 12px 10px;padding:8px;background:var(--mint);border:1.5px solid var(--ink);color:var(--ink);font-size:12px;font-weight:700;text-decoration:none}
+.card-job-signal span{font-weight:400}
+.card-news-update{display:block;padding:10px 12px;border-top:1.5px solid var(--ink);background:#fffdf4;color:var(--ink);text-decoration:none}
+.card-news-update small{display:block;margin-bottom:5px;font-size:12px;color:#555}
+.card-news-update>span{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:14px;line-height:1.4}
+.job-list{display:grid;gap:10px;margin:22px 0}
+.job-list>a{display:grid;gap:6px;border:2px solid var(--ink);padding:15px;color:var(--ink);text-decoration:none;box-shadow:3px 3px 0 var(--ink);background:#fff}
+.job-list>a:hover{background:var(--mint)}
+.job-list>a>span{font-size:14px;color:#555}
 .atlas-v2 .inspector-actions{padding:11px 15px}
 .atlas-v2 .inspector-actions .button-link{font-size:13px;padding:9px}
 .map-keyboard-panel{position:absolute;z-index:5;right:63px;bottom:75px;width:285px;border:2px solid #202127;box-shadow:4px 4px 0 #202127;border-radius:6px;background:#fffefb;padding:19px}
@@ -2389,3 +2407,7 @@ footer p {
 .office-badge[hidden]{display:none}
 
 .office-review-notes{margin:16px 0;font-size:13px;line-height:1.6}.office-review-notes summary{cursor:pointer;font-weight:600}.office-review-notes>p{color:var(--muted);max-width:85ch}
+
+.inspector-signals{padding:0 16px 16px}.inspector-jobs-link{display:block;background:var(--mint);border:1.5px solid var(--ink);padding:10px;color:var(--ink);font-size:14px;font-weight:700;text-decoration:none}.inspector-jobs-link small{display:block;margin-top:5px;font-size:12px;font-weight:400}.inspector-news{margin-top:18px}.inspector-news>span{font-size:12px;font-weight:700;letter-spacing:.08em}.inspector-news>a{display:block;padding:10px 0;border-bottom:1px solid #d5d3da;text-decoration:none;color:var(--ink)}.inspector-news small{font-size:12px;color:#555}.inspector-news strong{display:block;font-size:14px;line-height:1.4;margin-top:5px}
+
+.inspector-office-details summary{font-size:13px;font-weight:700;cursor:pointer;padding:8px 0}.atlas-v2 .office-evidence h3{font-size:15px;margin-bottom:3px}.atlas-v2 .inspector-description{font-size:14px;line-height:1.45}.inspector-signals:empty{display:none}

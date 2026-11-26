@@ -9,7 +9,12 @@ const array=(value:unknown):unknown[]=>Array.isArray(value)?value:value===undefi
 const record=(value:unknown):Record<string,unknown>=>value!==null&&typeof value==='object'?value as Record<string,unknown>:{};
 const text=(value:unknown):string=>typeof value==='string'?value:typeof value==='number'?String(value):String(record(value)['#text']??'');
 export function cleanHeadline(value:unknown):string {
-  return text(value).replace(/<[^>]*>/g,' ').replace(/&(?:amp|#38);/gi,'&').replace(/&(?:quot|#34);/gi,'"').replace(/&(?:apos|#39);/gi,"'").replace(/&(?:lt|#60);/gi,'<').replace(/&(?:gt|#62);/gi,'>').replace(/&nbsp;/gi,' ').replace(/\s+/g,' ').trim().slice(0,500);
+  let result=text(value);
+  for(let pass=0;pass<2;pass++)result=result.replace(/&amp;/gi,'&').replace(/&#(x[0-9a-f]+|[0-9]+);/gi,(raw,code:string)=>{
+    const point=code[0].toLowerCase()==='x'?Number.parseInt(code.slice(1),16):Number(code);
+    return point>0&&point<=0x10ffff&&!(point>=0xd800&&point<=0xdfff)?String.fromCodePoint(point):raw;
+  }).replace(/&quot;/gi,'"').replace(/&apos;/gi,"'").replace(/&lt;/gi,'<').replace(/&gt;/gi,'>').replace(/&nbsp;/gi,' ');
+  return result.replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim().slice(0,500);
 }
 export function parseFeed(xml:string,source:FeedSource,now=new Date()):NewsItem[] {
   if(Buffer.byteLength(xml)>2_000_000||/<!DOCTYPE|<!ENTITY/i.test(xml))throw new Error('Unsupported or oversized XML feed');

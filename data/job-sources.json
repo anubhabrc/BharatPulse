@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "razorpay-greenhouse",
+      "company_slug": "razorpay",
+      "provider": "greenhouse",
+      "board": "razorpaysoftwareprivatelimited",
+      "careers_url": "https://razorpay.com/careers/",
+      "identity_source_url": "https://razorpay.com/careers/",
+      "listing_url": "https://boards-api.greenhouse.io/v1/boards/razorpaysoftwareprivatelimited/jobs",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "id": "phonepe-smartrecruiters",
+      "company_slug": "phonepe",
+      "provider": "smartrecruiters",
+      "board": "PHONEPELIMITED",
+      "careers_url": "https://www.phonepe.com/careers/job-openings/",
+      "identity_source_url": "https://www.phonepe.com/careers/job-openings/",
+      "listing_url": "https://api.smartrecruiters.com/v1/companies/PHONEPELIMITED/postings",
+      "checked_on": "2026-11-26"
+    }
+  ]
+}

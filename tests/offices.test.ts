@@ -10,7 +10,10 @@ import review from '../data/office-review.json';
 import inventory from '../data/office-review-inventory.json';
 import cities from '../data/city-centres.json';
 import profiles from '../data/company-info.json';
-const snapshot=JSON.parse(await readFile('data/bwm-archive.json','utf8')) as ArchiveSnapshot;
+import directory from '../data/company-directory.json';
+import {parseDirectoryEntries} from '../src/domain/directory-profile';
+import {composeCatalog} from '../src/domain/catalog';
+const snapshot=composeCatalog(JSON.parse(await readFile('data/bwm-archive.json','utf8')) as ArchiveSnapshot,parseDirectoryEntries(directory.companies));
 const offices=parseOffices(data.offices);
 const build=(filters={})=>buildStartupMap(snapshot,companyFiltersSchema.parse(filters),cities.cities,profiles.companies as CompanyInfo[],cities.source_url,offices);
 
@@ -33,7 +36,7 @@ test('office schema rejects unreviewed, coarse, out-of-city, unsupported-provide
 });
 test('office layer covers the full filtered cohort independently of directory pagination, without changing coordinates or totals',()=>{
   const city=build({city:'Bengaluru',limit:1,offset:500});
-  const expected=snapshot.companies.filter(company=>company.city==='Bengaluru'||offices.some(o=>o.company_slug===company.slug)).length;
+  const expected=snapshot.companies.filter(company=>company.city==='Bengaluru'||company.directory_profile?.india_presence.cities.includes('Bengaluru')||offices.some(o=>o.company_slug===company.slug)).length;
   assert.equal(city.offices.length,offices.length);assert.equal(city.matched_companies,expected);
   assert.equal(city.hubs[0].company_count,expected);assert.equal(city.mapped_companies,expected);
   assert.equal(city.precision,'mixed_city_and_office');

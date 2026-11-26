@@ -1,6 +1,6 @@
 {
   "checked_on": "2026-11-26",
-  "scope": "Source-reported Bengaluru companies plus accepted Bengaluru offices with a different archived HQ city. Discovery entries are leads, not accepted location evidence.",
+  "scope": "Historical funding-archive Bengaluru cohort plus separately sourced Bengaluru offices and reviewed directory companies with a documented Bengaluru footprint. Original reported HQ labels remain separate; discovery leads are not accepted office coordinates.",
   "companies": [
     {
       "company_slug": "33-brew",
@@ -1643,7 +1643,7 @@
       "status": "needs_review",
       "accepted_office_id": null,
       "address_source_url": "https://coreel.com/contact-us/",
-      "review_reason": "The official filing contains a reported coordinate, but the independent map lookup did not corroborate the same building. Retained for further review; no office point published.",
+      "review_reason": "Current official contact page and company homepage distinguish the Sattva Citadel corporate office from the Koramangala branch. The FY 2024–25 MGT-7 contains a coordinate for the registered/branch address (12.930460,77.631533), but the named OSM CoreEL educational-institution node is on 80 Feet Road about 600 m away and does not corroborate the same building. Neither Sattva Citadel nor its publicly listed Salarpuria Citadel alias resolved to an independently matching commercial OSM feature. Fresh primary contact HTML has no exact published destination coordinate. Keep pending; do not map the old training POI, an unrelated Sattva campus, or the filing point by assumption.",
       "discovery_sources": []
     },
     {
@@ -2738,6 +2738,19 @@
       ]
     },
     {
+      "company_slug": "freshworks",
+      "brand_name": "Freshworks",
+      "website_url": "https://www.freshworks.com/",
+      "reported_city": null,
+      "status": "not_yet_researched",
+      "accepted_office_id": null,
+      "address_source_url": null,
+      "review_reason": null,
+      "discovery_sources": [
+        "https://www.sec.gov/Archives/edgar/data/1544522/000154452225000010/frsh-20241231.htm"
+      ]
+    },
+    {
       "company_slug": "frinks-ai",
       "brand_name": "Frinks AI",
       "website_url": "https://frinks.ai/",
@@ -2989,7 +3002,7 @@
       "status": "needs_review",
       "accepted_office_id": null,
       "address_source_url": "https://gpsrenewables.com/contact-us/",
-      "review_reason": "The official filing contains a reported coordinate, but the independent map lookup did not corroborate the same building. Retained for further review; no office point published.",
+      "review_reason": "Current official contact text confirms GPS House at 43 Richmond Road. Its current HTML map widget still publishes a GPS Renewables marker at 12.93489,77.61298, consistent with the older Prestige Pinnacle/Koramangala office, about 3.6 km from the as-on-filing Richmond Road coordinate. The FY 2024–25 MGT-7 separately reports the current-address coordinate 12.967292,77.610353, but no independent commercial-building/parcel match was found. Photon returned Ramapuram House at No.11 Richmond Road, a Kerala GPS Renewables office, and unrelated features. Keep pending; neither the stale current-page marker nor blind filing coordinates are accepted.",
       "discovery_sources": []
     },
     {
@@ -5133,6 +5146,19 @@
       ]
     },
     {
+      "company_slug": "phonepe",
+      "brand_name": "PhonePe",
+      "website_url": "https://www.phonepe.com/",
+      "reported_city": null,
+      "status": "accepted",
+      "accepted_office_id": "phonepe-bengaluru-2026-11-26",
+      "address_source_url": "https://ir.phonepe.com/contact-us/",
+      "review_reason": null,
+      "discovery_sources": [
+        "https://ir.phonepe.com/contact-us/"
+      ]
+    },
+    {
       "company_slug": "pixxel",
       "brand_name": "Pixxel",
       "website_url": "https://www.pixxel.space/",
@@ -5261,6 +5287,19 @@
       "review_reason": null,
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
+      ]
+    },
+    {
+      "company_slug": "postman",
+      "brand_name": "Postman",
+      "website_url": "https://www.postman.com/",
+      "reported_city": null,
+      "status": "not_yet_researched",
+      "accepted_office_id": null,
+      "address_source_url": null,
+      "review_reason": null,
+      "discovery_sources": [
+        "https://www.postman.com/company/contact-us/"
       ]
     },
     {
@@ -5589,6 +5628,19 @@
       ]
     },
     {
+      "company_slug": "razorpay",
+      "brand_name": "Razorpay",
+      "website_url": "https://razorpay.com/",
+      "reported_city": null,
+      "status": "accepted",
+      "accepted_office_id": "razorpay-bengaluru-2026-11-26",
+      "address_source_url": "https://razorpay.com/x/terms/",
+      "review_reason": null,
+      "discovery_sources": [
+        "https://razorpay.com/x/terms/"
+      ]
+    },
+    {
       "company_slug": "recove",
       "brand_name": "Recove",
       "website_url": "https://www.recove.in/",
@@ -5827,8 +5879,8 @@
       "reported_city": "Bengaluru",
       "status": "needs_review",
       "accepted_office_id": null,
-      "address_source_url": "https://rupeek.com/lp/best-gold-loan-exp/1?API=LS",
-      "review_reason": "Rupeek Fintech's registered office, not an inferred address from its separate NBFC subsidiary. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
+      "address_source_url": "https://rupeek.com/contact",
+      "review_reason": "Official contact-page evidence confirms this public business enquiry centre and publishes a short map link. Cached and additional Photon searches did not return the same property: Shubharam Complex on MG Road, RupeeZone in Indiranagar, unrelated JP Nagar hospitals and the JP Nagar suburb are not matches. The official short map URL did not resolve through the web reader. No accepted office point; do not substitute a suburb centre or another Rupeek legal entity/branch silently. Parent redirect-only checks also timed out; no destination coordinate accepted.",
       "discovery_sources": [
         "https://www.bangalorestartupmap.com/"
       ]
@@ -6509,6 +6561,19 @@
       "discovery_sources": []
     },
     {
+      "company_slug": "swiggy",
+      "brand_name": "Swiggy",
+      "website_url": "https://www.swiggy.com/",
+      "reported_city": null,
+      "status": "accepted",
+      "accepted_office_id": "swiggy-bengaluru-2026-11-26",
+      "address_source_url": "https://www.swiggy.com/corporate/wp-content/uploads/2026/05/Covering-Letter_Letter-to-Shareholders_Signed.pdf",
+      "review_reason": null,
+      "discovery_sources": [
+        "https://www.swiggy.com/corporate/wp-content/uploads/2026/05/Covering-Letter_Letter-to-Shareholders_Signed.pdf"
+      ]
+    },
+    {
       "company_slug": "swish",
       "brand_name": "Swish",
       "website_url": "https://justswish.in/",
@@ -6924,6 +6989,19 @@
       ]
     },
     {
+      "company_slug": "unacademy",
+      "brand_name": "Unacademy",
+      "website_url": "https://unacademy.com/",
+      "reported_city": null,
+      "status": "accepted",
+      "accepted_office_id": "unacademy-bengaluru-2026-11-26",
+      "address_source_url": "https://unacademy.com/terms",
+      "review_reason": null,
+      "discovery_sources": [
+        "https://unacademy.com/terms"
+      ]
+    },
+    {
       "company_slug": "unimech-aerospace",
       "brand_name": "Unimech Aerospace",
       "website_url": "https://unimechaerospace.com/",
@@ -7255,6 +7333,19 @@
       ]
     },
     {
+      "company_slug": "whatfix",
+      "brand_name": "Whatfix",
+      "website_url": "https://whatfix.com/",
+      "reported_city": null,
+      "status": "needs_review",
+      "accepted_office_id": null,
+      "address_source_url": "https://whatfix.com/privacy-policy/",
+      "review_reason": "The official privacy policy identifies registered office 1090E; the official about page corroborates 1289/1090E. OSM has several nearby named Whatfix commercial-office POIs, but the only independently numbered commercial building is 1090/F rather than 1090/E. Do not label neighboring F as registered E. Two additional 18th Cross POIs have no address numbers, while another 17th Cross POI is a different address. A bounded house-number Overpass query failed with HTTP 502; a small OSM map query did not resolve E. No accepted office coordinate is proposed.",
+      "discovery_sources": [
+        "https://whatfix.com/privacy-policy/"
+      ]
+    },
+    {
       "company_slug": "whizzo",
       "brand_name": "Whizzo",
       "website_url": "https://whizzo.org/",
@@ -7419,6 +7510,19 @@
       "discovery_sources": []
     },
     {
+      "company_slug": "zerodha",
+      "brand_name": "Zerodha",
+      "website_url": "https://zerodha.com/",
+      "reported_city": null,
+      "status": "accepted",
+      "accepted_office_id": "zerodha-bengaluru-2026-11-26",
+      "address_source_url": "https://zerodha.com/disclosure",
+      "review_reason": null,
+      "discovery_sources": [
+        "https://zerodha.com/disclosure"
+      ]
+    },
+    {
       "company_slug": "zetwerk",
       "brand_name": "Zetwerk",
       "website_url": "https://www.zetwerk.com/",
@@ -7464,6 +7568,19 @@
       "address_source_url": null,
       "review_reason": null,
       "discovery_sources": []
+    },
+    {
+      "company_slug": "zoho",
+      "brand_name": "Zoho",
+      "website_url": "https://www.zoho.com/",
+      "reported_city": null,
+      "status": "not_yet_researched",
+      "accepted_office_id": null,
+      "address_source_url": null,
+      "review_reason": null,
+      "discovery_sources": [
+        "https://www.zoho.com/contactus.html"
+      ]
     },
     {
       "company_slug": "zolve",

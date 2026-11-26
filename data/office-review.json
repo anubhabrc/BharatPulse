@@ -75,10 +75,12 @@
       "company_slug": "coreel-technologies",
       "status": "needs_review",
       "source_url": "https://coreel.com/contact-us/",
-      "reason": "The official filing contains a reported coordinate, but the independent map lookup did not corroborate the same building. Retained for further review; no office point published.",
-      "geocode_query": "coreel technologies Bengaluru",
+      "reason": "Current official contact page and company homepage distinguish the Sattva Citadel corporate office from the Koramangala branch. The FY 2024–25 MGT-7 contains a coordinate for the registered/branch address (12.930460,77.631533), but the named OSM CoreEL educational-institution node is on 80 Feet Road about 600 m away and does not corroborate the same building. Neither Sattva Citadel nor its publicly listed Salarpuria Citadel alias resolved to an independently matching commercial OSM feature. Fresh primary contact HTML has no exact published destination coordinate. Keep pending; do not map the old training POI, an unrelated Sattva campus, or the filing point by assumption.",
+      "geocode_query": "Sattva Citadel Bengaluru",
       "checked_on": "2026-11-26",
-      "coordinate_evidence_url": "https://coreel.com/wp-content/uploads/2026/02/Form-MGT-7_AB8984921_CoreEL_signed.pdf"
+      "coordinate_evidence_url": "https://coreel.com/wp-content/uploads/2026/02/Form-MGT-7_AB8984921_CoreEL_signed.pdf",
+      "address": "Corporate office: No.3, Sattva Citadel, Hosur Road, Adugodi, Bengaluru, Karnataka 560030. Separately published branch: No.21, 7th Main, 1st Block, Koramangala, Bengaluru, Karnataka 560034.",
+      "place_name": "Sattva Citadel"
     },
     {
       "company_slug": "corover",
@@ -176,10 +178,12 @@
       "company_slug": "gps-renewables",
       "status": "needs_review",
       "source_url": "https://gpsrenewables.com/contact-us/",
-      "reason": "The official filing contains a reported coordinate, but the independent map lookup did not corroborate the same building. Retained for further review; no office point published.",
-      "geocode_query": "gps renewables Bengaluru",
+      "reason": "Current official contact text confirms GPS House at 43 Richmond Road. Its current HTML map widget still publishes a GPS Renewables marker at 12.93489,77.61298, consistent with the older Prestige Pinnacle/Koramangala office, about 3.6 km from the as-on-filing Richmond Road coordinate. The FY 2024–25 MGT-7 separately reports the current-address coordinate 12.967292,77.610353, but no independent commercial-building/parcel match was found. Photon returned Ramapuram House at No.11 Richmond Road, a Kerala GPS Renewables office, and unrelated features. Keep pending; neither the stale current-page marker nor blind filing coordinates are accepted.",
+      "geocode_query": "GPS Renewables Bengaluru",
       "checked_on": "2026-11-26",
-      "coordinate_evidence_url": "https://gpsrenewables.com/wp-content/uploads/2026/01/MGT-7_GPS_24-25.pdf"
+      "coordinate_evidence_url": "https://gpsrenewables.com/wp-content/uploads/2026/01/MGT-7_GPS_24-25.pdf",
+      "address": "GPS House, 43, Richmond Road, Bengaluru, Karnataka 560025",
+      "place_name": "GPS House"
     },
     {
       "company_slug": "healthify",
@@ -242,12 +246,12 @@
     {
       "company_slug": "rupeek",
       "status": "needs_review",
-      "source_url": "https://rupeek.com/lp/best-gold-loan-exp/1?API=LS",
-      "address": "45B, 1st A Main Road, Ground Floor, Wing B, Shubham Complex, Sarakki Industrial Layout, JP Nagar, Bengaluru, Karnataka 560078",
-      "place_name": "Shubham Complex",
-      "reason": "Rupeek Fintech's registered office, not an inferred address from its separate NBFC subsidiary. Coordinate match was not accepted before the interruption; review the cached source and geocoder results before publication.",
-      "geocode_query": "Rupeek Shubham Complex Bengaluru",
-      "checked_on": "2026-11-25"
+      "source_url": "https://rupeek.com/contact",
+      "address": "45/B, Ground Floor, Shubham Complex, Sarakki Industrial Layout, 3rd Phase, JP Nagar, Bengaluru, Karnataka 560078",
+      "place_name": "Rupeek JP Nagar enquiry centre",
+      "reason": "Official contact-page evidence confirms this public business enquiry centre and publishes a short map link. Cached and additional Photon searches did not return the same property: Shubharam Complex on MG Road, RupeeZone in Indiranagar, unrelated JP Nagar hospitals and the JP Nagar suburb are not matches. The official short map URL did not resolve through the web reader. No accepted office point; do not substitute a suburb centre or another Rupeek legal entity/branch silently. Parent redirect-only checks also timed out; no destination coordinate accepted.",
+      "geocode_query": "Rupeek JP Nagar Bengaluru",
+      "checked_on": "2026-11-26"
     },
     {
       "company_slug": "skydo",
@@ -308,6 +312,16 @@
       "reason": "Official registeredofficePlot167Arebinnamangala/AerospacePark and corporatePlot3AerospaceSEZ differ from oldPeenya office. GenericAerospaceParkcentroid too coarse to identify correctplot; excluded.",
       "geocode_query": "unimech aerospace Bengaluru",
       "checked_on": "2026-11-25"
+    },
+    {
+      "company_slug": "whatfix",
+      "status": "needs_review",
+      "source_url": "https://whatfix.com/privacy-policy/",
+      "address": "No. 1289/1090E, 18th Cross Road, Sector 3, HSR Layout, Bengaluru, Karnataka 560102",
+      "place_name": "Whatfix registered office, HSR Layout",
+      "reason": "The official privacy policy identifies registered office 1090E; the official about page corroborates 1289/1090E. OSM has several nearby named Whatfix commercial-office POIs, but the only independently numbered commercial building is 1090/F rather than 1090/E. Do not label neighboring F as registered E. Two additional 18th Cross POIs have no address numbers, while another 17th Cross POI is a different address. A bounded house-number Overpass query failed with HTTP 502; a small OSM map query did not resolve E. No accepted office coordinate is proposed.",
+      "geocode_query": "Whatfix 1090E HSR Layout Bengaluru",
+      "checked_on": "2026-11-26"
     },
     {
       "company_slug": "zolve",

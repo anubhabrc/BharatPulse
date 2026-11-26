@@ -1,0 +1,604 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-26",
+  "companies": [
+    {
+      "slug": "razorpay",
+      "brand_name": "Razorpay",
+      "aliases": [
+        "Razorpay"
+      ],
+      "website_url": "https://razorpay.com/",
+      "description": {
+        "text": "Payments infrastructure and business banking software for merchants and businesses.",
+        "source_url": "https://razorpay.com/about/"
+      },
+      "sector": {
+        "text": "Fintech",
+        "source_url": "https://razorpay.com/about/"
+      },
+      "india_presence": {
+        "cities": [
+          "Bengaluru"
+        ],
+        "source_url": "https://razorpay.com/x/terms/",
+        "note": "Official terms identify Razorpay Software Limited at SJR Cyber in Bengaluru; the product site describes payment aggregation and business software."
+      },
+      "headquarters": null,
+      "founders": [
+        {
+          "name": "Harshil Mathur",
+          "source_url": "https://www.ycombinator.com/companies/razorpay"
+        },
+        {
+          "name": "Shashank Kumar",
+          "source_url": "https://www.ycombinator.com/companies/razorpay"
+        }
+      ],
+      "founded_year": null,
+      "careers": {
+        "url": "https://razorpay.com/careers/",
+        "source_url": "https://razorpay.com/careers/"
+      },
+      "tags": [
+        {
+          "label": "YC W15",
+          "source_url": "https://www.ycombinator.com/companies/razorpay",
+          "observed_on": "2026-11-26"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "establishment",
+          "url": "https://razorpay.com/about/",
+          "note": "Published product/service and operating evidence: Official terms identify Razorpay Software Limited at SJR Cyber in Bengaluru; the product site describes payment aggregation and business software."
+        },
+        {
+          "kind": "curation",
+          "url": "https://www.ycombinator.com/companies/razorpay",
+          "note": "Source-maintained company discovery or founder profile; investment terms and current ownership are not inferred."
+        }
+      ],
+      "admission": {
+        "status": "accepted",
+        "basis": "curated_and_established",
+        "reason": "Razorpay is an established product/platform business with source-supported Indian operations. Official terms identify Razorpay Software Limited at SJR Cyber in Bengaluru; the product site describes payment aggregation and business software.",
+        "checked_on": "2026-11-26"
+      }
+    },
+    {
+      "slug": "phonepe",
+      "brand_name": "PhonePe",
+      "aliases": [
+        "PhonePe"
+      ],
+      "website_url": "https://www.phonepe.com/",
+      "description": {
+        "text": "Digital payments and financial-services distribution for consumers and merchants.",
+        "source_url": "https://www.phonepe.com/about-us/"
+      },
+      "sector": {
+        "text": "Fintech",
+        "source_url": "https://www.phonepe.com/about-us/"
+      },
+      "india_presence": {
+        "cities": [
+          "Bengaluru"
+        ],
+        "source_url": "https://ir.phonepe.com/contact-us/",
+        "note": "Official investor relations identifies PhonePe Limited at Salarpuria Softzone. Published consumer and merchant payment products establish an operating platform."
+      },
+      "headquarters": null,
+      "founders": [
+        {
+          "name": "Sameer Nigam",
+          "source_url": "https://www.phonepe.com/about-us/"
+        },
+        {
+          "name": "Rahul Chari",
+          "source_url": "https://www.phonepe.com/about-us/"
+        },
+        {
+          "name": "Burzin Engineer",
+          "source_url": "https://www.phonepe.com/about-us/"
+        }
+      ],
+      "founded_year": null,
+      "careers": {
+        "url": "https://www.phonepe.com/careers/job-openings/",
+        "source_url": "https://www.phonepe.com/careers/job-openings/"
+      },
+      "tags": [],
+      "evidence": [
+        {
+          "kind": "establishment",
+          "url": "https://www.phonepe.com/about-us/",
+          "note": "Published product/service and operating evidence: Official investor relations identifies PhonePe Limited at Salarpuria Softzone. Published consumer and merchant payment products establish an operating platform."
+        },
+        {
+          "kind": "curation",
+          "url": "https://www.z47.com/z47-moments/the-phonepe-journey-with-sameer-nigam",
+          "note": "Source-maintained company discovery or founder profile; investment terms and current ownership are not inferred."
+        }
+      ],
+      "admission": {
+        "status": "accepted",
+        "basis": "curated_and_established",
+        "reason": "PhonePe is an established product/platform business with source-supported Indian operations. Official investor relations identifies PhonePe Limited at Salarpuria Softzone. Published consumer and merchant payment products establish an operating platform.",
+        "checked_on": "2026-11-26"
+      }
+    },
+    {
+      "slug": "zerodha",
+      "brand_name": "Zerodha",
+      "aliases": [
+        "Zerodha"
+      ],
+      "website_url": "https://zerodha.com/",
+      "description": {
+        "text": "Online brokerage and investing tools, with trading platforms and investor education.",
+        "source_url": "https://zerodha.com/about/"
+      },
+      "sector": {
+        "text": "Fintech",
+        "source_url": "https://zerodha.com/about/"
+      },
+      "india_presence": {
+        "cities": [
+          "Bengaluru"
+        ],
+        "source_url": "https://zerodha.com/disclosure",
+        "note": "Official disclosure identifies Zerodha Broking Limited in Bengaluru. Separate Entrackr and Economic Times reports document an established brokerage; no financial amounts are imported."
+      },
+      "headquarters": null,
+      "founders": [
+        {
+          "name": "Nithin Kamath",
+          "source_url": "https://zerodha.com/about/"
+        },
+        {
+          "name": "Nikhil Kamath",
+          "source_url": "https://zerodha.com/about/"
+        }
+      ],
+      "founded_year": null,
+      "careers": {
+        "url": "https://careers.zerodha.com/",
+        "source_url": "https://zerodha.com/about/"
+      },
+      "tags": [
+        {
+          "label": "Bootstrapped",
+          "source_url": "https://zerodha.com/about/",
+          "observed_on": "2026-11-26"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "establishment",
+          "url": "https://zerodha.com/about/",
+          "note": "Published product/service and operating evidence: Official disclosure identifies Zerodha Broking Limited in Bengaluru. Separate Entrackr and Economic Times reports document an established brokerage; no financial amounts are imported."
+        },
+        {
+          "kind": "independent_coverage",
+          "url": "https://entrackr.com/fintrackr/zerodha-cash-reserve-stands-at-rs-22679-cr-in-fy25-10799921",
+          "note": "Independent reporting on FY25 operating business."
+        },
+        {
+          "kind": "independent_coverage",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/zerodhas-fy26-net-profit-rises-1-2-to-4283-crore-amid-revenue-slowdown/articleshow/133553571.cms",
+          "note": "Separate reporting on FY26 operating business."
+        }
+      ],
+      "admission": {
+        "status": "accepted",
+        "basis": "established_product",
+        "reason": "Zerodha is an established product/platform business with source-supported Indian operations. Official disclosure identifies Zerodha Broking Limited in Bengaluru. Separate Entrackr and Economic Times reports document an established brokerage; no financial amounts are imported.",
+        "checked_on": "2026-11-26"
+      }
+    },
+    {
+      "slug": "zoho",
+      "brand_name": "Zoho",
+      "aliases": [
+        "Zoho"
+      ],
+      "website_url": "https://www.zoho.com/",
+      "description": {
+        "text": "Business software spanning CRM, collaboration, finance and enterprise applications.",
+        "source_url": "https://www.zoho.com/aboutus.html"
+      },
+      "sector": {
+        "text": "Enterprise Software",
+        "source_url": "https://www.zoho.com/aboutus.html"
+      },
+      "india_presence": {
+        "cities": [
+          "Chennai",
+          "Bengaluru",
+          "Mumbai",
+          "Kolkata",
+          "Noida"
+        ],
+        "source_url": "https://www.zoho.com/contactus.html",
+        "note": "Official contact page publishes Indian offices, including Chennai and Bengaluru. Independent Business Standard and Inc42 reports document the established software business."
+      },
+      "headquarters": null,
+      "founders": [
+        {
+          "name": "Sridhar Vembu",
+          "source_url": "https://www.youtube.com/watch?v=psyzqwmrnic"
+        },
+        {
+          "name": "Tony Thomas",
+          "source_url": "https://www.youtube.com/watch?v=psyzqwmrnic"
+        }
+      ],
+      "founded_year": null,
+      "careers": null,
+      "tags": [
+        {
+          "label": "Bootstrapped",
+          "source_url": "https://www.zoho.com/aboutus.html",
+          "observed_on": "2026-11-26"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "establishment",
+          "url": "https://www.zoho.com/aboutus.html",
+          "note": "Published product/service and operating evidence: Official contact page publishes Indian offices, including Chennai and Bengaluru. Independent Business Standard and Inc42 reports document the established software business."
+        },
+        {
+          "kind": "independent_coverage",
+          "url": "https://www.business-standard.com/article/companies/zoho-built-capabilities-steadily-to-reach-1-billion-in-revenue-ceo-122110800531_1.html",
+          "note": "Historical operating-scale coverage, published 2022; no current revenue inferred."
+        },
+        {
+          "kind": "independent_coverage",
+          "url": "https://inc42.com/buzz/zohos-revenue-crosses-inr-8000-cr-mark-in-fy23-asia-becomes-second-biggest-market/",
+          "note": "Separate historical FY23 financial coverage; amounts not imported."
+        }
+      ],
+      "admission": {
+        "status": "accepted",
+        "basis": "established_product",
+        "reason": "Zoho is an established product/platform business with source-supported Indian operations. Official contact page publishes Indian offices, including Chennai and Bengaluru. Independent Business Standard and Inc42 reports document the established software business.",
+        "checked_on": "2026-11-26"
+      }
+    },
+    {
+      "slug": "freshworks",
+      "brand_name": "Freshworks",
+      "aliases": [
+        "Freshworks"
+      ],
+      "website_url": "https://www.freshworks.com/",
+      "description": {
+        "text": "Customer-support and employee-service software, including Freshdesk and Freshservice.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1544522/000154452225000010/frsh-20241231.htm"
+      },
+      "sector": {
+        "text": "Enterprise Software",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1544522/000154452225000010/frsh-20241231.htm"
+      },
+      "india_presence": {
+        "cities": [
+          "Chennai",
+          "Bengaluru",
+          "Hyderabad"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1544522/000154452225000010/frsh-20241231.htm",
+        "note": "The FY2024 SEC annual report records Chennai engineering operations and Bengaluru/Hyderabad offices. This dated report is not a precise current office-location check."
+      },
+      "headquarters": {
+        "city": "San Mateo",
+        "country": "United States",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1544522/000154452225000010/frsh-20241231.htm"
+      },
+      "founders": [],
+      "founded_year": null,
+      "careers": null,
+      "tags": [],
+      "evidence": [
+        {
+          "kind": "establishment",
+          "url": "https://www.sec.gov/Archives/edgar/data/1544522/000154452225000010/frsh-20241231.htm",
+          "note": "Published product/service and operating evidence: The FY2024 SEC annual report records Chennai engineering operations and Bengaluru/Hyderabad offices. This dated report is not a precise current office-location check."
+        },
+        {
+          "kind": "curation",
+          "url": "https://www.accel.com/news/an-unwavering-partner-for-exceptional-teams-everywhere",
+          "note": "Source-maintained company discovery or founder profile; investment terms and current ownership are not inferred."
+        }
+      ],
+      "admission": {
+        "status": "accepted",
+        "basis": "curated_and_established",
+        "reason": "Freshworks is an established product/platform business with source-supported Indian operations. The FY2024 SEC annual report records Chennai engineering operations and Bengaluru/Hyderabad offices. This dated report is not a precise current office-location check.",
+        "checked_on": "2026-11-26"
+      }
+    },
+    {
+      "slug": "postman",
+      "brand_name": "Postman",
+      "aliases": [
+        "Postman"
+      ],
+      "website_url": "https://www.postman.com/",
+      "description": {
+        "text": "Tools for designing, testing and collaborating on APIs throughout their lifecycle.",
+        "source_url": "https://www.postman.com/company/about-postman/"
+      },
+      "sector": {
+        "text": "Developer Tools",
+        "source_url": "https://www.postman.com/company/about-postman/"
+      },
+      "india_presence": {
+        "cities": [
+          "Bengaluru"
+        ],
+        "source_url": "https://www.postman.com/company/contact-us/",
+        "note": "Official contact page identifies San Francisco headquarters and a Bangalore office; published customer stories demonstrate deployed API tooling."
+      },
+      "headquarters": {
+        "city": "San Francisco",
+        "country": "United States",
+        "source_url": "https://www.postman.com/company/contact-us/"
+      },
+      "founders": [
+        {
+          "name": "Abhinav Asthana",
+          "source_url": "https://www.postman.com/company/about-postman/"
+        },
+        {
+          "name": "Ankit Sobti",
+          "source_url": "https://www.postman.com/company/about-postman/"
+        },
+        {
+          "name": "Abhijit Kane",
+          "source_url": "https://www.postman.com/company/about-postman/"
+        }
+      ],
+      "founded_year": null,
+      "careers": {
+        "url": "https://www.postman.com/company/careers/open-positions/",
+        "source_url": "https://www.postman.com/company/about-postman/"
+      },
+      "tags": [],
+      "evidence": [
+        {
+          "kind": "establishment",
+          "url": "https://www.postman.com/company/about-postman/",
+          "note": "Published product/service and operating evidence: Official contact page identifies San Francisco headquarters and a Bangalore office; published customer stories demonstrate deployed API tooling."
+        },
+        {
+          "kind": "curation",
+          "url": "https://nexusvp.com/portfolio/postman/",
+          "note": "Source-maintained company discovery or founder profile; investment terms and current ownership are not inferred."
+        }
+      ],
+      "admission": {
+        "status": "accepted",
+        "basis": "curated_and_established",
+        "reason": "Postman is an established product/platform business with source-supported Indian operations. Official contact page identifies San Francisco headquarters and a Bangalore office; published customer stories demonstrate deployed API tooling.",
+        "checked_on": "2026-11-26"
+      }
+    },
+    {
+      "slug": "browserstack",
+      "brand_name": "BrowserStack",
+      "aliases": [
+        "BrowserStack"
+      ],
+      "website_url": "https://www.browserstack.com/",
+      "description": {
+        "text": "Cloud tools for testing websites and mobile apps across browsers and real devices.",
+        "source_url": "https://www.browserstack.com/company"
+      },
+      "sector": {
+        "text": "Developer Tools",
+        "source_url": "https://www.browserstack.com/company"
+      },
+      "india_presence": {
+        "cities": [
+          "Mumbai"
+        ],
+        "source_url": "https://www.accel.com/news/an-unwavering-partner-for-exceptional-teams-everywhere",
+        "note": "Accel identifies the Mumbai company; the current company page documents testing products, customer use and a remote-first model. A current street address has not been accepted."
+      },
+      "headquarters": null,
+      "founders": [
+        {
+          "name": "Ritesh Arora",
+          "source_url": "https://www.browserstack.com/company"
+        },
+        {
+          "name": "Nakul Aggarwal",
+          "source_url": "https://www.browserstack.com/company"
+        }
+      ],
+      "founded_year": null,
+      "careers": null,
+      "tags": [],
+      "evidence": [
+        {
+          "kind": "establishment",
+          "url": "https://www.browserstack.com/company",
+          "note": "Published product/service and operating evidence: Accel identifies the Mumbai company; the current company page documents testing products, customer use and a remote-first model. A current street address has not been accepted."
+        },
+        {
+          "kind": "curation",
+          "url": "https://www.accel.com/news/an-unwavering-partner-for-exceptional-teams-everywhere",
+          "note": "Source-maintained company discovery or founder profile; investment terms and current ownership are not inferred."
+        }
+      ],
+      "admission": {
+        "status": "accepted",
+        "basis": "curated_and_established",
+        "reason": "BrowserStack is an established product/platform business with source-supported Indian operations. Accel identifies the Mumbai company; the current company page documents testing products, customer use and a remote-first model. A current street address has not been accepted.",
+        "checked_on": "2026-11-26"
+      }
+    },
+    {
+      "slug": "swiggy",
+      "brand_name": "Swiggy",
+      "aliases": [
+        "Swiggy"
+      ],
+      "website_url": "https://www.swiggy.com/",
+      "description": {
+        "text": "Consumer platform for food delivery and quick commerce in Indian cities.",
+        "source_url": "https://www.swiggy.com/corporate/profile-detail-page/"
+      },
+      "sector": {
+        "text": "Consumer Internet",
+        "source_url": "https://www.swiggy.com/corporate/profile-detail-page/"
+      },
+      "india_presence": {
+        "cities": [
+          "Bengaluru"
+        ],
+        "source_url": "https://www.swiggy.com/corporate/wp-content/uploads/2026/05/Covering-Letter_Letter-to-Shareholders_Signed.pdf",
+        "note": "Official corporate profile describes deployed food-delivery services. Current registered-office location is separately reviewed; do not reuse older IBC or Embassy addresses."
+      },
+      "headquarters": null,
+      "founders": [],
+      "founded_year": null,
+      "careers": null,
+      "tags": [],
+      "evidence": [
+        {
+          "kind": "establishment",
+          "url": "https://www.swiggy.com/corporate/profile-detail-page/",
+          "note": "Published product/service and operating evidence: Official corporate profile describes deployed food-delivery services. Current registered-office location is separately reviewed; do not reuse older IBC or Embassy addresses."
+        },
+        {
+          "kind": "curation",
+          "url": "https://www.accel.com/news/an-unwavering-partner-for-exceptional-teams-everywhere",
+          "note": "Source-maintained company discovery or founder profile; investment terms and current ownership are not inferred."
+        }
+      ],
+      "admission": {
+        "status": "accepted",
+        "basis": "curated_and_established",
+        "reason": "Swiggy is an established product/platform business with source-supported Indian operations. Official corporate profile describes deployed food-delivery services. Current registered-office location is separately reviewed; do not reuse older IBC or Embassy addresses.",
+        "checked_on": "2026-11-26"
+      }
+    },
+    {
+      "slug": "unacademy",
+      "brand_name": "Unacademy",
+      "aliases": [
+        "Unacademy"
+      ],
+      "website_url": "https://unacademy.com/",
+      "description": {
+        "text": "Learning and test-preparation platform with online classes and education services.",
+        "source_url": "https://unacademy.com/terms"
+      },
+      "sector": {
+        "text": "Edtech",
+        "source_url": "https://unacademy.com/terms"
+      },
+      "india_presence": {
+        "cities": [
+          "Bengaluru"
+        ],
+        "source_url": "https://unacademy.com/terms",
+        "note": "Official terms identify Indian operator Sorting Hat Technologies Private Limited in Domlur. Published company reporting documents an established learning platform."
+      },
+      "headquarters": null,
+      "founders": [
+        {
+          "name": "Gaurav Munjal",
+          "source_url": "https://www.fortuneindia.com/amp/story/venture/people-were-building-content-companies-but-our-focus-was-on-building-a-platform/106020"
+        },
+        {
+          "name": "Roman Saini",
+          "source_url": "https://www.fortuneindia.com/amp/story/venture/people-were-building-content-companies-but-our-focus-was-on-building-a-platform/106020"
+        },
+        {
+          "name": "Hemesh Singh",
+          "source_url": "https://www.fortuneindia.com/amp/story/venture/people-were-building-content-companies-but-our-focus-was-on-building-a-platform/106020"
+        }
+      ],
+      "founded_year": null,
+      "careers": null,
+      "tags": [],
+      "evidence": [
+        {
+          "kind": "establishment",
+          "url": "https://unacademy.com/terms",
+          "note": "Published product/service and operating evidence: Official terms identify Indian operator Sorting Hat Technologies Private Limited in Domlur. Published company reporting documents an established learning platform."
+        },
+        {
+          "kind": "curation",
+          "url": "https://www.peakxv.com/our-companies?577908b4_page=39",
+          "note": "Source-maintained company discovery or founder profile; investment terms and current ownership are not inferred."
+        }
+      ],
+      "admission": {
+        "status": "accepted",
+        "basis": "curated_and_established",
+        "reason": "Unacademy is an established product/platform business with source-supported Indian operations. Official terms identify Indian operator Sorting Hat Technologies Private Limited in Domlur. Published company reporting documents an established learning platform.",
+        "checked_on": "2026-11-26"
+      }
+    },
+    {
+      "slug": "whatfix",
+      "brand_name": "Whatfix",
+      "aliases": [
+        "Whatfix"
+      ],
+      "website_url": "https://whatfix.com/",
+      "description": {
+        "text": "In-app guidance, product analytics and training tools for enterprise software adoption.",
+        "source_url": "https://whatfix.com/about-us/"
+      },
+      "sector": {
+        "text": "Enterprise Software",
+        "source_url": "https://whatfix.com/about-us/"
+      },
+      "india_presence": {
+        "cities": [
+          "Bengaluru"
+        ],
+        "source_url": "https://whatfix.com/privacy-policy/",
+        "note": "Official privacy policy identifies Whatfix Private Limited in HSR Layout. Published customer cases demonstrate deployed enterprise products; founder names do not imply current executive roles."
+      },
+      "headquarters": null,
+      "founders": [
+        {
+          "name": "Khadim Batti",
+          "source_url": "https://whatfix.com/about-us/"
+        },
+        {
+          "name": "Vara Kumar Namburu",
+          "source_url": "https://whatfix.com/about-us/"
+        }
+      ],
+      "founded_year": null,
+      "careers": null,
+      "tags": [],
+      "evidence": [
+        {
+          "kind": "establishment",
+          "url": "https://whatfix.com/about-us/",
+          "note": "Published product/service and operating evidence: Official privacy policy identifies Whatfix Private Limited in HSR Layout. Published customer cases demonstrate deployed enterprise products; founder names do not imply current executive roles."
+        },
+        {
+          "kind": "curation",
+          "url": "https://www.stellarisvp.com/portfolio/whatfix?3593a138_page=1",
+          "note": "Source-maintained company discovery or founder profile; investment terms and current ownership are not inferred."
+        }
+      ],
+      "admission": {
+        "status": "accepted",
+        "basis": "curated_and_established",
+        "reason": "Whatfix is an established product/platform business with source-supported Indian operations. Official privacy policy identifies Whatfix Private Limited in HSR Layout. Published customer cases demonstrate deployed enterprise products; founder names do not imply current executive roles.",
+        "checked_on": "2026-11-26"
+      }
+    }
+  ]
+}

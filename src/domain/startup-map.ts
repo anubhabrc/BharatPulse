@@ -14,6 +14,8 @@ export interface StartupMapPayload {
   source_url:string;source_date:string;city_source_url:string;
 }
 const key=(value:string)=>value.normalize('NFKC').trim().toLowerCase().replace(/\s+/g,' ');
+// Discovery samples omit duplicate office evidence; selection resolves through the office index.
+const summary=({office:_office,directory_row:_row,...company}:MapCompany):MapCompany=>company;
 const aliases:Record<string,string>={bangalore:'bengaluru',gurugram:'gurgaon','delhi-ncr':'delhi','delhi - ncr':'delhi','delhi ncr':'delhi',mangalore:'mangaluru',mysore:'mysuru',nasik:'nashik',bhubaneshwar:'bhubaneswar',hyerabad:'hyderabad',belgaum:'belagavi',tiruppur:'tiruppur'};
 export function buildStartupMap(snapshot:ArchiveSnapshot,filters:CompanyFilters,centres:CityCentre[],profiles:CompanyInfo[],citySourceUrl:string,offices:OfficeLocation[]=[]):StartupMapPayload {
   const lookup=new Map<string,CityCentre>();
@@ -30,14 +32,14 @@ export function buildStartupMap(snapshot:ArchiveSnapshot,filters:CompanyFilters,
     if(!hub){hub={id:centre.id,name:centre.name,reported_cities:[],longitude:centre.longitude,latitude:centre.latitude,company_count:0,companies:[]};groups.set(centre.id,hub);}
     hub.company_count++;
     if(!hub.reported_cities.includes(city))hub.reported_cities.push(city);
-    const info=infos.get(row.slug),company:MapCompany={slug:row.slug,name:row.brand_name,city,reported_city:row.city,sector:row.sector,hub_id:hub.id,founders:info?.founders.map(f=>f.name)??[],description:info?.description.text??null,...(office?{office,directory_row:row}:{})};
+    const info=infos.get(row.slug),company:MapCompany={slug:row.slug,name:row.brand_name,city,reported_city:row.coverage==='reviewed_directory'?null:row.city,sector:row.sector,hub_id:hub.id,founders:info?.founders.map(f=>f.name)??row.founders??[],description:info?.description.text??row.description??null,...(office?{office,directory_row:row}:{})};
     allMapped.set(company.slug,company);
-    if(hub.companies.length<8)hub.companies.push(company);
+    if(hub.companies.length<8)hub.companies.push(summary(company));
   }
   const hubs=[...groups.values()].sort((a,b)=>b.company_count-a.company_count||a.name.localeCompare(b.name));
   const located=[...allMapped.values()].filter(company=>company.office);
   return {type:'FeatureCollection',features:hubs.map(h=>({type:'Feature',id:h.id,geometry:{type:'Point',coordinates:[h.longitude,h.latitude]},properties:{hub_id:h.id,city:h.name,company_count:h.company_count,has_offices:located.some(company=>company.hub_id===h.id)}})),
     offices:located,office_features:located.map(company=>({type:'Feature',id:company.slug,geometry:{type:'Point',coordinates:[company.office!.longitude,company.office!.latitude]},properties:{slug:company.slug,name:company.name,initials:company.name.replace(/[^\p{L}\p{N} ]/gu,'').split(/\s+/).slice(0,2).map(word=>word[0]).join('').toUpperCase(),color:sectorStyle(company.sector).color,precision:company.office!.precision,company_count:1}})),
-    hubs,featured:profiles.map(p=>allMapped.get(p.slug)).filter((c):c is MapCompany=>!!c),matched_companies:rows.length,mapped_companies:rows.length-unmapped,unmapped_companies:unmapped,
+    hubs,featured:profiles.map(p=>allMapped.get(p.slug)).filter((c):c is MapCompany=>!!c).map(summary),matched_companies:rows.length,mapped_companies:rows.length-unmapped,unmapped_companies:unmapped,
     precision:located.length?'mixed_city_and_office':'representative_city_centre',source_url:snapshot.source_url,source_date:snapshot.retrieved_at,city_source_url:citySourceUrl};
 }

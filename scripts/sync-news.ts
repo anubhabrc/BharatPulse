@@ -1,8 +1,12 @@
 import {readFile,writeFile,rename} from 'node:fs/promises';
 import registry from '../data/feed-sources.json';
-import {parseFeed,matchNewsCompanies,mergeNews,type FeedSource,type FeedHealth,type NewsSnapshot,type NewsItem} from '../src/domain/news';
+import {parseFeed,cleanHeadline,matchNewsCompanies,mergeNews,type FeedSource,type FeedHealth,type NewsSnapshot,type NewsItem} from '../src/domain/news';
+import {composeCatalog} from '../src/domain/catalog';
+import {parseDirectoryEntries} from '../src/domain/directory-profile';
 import type {ArchiveSnapshot} from '../src/domain/notion-archive';
 const archive=JSON.parse(await readFile('data/bwm-archive.json','utf8')) as ArchiveSnapshot;
+const directory=JSON.parse(await readFile('data/company-directory.json','utf8'));
+const catalog=composeCatalog(archive,parseDirectoryEntries(directory.companies));
 const now=new Date();
 let previous:NewsSnapshot={schema_version:1,updated_at:now.toISOString(),retention_days:90,items:[],feeds:[]};
 try{previous=JSON.parse(await readFile('data/news.json','utf8'));}catch{/* First import. */}
@@ -19,7 +23,7 @@ for(const source of registry.sources.filter(s=>s.enabled) as FeedSource[]) {
     const parsed=parseFeed(Buffer.concat(chunks).toString('utf8'),source,now);
     if(!parsed.length)throw new Error('No valid feed entries');
     for(const item of parsed) {
-      item.company_slugs=matchNewsCompanies(item.title,archive.companies);
+      item.company_slugs=matchNewsCompanies(item.title,catalog.companies);
       if(item.company_slugs.length||item.tags.length||/\bstartup|\bfintech|\bventure|\bAI\b|\bSaaS\b/i.test(item.title))items.push(item);
     }
     health.push({source_id:source.id,source_name:source.name,url:source.url,status:'ok',checked_at:now.toISOString(),last_success_at:now.toISOString(),latest_entry_at:parsed.map(i=>i.published_at).sort().at(-1)??null,item_count:parsed.length,error:null});
@@ -30,6 +34,6 @@ for(const source of registry.sources.filter(s=>s.enabled) as FeedSource[]) {
   }
 }
 if(!health.some(f=>f.status==='ok'))throw new Error('All feeds failed; previous news snapshot retained');
-const snapshot:NewsSnapshot={schema_version:1,updated_at:now.toISOString(),retention_days:90,items:mergeNews(previous.items,items,now),feeds:health};
+const snapshot:NewsSnapshot={schema_version:1,updated_at:now.toISOString(),retention_days:90,items:mergeNews(previous.items,items,now).map(item=>({...item,title:cleanHeadline(item.title),company_slugs:matchNewsCompanies(cleanHeadline(item.title),catalog.companies)})),feeds:health};
 await writeFile('data/news.json.tmp',JSON.stringify(snapshot,null,2)+'\n');await rename('data/news.json.tmp','data/news.json');
 console.log(JSON.stringify({retained_items:snapshot.items.length,matched_items:snapshot.items.filter(i=>i.company_slugs.length).length,healthy_feeds:health.filter(f=>f.status==='ok').length,total_feeds:health.length}));

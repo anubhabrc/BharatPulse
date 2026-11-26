@@ -15,7 +15,8 @@
     "import:publish": "node --env-file-if-exists=.env --import tsx scripts/import.ts publish",
     "data:sync": "node --import tsx scripts/sync-notion.ts",
     "news:sync": "node --import tsx scripts/sync-news.ts",
-    "offices:geocode": "node --import tsx scripts/geocode-offices.ts"
+    "offices:geocode": "node --import tsx scripts/geocode-offices.ts",
+    "jobs:sync": "node --import tsx scripts/sync-jobs.ts"
   },
   "dependencies": {
     "fast-xml-parser": "5.12.1",

@@ -1,4 +1,5 @@
 import {createHash} from 'node:crypto';
+import type {DirectoryEntry} from './directory-profile';
 
 export const BWM_ROOT_ID='56051167-de46-4258-a6c5-8c144f30fdac';
 export const BWM_ROOT_URL='https://meadow-pillow-7fa.notion.site/Weekly-Funding-Updates-56051167de464258a6c58c144f30fdac';
@@ -19,6 +20,7 @@ export interface ArchiveCompany {
   reported_names:string[]; reported_cities:string[]; reported_sectors:string[];
   rounds:ArchiveRound[]; tracked_amount_usd:string|null; unpriced_event_count:number;
   latest_announced_on:string|null;
+  directory_profile?:DirectoryEntry;
 }
 export interface ArchiveSnapshot {
   schema_version:1; source_name:string; source_url:string; retrieved_at:string;

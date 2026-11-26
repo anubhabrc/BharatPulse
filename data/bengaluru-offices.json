@@ -581,6 +581,24 @@
       "coordinate_method": "osm_feature"
     },
     {
+      "id": "phonepe-bengaluru-2026-11-26",
+      "company_slug": "phonepe",
+      "city": "Bengaluru",
+      "entity_name": "PhonePe Limited",
+      "kind": "registered_office",
+      "address": "Office 2, Floor 5, Wing A, Block A, Salarpuria Softzone, Bellandur Village, Varthur Hobli, Outer Ring Road, Bengaluru South, Bengaluru, Karnataka 560103",
+      "place_name": "Salarpuria Softzone",
+      "precision": "campus",
+      "longitude": 77.6705393,
+      "latitude": 12.9242269,
+      "address_source_url": "https://ir.phonepe.com/contact-us/",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/232329241",
+      "coordinate_method": "osm_feature",
+      "checked_on": "2026-11-26",
+      "review_status": "accepted",
+      "review_note": "Official investor relations publishes the registered and corporate office for PhonePe Limited. Independently named Salarpuria Softzone commercial campus agrees with the Bellandur/Outer Ring Road address. Campus centre only; Wing A, Block A, floor and entrance are not independently resolved."
+    },
+    {
       "id": "pixxel-bengaluru-2026-11",
       "company_slug": "pixxel",
       "city": "Bengaluru",
@@ -669,6 +687,24 @@
       "review_status": "accepted",
       "review_note": "Corporate office; the registered office is in Hyderabad. Campus centre, not Tower A entrance.",
       "coordinate_method": "osm_feature"
+    },
+    {
+      "id": "razorpay-bengaluru-2026-11-26",
+      "company_slug": "razorpay",
+      "city": "Bengaluru",
+      "entity_name": "Razorpay Software Limited",
+      "kind": "registered_office",
+      "address": "Ground Floor, SJR Cyber, 22 Laskar Hosur Road, Adugodi, Bengaluru, Karnataka 560030",
+      "place_name": "SJR Cyber Laskar",
+      "precision": "campus",
+      "longitude": 77.60948,
+      "latitude": 12.9389657,
+      "address_source_url": "https://razorpay.com/x/terms/",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/781192779",
+      "coordinate_method": "osm_feature",
+      "checked_on": "2026-11-26",
+      "review_status": "accepted",
+      "review_note": "Official RazorpayX terms identify Razorpay Software Limited and this registered office. Independently named SJR Cyber Laskar commercial-campus feature matches Laskar Hosur Road/Adugodi. Campus centre only; floor and visitor entrance are unresolved. This legal entity is not conflated with its payment-aggregator affiliate."
     },
     {
       "id": "refyne-bengaluru-2026-11-25",
@@ -869,6 +905,24 @@
       "review_note": "Official contact page identifies the legal entity and registered office in A-Block of Ozone Manay Technology Park. Independently matched named OSM commercial-campus feature agrees with the published address. Campus centre only; exact block, floor and entrance are not resolved. The earlier filing coordinate is not used. Porter has a separately sourced office on the same campus; coordinates are intentionally shared."
     },
     {
+      "id": "swiggy-bengaluru-2026-11-26",
+      "company_slug": "swiggy",
+      "city": "Bengaluru",
+      "entity_name": "Swiggy Limited",
+      "kind": "registered_office",
+      "address": "Survey No. 14 and 158, 3rd–6th Floor, Tower 1, Sumadhura Capitol Towers, Pattanduru Agrahara Village, K. R. Puram Hobli, Bengaluru East Taluk, Bengaluru, Karnataka 560066",
+      "place_name": "Sumadhura Capitol Towers",
+      "precision": "campus",
+      "longitude": 77.7496356,
+      "latitude": 12.9852444,
+      "address_source_url": "https://www.swiggy.com/corporate/wp-content/uploads/2026/05/Covering-Letter_Letter-to-Shareholders_Signed.pdf",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/1004340436",
+      "coordinate_method": "osm_feature",
+      "checked_on": "2026-11-26",
+      "review_status": "accepted",
+      "review_note": "A May 2026 company shareholder letter identifies this registered office. The company’s 29 January 2026 filing records relocation from Embassy Tech Village, effective 1 April 2026. The current corporate home-page head-office address agrees. The independently named OSM commercial campus matches Sumadhura Capitol Towers in Whitefield. Campus centre only; Tower 1 and its visitor entrance are not separately resolved. Older Embassy Tech Village or IBC points must not be substituted."
+    },
+    {
       "id": "tonetag-bengaluru-2026-11",
       "company_slug": "tonetag",
       "city": "Bengaluru",
@@ -923,6 +977,24 @@
       "review_note": "The official UV Headquarters page publishes this destination point in its map link (!3d12.9539136!4d77.6409549). No Maps service/API was queried for the coordinate. Not an entrance pin. The archive also has a separate Ultraviolette Automotive slug; no identity merge is inferred."
     },
     {
+      "id": "unacademy-bengaluru-2026-11-26",
+      "company_slug": "unacademy",
+      "city": "Bengaluru",
+      "entity_name": "Sorting Hat Technologies Private Limited",
+      "kind": "registered_office",
+      "address": "No. 11/1 and 12/1, 2nd Floor, Block B, Maruti Info-Tech Centre, Amarjyothi Layout, Intermediate Ring Road, Domlur, Bengaluru, Karnataka 560071",
+      "place_name": "Unacademy, Maruti Info-Tech Centre",
+      "precision": "campus",
+      "longitude": 77.6407646,
+      "latitude": 12.951847,
+      "address_source_url": "https://unacademy.com/terms",
+      "coordinate_source_url": "https://www.openstreetmap.org/node/11684157869",
+      "coordinate_method": "osm_feature",
+      "checked_on": "2026-11-26",
+      "review_status": "accepted",
+      "review_note": "Official platform terms updated 6 August 2026 identify this Sorting Hat registered office. The named OSM Unacademy office point on Inner Ring Road independently matches the commercial office estate and postcode. It lies inside office building way 104573383, north of the separate Sunriver building, way 105322158. This is a campus-level company point: Block B, floor and entrance are not separately resolved. Earlier official notices refer to Block A in the same estate; this point does not resolve the current block."
+    },
+    {
       "company_slug": "vedantu",
       "entity_name": "Vedantu Innovations Pvt Ltd",
       "kind": "corporate_office",
@@ -975,6 +1047,24 @@
       "review_status": "accepted",
       "review_note": "Official20August2026 terms publish ZeptoMarketplace registered office773Sarjapur. OSM names HQ-BharatITPark on same Sarjapur road/Kaikondrahalli; source is platform entity, not a claim that parent ZeptoLimited registered office moved from Mumbai. BWM latest reported HQ city remains Mumbai; retain it separately.",
       "coordinate_method": "osm_feature"
+    },
+    {
+      "id": "zerodha-bengaluru-2026-11-26",
+      "company_slug": "zerodha",
+      "city": "Bengaluru",
+      "entity_name": "Zerodha Broking Limited",
+      "kind": "registered_office",
+      "address": "153/154, 4th Cross, Dollars Colony, opposite Clarence Public School, JP Nagar 4th Phase, Bengaluru, Karnataka 560078",
+      "place_name": "Zerodha Broking Limited",
+      "precision": "building",
+      "longitude": 77.5972564,
+      "latitude": 12.9040365,
+      "address_source_url": "https://zerodha.com/disclosure",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/348322866",
+      "coordinate_method": "osm_feature",
+      "checked_on": "2026-11-26",
+      "review_status": "accepted",
+      "review_note": "Official disclosure and about-page footer agree on the registered office. Independently mapped office building has the Zerodha Broking Limited name, both house numbers 153 and154, 4th Cross Road, Dollars Colony and postcode560078. A separate Bannerghatta Road company node is not used. Building centre; visitor entrance and floor unconfirmed."
     },
     {
       "id": "zetwerk-bengaluru-2026-11",

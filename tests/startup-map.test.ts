@@ -14,7 +14,7 @@ test('map covers the full filtered cohort regardless of table pagination, with e
   assert.equal(payload.hubs.reduce((n,h)=>n+h.company_count,0),payload.mapped_companies);assert.equal(payload.precision,'representative_city_centre');assert.ok(payload.unmapped_companies>0);assert.ok(payload.features.length<150);assert.ok(Buffer.byteLength(JSON.stringify(payload))<150000);
 });
 test('popular company selection shares city filters and never invents a founder profile',()=>{
-  const all=build(),filtered=build({q:'Zepto'});assert.equal(all.featured.length,6);assert.deepEqual(filtered.featured.map(c=>c.slug),['zepto']);assert.deepEqual(filtered.featured[0].founders,['Aadit Palicha','Kaivalya Vohra']);assert.equal(filtered.mapped_companies,1);
+  const all=build(),filtered=build({q:'Zepto'});assert.equal(all.featured.length,info.companies.length);assert.deepEqual(filtered.featured.map(c=>c.slug),['zepto']);assert.deepEqual(filtered.featured[0].founders,['Aadit Palicha','Kaivalya Vohra']);assert.equal(filtered.mapped_companies,1);
   for(const hub of all.hubs)for(const company of hub.companies)if(!info.companies.some(p=>p.slug===company.slug))assert.equal(company.founders.length,0);
 });
 test('unrecognized locations are omitted and city aliases resolve to one shared point',()=>{

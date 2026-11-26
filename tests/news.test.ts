@@ -1,8 +1,12 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {parseFeed,matchNewsCompanies,mergeNews,type FeedSource} from '../src/domain/news';
+import {parseFeed,cleanHeadline,matchNewsCompanies,mergeNews,type FeedSource} from '../src/domain/news';
 const source:FeedSource={id:'test',name:'Test publication',url:'https://publisher.example/rss',allowed_hosts:['publisher.example'],enabled:true,usage:'headline_metadata_only'};
 const now=new Date('2026-11-25T12:00:00Z');
+test('headlines decode bounded double-escaped Unicode punctuation and safely handle invalid entities',()=>{
+  assert.equal(cleanHeadline('Company&amp;#8217;s &amp;#x2014; update'),'Company’s — update');
+  assert.equal(cleanHeadline('&lt;b&gt;News&lt;/b&gt; &#99999999;'),'News &#99999999;');
+});
 const rss=(items:string)=>`<?xml version="1.0"?><rss version="2.0"><channel>${items}</channel></rss>`;
 const item=(url='https://publisher.example/round',date='Wed, 25 Nov 2026 06:00:00 GMT')=>`<item><title><![CDATA[Zepto raises $20 million &amp; expands]]></title><link>${url}</link><pubDate>${date}</pubDate><description>Do not persist this article body</description></item>`;
 test('RSS imports bounded headline metadata and funding tags, without article bodies',()=>{

@@ -1,17 +1,17 @@
 import 'server-only';
 import {database,dataMode} from './db';
 import fixture from '../../data/demo-reviewed.json';
-import {archive} from './archive';
+import {catalog} from './catalog';
 import {offices} from './offices';
 import {queryArchive,type CompanyFilters,type CompanyRow} from '@/domain/archive-queries';
 
 export async function listCompanies(filters:CompanyFilters) {
   const mode=dataMode();
-  if(mode==='archive')return queryArchive(archive,filters,offices);
+  if(mode==='archive')return queryArchive(catalog,filters,offices);
   if(mode==='demo') {
     const all=[...new Map(fixture.records.map(r=>[r.company.slug,r.company])).values()]
       .filter(c=>c.brand_name.toLowerCase().includes(filters.q.toLowerCase()))
-      .map(c=>({slug:c.slug,brand_name:c.brand_name,city:c.location?.city??null,sector:c.sectors.map(s=>s.name).join(', '),
+      .map<CompanyRow>(c=>({slug:c.slug,brand_name:c.brand_name,city:c.location?.city??null,sector:c.sectors.map(s=>s.name).join(', '),
         tracked_event_count:new Set(fixture.records.filter(r=>r.company.slug===c.slug).map(r=>r.funding.event_key)).size,
         tracked_amount_usd:null,unpriced_event_count:0,is_demo:true,latest_announced_on:null,flagged_event_count:0}));
     return {mode,companies:all.slice(filters.offset,filters.offset+filters.limit),total:all.length,metrics:null,source:null,amount_label:'Fictional test data'};

@@ -126,6 +126,201 @@
       ],
       "founded_year": null,
       "checked_on": "2026-11-25"
+    },
+    {
+      "slug": "rapido",
+      "description": {
+        "text": "Ride-booking platform connecting passengers with bike-taxi and other urban transport services.",
+        "source_url": "https://rapido.bike/About"
+      },
+      "founders": [
+        {
+          "name": "Rishikesh S R",
+          "source_url": "https://rapido.bike/About"
+        },
+        {
+          "name": "Pavan Guntupalli",
+          "source_url": "https://rapido.bike/About"
+        },
+        {
+          "name": "Aravind Sanka",
+          "source_url": "https://rapido.bike/About"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "smallcase",
+      "description": {
+        "text": "Investment technology for creating and accessing themed portfolios of stocks and exchange-traded funds.",
+        "source_url": "https://blume.vc/smallcase"
+      },
+      "founders": [
+        {
+          "name": "Vasanth Kamath",
+          "source_url": "https://blume.vc/smallcase"
+        },
+        {
+          "name": "Anugrah Shrivastava",
+          "source_url": "https://blume.vc/smallcase"
+        },
+        {
+          "name": "Rohan Gupta",
+          "source_url": "https://blume.vc/smallcase"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "perfios",
+      "description": {
+        "text": "Financial-data software for onboarding, underwriting and decision workflows at financial institutions.",
+        "source_url": "https://perfios.ai/about-us"
+      },
+      "founders": [
+        {
+          "name": "V.R. Govindarajan",
+          "source_url": "https://perfios.ai/about-us"
+        },
+        {
+          "name": "Debashish Chakraborty",
+          "source_url": "https://perfios.ai/about-us"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "cashfree-payments",
+      "description": {
+        "text": "Payment collection, payouts and banking-integration tools for businesses.",
+        "source_url": "https://www.ycombinator.com/companies/cashfree-payments"
+      },
+      "founders": [
+        {
+          "name": "Akash Sinha",
+          "source_url": "https://www.ycombinator.com/companies/cashfree-payments"
+        },
+        {
+          "name": "Reeju Datta",
+          "source_url": "https://www.ycombinator.com/companies/cashfree-payments"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "ultraviolette",
+      "description": {
+        "text": "Electric-mobility company developing motorcycles and associated vehicle and battery technology.",
+        "source_url": "https://www.ultraviolette.com/about"
+      },
+      "founders": [
+        {
+          "name": "Narayan Subramaniam",
+          "source_url": "https://www.ultraviolette.com/about"
+        },
+        {
+          "name": "Niraj Rajmohan",
+          "source_url": "https://www.ultraviolette.com/about"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "porter",
+      "description": {
+        "text": "Technology-enabled logistics services for goods transport, business deliveries and moving.",
+        "source_url": "https://www.ey.com/en_in/entrepreneur-of-the-year/finalists-2025/pranav-goel-and-uttam-digga"
+      },
+      "founders": [
+        {
+          "name": "Pranav Goel",
+          "source_url": "https://www.ey.com/en_in/entrepreneur-of-the-year/finalists-2025/pranav-goel-and-uttam-digga"
+        },
+        {
+          "name": "Uttam Digga",
+          "source_url": "https://www.ey.com/en_in/entrepreneur-of-the-year/finalists-2025/pranav-goel-and-uttam-digga"
+        },
+        {
+          "name": "Vikas Chaudhary",
+          "source_url": "https://www.mahindra.com/print/pdf/node/4334"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "plum",
+      "description": {
+        "text": "Employee health-insurance and healthcare-benefits platform for businesses.",
+        "source_url": "https://www.plumhq.com/about"
+      },
+      "founders": [
+        {
+          "name": "Abhishek Poddar",
+          "source_url": "https://www.plumhq.com/about"
+        },
+        {
+          "name": "Saurabh Arora",
+          "source_url": "https://www.plumhq.com/about"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "cloudphysician",
+      "description": {
+        "text": "Hospital-care technology supporting inpatient and intensive-care teams.",
+        "source_url": "https://www.cloudphysician.ai/about-us"
+      },
+      "founders": [
+        {
+          "name": "Dhruv Joshi",
+          "source_url": "https://www.cloudphysician.ai/about-us"
+        },
+        {
+          "name": "Dileep Raman",
+          "source_url": "https://www.cloudphysician.ai/about-us"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
+    },
+    {
+      "slug": "ninjacart",
+      "description": {
+        "text": "Technology-enabled agriculture supply-chain platform connecting producers and businesses.",
+        "source_url": "https://www.accel.com/companies/ninjacart"
+      },
+      "founders": [
+        {
+          "name": "Thirukumaran Nagarajan",
+          "source_url": "https://www.accel.com/companies/ninjacart"
+        },
+        {
+          "name": "Ashutosh Vikram",
+          "source_url": "https://www.accel.com/companies/ninjacart"
+        },
+        {
+          "name": "Kartheeswaran K K",
+          "source_url": "https://www.accel.com/companies/ninjacart"
+        },
+        {
+          "name": "Sharath Loganathan",
+          "source_url": "https://www.accel.com/companies/ninjacart"
+        },
+        {
+          "name": "Vasu Devan",
+          "source_url": "https://www.accel.com/companies/ninjacart"
+        }
+      ],
+      "founded_year": null,
+      "checked_on": "2026-11-26"
     }
   ]
 }

@@ -8,7 +8,7 @@ on:
       source:
         description: Source to refresh
         type: choice
-        options: [all, notion, news]
+        options: [all, notion, news, jobs]
         default: all
 permissions:
   contents: write
@@ -30,15 +30,20 @@ jobs:
       - name: Refresh Notion archive
         id: notion
         continue-on-error: true
-        if: github.event.schedule == '41 0 * * *' || (github.event_name == 'workflow_dispatch' && inputs.source != 'news')
+        if: github.event.schedule == '41 0 * * *' || (github.event_name == 'workflow_dispatch' && (inputs.source == 'all' || inputs.source == 'notion'))
         env:
           NOTION_REQUEST_INTERVAL_MS: '1800'
         run: npm run data:sync -- --refresh
       - name: Refresh publication headlines
         id: news
         continue-on-error: true
-        if: github.event.schedule == '23 */6 * * *' || (github.event_name == 'workflow_dispatch' && inputs.source != 'notion')
+        if: github.event.schedule == '23 */6 * * *' || (github.event_name == 'workflow_dispatch' && (inputs.source == 'all' || inputs.source == 'news'))
         run: npm run news:sync
+      - name: Refresh published employer jobs
+        id: jobs
+        continue-on-error: true
+        if: github.event.schedule == '41 0 * * *' || (github.event_name == 'workflow_dispatch' && (inputs.source == 'all' || inputs.source == 'jobs'))
+        run: npm run jobs:sync
       - name: Check source invariants and database behavior
         run: npm test
       - name: Verify deployable site
@@ -49,7 +54,7 @@ jobs:
         run: |
           git config user.name 'Anubhab Roy Chowdhury'
           git config user.email '64949713+anubhabrc@users.noreply.github.com'
-          git add data/bwm-archive.json data/bwm-import-report.json data/news.json
+          git add data/bwm-archive.json data/bwm-import-report.json data/news.json data/jobs.json
           if git diff --cached --quiet; then
             echo 'Source snapshots unchanged.'
             exit 0
@@ -63,12 +68,14 @@ jobs:
           import fs from 'node:fs';
           const archive=JSON.parse(fs.readFileSync('data/bwm-archive.json','utf8'));
           const news=JSON.parse(fs.readFileSync('data/news.json','utf8'));
+          const jobs=JSON.parse(fs.readFileSync('data/jobs.json','utf8'));
           console.log(`Notion: ${archive.companies.length} companies, retrieved ${archive.retrieved_at}.`);
           console.log(`RSS: ${news.items.length} retained headlines, snapshot ${news.updated_at}.`);
           for(const feed of news.feeds)console.log(`- ${feed.source_name}: ${feed.status}; checked ${feed.checked_at}; last success ${feed.last_success_at ?? 'never'}`);
+          for(const source of jobs.sources)console.log(`- Jobs ${source.company_slug}: ${source.status}; checked ${source.checked_at}; last success ${source.last_success_at ?? 'never'}; ${source.job_count} published postings`);
           NODE
       - name: Report any failed refresh
-        if: steps.notion.outcome == 'failure' || steps.news.outcome == 'failure'
+        if: steps.notion.outcome == 'failure' || steps.news.outcome == 'failure' || steps.jobs.outcome == 'failure'
         run: |
           echo 'A source refresh failed. Its previous snapshot was retained; other successful sources were published after validation.'
           exit 1

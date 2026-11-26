@@ -32,7 +32,7 @@ These are discovery and fact-checking sources, not grants of bulk redistribution
 | [Deloitte Technology Fast 50 India 2024](https://www.deloitte.com/in/en/Industries/tmt/about/techfast-50-india-2024-winners-report.html) | Dated growth-selected company discovery, including companies absent from recent funding feeds | The verified cohort is 2024, not a claimed latest 2026 list; inspect the report's period/methodology. |
 | Official company sites, investor relations and careers pages | Canonical identity, product, public founders, legal entity, offices, careers destination and official announcements | Company claims need attribution and dates; do not treat self-reported revenue or customers as audited. |
 
-MCA/DPIIT remain identity/recognition enrichment, not our admission list. Commercial databases, search snippets, LinkedIn, copied startup-map datasets and generic SEO lists are not authoritative bulk inputs. BWM and RSS remain valuable optional funding/news evidence. No new directory scraper is live yet.
+MCA/DPIIT remain identity/recognition enrichment, not our admission list. Commercial databases, search snippets, LinkedIn, copied startup-map datasets and generic SEO lists are not authoritative bulk inputs. BWM and RSS remain valuable optional funding/news evidence. Directory admissions are manually reviewed. No automatic investor-portfolio scraper is enabled. The jobs pilot uses employer-verified public listing APIs.
 
 ## Directory architecture
 
@@ -71,11 +71,11 @@ Proposed refreshes (not live schedules): jobs daily, stale after 72 hours withou
 
 ## Bounded delivery order
 
-1. **Completed — research/decisions:** scope, primary-source registry, admission rules, card/tag semantics and migration audit. Current batch is documentation/data policy, not a live broader catalog.
-2. **Next — catalog pilot:** review ten priority additions, starting with Razorpay, PhonePe, Zerodha, Zoho, Freshworks, Postman, BrowserStack, Swiggy, Unacademy and Whatfix. These are a proposed review list, not accepted entries. Confirm India operations for global firms. All ten names were checked by canonical slug and are absent from the current archive; aliases still require review before admission.
-3. **Catalog delivery:** decouple identity from rounds, wire profiles/search/map consistently, preserve existing funding evidence and regression-check no-funding/filter cases. Do not present source research as a shipped catalog.
-4. **Card delivery:** compact summary and source-backed chips, with expanded profile details. No redesign of map controls needed.
-5. **Jobs pilot:** two verified employer boards, then daily refresh/failure/staleness validation before enabling a schedule.
+1. **Completed — research/decisions:** scope, primary-source registry, admission rules, card/tag semantics and migration audit. D01 delivered policy; subsequent catalog implementation and release checks are tracked in the work ledger.
+2. **Catalog pilot — reviewed:** ten priority additions are Razorpay, PhonePe, Zerodha, Zoho, Freshworks, Postman, BrowserStack, Swiggy, Unacademy and Whatfix. All ten now have reviewed admissions, source evidence and India footprints in `data/company-directory.json`; global HQ fields remain separate. None requires a fabricated funding event.
+3. **Catalog delivery — implemented locally:** identity is decoupled from rounds; profiles/search/map share the catalog. Regression checks cover unknown funding and explicit funding filters. Deployment verification is tracked in the ledger.
+4. **Card delivery — implemented locally:** compact summaries, sourced chips, available linked news and jobs, with expanded profiles and source evidence.
+5. **Jobs pilot — locally checked:** Razorpay Greenhouse and PhonePe SmartRecruiters public postings. Daily workflow is configured; cloud validation is tracked in the ledger. Other employer adapters remain future work.
 6. **Broader admission/review tooling:** source adapters, aliases, candidate queue, correction workflow and additional filters. Continue Bengaluru office work in separate batches of at most three pending cases, saving results and the next handoff after each batch.
 
 Delivery tracking and the precise next action live in `docs/directory-status.md`. Existing stable roadmap IDs remain; new work uses R44–R47.
