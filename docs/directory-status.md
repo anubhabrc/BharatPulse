@@ -89,3 +89,8 @@ Next: River, SigTuple, Bounce, GnaniAI and Propelld remain held; resolve their s
 - [x] `e61c78c` pushed to main and received a [successful Vercel deployment](https://vercel.com/anubhabs-projects-acfa2d88/bharatpulse/ZepAx7XBjV9a7paDmEZNxXSD2CtE). Production browser verified first-character suggestions, running `headline-scroll` animation, absence of both old footer blocks, and the exact selected newsroom URL/highlight/focus. No new console errors during final navigation. Temporary QA server3001 stopped; existing3000 left alone.
 
 Data/evidence remain unchanged:92 sourced profiles,89 accepted offices,48 review and504 awaiting research across641 Bengaluru-footprint companies; historical funding archive and jobs/news schedules are untouched. The D05 pending office/profile/alias/taxonomy work remains open; D06 does not claim additional research.
+
+
+## D07 — automatic map appearance
+
+Released as `7ee51ec`: Night18:00–05:59 and neutral Streets06:00–17:59 in the viewer's local time. Initial creation chooses the matching style; minute/focus/visibility checks catch a boundary while open. Manual choices last until the next day/night boundary. This is a rough clock rule, not a sunset/geolocation estimate. All65 tests and production build/TypeScript passed; local browser checked automatic Night and manual Streets. Vercel deployment succeeded and live production independently selected Night. All company/location/source datasets and research queues remain unchanged.
