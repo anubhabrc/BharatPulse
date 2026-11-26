@@ -3,7 +3,9 @@ import {useEffect,useRef,useState,useTransition,type FormEvent} from 'react';
 import {useRouter} from 'next/navigation';
 import Link from 'next/link';
 import StartupMap from './startup-map';
-import NewsCarousel from './news-carousel';
+import NewsTicker from './news-ticker';
+import CompanySearch from './company-search';
+import type {SearchCompany} from '@/domain/company-search';
 import type {CompanyFilters,CompanyRow} from '@/domain/archive-queries';
 import type {MapCompany,StartupMapPayload} from '@/domain/startup-map';
 import type {NewsItem} from '@/domain/news';
@@ -12,25 +14,26 @@ import {compactUsd,displayDate,companyInitials,companyColor} from '@/domain/pres
 import {formatUsd} from '@/domain/money';
 import {Icon} from './icons';
 
-interface Props {companies:CompanyRow[];total:number;filters:CompanyFilters;options:{cities:string[];sectors:string[];stages:string[]};mapData:StartupMapPayload|null;headlines:NewsItem[];mode:string;error:string|null}
-export default function CompanyExplorer({companies,total,filters,options,mapData,headlines,mode,error}:Props) {
+interface Props {companies:CompanyRow[];total:number;filters:CompanyFilters;options:{cities:string[];sectors:string[];stages:string[]};mapData:StartupMapPayload|null;headlines:NewsItem[];searchCompanies:SearchCompany[];mode:string;error:string|null}
+export default function CompanyExplorer({companies,total,filters,options,mapData,headlines,searchCompanies,mode,error}:Props) {
   const router=useRouter(),[pending,startTransition]=useTransition();
   const [selected,setSelected]=useState<MapCompany|null>(null);
   const [locatedOnly,setLocatedOnly]=useState(Boolean(mapData)&&!filters.q&&!filters.tag);
   const officeLookup=new Map(mapData?.offices.map(company=>[company.slug,company])??[]);
   const officeRows=mapData?.offices.flatMap(company=>{const row=mapCompanyRow(company);return row?[row]:[];})??[];
   const visibleCompanies=locatedOnly&&mapData?officeRows:companies,visibleTotal=locatedOnly&&mapData?officeRows.length:total;
-  const list=useRef<HTMLDivElement>(null);
+  const list=useRef<HTMLDivElement>(null),form=useRef<HTMLFormElement>(null);
   const filterKey=JSON.stringify(filters);
   useEffect(()=>{setSelected(null);if(filters.q||filters.tag)setLocatedOnly(false);if(list.current)list.current.scrollTop=0;},[filterKey]);
   const params=(patch:Partial<CompanyFilters>)=>{const query=new URLSearchParams();for(const [key,value] of Object.entries({...filters,...patch}))if(value!==''||key==='city')query.set(key,String(value));return `/?${query}`;};
-  function submit(event:FormEvent<HTMLFormElement>){event.preventDefault();const query=new URLSearchParams();for(const [key,value] of new FormData(event.currentTarget))if(String(value).trim()||key==='city')query.set(key,String(value).trim());startTransition(()=>router.push(`/?${query}`,{scroll:false}));}
+  function search(form:HTMLFormElement,name?:string){const query=new URLSearchParams();for(const [key,value] of new FormData(form))if(String(value).trim()||key==='city')query.set(key,String(value).trim());if(name!==undefined){if(name)query.set('q',name);else query.delete('q');}startTransition(()=>router.push(`/?${query}`,{scroll:false}));}
+  function submit(event:FormEvent<HTMLFormElement>){event.preventDefault();search(event.currentTarget);}
   function explore(row:CompanyRow){const known=mapData?.offices.find(c=>c.slug===row.slug)??mapData?.featured.find(c=>c.slug===row.slug),hub=mapData?.hubs.find(h=>!!row.city&&h.reported_cities.includes(row.city));setSelected(known??{slug:row.slug,name:row.brand_name,city:row.city??'Location not reported',sector:row.sector,hub_id:hub?.id??'',founders:row.founders??[],description:row.description??null});}
   const advanced=!!(filters.stage||filters.from||filters.to||filters.tag);
   return <><main className="discovery-workspace">
     <section className="directory-panel" aria-label="Startup directory"><div className="directory-heading"><div><p className="eyebrow">BHARATPULSE CITY GUIDE <span>{filters.city==='Bengaluru'?'BLR / 2026':'INDIA / 2026'}</span></p><h1>{filters.city==='Bengaluru'?'Bengaluru, mapped.':'Discover startups.'}<span className="heading-star" aria-hidden="true">✳</span></h1><p>A field guide to the city’s builders.</p></div></div>
-      <form key={filterKey} onSubmit={submit} role="search" className="directory-filters">
-        <div className="search-box"><Icon name="search"/><label className="sr-only" htmlFor="q">Company name</label><input id="q" name="q" defaultValue={filters.q} placeholder="Search companies…" maxLength={200} autoComplete="off"/><button type="submit" className="search-submit" aria-label="Search companies"><Icon name="search" size={18}/></button></div>
+      <form key={filterKey} ref={form} onSubmit={submit} role="search" className="directory-filters">
+        <CompanySearch companies={searchCompanies} initialQuery={filters.q} onChoose={name=>{if(form.current)search(form.current,name);}}/>
         <div className="primary-filters"><div><label htmlFor="city" title="Matches source-reported headquarters or a sourced public office">Location</label><select id="city" name="city" defaultValue={filters.city} onChange={event=>event.currentTarget.form?.requestSubmit()}><option value="">All cities</option>{options.cities.map(city=><option key={city}>{city}</option>)}</select></div><div><label htmlFor="sector">Sector</label><select id="sector" name="sector" defaultValue={filters.sector} onChange={event=>event.currentTarget.form?.requestSubmit()}><option value="">All sectors</option>{options.sectors.map(sector=><option key={sector}>{sector}</option>)}</select></div></div>
         <details className="advanced-filters"><summary><Icon name="sliders" size={16}/> More filters{advanced&&<span className="filter-count">{[filters.stage,filters.from,filters.to,filters.tag].filter(Boolean).length}</span>}<Icon name="chevron" size={16}/></summary><div className="advanced-grid"><div className="wide-field"><label htmlFor="tag">Company signals</label><select id="tag" name="tag" defaultValue={filters.tag}><option value="">All company records</option><option value="profile">Reviewed company profiles</option><option value="bootstrapped">Bootstrapped · sourced</option><option value="careers">Careers link available</option></select></div><div className="wide-field"><label htmlFor="stage">Funding stage</label><select id="stage" name="stage" defaultValue={filters.stage}><option value="">All stages</option>{options.stages.map(stage=><option key={stage}>{stage}</option>)}</select></div><div><label htmlFor="from">Announced from</label><input id="from" name="from" type="date" defaultValue={filters.from}/></div><div><label htmlFor="to">Announced until</label><input id="to" name="to" type="date" defaultValue={filters.to}/></div><button type="submit" className="wide-field">Apply filters</button><p className="wide-field">Funding filters select companies with matching events. Missing history stays unknown.</p></div></details>
         <input type="hidden" name="sort" value={filters.sort}/>
@@ -56,6 +59,6 @@ export default function CompanyExplorer({companies,total,filters,options,mapData
     </section>
     <section className="atlas-panel" aria-label="Indian startup map">{mapData?<StartupMap data={mapData} selectedCompany={selected} onSelectCompany={company=>setSelected(mapData.offices.find(c=>c.slug===company.slug)??company)} onCloseCompany={()=>setSelected(null)}/>:<div className="map-boot"><Icon name="globe" size={40}/><h2>Map unavailable</h2><p>The company map is unavailable. The selected repository remains available in the directory.</p></div>}</section>
   </main>
-  <NewsCarousel items={headlines}/>
+  <NewsTicker items={headlines}/>
   </>;
 }

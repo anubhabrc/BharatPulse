@@ -12,6 +12,7 @@ import {sectorStyle} from '@/domain/map-presentation';
 import {formatUsd} from '@/domain/money';
 import {loadMapLibrary} from './map-resources';
 import {localBasemapRequest} from '@/domain/basemap';
+import {streetRoadColor} from '@/domain/map-palette';
 import {Icon} from './icons';
 import 'maplibre-gl/dist/maplibre-gl.css';
 
@@ -71,6 +72,7 @@ export default function StartupMap({data,selectedCompany,onSelectCompany,onClose
         if(disposed||!instance)return;
         // Keep roads, parks, water, POIs and building detail from the actual basemap.
         const dark=styleRef.current==='dark';
+        if(styleRef.current==='streets')for(const layer of instance.getStyle().layers){const color=layer.type==='line'?streetRoadColor(layer.id):null;if(color)instance.setPaintProperty(layer.id,'line-color',color);}
         if(dark)for(const layer of instance.getStyle().layers){
           if(layer.type==='background')instance.setPaintProperty(layer.id,'background-color','#111827');
           if(layer.type==='fill')instance.setPaintProperty(layer.id,'fill-color',layer.id==='water'?'#182e4b':/park|wood/.test(layer.id)?'#183631':layer.id==='building'?'#26344b':'#172236');
