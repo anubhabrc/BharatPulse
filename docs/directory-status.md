@@ -1,6 +1,6 @@
 # Directory expansion — work ledger
 
-Updated 26 November 2026. **D05 is deployed as `ac9de7e`. D06 UX changes are locally validated and awaiting deployment verification; see the final section. Earlier release details are historical.** Released: implementation `a3f1c0a` and cloud-refreshed jobs snapshot `aac0713` both received successful Vercel deployments. Earlier baseline `530d7ca` remains in Git history. Automated source updates `c7bc7f9` and `cd465c8` were preserved during rebase.
+Updated 26 November 2026. **D06 UX is deployed as `e61c78c`; D05 data/research remains deployed as part of that release. See the final section for validation; earlier release details are historical.** Released: implementation `a3f1c0a` and cloud-refreshed jobs snapshot `aac0713` both received successful Vercel deployments. Earlier baseline `530d7ca` remains in Git history. Automated source updates `c7bc7f9` and `cd465c8` were preserved during rebase.
 
 ## Current state
 
@@ -86,6 +86,6 @@ Next: River, SigTuple, Bounce, GnaniAI and Propelld remain held; resolve their s
 - [x] Search suggestions appear from the first typed character using a local name/slug/source-alias index for the current non-search filter cohort. Includes prefix ranking, mouse/touch selection, arrow keys, Enter, Escape, clear search and no-match guidance. Normal Enter still submits a free-text search; typing makes no network request.
 - [x] Neutral white/slate roads on Streets, including bridges and tunnels. Reapply when switching back from another style. Retain detail, rails, water, labels, attribution, accuracy and original coordinates.
 - [x] All64 tests, full production build/TypeScript and1280/390px production-mode browser QA passed. Verified ticker movement, pause, keyboard links, exact selected-story destination/highlight/focus, instant suggestions and navigation, clear/empty/Escape, style switching and no horizontal overflow. Fixed a queued ResizeObserver callback after ticker unmount; final navigation checks produced no new console errors. Screenshots are in this chat's outputs (`bharatpulse-d06.png`, `bharatpulse-d06-mobile.png`).
-- [ ] Push and verify Vercel deployment.
+- [x] `e61c78c` pushed to main and received a [successful Vercel deployment](https://vercel.com/anubhabs-projects-acfa2d88/bharatpulse/ZepAx7XBjV9a7paDmEZNxXSD2CtE). Production browser verified first-character suggestions, running `headline-scroll` animation, absence of both old footer blocks, and the exact selected newsroom URL/highlight/focus. No new console errors during final navigation. Temporary QA server3001 stopped; existing3000 left alone.
 
 Data/evidence remain unchanged:92 sourced profiles,89 accepted offices,48 review and504 awaiting research across641 Bengaluru-footprint companies; historical funding archive and jobs/news schedules are untouched. The D05 pending office/profile/alias/taxonomy work remains open; D06 does not claim additional research.

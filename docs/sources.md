@@ -107,3 +107,5 @@ Photon's [published demo policy](https://photon.komoot.io/) was rechecked. Initi
 ## D06 delivery-only UX changes
 
 The headline ribbon links internally to the exact newsroom item; only existing feed headline/link metadata is shown and original reporting remains on publisher sites. Search suggestions use existing catalog identities and source-reported aliases within current filters; this is not an alias-merge review or new admission. Map paint changes replace warm road colours with neutral white/slate, including road layers on bridges/tunnels, without changing tile geometry, location evidence, attribution, provider or refresh ownership. No company/office/funding/job/news snapshot was edited in this UX revision.
+
+D06 implementation `e61c78c` deployed successfully. All64 tests, TypeScript, production build and1280/390px production-mode checks passed. Live production independently confirmed instant suggestions, continuous headline motion, removed footer blocks and exact highlighted newsroom navigation, without new console errors. Data/schedules remain unchanged.
