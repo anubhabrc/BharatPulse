@@ -46,7 +46,7 @@ The completed UI release does not mark these data tasks complete. All intermedia
 - [x] HomeLane: recheck [official terms](https://www.homelane.com/homelane-terms-conditions) for the same registered-office building; named-place Photon query returns no features. Keep pending, with updated reason/date; do not substitute a retail showroom.
 - [x] Zolve: recheck official policy and business correspondence address; named-place Photon query returns no features. Keep pending, with updated reason/date; do not substitute the wider Ecoworld area.
 - [x] Validate locally: all 47 tests, TypeScript and production build passed. Browser check confirmed Stellapps selection, address/location sources, campus accuracy and the 55-office coverage count.
-- [ ] Commit, push and confirm deployment for this batch.
+- [x] Commit, push and confirm deployment: implementation `51e500f` pushed to main; Vercel reported success ([deployment](https://vercel.com/anubhabs-projects-acfa2d88/bharatpulse/73y7qbC8rgpZC9GdUoD7tGWW8zNc)).
 
 Current inventory: **55 accepted / 36 need review / 541 not yet researched = 632**. Existing historical entries above describe earlier releases, not current counts. B01 examined only three pending cases. Next bounded office batch: Rupeek, GPS Renewables and CoreEL; use cached sources first, retain unresolved outcomes explicitly, and stop after those three. Directory work resumes from `docs/directory-status.md` rather than repeating source discovery.
 
