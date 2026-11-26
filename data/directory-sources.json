@@ -134,7 +134,7 @@
         "job_url",
         "updated_at"
       ],
-      "limits": "Employer board token must be verified through official careers page. GET listings only; no application submission. Security/rate limits apply. Razorpay employer-linked board verified; local pilot fetched26 published postings. Schedule not yet cloud-verified at this checkpoint."
+      "limits": "Employer board token must be verified through official careers page. GET listings only; no application submission. Security/rate limits apply. Razorpay employer-linked board verified; local pilot fetched26 published postings. Daily workflow active; jobs-only cloud run45788622377 passed both employer sources,55 tests and the build."
     },
     {
       "id": "lever-postings",

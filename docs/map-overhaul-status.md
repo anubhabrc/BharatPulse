@@ -2,7 +2,7 @@
 
 Resumed 26 November 2026 after the previous run stopped at its usage limit. This ledger distinguishes saved research, local implementation and deployed behavior.
 
-## Already deployed
+## Original resumption baseline (already deployed then)
 
 - [x] Original directory/map neo-brutalist workspace.
 - [x] Eight source-checked Bengaluru office records, source links and accuracy labels. Last deployed implementation: `6e74e89`.
@@ -34,8 +34,8 @@ Recovery audit: 15 additional partially researched business-address leads were r
 
 ## Still unfinished
 
-- [ ] Resolve the 36 remaining flagged address/coordinate cases (after B01 below), starting with cached primary sources.
-- [ ] Research the remaining 541 company records; a directory lead is not an accepted office.
+- [ ] Resolve the 37 remaining flagged address/coordinate cases (after D02 below), starting with cached primary sources.
+- [ ] Research the remaining 544 company office records; a directory lead is not an accepted office.
 - [ ] Complete the broader R19 correction/review workflow and R20 company/founder enrichment.
 
 The completed UI release does not mark these data tasks complete. All intermediate source caches, proposed records, the original recording and extracted frames remain in the chat working directory.
@@ -52,8 +52,12 @@ Current inventory: **55 accepted / 36 need review / 541 not yet researched = 632
 
 B01 evidence recovery: the earlier [Stellapps filing candidate](https://www.stellapps.com/wp-content/uploads/2026/01/Form-MGT-7_of-Stellapps_FY-2024-25.pdf) and its rejected coordinate remain in Git history; acceptance now uses the readable official contact-page address and independent OSM campus. Known separate UI follow-up: some RSS headlines still display double-escaped punctuation (for example `&#8217;`); this was not changed in the office/source-policy batch.
 
-## Active D02 office checkpoint — not deployed
+## D02 office checkpoint before deployment
 
 Five local additions bring accepted points to 60: Razorpay SJR Cyber campus, PhonePe Salarpuria Softzone campus, Zerodha numbered office building, Swiggy current Sumadhura Capitol campus and Unacademy Maruti Info-Tech campus. Whatfix is pending because 1090E is not mapped 1090/F. Inventory now 641 records after adding nine reviewed directory companies with Bengaluru footprints (60 accepted,37 need review,544 await research). Existing GPS/CoreEL/Rupeek batch produced no accepted locations; its improved reasons still need merging. All 51 tests and TypeScript passed; build/browser/deployment remain unchecked for this release. See directory ledger for exact remaining steps.
 
 Final local D02/D03 check: all55 tests, TypeScript and build passed after merging25 sourced company profiles. Production-mode browser verified new overview/jobs/no-funding cases and390px layout. Unresolved companies remain discoverable without fabricated pins. Duplicate office evidence is omitted from hub/featured samples and resolved through the accepted office index on selection. Current runtime map payload is107,261 bytes for Bengaluru and151,012 bytes nationally (uncompressed). Publication/cloud verification remains pending at this checkpoint.
+
+## D02/D03 release verified
+
+Implementation `a3f1c0a` deployed successfully. Jobs-only [cloud run](https://github.com/anubhabrc/BharatPulse/actions/runs/45788622377) passed both employer refreshes, all55 tests and the build; its snapshot `aac0713` also deployed successfully. The current directory has641 Bengaluru-footprint records and60 accepted office points, with25 sourced company profiles nationally. Remaining location work:37 unresolved and544 not yet researched. B05 targets Capillary Technologies, MoveInSync and Ultrahuman, at most three cases before saving another handoff. The broader directory ledger is authoritative for the next catalog/filter work.

@@ -73,9 +73,9 @@ Proposed refreshes (not live schedules): jobs daily, stale after 72 hours withou
 
 1. **Completed — research/decisions:** scope, primary-source registry, admission rules, card/tag semantics and migration audit. D01 delivered policy; subsequent catalog implementation and release checks are tracked in the work ledger.
 2. **Catalog pilot — reviewed:** ten priority additions are Razorpay, PhonePe, Zerodha, Zoho, Freshworks, Postman, BrowserStack, Swiggy, Unacademy and Whatfix. All ten now have reviewed admissions, source evidence and India footprints in `data/company-directory.json`; global HQ fields remain separate. None requires a fabricated funding event.
-3. **Catalog delivery — implemented locally:** identity is decoupled from rounds; profiles/search/map share the catalog. Regression checks cover unknown funding and explicit funding filters. Deployment verification is tracked in the ledger.
-4. **Card delivery — implemented locally:** compact summaries, sourced chips, available linked news and jobs, with expanded profiles and source evidence.
-5. **Jobs pilot — locally checked:** Razorpay Greenhouse and PhonePe SmartRecruiters public postings. Daily workflow is configured; cloud validation is tracked in the ledger. Other employer adapters remain future work.
+3. **Catalog delivery — shipped:** identity is decoupled from rounds; profiles/search/map share the catalog. Regression checks cover unknown funding and explicit funding filters. Deployment verification is tracked in the ledger.
+4. **Card delivery — shipped:** compact summaries, sourced chips, available linked news and jobs, with expanded profiles and source evidence.
+5. **Jobs pilot — cloud-verified:** Razorpay Greenhouse and PhonePe SmartRecruiters public postings. Daily workflow is active and a successful cloud run is recorded in the ledger. Other employer adapters remain future work.
 6. **Broader admission/review tooling:** source adapters, aliases, candidate queue, correction workflow and additional filters. Continue Bengaluru office work in separate batches of at most three pending cases, saving results and the next handoff after each batch.
 
 Delivery tracking and the precise next action live in `docs/directory-status.md`. Existing stable roadmap IDs remain; new work uses R44–R47.
