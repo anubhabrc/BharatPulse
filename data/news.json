@@ -1,8 +1,20 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-27T08:46:18.876Z",
+  "updated_at": "2026-11-27T21:27:25.166Z",
   "retention_days": 90,
   "items": [
+    {
+      "id": "c4edf10e6433ed2ab61db447",
+      "title": "Rapido’s Ownly To Charge Customers For Deliveries Soon",
+      "url": "https://inc42.com/buzz/rapidos-ownly-to-charge-customers-for-deliveries-soon/",
+      "published_at": "2026-11-27T15:26:19.000Z",
+      "source_id": "inc42",
+      "source_name": "Inc42",
+      "company_slugs": [
+        "rapido"
+      ],
+      "tags": []
+    },
     {
       "id": "76f69942cedc317addfe2c59",
       "title": "Swiggy sets margin target for Toing in budget food-delivery race",
@@ -14,6 +26,128 @@
         "swiggy"
       ],
       "tags": []
+    },
+    {
+      "id": "04b8d2935825a5eed8408686",
+      "title": "[Weekly funding roundup Nov 21-27] VC inflow dips on modest deal activity",
+      "url": "https://yourstory.com/2026/11/weekly-funding-roundup-nov-21-27-vc-inflow-dips-on-modest-deal-activity",
+      "published_at": "2026-11-27T13:40:22.000Z",
+      "source_id": "yourstory",
+      "source_name": "YourStory",
+      "company_slugs": [],
+      "tags": [
+        "funding"
+      ]
+    },
+    {
+      "id": "8a5f078835ee799460617211",
+      "title": "StockGro Signs MoU With Emirates NBD To Tap UAE’s Growing Investor Base",
+      "url": "https://inc42.com/buzz/stockgro-signs-mou-with-emirates-nbd-to-tap-uaes-growing-investor-base/",
+      "published_at": "2026-11-27T11:30:57.000Z",
+      "source_id": "inc42",
+      "source_name": "Inc42",
+      "company_slugs": [
+        "stockgro"
+      ],
+      "tags": []
+    },
+    {
+      "id": "6ab33894a9dd86ec441ff750",
+      "title": "Can Dreamteam Take On CRM Old Guards With Its Platoon Of AI Agents?",
+      "url": "https://inc42.com/startups/can-dreamteam-take-on-crm-old-guards-with-its-platoon-of-ai-agents/",
+      "published_at": "2026-11-27T11:11:29.000Z",
+      "source_id": "inc42",
+      "source_name": "Inc42",
+      "company_slugs": [
+        "dreamteam"
+      ],
+      "tags": []
+    },
+    {
+      "id": "f65a25462c0dcacfd655fc98",
+      "title": "Startup news and updates: daily roundup (November 27, 2026)",
+      "url": "https://yourstory.com/2026/11/startup-news-and-updates-daily-roundup-november-27-2026",
+      "published_at": "2026-11-27T11:04:52.000Z",
+      "source_id": "yourstory",
+      "source_name": "YourStory",
+      "company_slugs": [],
+      "tags": []
+    },
+    {
+      "id": "22c885bbca74957d4d579cd4",
+      "title": "FirstCry Halves Stake Sale To ₹150 Cr In Swara Baby IPO",
+      "url": "https://inc42.com/buzz/firstcry-halves-stake-sale-to-%e2%82%b9150-cr-in-swara-baby-ipo/",
+      "published_at": "2026-11-27T10:43:48.000Z",
+      "source_id": "inc42",
+      "source_name": "Inc42",
+      "company_slugs": [],
+      "tags": [
+        "ipo"
+      ]
+    },
+    {
+      "id": "43378b22f4c3c7aa96ac44f4",
+      "title": "Kabeer Biswas’ M Raises $9 Mn Led By RTP Global",
+      "url": "https://inc42.com/buzz/kabeer-biswas-m-raises-9-mn-led-by-rtp-global/",
+      "published_at": "2026-11-27T10:33:52.000Z",
+      "source_id": "inc42",
+      "source_name": "Inc42",
+      "company_slugs": [],
+      "tags": [
+        "funding"
+      ]
+    },
+    {
+      "id": "b64d14960f64384859a41476",
+      "title": "indē wild Slips Into Red In FY26 Despite 2.4X YoY Surge In Operating Revenue",
+      "url": "https://inc42.com/buzz/inde-wild-slips-into-red-in-fy26-despite-2-4x-yoy-surge-in-operating-revenue/",
+      "published_at": "2026-11-27T10:24:44.000Z",
+      "source_id": "inc42",
+      "source_name": "Inc42",
+      "company_slugs": [],
+      "tags": [
+        "financials"
+      ]
+    },
+    {
+      "id": "0d2544f0110ac9b101c07b7c",
+      "title": "Swiggy's Instamart to lay off 340 employees amid AI-led restructuring",
+      "url": "https://yourstory.com/2026/11/swiggy-instamart-let-go-over-300-employees-ai-led-restructuring-move",
+      "published_at": "2026-11-27T10:17:42.000Z",
+      "source_id": "yourstory",
+      "source_name": "YourStory",
+      "company_slugs": [
+        "swiggy"
+      ],
+      "tags": [
+        "workforce"
+      ]
+    },
+    {
+      "id": "38e8d09aacef56c5eebf85d6",
+      "title": "From Perplexity to Anthropic: Five Indian-origin tech leaders shaping the global AI industry",
+      "url": "https://yourstory.com/2026/11/perplexity-anthropic-five-indian-origin-tech-leaders-shaping-global-ai-industry",
+      "published_at": "2026-11-27T10:03:48.000Z",
+      "source_id": "yourstory",
+      "source_name": "YourStory",
+      "company_slugs": [
+        "origin"
+      ],
+      "tags": []
+    },
+    {
+      "id": "0e528c6487705a2f5b16e3f6",
+      "title": "Haleon In Talks To Acquire Controlling Stake In HealthKart At $1.4 Bn Valuation: Report",
+      "url": "https://inc42.com/buzz/haleon-in-talks-to-acquire-controlling-stake-in-healthkart-at-1-4-bn-valuation-report/",
+      "published_at": "2026-11-27T09:26:03.000Z",
+      "source_id": "inc42",
+      "source_name": "Inc42",
+      "company_slugs": [
+        "healthkart"
+      ],
+      "tags": [
+        "acquisition"
+      ]
     },
     {
       "id": "094fe69377afc473aca2a552",
@@ -1744,9 +1878,9 @@
       "source_name": "Inc42",
       "url": "https://inc42.com/feed/",
       "status": "ok",
-      "checked_at": "2026-11-27T08:46:18.876Z",
-      "last_success_at": "2026-11-27T08:46:18.876Z",
-      "latest_entry_at": "2026-11-27T07:21:56.000Z",
+      "checked_at": "2026-11-27T21:27:25.166Z",
+      "last_success_at": "2026-11-27T21:27:25.166Z",
+      "latest_entry_at": "2026-11-27T15:26:19.000Z",
       "item_count": 24,
       "error": null
     },
@@ -1755,9 +1889,9 @@
       "source_name": "Entrackr",
       "url": "https://entrackr.com/rss",
       "status": "ok",
-      "checked_at": "2026-11-27T08:46:18.876Z",
-      "last_success_at": "2026-11-27T08:46:18.876Z",
-      "latest_entry_at": "2026-11-27T08:30:37.000Z",
+      "checked_at": "2026-11-27T21:27:25.166Z",
+      "last_success_at": "2026-11-27T21:27:25.166Z",
+      "latest_entry_at": "2026-11-27T15:56:30.000Z",
       "item_count": 50,
       "error": null
     },
@@ -1766,9 +1900,9 @@
       "source_name": "YourStory",
       "url": "https://yourstory.com/feed",
       "status": "ok",
-      "checked_at": "2026-11-27T08:46:18.876Z",
-      "last_success_at": "2026-11-27T08:46:18.876Z",
-      "latest_entry_at": "2026-11-27T06:20:59.000Z",
+      "checked_at": "2026-11-27T21:27:25.166Z",
+      "last_success_at": "2026-11-27T21:27:25.166Z",
+      "latest_entry_at": "2026-11-27T13:40:22.000Z",
       "item_count": 20,
       "error": null
     },
@@ -1777,8 +1911,8 @@
       "source_name": "The Ken",
       "url": "https://the-ken.com/feed/",
       "status": "ok",
-      "checked_at": "2026-11-27T08:46:18.876Z",
-      "last_success_at": "2026-11-27T08:46:18.876Z",
+      "checked_at": "2026-11-27T21:27:25.166Z",
+      "last_success_at": "2026-11-27T21:27:25.166Z",
       "latest_entry_at": "2026-11-27T02:30:32.000Z",
       "item_count": 10,
       "error": null
@@ -1788,8 +1922,8 @@
       "source_name": "The Arc",
       "url": "https://www.thearcweb.com/rss.xml",
       "status": "ok",
-      "checked_at": "2026-11-27T08:46:18.876Z",
-      "last_success_at": "2026-11-27T08:46:18.876Z",
+      "checked_at": "2026-11-27T21:27:25.166Z",
+      "last_success_at": "2026-11-27T21:27:25.166Z",
       "latest_entry_at": "2026-11-27T14:11:00.000Z",
       "item_count": 50,
       "error": null
