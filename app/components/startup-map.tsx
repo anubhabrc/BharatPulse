@@ -66,7 +66,7 @@ export default function StartupMap({data,selectedCompany,onSelectCompany,onClose
       if(outer.current)instance.addControl(new gl.FullscreenControl({container:outer.current}),'top-right');
       instance.addControl(new gl.ScaleControl({maxWidth:100,unit:'metric'}),'bottom-right');
       const canvas=instance.getCanvas();canvas.setAttribute('aria-label','Startup map. Arrow keys pan; plus and minus zoom. Press question mark for all controls.');canvas.setAttribute('aria-describedby','map-keyboard-help');
-      const keys=(event:KeyboardEvent)=>{if(event.key==='Home'){event.preventDefault();startView(instance!,latest.current,true);}else if(event.key==='0'){event.preventDefault();instance!.easeTo({bearing:0,pitch:0,duration:duration(350)});}else if(event.key==='?'){event.preventDefault();setHelp(value=>!value);}};
+      const keys=(event:KeyboardEvent)=>{if(drawing.current)return;if(event.key==='Home'){event.preventDefault();startView(instance!,latest.current,true);}else if(event.key==='0'){event.preventDefault();instance!.easeTo({bearing:0,pitch:0,duration:duration(350)});}else if(event.key==='?'){event.preventDefault();setHelp(value=>!value);}};
       canvas.addEventListener('keydown',keys);removeKeys=()=>canvas.removeEventListener('keydown',keys);
       startView(instance,latest.current);lastFit.current=sourceKey(latest.current);
       const updateView=()=>{if(disposed||!instance)return;const n=latest.current.offices.filter(c=>c.office&&instance!.getBounds().contains([c.office.longitude,c.office.latitude])).length;setView({zoom:Number(instance.getZoom().toFixed(1)),offices:n,street:instance.getZoom()>=9&&n>0});setTilted(instance.getPitch()>15);};
@@ -125,7 +125,7 @@ export default function StartupMap({data,selectedCompany,onSelectCompany,onClose
         callbacks.current.onCloseCompany();setPlace([]);const located=latest.current.offices.filter(c=>c.hub_id===city.id);if(located.length){setHub(null);fitOffices(instance,located);}else setHub(city);
       });
       // Manual choices last until the next day/night boundary.
-      const syncClock=()=>{const next=automaticBasemap();if(disposed||!instance||next===clockStyle)return;clockStyle=next;styleRef.current=next;setBasemap(next);instance.setMaxZoom(19);instance.setMaxPitch(60);setReady(false);setLoaded(false);instance.setStyle(STYLES[next].url,{diff:false});};
+      const syncClock=()=>{const next=automaticBasemap();if(disposed||!instance||drawing.current||next===clockStyle)return;clockStyle=next;styleRef.current=next;setBasemap(next);instance.setMaxZoom(19);instance.setMaxPitch(60);setReady(false);setLoaded(false);instance.setStyle(STYLES[next].url,{diff:false});};
       const timer=setInterval(syncClock,60000);document.addEventListener('visibilitychange',syncClock);window.addEventListener('focus',syncClock);
       removeClock=()=>{clearInterval(timer);document.removeEventListener('visibilitychange',syncClock);window.removeEventListener('focus',syncClock);};
     }).catch(()=>{if(!disposed)setError('The interactive map could not start. Company profiles remain available in the directory.');});

@@ -2370,10 +2370,57 @@ footer p {
 .area-panel-body li a{font-size:14px;text-decoration:underline;text-underline-offset:2px}.area-panel-body li small{display:block;font-size:12px;color:#605b6c;margin-top:4px}
 .area-panel-body .area-sectors li{display:flex;justify-content:space-between;gap:12px;font-size:13px;padding:5px 0}
 .area-coverage{margin-top:18px;border-top:1px solid #d5d0dd;padding-top:10px}.area-panel-body summary{cursor:pointer;font-size:13px}
-.area-panel.is-drawing{bottom:auto}.area-drawing-hint{padding:0 14px 12px;font-size:14px}.area-drawing-hint button{font-size:12px;padding:5px 8px;background:white;box-shadow:none}
 @media(max-width:760px){.area-launch{top:81px;left:12px;padding:4px 7px;font-size:12px}.area-panel{right:55px;top:76px;bottom:112px;width:calc(100% - 67px);box-shadow:2px 2px 0 var(--ink)}.area-panel-heading{padding:7px 10px}.area-panel-heading h2{font-size:16px}.area-selection-tools{padding:7px 10px;gap:5px}.area-selection-tools button{font-size:12px;padding:4px 7px}.area-panel-body{padding-inline:10px}.area-metrics{gap:5px}.area-metrics>div{padding:6px}.area-metrics dd{font-size:20px}.satellite-vintage{font-size:11px;gap:4px;padding:4px 6px}.satellite-vintage button{font-size:11px}}
 
 .clear-area-link{background:none;border:0;box-shadow:none;padding:0;font-size:12px;text-decoration:underline}
 
-.area-panel.is-drawing .area-drawing-hint{display:flex;align-items:center;justify-content:space-between;gap:10px;padding-top:10px}.area-panel.is-drawing .area-drawing-hint p{margin:0}
-@media(max-width:760px){.area-panel{bottom:24px}.area-panel.is-drawing{right:12px;top:76px;width:calc(100% - 24px);bottom:auto}.atlas-v2:has(.area-panel) .atlas-map-styles,.atlas-v2:has(.area-panel) .atlas-status,.atlas-v2:has(.area-panel) .satellite-vintage{visibility:hidden}}
+@media(max-width:760px){.area-panel{bottom:24px}.atlas-v2:has(.area-panel) .atlas-map-styles,.atlas-v2:has(.area-panel) .atlas-status,.atlas-v2:has(.area-panel) .satellite-vintage{visibility:hidden}}
+
+/* Focused drawing: one map, one gesture, no competing controls. */
+.startup-atlas[data-drawing-active="true"]{position:fixed;inset:0;width:100vw;height:100dvh;z-index:1000;border:0;isolation:isolate;background:#edf0ea}
+.startup-atlas[data-drawing-active="true"] .map-canvas{animation:draw-map-reveal .24s ease-out both}
+.startup-atlas[data-drawing-active="true"] :is(.atlas-toolbar,.atlas-action-stack,.atlas-map-styles,.atlas-status,.atlas-zoom-readout,.area-launch,.area-panel,.satellite-vintage,.map-hover-card,.map-inspector,.map-keyboard-panel,.maplibregl-ctrl-top-right){opacity:0;visibility:hidden;pointer-events:none}
+.startup-atlas[data-drawing-active="true"] .maplibregl-ctrl-bottom-right{z-index:11}
+body:has(.startup-atlas[data-drawing-active="true"]) :is(.site-header,.ecosystem-strip,.directory-panel,.news-ticker){filter:blur(5px);opacity:.35;pointer-events:none}
+.draw-workspace{position:absolute;inset:0;z-index:10;overflow:hidden;font-family:inherit}
+.map-draw-surface{position:absolute;inset:0;width:100%;height:100%;touch-action:none;user-select:none;-webkit-user-select:none;cursor:crosshair;outline:none}
+.draw-live-fill{fill:#9871cc;fill-opacity:.18;fill-rule:evenodd;transition:fill-opacity .2s ease}
+.draw-live-line{fill:none;stroke:#4b316b;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 0 1px #fff)}
+.draw-live-line.has-error{stroke:#b24455;stroke-dasharray:6 5}
+.draw-start-point{fill:#fff;stroke:#65458d;stroke-width:2;transition:r .2s ease}
+.draw-tip{fill:#fff;stroke:#4b316b;stroke-width:2;filter:drop-shadow(0 2px 5px #2e174c66)}
+.draw-topbar{position:absolute;top:max(20px,calc(env(safe-area-inset-top) + 14px));left:22px;right:22px;display:flex;align-items:flex-start;justify-content:space-between;gap:16px;pointer-events:none;animation:draw-controls-in .24s cubic-bezier(.2,.8,.2,1) both;transition:opacity .18s ease,transform .18s ease}
+.draw-title-chip{display:flex;align-items:center;gap:10px;padding:12px 15px;border:1px solid #ffffffb3;border-radius:18px;background:#fffffff2;box-shadow:0 6px 30px #20212718;backdrop-filter:blur(16px);max-width:calc(100% - 62px);transition:opacity .18s ease}
+.draw-title-chip>svg{color:#76539e;flex-shrink:0}.draw-title-chip strong{display:block;font-size:15px;color:#292330;line-height:1.4}.draw-title-chip span{display:block;font-size:12px;color:#6d6575;margin-top:3px;line-height:1.4}
+.draw-workspace button{border:1px solid #d8d2e1;box-shadow:0 3px 16px #24212b13;background:#fffffff5;min-height:46px;touch-action:manipulation;color:#302738;transition:background-color .16s ease,box-shadow .18s ease,transform .18s cubic-bezier(.2,.8,.2,1),color .16s ease}
+.draw-workspace button:hover{transform:translateY(-1px);box-shadow:0 6px 20px #2e174c24;background:#fff}.draw-workspace button:active{transform:scale(.95);box-shadow:0 1px 5px #24212b16}
+.draw-cancel{pointer-events:auto;display:grid;place-items:center;width:46px;min-width:46px;border-radius:50%;padding:0!important;backdrop-filter:blur(16px)}
+.draw-bottom-controls{position:absolute;bottom:max(34px,calc(env(safe-area-inset-bottom) + 30px));left:16px;right:16px;display:flex;align-items:center;flex-direction:column;gap:12px;pointer-events:none;animation:draw-controls-in .26s cubic-bezier(.2,.8,.2,1) both;transition:opacity .18s ease,transform .18s ease}
+.draw-tool-picker{display:flex;gap:3px;padding:5px;border-radius:25px;background:#fffffff2;border:1px solid #fff;box-shadow:0 8px 35px #20212725;backdrop-filter:blur(16px);pointer-events:auto}
+.draw-tool-picker button{display:flex;align-items:center;justify-content:center;gap:7px;border:0;border-radius:21px;padding:10px 16px;background:transparent;box-shadow:none;font-size:13px;font-weight:600;min-width:88px}
+.draw-tool-picker button[aria-pressed="true"]{background:#e8dff4;color:#523477;box-shadow:0 2px 7px #6a459c14}
+.draw-review-actions{display:flex;gap:10px;pointer-events:auto;animation:draw-controls-in .2s ease both}
+.draw-review-actions button{display:flex;align-items:center;justify-content:center;gap:8px;border-radius:24px;padding:12px 23px;font-size:14px}.draw-review-actions .draw-apply{background:#31223e;color:white;min-width:160px;border-color:#31223e;box-shadow:0 6px 24px #31223e30}.draw-review-actions .draw-apply:hover{background:#493059}
+.draw-bottom-hint{font-size:12px;color:#38313f;background:#ffffffdc;padding:5px 11px;border-radius:12px;backdrop-filter:blur(8px);line-height:1.4}
+.draw-feedback{position:absolute;left:50%;transform:translateX(-50%);bottom:150px;width:max-content;max-width:calc(100% - 44px);padding:12px 17px;background:#fff3f3;color:#8d3042;border:1px solid #f0cbd1;border-radius:14px;box-shadow:0 6px 24px #3a203024;font-size:13px;line-height:1.5;text-align:center;animation:draw-feedback-in .2s ease both;pointer-events:none}
+.draw-workspace[data-dragging="true"] .draw-title-chip{opacity:.15}.draw-workspace[data-dragging="true"] .draw-bottom-controls{opacity:.15;pointer-events:none}.draw-workspace[data-dragging="true"] .draw-tool-picker{pointer-events:none}
+.draw-workspace[data-review="true"] .draw-live-fill{fill-opacity:.25}.draw-workspace[data-review="true"] .draw-live-line{animation:draw-outline-confirm .25s ease-out both}
+.draw-workspace[data-exiting="true"]{pointer-events:none}.draw-workspace[data-exiting="true"] :is(.draw-topbar,.draw-bottom-controls){opacity:0;transform:translateY(8px)}.draw-workspace[data-exiting="true"] .map-draw-surface{opacity:0;transition:opacity .18s ease}
+.draw-keyboard-view{position:absolute;bottom:0;left:50%;pointer-events:auto;border-radius:20px}
+.area-panel{animation:area-panel-in .24s cubic-bezier(.2,.8,.2,1) both}.area-panel-body{animation:area-content-in .18s ease-out both}.area-selection-tools button{display:flex;align-items:center;gap:6px;min-height:34px}
+:is(.directory-card,.directory-view-tabs button,.atlas-map-styles button,.map-tool,.area-launch,.search-suggestions li){transition:background-color .18s ease,border-color .18s ease,box-shadow .18s ease,transform .18s ease,color .18s ease}
+:is(.site-header a,.company-card-select,.inspector-office-details summary,.advanced-filters summary){transition:background-color .16s ease,color .16s ease,opacity .16s ease}
+@keyframes draw-map-reveal{from{opacity:.65}to{opacity:1}}
+@keyframes draw-controls-in{from{opacity:0;translate:0 8px}to{opacity:1;translate:0 0}}
+@keyframes draw-feedback-in{from{opacity:0;translate:0 5px}to{opacity:1;translate:0 0}}
+@keyframes draw-outline-confirm{from{stroke-width:4.5}to{stroke-width:3}}
+@keyframes area-panel-in{from{opacity:0;translate:0 10px}to{opacity:1;translate:0 0}}
+@keyframes area-content-in{from{opacity:0;translate:0 4px}to{opacity:1;translate:0 0}}
+@media(max-width:760px){.draw-topbar{left:16px;right:16px;gap:10px}.draw-title-chip{padding:11px 12px;border-radius:16px}.draw-title-chip strong{font-size:14px}.draw-title-chip span{font-size:12px}.draw-tool-picker button{padding:10px 13px;min-width:85px}.draw-workspace .draw-cancel{width:46px;min-width:46px}.draw-feedback{bottom:155px}}
+@media(prefers-reduced-motion:reduce){.draw-workspace *,.area-panel,.area-panel-body,.startup-atlas[data-drawing-active="true"] .map-canvas{animation:none!important;transition:none!important}}
+/* Hidden keyboard actions must not create scrollable overflow in the drawing canvas. */
+.draw-workspace{overflow:clip}
+.draw-keyboard-view{width:1px;height:1px;min-height:0!important;padding:0!important;clip-path:inset(50%);overflow:hidden;opacity:0;white-space:nowrap;transform:none}
+.draw-keyboard-view:focus-visible{width:auto;height:auto;min-height:46px!important;padding:10px 18px!important;clip-path:none;overflow:visible;opacity:1;bottom:108px;transform:translateX(-50%)}
+
+.draw-workspace[data-exiting="true"] *{pointer-events:none!important}

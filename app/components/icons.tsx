@@ -1,6 +1,9 @@
 import type {CSSProperties} from 'react';
-export type IconName='search'|'pin'|'sliders'|'close'|'plus'|'minus'|'expand'|'reset'|'layers'|'chevron'|'external'|'globe'|'list'|'bolt'|'news'|'check';
+export type IconName='search'|'pin'|'sliders'|'close'|'plus'|'minus'|'expand'|'reset'|'layers'|'chevron'|'external'|'globe'|'list'|'bolt'|'news'|'check'|'pen'|'circle'|'box';
 const paths:Record<IconName,React.ReactNode>={
+  pen:<><path d="m15 4 5 5M4 20l5-1L21 7a2 2 0 0 0-5-5L4 14l-1 7Z"/></>,
+  circle:<circle cx="12" cy="12" r="8"/>,
+  box:<rect x="4" y="4" width="16" height="16" rx="2"/>,
   search:<><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></>,
   pin:<><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 0 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></>,
   sliders:<><path d="M4 7h16M4 17h16"/><rect x="7" y="4" width="4" height="6" rx="1"/><rect x="14" y="14" width="4" height="6" rx="1"/></>,

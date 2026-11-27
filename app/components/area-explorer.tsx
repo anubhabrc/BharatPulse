@@ -1,19 +1,22 @@
 'use client';
 import {useEffect,useRef,useState} from 'react';
 import Link from 'next/link';
-import type {Map as GLMap,GeoJSONSource,MapMouseEvent} from 'maplibre-gl';
+import type {Map as GLMap,GeoJSONSource} from 'maplibre-gl';
 import type {CompanyFilters} from '@/domain/archive-queries';
 import type {AreaSummary} from '@/domain/area-summary';
-import {boxSelection,distanceMeters,selectionPolygon,selectionSchema,type AreaSelection,type Position} from '@/domain/area-geometry';
+import {boxSelection,selectionPolygon,selectionSchema,type AreaSelection} from '@/domain/area-geometry';
+import type {DrawTool} from '@/domain/map-drawing';
+import MapDrawing from './map-drawing';
+import {Icon} from './icons';
 import {compactUsd,displayDate} from '@/domain/presentation';
 import {formatUsd} from '@/domain/money';
 import {newsStoryHref} from '@/domain/news-navigation';
 
 interface Props {resetToken:number;instance:GLMap|null;filters:CompanyFilters;obscured:boolean;onOpen:()=>void;onDrawing:(drawing:boolean)=>void;onSummary:(summary:AreaSummary|null)=>void}
 export default function AreaExplorer({resetToken,instance,filters,obscured,onOpen,onDrawing,onSummary}:Props){
-  const [open,setOpen]=useState(false),[mode,setMode]=useState<'circle'|'box'|null>(null),[anchored,setAnchored]=useState(false);
+  const [open,setOpen]=useState(false),[mode,setMode]=useState<DrawTool|null>(null);
   const [selection,setSelection]=useState<AreaSelection|null>(null),[summary,setSummary]=useState<AreaSummary|null>(null),[busy,setBusy]=useState(false),[error,setError]=useState('');
-  const anchor=useRef<Position|null>(null),selectionRef=useRef(selection);selectionRef.current=selection;
+  const selectionRef=useRef(selection);selectionRef.current=selection;
   const callbacks=useRef({onOpen,onDrawing,onSummary});callbacks.current={onOpen,onDrawing,onSummary};
   const filterKey=JSON.stringify(filters);
   function paint(shape:AreaSelection|null,map=instance){
@@ -40,35 +43,24 @@ export default function AreaExplorer({resetToken,instance,filters,obscured,onOpe
       .finally(()=>{if(!controller.signal.aborted)setBusy(false);});
     return()=>controller.abort();
   },[selection,filterKey]);
-  useEffect(()=>{
-    callbacks.current.onDrawing(Boolean(mode));
-    if(!instance||!mode)return()=>callbacks.current.onDrawing(false);
-    const doubleClick=instance.doubleClickZoom.isEnabled();instance.doubleClickZoom.disable();instance.getCanvas().style.cursor='crosshair';
-    const shape=(p:Position):AreaSelection=>mode==='circle'?{type:'Circle',center:anchor.current!,radius_m:distanceMeters(anchor.current!,p)}:boxSelection(anchor.current!,p);
-    const click=(event:MapMouseEvent)=>{
-      const p:Position=[event.lngLat.lng,event.lngLat.lat];
-      if(!anchor.current){anchor.current=p;setAnchored(true);return;}
-      const parsed=selectionSchema.safeParse(shape(p));
-      if(!parsed.success){setError('Choose a non-empty box or a circle with a radius of 25 m–100 km.');return;}
-      setSelection(parsed.data);anchor.current=null;setAnchored(false);setMode(null);setError('');
-    };
-    const move=(event:MapMouseEvent)=>{if(anchor.current)paint(shape([event.lngLat.lng,event.lngLat.lat]),instance);};
-    const cancel=(event:KeyboardEvent)=>{if(event.key==='Escape'){setMode(null);anchor.current=null;setAnchored(false);paint(selectionRef.current,instance);}};
-    instance.on('click',click);instance.on('mousemove',move);document.addEventListener('keydown',cancel);
-    return()=>{callbacks.current.onDrawing(false);instance.off('click',click);instance.off('mousemove',move);document.removeEventListener('keydown',cancel);if(doubleClick)instance.doubleClickZoom.enable();instance.getCanvas().style.cursor='';};
-  },[mode,instance]);
-  useEffect(()=>{if(resetToken){setMode(null);anchor.current=null;setAnchored(false);setSelection(null);setSummary(null);setOpen(false);callbacks.current.onSummary(null);}},[resetToken]);
-  function cancel(){setMode(null);anchor.current=null;setAnchored(false);paint(selection);setError('');}
-  function begin(next:'circle'|'box'){cancel();callbacks.current.onOpen();setMode(next);setOpen(true);}
+  useEffect(()=>{callbacks.current.onDrawing(Boolean(mode));paint(mode?null:selection);return()=>callbacks.current.onDrawing(false);},[mode,selection,instance]);
+  useEffect(()=>{if(resetToken){setMode(null);setSelection(null);setSummary(null);setOpen(false);callbacks.current.onSummary(null);}},[resetToken]);
+  function cancel(){setMode(null);paint(selection);setError('');}
+  function begin(next:DrawTool){callbacks.current.onOpen();setMode(next);setError('');setOpen(false);}
+  function apply(shape:AreaSelection){
+    setSelection(shape);setMode(null);setOpen(true);
+    requestAnimationFrame(()=>{if(!instance)return;instance.resize();const ring=selectionPolygon(shape).coordinates[0];instance.fitBounds([Math.min(...ring.map(p=>p[0])),Math.min(...ring.map(p=>p[1])),Math.max(...ring.map(p=>p[0])),Math.max(...ring.map(p=>p[1]))],{padding:{top:90,bottom:110,left:35,right:instance.getContainer().clientWidth>650?365:35},maxZoom:Math.min(instance.getMaxZoom(),15),duration:window.matchMedia('(prefers-reduced-motion: reduce)').matches?0:500});});
+  }
   function clear(){cancel();setSelection(null);setSummary(null);callbacks.current.onSummary(null);}
   function viewport(){if(!instance)return;cancel();const b=instance.getBounds(),parsed=selectionSchema.safeParse(boxSelection([b.getWest(),b.getSouth()],[b.getEast(),b.getNorth()]));if(parsed.success)setSelection(parsed.data);else setError('Zoom in to select a smaller map area.');}
   return <>
-    <button className={`area-launch${selection?' is-active':''}`} aria-label="Area stats" aria-expanded={open&&!obscured} onClick={()=>{callbacks.current.onOpen();setOpen(!open||obscured);}} disabled={!instance}>◎ <span>Area stats</span></button>
-    {open&&!obscured&&<section className={`area-panel${mode?' is-drawing':''}`} aria-label="Selected area statistics">
-      <div className="area-panel-heading"><h2>{mode==='circle'?'Draw a circle':mode==='box'?'Draw a box':'Explore an area'}</h2><button aria-label="Close area stats" onClick={()=>{cancel();setOpen(false);}}>×</button></div>
-      {!mode&&<div className="area-selection-tools" role="group" aria-label="Select map area"><button disabled={!instance} aria-pressed={mode==='circle'} onClick={()=>begin('circle')}>Circle</button><button disabled={!instance} aria-pressed={mode==='box'} onClick={()=>begin('box')}>Box</button><button disabled={!instance} onClick={viewport}>Map view</button>{selection&&<button onClick={clear}>Clear</button>}</div>}
-      {mode?<div className="area-drawing-hint" role="status"><p>{mode==='circle'?(anchored?'Click the circle edge.':'Click the circle centre.'):(anchored?'Click the opposite corner.':'Click the first box corner.')}</p><button onClick={cancel}>Cancel drawing</button></div>:<div className="area-panel-body">
-        {!selection&&<p>Draw a circle or box, or use the current map view. Stats follow the company filters and sourced office points.</p>}
+    <button className={`area-launch${selection?' is-active':''}`} aria-label={selection?'Area stats':'Draw area'} aria-haspopup={!selection?'dialog':undefined} aria-expanded={Boolean(mode)||open&&!obscured} onClick={()=>{if(!selection){begin('freehand');return;}callbacks.current.onOpen();setOpen(!open||obscured);}} disabled={!instance}><Icon name={selection?'circle':'pen'} size={16}/><span>{selection?'Area stats':'Draw area'}</span></button>
+    {mode&&instance&&<MapDrawing instance={instance} tool={mode} onTool={setMode} onCancel={cancel} onApply={apply}/>}
+    {open&&!obscured&&!mode&&<section className="area-panel" aria-label="Selected area statistics">
+      <div className="area-panel-heading"><h2>Explore an area</h2><button aria-label="Close area stats" onClick={()=>{cancel();setOpen(false);}}>×</button></div>
+      <div className="area-selection-tools" role="group" aria-label="Select map area"><button disabled={!instance} onClick={()=>begin('freehand')}><Icon name="pen" size={14}/>Redraw area</button><button disabled={!instance} onClick={viewport}>Map view</button>{selection&&<button onClick={clear}>Clear</button>}</div>
+      <div className="area-panel-body" key={summary?.generated_at??'pending'}>
+        {!selection&&<p>Draw a freehand area, circle or box, or use the current map view. Stats follow the company filters and sourced office points.</p>}
         {busy&&<p role="status">Calculating area stats…</p>}
         {error&&<p role="alert">{error}</p>}
         {summary&&<>
@@ -82,8 +74,7 @@ export default function AreaExplorer({resetToken,instance,filters,obscured,onOpe
           <h3>Rents</h3><p>Not connected yet.</p>
           <details className="area-coverage"><summary>Coverage & source dates</summary><p>{summary.coverage.located_companies} of {summary.coverage.eligible_companies} matching companies have sourced office points. {summary.coverage.unlocated_companies} cannot be placed in or outside this area.</p><p>Building/campus centres on the boundary count. Offices last checked {displayDate(summary.coverage.office_checked_to)}; this does not confirm present occupancy.</p><p>Funding snapshot: {displayDate(summary.coverage.funding_checked_at)}. Jobs: {displayDate(summary.coverage.jobs_checked_at)}. News: {displayDate(summary.coverage.news_checked_at)}.</p><Link href="/sources#area-statistics">Area data policy</Link></details>
         </>}
-      </div>}
-      {mode&&error&&<p role="alert" className="area-drawing-hint">{error}</p>}
+      </div>
     </section>}
   </>;
 }
