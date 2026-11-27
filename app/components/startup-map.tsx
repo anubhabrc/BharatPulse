@@ -51,10 +51,11 @@ export default function StartupMap({data,selectedCompany,onSelectCompany,onClose
   const selectedSlug=selectedCompany?.slug;
   useEffect(()=>{
     let disposed=false,instance:GLMap|undefined,observer:ResizeObserver|undefined,removeKeys:(()=>void)|undefined,removeClock:(()=>void)|undefined;
+    let clockStyle=automaticBasemap();styleRef.current=clockStyle;setBasemap(clockStyle);
     loadMapLibrary().then(gl=>{
       if(disposed||!container.current)return;
-      let clockStyle=automaticBasemap();styleRef.current=clockStyle;setBasemap(clockStyle);
-      instance=new gl.Map({container:container.current,style:STYLES[clockStyle].url,transformRequest:url=>({url:localBasemapRequest(url)}),center:[77.637,12.971],zoom:11.65,minZoom:3,maxZoom:19,maxPitch:60,cooperativeGestures:false,keyboard:true,dragPan:{linearity:.3,deceleration:2500,maxSpeed:1400},fadeDuration:180,pixelRatio:Math.min(window.devicePixelRatio,2),maxTileCacheZoomLevels:4,attributionControl:{compact:true}});
+      const currentClock=automaticBasemap();if(currentClock!==clockStyle){clockStyle=currentClock;styleRef.current=currentClock;setBasemap(currentClock);}
+      instance=new gl.Map({container:container.current,style:STYLES[styleRef.current].url,transformRequest:url=>({url:localBasemapRequest(url)}),center:[77.637,12.971],zoom:11.65,minZoom:3,maxZoom:19,maxPitch:60,cooperativeGestures:false,keyboard:true,dragPan:{linearity:.3,deceleration:2500,maxSpeed:1400},fadeDuration:180,pixelRatio:Math.min(window.devicePixelRatio,2),maxTileCacheZoomLevels:4,attributionControl:{compact:true}});
       map.current=instance;instance.scrollZoom.setWheelZoomRate(1/600);instance.scrollZoom.setZoomRate(1/110);
       instance.addControl(new gl.NavigationControl({showCompass:true,visualizePitch:true}),'top-right');
       if(outer.current)instance.addControl(new gl.FullscreenControl({container:outer.current}),'top-right');
