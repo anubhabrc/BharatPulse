@@ -2339,3 +2339,10 @@ footer p {
 @media(prefers-reduced-motion:reduce){.news-ticker-track{animation:none;transform:none}.news-ticker-group[aria-hidden="true"]{display:none}.news-ticker-window{overflow-x:auto}}
 
 .directory-founders{font-size:12px;line-height:1.4;margin:8px 0;color:#44414c}.directory-founders>span{color:#716b7d;margin-right:3px}
+
+/* Archived satellite imagery is a distinct, explicitly dated basemap. */
+.style-swatch.satellite{background-color:#314c36;background-image:linear-gradient(145deg,#47693e 25%,transparent 25%,transparent 60%,#66715a 60%),linear-gradient(35deg,#293f34 35%,#536b44 35%,#536b44 70%,#293f34 70%)}
+.atlas-map-styles{max-width:calc(100% - 74px);flex-wrap:wrap}
+.satellite-vintage{position:absolute;left:16px;bottom:145px;z-index:2;background:#fffefa;color:#24212b;border:1px solid #24212b;border-radius:3px;padding:5px 8px;font-size:12px;text-decoration:none;box-shadow:1px 1px 0 #24212b}
+.satellite-vintage:hover{text-decoration:underline}
+@media(max-width:760px){.satellite-vintage{left:12px;bottom:130px;font-size:12px}.atlas-map-styles{gap:1px}.atlas-map-styles button{padding-inline:4px}}

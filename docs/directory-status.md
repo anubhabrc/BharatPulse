@@ -94,3 +94,12 @@ Data/evidence remain unchanged:92 sourced profiles,89 accepted offices,48 review
 ## D07 — automatic map appearance
 
 Released as `7ee51ec`: Night18:00–05:59 and neutral Streets06:00–17:59 in the viewer's local time. Initial creation chooses the matching style; minute/focus/visibility checks catch a boundary while open. Manual choices last until the next day/night boundary. This is a rough clock rule, not a sunset/geolocation estimate. All65 tests and production build/TypeScript passed; local browser checked automatic Night and manual Streets. Vercel deployment succeeded and live production independently selected Night. All company/location/source datasets and research queues remain unchanged.
+
+
+## D08 — satellite view
+
+- [x] Add Satellite to the existing appearance control, with archived EOxCloudless2016 imagery and visible vintage/Not live label. Sources page and on-map provider/coordinate attribution disclose the separate evidence layers and limited street-level detail.
+- [x] Verified2016 CC BY4.0/public endpoint use with provider documentation and WMTS metadata; successful bounded tile fetch. Newer restricted EOX layers are not fetched. The researched ESA2021 endpoint failed and remains unintegrated.
+- [x] Local style and bounded cached JPEG gateway; valid native zoom0–14 and XYZ/row-column mapping tested. Preserve office selection, shared locations, original coordinates, Night/day clock rule and manual style controls.
+- [x] All67 tests, production build/TypeScript and1280/390px browser checks passed: imagery, office inspector, switching styles, date label, fitting controls, no horizontal overflow or new console errors.
+- [ ] Push and verify deployment. No data/research statuses or source schedules changed; original pending company/office cases remain pending.
