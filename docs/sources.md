@@ -134,3 +134,5 @@ D09 implementation `9f77b3a` deployed successfully. Live API and desktop/mobile 
 ## D10 interaction-only repair
 
 The supplied Hinge video informed continuous finger drawing, closure/review and compact controls. It was not a location/data source, and no recording content is published or ingested. The new gesture frontend reuses the D09 area selection/summary contract, original coordinate evidence and unknown-value semantics. Draft strokes do not trigger summary requests; explicit Use area commits them. Pointer input, visual transitions and focused drawing do not add office, funding, job or rental evidence. Physical-device testing is separate from responsive browser and geometry checks.
+
+D10 `f40016f` and readiness follow-up `a384aa6` deployed successfully. Production browser checks confirmed focused draw/review/apply/cancel with unchanged source-qualified area results, original attribution, no new console errors and drawing disabled until the map renders. All77 tests and final build/TypeScript passed; source data/research statuses remain unchanged.
