@@ -1,8 +1,49 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:27:25.166Z",
+  "updated_at": "2026-11-28T08:01:52.629Z",
   "retention_days": 90,
   "items": [
+    {
+      "id": "5ff4132c88938edc0b371a39",
+      "title": "How Kapiva Is Gearing Up On Its Growth Strategy As It Targets ₹1,000 Cr In Revenue",
+      "url": "https://inc42.com/startups/how-kapiva-is-gearing-up-on-its-growth-strategy-as-it-targets-%e2%82%b91000-cr-in-revenue/",
+      "published_at": "2026-11-28T06:30:29.000Z",
+      "source_id": "inc42",
+      "source_name": "Inc42",
+      "company_slugs": [
+        "kapiva"
+      ],
+      "tags": [
+        "financials"
+      ]
+    },
+    {
+      "id": "6dd859a7693da35168cca764",
+      "title": "Funding and acquisitions in Indian startups this week [Nov 23- Nov 28]",
+      "url": "https://entrackr.com/report/weekly-funding-report-weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-nov-23-nov-28-12848137",
+      "published_at": "2026-11-28T05:47:39.000Z",
+      "source_id": "entrackr",
+      "source_name": "Entrackr",
+      "company_slugs": [],
+      "tags": [
+        "funding",
+        "acquisition"
+      ]
+    },
+    {
+      "id": "c2421b8c84926bfa7571fdff",
+      "title": "From Finnable To M — Indian Startups Raised About $147 Mn This Week",
+      "url": "https://inc42.com/buzz/from-finnable-to-m-indian-startups-raised-about-147-mn-this-week/",
+      "published_at": "2026-11-28T03:30:23.000Z",
+      "source_id": "inc42",
+      "source_name": "Inc42",
+      "company_slugs": [
+        "finnable"
+      ],
+      "tags": [
+        "funding"
+      ]
+    },
     {
       "id": "c4edf10e6433ed2ab61db447",
       "title": "Rapido’s Ownly To Charge Customers For Deliveries Soon",
@@ -1878,9 +1919,9 @@
       "source_name": "Inc42",
       "url": "https://inc42.com/feed/",
       "status": "ok",
-      "checked_at": "2026-11-27T21:27:25.166Z",
-      "last_success_at": "2026-11-27T21:27:25.166Z",
-      "latest_entry_at": "2026-11-27T15:26:19.000Z",
+      "checked_at": "2026-11-28T08:01:52.629Z",
+      "last_success_at": "2026-11-28T08:01:52.629Z",
+      "latest_entry_at": "2026-11-28T06:30:29.000Z",
       "item_count": 24,
       "error": null
     },
@@ -1889,9 +1930,9 @@
       "source_name": "Entrackr",
       "url": "https://entrackr.com/rss",
       "status": "ok",
-      "checked_at": "2026-11-27T21:27:25.166Z",
-      "last_success_at": "2026-11-27T21:27:25.166Z",
-      "latest_entry_at": "2026-11-27T15:56:30.000Z",
+      "checked_at": "2026-11-28T08:01:52.629Z",
+      "last_success_at": "2026-11-28T08:01:52.629Z",
+      "latest_entry_at": "2026-11-28T05:47:39.000Z",
       "item_count": 50,
       "error": null
     },
@@ -1900,9 +1941,9 @@
       "source_name": "YourStory",
       "url": "https://yourstory.com/feed",
       "status": "ok",
-      "checked_at": "2026-11-27T21:27:25.166Z",
-      "last_success_at": "2026-11-27T21:27:25.166Z",
-      "latest_entry_at": "2026-11-27T13:40:22.000Z",
+      "checked_at": "2026-11-28T08:01:52.629Z",
+      "last_success_at": "2026-11-28T08:01:52.629Z",
+      "latest_entry_at": "2026-11-28T05:49:01.000Z",
       "item_count": 20,
       "error": null
     },
@@ -1911,8 +1952,8 @@
       "source_name": "The Ken",
       "url": "https://the-ken.com/feed/",
       "status": "ok",
-      "checked_at": "2026-11-27T21:27:25.166Z",
-      "last_success_at": "2026-11-27T21:27:25.166Z",
+      "checked_at": "2026-11-28T08:01:52.629Z",
+      "last_success_at": "2026-11-28T08:01:52.629Z",
       "latest_entry_at": "2026-11-27T02:30:32.000Z",
       "item_count": 10,
       "error": null
@@ -1922,8 +1963,8 @@
       "source_name": "The Arc",
       "url": "https://www.thearcweb.com/rss.xml",
       "status": "ok",
-      "checked_at": "2026-11-27T21:27:25.166Z",
-      "last_success_at": "2026-11-27T21:27:25.166Z",
+      "checked_at": "2026-11-28T08:01:52.629Z",
+      "last_success_at": "2026-11-28T08:01:52.629Z",
       "latest_entry_at": "2026-11-27T14:11:00.000Z",
       "item_count": 50,
       "error": null
