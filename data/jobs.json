@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-26T09:05:03.545Z",
+  "updated_at": "2026-11-28T08:34:21.820Z",
   "stale_after_hours": 72,
   "sources": [
     {
@@ -13,9 +13,9 @@
       "listing_url": "https://boards-api.greenhouse.io/v1/boards/razorpaysoftwareprivatelimited/jobs",
       "checked_on": "2026-11-26",
       "status": "ok",
-      "checked_at": "2026-11-26T09:05:03.545Z",
-      "last_success_at": "2026-11-26T09:05:03.545Z",
-      "job_count": 26,
+      "checked_at": "2026-11-28T08:34:21.820Z",
+      "last_success_at": "2026-11-28T08:34:21.820Z",
+      "job_count": 23,
       "error": null
     },
     {
@@ -28,9 +28,9 @@
       "listing_url": "https://api.smartrecruiters.com/v1/companies/PHONEPELIMITED/postings",
       "checked_on": "2026-11-26",
       "status": "ok",
-      "checked_at": "2026-11-26T09:05:03.545Z",
-      "last_success_at": "2026-11-26T09:05:03.545Z",
-      "job_count": 161,
+      "checked_at": "2026-11-28T08:34:21.820Z",
+      "last_success_at": "2026-11-28T08:34:21.820Z",
+      "job_count": 163,
       "error": null
     }
   ],
@@ -214,21 +214,6 @@
       "updated_at": "2026-10-19T09:20:50.000Z"
     },
     {
-      "id": "4746998005",
-      "company_slug": "razorpay",
-      "source_id": "razorpay-greenhouse",
-      "title": "Lead Software Development Engineer",
-      "location": "Bengaluru",
-      "cities": [
-        "Bengaluru"
-      ],
-      "country": "IN",
-      "workplace": "unknown",
-      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4746998005",
-      "published_at": "2026-11-25T10:31:14.000Z",
-      "updated_at": "2026-11-25T10:31:14.000Z"
-    },
-    {
       "id": "4758202005",
       "company_slug": "razorpay",
       "source_id": "razorpay-greenhouse",
@@ -376,21 +361,6 @@
       "updated_at": "2026-11-18T09:31:33.000Z"
     },
     {
-      "id": "4749341005",
-      "company_slug": "razorpay",
-      "source_id": "razorpay-greenhouse",
-      "title": "Senior Product Manager",
-      "location": "Bengaluru",
-      "cities": [
-        "Bengaluru"
-      ],
-      "country": "IN",
-      "workplace": "unknown",
-      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4749341005",
-      "published_at": "2026-11-10T13:18:41.000Z",
-      "updated_at": "2026-11-10T13:18:41.000Z"
-    },
-    {
       "id": "4721391005",
       "company_slug": "razorpay",
       "source_id": "razorpay-greenhouse",
@@ -404,19 +374,137 @@
       "updated_at": "2026-09-28T11:02:10.000Z"
     },
     {
-      "id": "4727236005",
-      "company_slug": "razorpay",
-      "source_id": "razorpay-greenhouse",
-      "title": "Staff Product Manager",
-      "location": "Bengaluru",
+      "id": "1000000000007003",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Software Engineer, Backend  (3-5 years)",
+      "location": "Bengaluru, Karnataka, India",
       "cities": [
         "Bengaluru"
       ],
       "country": "IN",
-      "workplace": "unknown",
-      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4727236005",
-      "published_at": "2026-11-04T09:43:08.000Z",
-      "updated_at": "2026-11-25T09:17:32.000Z"
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000007003",
+      "published_at": "2026-11-27T10:27:40.830Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006997",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Software Engineer, Backend  (5-7 years)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006997",
+      "published_at": "2026-11-27T10:26:50.052Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006974",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Technical Consultant",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006974",
+      "published_at": "2026-11-27T08:45:48.508Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006951",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "HR Coordinator, Lucknow",
+      "location": "Lucknow, Uttar Pradesh, India",
+      "cities": [],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006951",
+      "published_at": "2026-11-27T06:36:19.824Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006946",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Zonal Head",
+      "location": "Mumbai, Maharashtra, India",
+      "cities": [
+        "Mumbai"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006946",
+      "published_at": "2026-11-27T06:33:37.804Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006924",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Manager, Category Management - Health Insurance",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006924",
+      "published_at": "2026-11-27T06:33:01.140Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006899",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Kannada Linguist - FTC",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006899",
+      "published_at": "2026-11-26T11:07:27.265Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006876",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Manager, Internal Audit",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "hybrid",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006876",
+      "published_at": "2026-11-26T10:59:52.326Z",
+      "updated_at": null
+    },
+    {
+      "id": "1000000000006871",
+      "company_slug": "phonepe",
+      "source_id": "phonepe-smartrecruiters",
+      "title": "Software Engineer (3-5)",
+      "location": "Bengaluru, Karnataka, India",
+      "cities": [
+        "Bengaluru"
+      ],
+      "country": "IN",
+      "workplace": "onsite",
+      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006871",
+      "published_at": "2026-11-26T09:38:16.074Z",
+      "updated_at": null
     },
     {
       "id": "1000000000006832",
@@ -476,21 +564,6 @@
       "workplace": "onsite",
       "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006778",
       "published_at": "2026-11-25T09:35:45.085Z",
-      "updated_at": null
-    },
-    {
-      "id": "1000000000006773",
-      "company_slug": "phonepe",
-      "source_id": "phonepe-smartrecruiters",
-      "title": "Software Engineer (Data Platform, 5-7 years)",
-      "location": "Bengaluru, Karnataka, India",
-      "cities": [
-        "Bengaluru"
-      ],
-      "country": "IN",
-      "workplace": "onsite",
-      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000006773",
-      "published_at": "2026-11-25T09:33:22.599Z",
       "updated_at": null
     },
     {
@@ -1202,21 +1275,6 @@
       "updated_at": null
     },
     {
-      "id": "1000000000005421",
-      "company_slug": "phonepe",
-      "source_id": "phonepe-smartrecruiters",
-      "title": "Software Engineer, Backend  (3-5 years) Lending",
-      "location": "Bengaluru, Karnataka, India",
-      "cities": [
-        "Bengaluru"
-      ],
-      "country": "IN",
-      "workplace": "onsite",
-      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005421",
-      "published_at": "2026-11-03T09:09:05.933Z",
-      "updated_at": null
-    },
-    {
       "id": "1000000000005409",
       "company_slug": "phonepe",
       "source_id": "phonepe-smartrecruiters",
@@ -1258,21 +1316,6 @@
       "updated_at": null
     },
     {
-      "id": "1000000000005348",
-      "company_slug": "phonepe",
-      "source_id": "phonepe-smartrecruiters",
-      "title": "HR Coordinator, Delhi",
-      "location": "Noida, Uttar Pradesh, India",
-      "cities": [
-        "Noida"
-      ],
-      "country": "IN",
-      "workplace": "onsite",
-      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005348",
-      "published_at": "2026-11-02T12:24:53.077Z",
-      "updated_at": null
-    },
-    {
       "id": "1000000000005325",
       "company_slug": "phonepe",
       "source_id": "phonepe-smartrecruiters",
@@ -1285,21 +1328,6 @@
       "workplace": "onsite",
       "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005325",
       "published_at": "2026-11-02T10:58:03.900Z",
-      "updated_at": null
-    },
-    {
-      "id": "1000000000005302",
-      "company_slug": "phonepe",
-      "source_id": "phonepe-smartrecruiters",
-      "title": "Associate Manager, Category Management - Health Insurance",
-      "location": "Bengaluru, Karnataka, India",
-      "cities": [
-        "Bengaluru"
-      ],
-      "country": "IN",
-      "workplace": "onsite",
-      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005302",
-      "published_at": "2026-11-02T10:57:23.476Z",
       "updated_at": null
     },
     {
@@ -1954,21 +1982,6 @@
       "updated_at": null
     },
     {
-      "id": "1000000000004258",
-      "company_slug": "phonepe",
-      "source_id": "phonepe-smartrecruiters",
-      "title": "Software Engineer (5-7) Lending",
-      "location": "Bengaluru, Karnataka, India",
-      "cities": [
-        "Bengaluru"
-      ],
-      "country": "IN",
-      "workplace": "onsite",
-      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004258",
-      "published_at": "2026-10-15T07:47:56.836Z",
-      "updated_at": null
-    },
-    {
       "id": "1000000000004189",
       "company_slug": "phonepe",
       "source_id": "phonepe-smartrecruiters",
@@ -2059,21 +2072,6 @@
       "updated_at": null
     },
     {
-      "id": "1000000000004050",
-      "company_slug": "phonepe",
-      "source_id": "phonepe-smartrecruiters",
-      "title": "Head of Product, PhonePe Wealth",
-      "location": "Bengaluru, Karnataka, India",
-      "cities": [
-        "Bengaluru"
-      ],
-      "country": "IN",
-      "workplace": "onsite",
-      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004050",
-      "published_at": "2026-10-13T10:47:50.019Z",
-      "updated_at": null
-    },
-    {
       "id": "1000000000004027",
       "company_slug": "phonepe",
       "source_id": "phonepe-smartrecruiters",
@@ -2131,21 +2129,6 @@
       "workplace": "onsite",
       "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000003916",
       "published_at": "2026-10-12T08:37:31.064Z",
-      "updated_at": null
-    },
-    {
-      "id": "1000000000003895",
-      "company_slug": "phonepe",
-      "source_id": "phonepe-smartrecruiters",
-      "title": "Software Engineer (3-5)",
-      "location": "Bengaluru, Karnataka, India",
-      "cities": [
-        "Bengaluru"
-      ],
-      "country": "IN",
-      "workplace": "onsite",
-      "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000003895",
-      "published_at": "2026-10-10T04:27:11.398Z",
       "updated_at": null
     },
     {

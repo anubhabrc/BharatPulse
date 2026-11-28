@@ -2,17 +2,17 @@
   "schema_version": 1,
   "source_name": "Backstage with Millionaires · Weekly Funding Updates",
   "source_url": "https://meadow-pillow-7fa.notion.site/Weekly-Funding-Updates-56051167de464258a6c58c144f30fdac",
-  "retrieved_at": "2026-11-26T08:52:50.667Z",
+  "retrieved_at": "2026-11-28T08:25:46.719Z",
   "coverage": {
-    "pages_discovered": 148,
-    "pages_imported": 135,
+    "pages_discovered": 149,
+    "pages_imported": 136,
     "pages_empty": 13,
-    "rows_read": 2358,
+    "rows_read": 2367,
     "duplicate_observations": 2,
-    "company_count": 1905,
-    "event_count": 2337,
+    "company_count": 1911,
+    "event_count": 2346,
     "first_date": "2024-01-02",
-    "last_date": "2026-11-20",
+    "last_date": "2026-11-26",
     "missing_amount_count": 80,
     "flagged_event_count": 84,
     "excluded_rows": 19
@@ -2419,6 +2419,49 @@
       "tracked_amount_usd": "1000000",
       "unpriced_event_count": 0,
       "latest_announced_on": "2024-10-03"
+    },
+    {
+      "slug": "aidenai",
+      "brand_name": "AidenAI",
+      "website_url": null,
+      "city": "Princeton, NJ (most staff in Hyderabad)",
+      "sector": "AI (enterprise AI agent platform)",
+      "reported_names": [
+        "AidenAI"
+      ],
+      "reported_cities": [
+        "Princeton, NJ (most staff in Hyderabad)"
+      ],
+      "reported_sectors": [
+        "AI (enterprise AI agent platform)"
+      ],
+      "rounds": [
+        {
+          "id": "bwm-820c83a9735c",
+          "stage": "Series A",
+          "amount_usd": "32000000",
+          "amount_million_raw": "32",
+          "announced_on": "2026-11-24",
+          "transaction_type": "equity",
+          "article_urls": [
+            "https://analyticsindiamag.com/ai-news/aidenai-raises-32-million-in-series-a-funding-led-by-a91-partners"
+          ],
+          "notion_row_urls": [
+            "https://meadow-pillow-7fa.notion.site/42508566a360819b8ae1de25d4e86c10"
+          ],
+          "week_urls": [
+            "https://meadow-pillow-7fa.notion.site/42508566a36081f5bc97e1f7a15cdb77"
+          ],
+          "week_titles": [
+            "W9 Q3 FY27"
+          ],
+          "quality_flags": [],
+          "included_in_totals": true
+        }
+      ],
+      "tracked_amount_usd": "32000000",
+      "unpriced_event_count": 0,
+      "latest_announced_on": "2026-11-24"
     },
     {
       "slug": "aikenist",
@@ -11401,6 +11444,49 @@
       "latest_announced_on": "2024-11-20"
     },
     {
+      "slug": "bloom",
+      "brand_name": "Bloom",
+      "website_url": null,
+      "city": "Delhi",
+      "sector": "Hospitality (tech-led hotel chain)",
+      "reported_names": [
+        "Bloom"
+      ],
+      "reported_cities": [
+        "Delhi"
+      ],
+      "reported_sectors": [
+        "Hospitality (tech-led hotel chain)"
+      ],
+      "rounds": [
+        {
+          "id": "bwm-937d8ca0fb43",
+          "stage": "Primary round (series not stated)",
+          "amount_usd": "75000000",
+          "amount_million_raw": "75",
+          "announced_on": "2026-11-21",
+          "transaction_type": "unspecified",
+          "article_urls": [
+            "https://www.zeebiz.com/startups/news-bloom-gets-75-million-funding-from-kedaara-capital-405836"
+          ],
+          "notion_row_urls": [
+            "https://meadow-pillow-7fa.notion.site/42508566a36081919012fc0d083fa339"
+          ],
+          "week_urls": [
+            "https://meadow-pillow-7fa.notion.site/42508566a36081f5bc97e1f7a15cdb77"
+          ],
+          "week_titles": [
+            "W9 Q3 FY27"
+          ],
+          "quality_flags": [],
+          "included_in_totals": true
+        }
+      ],
+      "tracked_amount_usd": "75000000",
+      "unpriced_event_count": 0,
+      "latest_announced_on": "2026-11-21"
+    },
+    {
       "slug": "bloq-quantum",
       "brand_name": "Bloq Quantum",
       "website_url": "https://www.bloq.in/",
@@ -18282,6 +18368,49 @@
       "tracked_amount_usd": "8000000",
       "unpriced_event_count": 0,
       "latest_announced_on": "2024-07-17"
+    },
+    {
+      "slug": "cosine-robots",
+      "brand_name": "Cosine Robots",
+      "website_url": null,
+      "city": "Bengaluru",
+      "sector": "Robotics (actuators)",
+      "reported_names": [
+        "Cosine Robots"
+      ],
+      "reported_cities": [
+        "Bengaluru"
+      ],
+      "reported_sectors": [
+        "Robotics (actuators)"
+      ],
+      "rounds": [
+        {
+          "id": "bwm-ad7fd1641aa4",
+          "stage": "Not stated",
+          "amount_usd": "2400000",
+          "amount_million_raw": "2.4",
+          "announced_on": "2026-11-23",
+          "transaction_type": "unspecified",
+          "article_urls": [
+            "https://www.dealstreetasia.com/stories/cosine-robots-zavya-vegapay-502082"
+          ],
+          "notion_row_urls": [
+            "https://meadow-pillow-7fa.notion.site/42508566a3608143b09ecafbec1169f0"
+          ],
+          "week_urls": [
+            "https://meadow-pillow-7fa.notion.site/42508566a36081f5bc97e1f7a15cdb77"
+          ],
+          "week_titles": [
+            "W9 Q3 FY27"
+          ],
+          "quality_flags": [],
+          "included_in_totals": true
+        }
+      ],
+      "tracked_amount_usd": "2400000",
+      "unpriced_event_count": 0,
+      "latest_announced_on": "2026-11-23"
     },
     {
       "slug": "cosmochute",
@@ -29740,7 +29869,7 @@
       "brand_name": "Finnable",
       "website_url": "https://www.finnable.com/",
       "city": "Bengaluru",
-      "sector": "Fintech",
+      "sector": "Fintech (NBFC, personal loans)",
       "reported_names": [
         "Finnable"
       ],
@@ -29748,9 +29877,32 @@
         "Bengaluru"
       ],
       "reported_sectors": [
+        "Fintech (NBFC, personal loans)",
         "Fintech"
       ],
       "rounds": [
+        {
+          "id": "bwm-1acf0bbfc03d",
+          "stage": "Series C (Rs 405 Cr)",
+          "amount_usd": "44000000",
+          "amount_million_raw": "44",
+          "announced_on": "2026-11-26",
+          "transaction_type": "equity",
+          "article_urls": [
+            "https://www.bwdisrupt.com/article/nbfc-firm-finnable-raises-rs-405-cr-in-series-c-led-by-bharat-value-fund-635272"
+          ],
+          "notion_row_urls": [
+            "https://meadow-pillow-7fa.notion.site/42508566a360818ebfc0c27d83751938"
+          ],
+          "week_urls": [
+            "https://meadow-pillow-7fa.notion.site/42508566a36081f5bc97e1f7a15cdb77"
+          ],
+          "week_titles": [
+            "W9 Q3 FY27"
+          ],
+          "quality_flags": [],
+          "included_in_totals": true
+        },
         {
           "id": "bwm-a0471cb92e67",
           "stage": null,
@@ -29774,9 +29926,9 @@
           "included_in_totals": true
         }
       ],
-      "tracked_amount_usd": "60000000",
+      "tracked_amount_usd": "104000000",
       "unpriced_event_count": 0,
-      "latest_announced_on": "2025-11-11"
+      "latest_announced_on": "2026-11-26"
     },
     {
       "slug": "finny-club",
@@ -35155,18 +35307,42 @@
       "slug": "green-aero",
       "brand_name": "Green Aero",
       "website_url": "https://www.greenaero.in/",
-      "city": "Delhi",
-      "sector": "Deeptech",
+      "city": "Bengaluru (IIT Delhi-incubated)",
+      "sector": "Aerospace and defence (jet engines)",
       "reported_names": [
         "Green Aero"
       ],
       "reported_cities": [
+        "Bengaluru (IIT Delhi-incubated)",
         "Delhi"
       ],
       "reported_sectors": [
+        "Aerospace and defence (jet engines)",
         "Deeptech"
       ],
       "rounds": [
+        {
+          "id": "bwm-462285bcd0c9",
+          "stage": "Series A",
+          "amount_usd": "14000000",
+          "amount_million_raw": "14",
+          "announced_on": "2026-11-26",
+          "transaction_type": "equity",
+          "article_urls": [
+            "https://www.cxodigitalpulse.com/green-aero-raises-14-million-to-develop-jet-engines-and-autonomous-aircraft/"
+          ],
+          "notion_row_urls": [
+            "https://meadow-pillow-7fa.notion.site/42508566a36081eba60cc90d20e195bb"
+          ],
+          "week_urls": [
+            "https://meadow-pillow-7fa.notion.site/42508566a36081f5bc97e1f7a15cdb77"
+          ],
+          "week_titles": [
+            "W9 Q3 FY27"
+          ],
+          "quality_flags": [],
+          "included_in_totals": true
+        },
         {
           "id": "bwm-59a07698a12a",
           "stage": "Seed",
@@ -35190,9 +35366,9 @@
           "included_in_totals": true
         }
       ],
-      "tracked_amount_usd": "1600000",
+      "tracked_amount_usd": "15600000",
       "unpriced_event_count": 0,
-      "latest_announced_on": "2025-07-09"
+      "latest_announced_on": "2026-11-26"
     },
     {
       "slug": "greencell-mobility",
@@ -46613,6 +46789,49 @@
       "latest_announced_on": "2024-01-03"
     },
     {
+      "slug": "lawvek",
+      "brand_name": "Lawvek",
+      "website_url": null,
+      "city": "Not stated",
+      "sector": "Not stated",
+      "reported_names": [
+        "Lawvek"
+      ],
+      "reported_cities": [
+        "Not stated"
+      ],
+      "reported_sectors": [
+        "Not stated"
+      ],
+      "rounds": [
+        {
+          "id": "bwm-3bb1f58f1865",
+          "stage": "Pre-seed",
+          "amount_usd": "550000",
+          "amount_million_raw": "0.55",
+          "announced_on": "2026-11-24",
+          "transaction_type": "equity",
+          "article_urls": [
+            "https://stopdown.in/funding/this-week"
+          ],
+          "notion_row_urls": [
+            "https://meadow-pillow-7fa.notion.site/42508566a36081c78244dba8941dbd2a"
+          ],
+          "week_urls": [
+            "https://meadow-pillow-7fa.notion.site/42508566a36081f5bc97e1f7a15cdb77"
+          ],
+          "week_titles": [
+            "W9 Q3 FY27"
+          ],
+          "quality_flags": [],
+          "included_in_totals": true
+        }
+      ],
+      "tracked_amount_usd": "550000",
+      "unpriced_event_count": 0,
+      "latest_announced_on": "2026-11-24"
+    },
+    {
       "slug": "lawyered",
       "brand_name": "Lawyered",
       "website_url": "https://www.lawyered.in/",
@@ -50292,6 +50511,49 @@
       "tracked_amount_usd": "45000000",
       "unpriced_event_count": 0,
       "latest_announced_on": "2024-07-03"
+    },
+    {
+      "slug": "matters-ai",
+      "brand_name": "Matters.AI",
+      "website_url": "http://matters.ai/",
+      "city": "Bengaluru",
+      "sector": "Cybersecurity (AI data security)",
+      "reported_names": [
+        "Matters.AI"
+      ],
+      "reported_cities": [
+        "Bengaluru"
+      ],
+      "reported_sectors": [
+        "Cybersecurity (AI data security)"
+      ],
+      "rounds": [
+        {
+          "id": "bwm-3e777c5d0d92",
+          "stage": "Pre-Series A",
+          "amount_usd": "12000000",
+          "amount_million_raw": "12",
+          "announced_on": "2026-11-23",
+          "transaction_type": "equity",
+          "article_urls": [
+            "https://aifundingtracker.com/matters-ai-funding/"
+          ],
+          "notion_row_urls": [
+            "https://meadow-pillow-7fa.notion.site/42508566a36081a9ba7ad12e7f2cf36b"
+          ],
+          "week_urls": [
+            "https://meadow-pillow-7fa.notion.site/42508566a36081f5bc97e1f7a15cdb77"
+          ],
+          "week_titles": [
+            "W9 Q3 FY27"
+          ],
+          "quality_flags": [],
+          "included_in_totals": true
+        }
+      ],
+      "tracked_amount_usd": "12000000",
+      "unpriced_event_count": 0,
+      "latest_announced_on": "2026-11-23"
     },
     {
       "slug": "mave-health",
@@ -85688,18 +85950,42 @@
       "slug": "vegapay",
       "brand_name": "Vegapay",
       "website_url": "https://www.vegapay.tech/",
-      "city": "Gurugram",
-      "sector": "Fintech",
+      "city": "Mumbai",
+      "sector": "Fintech (credit infrastructure for banks)",
       "reported_names": [
         "Vegapay"
       ],
       "reported_cities": [
+        "Mumbai",
         "Gurugram"
       ],
       "reported_sectors": [
+        "Fintech (credit infrastructure for banks)",
         "Fintech"
       ],
       "rounds": [
+        {
+          "id": "bwm-efbe6e9c6aed",
+          "stage": "Series A (includes ESOP secondary)",
+          "amount_usd": "10000000",
+          "amount_million_raw": "10",
+          "announced_on": "2026-11-26",
+          "transaction_type": "secondary",
+          "article_urls": [
+            "https://www.bwdisrupt.com/article/vegapay-raises-10-mn-in-series-a-round-led-by-vertex-ventures-prosus-635254"
+          ],
+          "notion_row_urls": [
+            "https://meadow-pillow-7fa.notion.site/42508566a36081438488cb8f46b346fd"
+          ],
+          "week_urls": [
+            "https://meadow-pillow-7fa.notion.site/42508566a36081f5bc97e1f7a15cdb77"
+          ],
+          "week_titles": [
+            "W9 Q3 FY27"
+          ],
+          "quality_flags": [],
+          "included_in_totals": true
+        },
         {
           "id": "bwm-632a975ddba6",
           "stage": null,
@@ -85723,9 +86009,9 @@
           "included_in_totals": true
         }
       ],
-      "tracked_amount_usd": "5500000",
+      "tracked_amount_usd": "15500000",
       "unpriced_event_count": 0,
-      "latest_announced_on": "2024-05-30"
+      "latest_announced_on": "2026-11-26"
     },
     {
       "slug": "vehant-technologies",
@@ -90128,6 +90414,49 @@
       "tracked_amount_usd": "317000",
       "unpriced_event_count": 0,
       "latest_announced_on": "2025-09-02"
+    },
+    {
+      "slug": "zavya",
+      "brand_name": "Zavya",
+      "website_url": null,
+      "city": "Gurugram",
+      "sector": "Jewellery (everyday silver)",
+      "reported_names": [
+        "Zavya"
+      ],
+      "reported_cities": [
+        "Gurugram"
+      ],
+      "reported_sectors": [
+        "Jewellery (everyday silver)"
+      ],
+      "rounds": [
+        {
+          "id": "bwm-4a9001099935",
+          "stage": "Pre-Series A",
+          "amount_usd": "2500000",
+          "amount_million_raw": "2.5",
+          "announced_on": "2026-11-23",
+          "transaction_type": "equity",
+          "article_urls": [
+            "https://entrackr.com/snippets/jewellery-brand-zavya-raises-rs-226-cr-in-pre-series-a-round-12833612"
+          ],
+          "notion_row_urls": [
+            "https://meadow-pillow-7fa.notion.site/42508566a36081998be1f124240cca25"
+          ],
+          "week_urls": [
+            "https://meadow-pillow-7fa.notion.site/42508566a36081f5bc97e1f7a15cdb77"
+          ],
+          "week_titles": [
+            "W9 Q3 FY27"
+          ],
+          "quality_flags": [],
+          "included_in_totals": true
+        }
+      ],
+      "tracked_amount_usd": "2500000",
+      "unpriced_event_count": 0,
+      "latest_announced_on": "2026-11-23"
     },
     {
       "slug": "zealthix",
